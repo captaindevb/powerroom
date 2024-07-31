@@ -120,7 +120,7 @@
 }
 
 .mission-product-info-wrapper .mission-product-info {
-  padding: 24px 16px;
+  padding: 24px 16px 25px 16px;
 }
 
 .mission-product-info-wrapper .mission-product-info .box-title {
@@ -129,7 +129,6 @@
 
 .mission-product-info-wrapper .mission-product-info .product-info-box {
   padding: 0;
-  margin-bottom: 50px;
 }
 
 .mission-product-info-wrapper .mission-product-info .product-info-box img {
@@ -268,7 +267,6 @@
 }
 
 .product-info-box.review {
-  border: 1px solid hotpink;
   margin-bottom: 0 !important;
   margin-top: 16px;
 }
@@ -292,4 +290,12 @@
 .product-info-box.review button.edit {
   background-color: #eceef2;
   color: black;
+}
+
+.review-wirte-wrap.mission {
+  margin-top: 0;
+}
+
+.review-wirte-wrap.mission .input-item.review {
+  margin: 25px 0 14px 0;
 }
