@@ -135,11 +135,21 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   width: 19px;
 }
 
+.common-wrap header button.back img {
+  width: 44px;
+}
+
 .common-wrap header button.btn-header-left {
   position: absolute;
   top: 19px;
   left: 20px;
 }
+
+.common-wrap header button.back {
+  top: 5px;
+  left: 0px;
+}
+
 .common-wrap header button.btn-header-right {
   position: absolute;
   top: 19px;
@@ -449,4 +459,21 @@ nav.nav-wrap button.on {
   color: #fff;
   background-color: #2a3548;
   border-radius: 4px;
+}
+
+button.toggle {
+  text-indent: -9999px;
+  width: 51px;
+  height: 31px;
+}
+
+button.toggle.on {
+  background: url(../asset/images/icon-toggle-on.png);
+  background-size: 51px;
+  background-position-x: 5px;
+}
+
+button.toggle.off {
+  background: url(../asset/images/icon-toggle-off.png);
+  background-size: 51px;
 }
