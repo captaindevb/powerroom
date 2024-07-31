@@ -262,26 +262,41 @@
 }
 
 .mypage-box .tab-box {
+  padding: 0 16px;
   background-color: #fff;
+  border-top: 1px solid #f2f3f6;
 }
 
 .mypage-box .tab-box button {
-  width: 50%;
+  width: 49%;
   height: 44px;
-  color: #aeb2b9;
+  color: #b8bbbf;
+  font-size: 15px;
   font-weight: 700;
 }
 
 .mypage-box .tab-box button.on {
   color: #2a3548;
-  border-bottom: 2px solid #2a3548;
+  border-bottom: 2px solid #fb53ff;
 }
 
 .mypage-box .no-list {
   padding: 100px 0;
   text-align: center;
-  color: #aeb2b9;
+}
+.mypage-box .no-list p {
+  color: #929498;
+  font-size: 15px;
+  margin: 10px 0 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.mypage-box .no-list .btn-pink {
+  background-color: #ff43ca;
+  color: #fff;
+  font-size: 11px;
   font-weight: 700;
+  border-radius: 8px;
 }
 
 .mypage-box .self-box {
@@ -685,4 +700,196 @@
 .mypage-content .no-traking-box .desc {
   color: #68696b;
   line-height: 20px;
+}
+
+/* 마이페이지 - 작성 리뷰 있음_목록 */
+.review-list-box .review-filter {
+  margin: 16px 16px 0;
+}
+.review-list-box .review-filter .btn-check:checked + .btn {
+  color: #ff43ca;
+  border-color: #ff43ca;
+  background-color: #ff43ca1a;
+}
+.review-list-box .review-filter input {
+  width: auto;
+  height: auto;
+}
+.review-list-box .review-filter label {
+  padding: 6px 16px;
+  color: #929498;
+  border-color: #dbdcdf;
+  border-radius: 100px;
+  font-size: 12px;
+}
+.review-list-box .review-summary {
+  margin: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-list-box .review-summary .count {
+  color: #929498;
+  font-size: 12px;
+  font-weight: 400;
+}
+.review-list-box .review-summary img {
+  width: 15px;
+  height: 12px;
+}
+
+.review-list-box .my-review-list {
+  padding: 0;
+}
+
+.review-list-box .my-review-list li {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 12px;
+}
+
+.review-list-box .my-review-list li img {
+  border-radius: 8px;
+}
+
+.review-list-box .my-review-list li p.title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin: 12px 16px 0;
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.review-list-box .my-review-list li span.desc {
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  margin: 6px 16px 12px;
+  color: #222;
+  line-height: 20px;
+  overflow: hidden;
+  font-weight: 400;
+}
+.review-list-box .my-review-list li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.review-list-box .my-review-list .review-info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 16px 10px;
+}
+
+.review-list-box .my-review-list .review-info-box .label {
+  padding: 0 6px;
+  height: 18px;
+  background-color: #ff7bda;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.7;
+}
+.review-list-box .my-review-list .review-info-box .label.dark {
+  background-color: #000;
+}
+.review-list-box .my-review-list .review-info-box .date {
+  font-size: 11px;
+  color: #929498;
+}
+.review-list-box .my-review-list .review-info-box .star-box {
+  flex: 1;
+  margin-left: 8px;
+}
+.review-list-box .my-review-list .review-info-box .star-box img {
+  padding: 1px;
+  width: 18px;
+  border-radius: 0;
+}
+
+.review-list-box .my-review-list li .thumb {
+  display: flex;
+  gap: 6px;
+  margin-left: 16px;
+  overflow: hidden;
+}
+
+.review-list-box .my-review-list li .product {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 16px;
+  padding: 10px;
+  border: 1px solid #eceef2;
+  border-radius: 12px;
+}
+
+.review-list-box .my-review-list li .product p.brand {
+  margin: 0;
+  color: #68696b;
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+}
+
+.review-list-box .my-review-list li .product p.name {
+  margin: 0;
+  color: #68696b;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.26px;
+}
+
+.review-list-box .my-review-list li .reaction {
+  margin: 14px 16px 16px;
+  text-align: right;
+}
+
+.review-list-box .my-review-list li .reaction span {
+  padding-left: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.26px;
+  color: #929498;
+}
+
+.review-list-box .my-review-list li .reaction img {
+  padding-left: 12px;
+  vertical-align: sub;
+}
+
+/* 마이페이지 - 작성 리뷰 있음_아이콘 (갤러리형) */
+.review-list-box.gallery .review-filter {
+  margin: 0 16px 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.review-list-box.gallery .review-filter img {
+  margin-left: auto;
+  height: 15px;
+}
+.review-list-box.gallery .review-summary {
+  margin: 16px 16px 10px;
+}
+.review-list-box.gallery .my-review-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.review-list-box.gallery .my-review-list li {
+  width: 125px;
+  margin-bottom: 0;
+  border: none;
+}
+.review-list-box.gallery .my-review-list li img {
+  border-radius: 0;
 }
