@@ -1,0 +1,326 @@
+.review-item-wrap {
+  background: #222;
+  padding-top: 56px;
+  box-sizing: border-box;
+}
+
+.review-item-wrap .item-select-wrap {
+  padding: 62px 0 92px 0;
+  text-align: center;
+}
+
+.review-item-wrap .item-select-wrap p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.review-item-wrap .item-select-wrap button {
+  position: relative;
+  margin-top: 15px;
+  padding: 12px 22px 12px 46px;
+  background: #ff43ca;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.review-item-wrap .item-select-wrap button img {
+  position: absolute;
+  width: 20px;
+  left: 22px;
+  top: 12px;
+}
+
+.review-item-wrap .selected-item-wrap {
+  padding: 16px;
+  padding-bottom: 48px;
+}
+
+.review-item-wrap .selected-item-wrap .product {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.review-item-wrap .selected-item-wrap .product img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+.review-item-wrap .selected-item-wrap .product .info {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+  padding-left: 12px;
+  width: calc(100% - 122px);
+  box-sizing: content-box;
+}
+
+.review-item-wrap .selected-item-wrap .product .info button {
+  position: absolute;
+  right: 0;
+  color: #929498;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.review-item-wrap .selected-item-wrap .product .info p,
+.review-item-wrap .selected-item-wrap .product .info strong {
+  display: block;
+  width: 100%;
+  color: #fff;
+}
+
+.review-item-wrap .selected-item-wrap .product .info .brand {
+  font-size: 12px;
+  color: #dbdcdf;
+}
+
+.review-item-wrap .selected-item-wrap .product .info .name {
+  padding: 4px 0;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.review-item-wrap .selected-item-wrap select {
+  width: 100%;
+  height: 40px;
+  text-indent: 12px;
+  background: #373839 url(../asset/images/icon-review-selectbox-dropdown.png)
+    right 12px center no-repeat;
+  background-size: 14px;
+  appearance: none;
+  color: #dbdcdf;
+  padding-right: 5px;
+  border: 1px solid #68696b;
+  border-radius: 6px;
+}
+
+.review-wirte-wrap {
+  width: 100%;
+  margin-top: -30px;
+  background: #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.review-wirte-wrap .write-detail {
+  padding: 25px 16px 0 16px;
+  text-align: center;
+}
+
+.review-wirte-wrap .write-detail p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.review-wirte-wrap .write-detail .star-wrap {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f2f3f6;
+}
+
+.review-wirte-wrap .write-detail .star-wrap button img {
+  width: 48px;
+}
+
+.review-wirte-wrap .upload-img-wrap {
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.review-wirte-wrap .upload-img-wrap .swipe-wrap {
+  width: 150%;
+}
+
+.review-wirte-wrap .upload-img-wrap .swipe-wrap .img-item {
+  position: relative;
+  width: 92px;
+  display: inline-block;
+}
+
+.review-wirte-wrap .upload-img-wrap .swipe-wrap .img-item > img {
+  border-radius: 8px;
+}
+
+.review-wirte-wrap .upload-img-wrap .swipe-wrap .img-item button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.review-wirte-wrap .upload-img-wrap .swipe-wrap .img-item button img {
+  width: 17px;
+}
+
+.review-wirte-wrap .upload-img-wrap .swipe-wrap .img-item + .img-item {
+  margin-left: 4px;
+}
+
+.review-wirte-wrap .input-item {
+  margin: 25px 0;
+  text-align: left;
+}
+
+.review-wirte-wrap .input-item label {
+  display: block;
+  padding-bottom: 14px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.review-wirte-wrap .input-item .btns button {
+  padding: 8px 14px;
+  border: 1px solid #dbdcdf;
+  border-radius: 100px;
+  color: #b8bbbf;
+  font-weight: bold;
+}
+.review-wirte-wrap .input-item .btns button.on {
+  border-color: #ff43ca;
+  color: #ff43ca;
+  background: rgba(255, 67, 202, 0.05);
+}
+.review-wirte-wrap .input-item .btns button + button {
+  margin-left: 4px;
+}
+
+.review-wirte-wrap .input-item input[type="text"] {
+  border-radius: 6px;
+  border-color: #eceef2;
+  height: 46px;
+}
+
+.review-wirte-wrap .input-item .textarea-wrap {
+  border-radius: 6px;
+  border: 1px solid #eceef2;
+  min-height: 150px;
+  height: auto;
+}
+
+.review-wirte-wrap .input-item .textarea-wrap textarea {
+  padding: 8px 16px;
+  border: 0;
+  min-height: 88px;
+  height: initial;
+  resize: none;
+}
+
+.review-wirte-wrap .input-item .textarea-wrap textarea::placeholder {
+  color: #b8bbbf;
+}
+
+.review-wirte-wrap .input-item .text-btns {
+  display: flex;
+  padding: 16px;
+}
+
+.review-wirte-wrap .input-item .text-btns img {
+  width: 30px;
+}
+
+.review-wirte-wrap .input-item .text-btns .template {
+  margin-left: auto;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #22242d;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.review-wirte-wrap .tag-wrap {
+  padding: 25px 0 25px 16px;
+  border-top: 12px solid #f6f9ff;
+}
+
+.review-wirte-wrap .tag-wrap p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.review-wirte-wrap .tag-wrap p img {
+  width: 24px;
+  vertical-align: top;
+  margin-top: -5px;
+  margin-right: 4px;
+}
+
+.review-wirte-wrap .tag-wrap .tag-item {
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.review-wirte-wrap .tag-wrap .tag-item .swipe-wrap {
+  width: 130%;
+}
+
+.review-wirte-wrap .tag-wrap .tag-item button {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #b8bbbf;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.review-wirte-wrap .tag-wrap .tag-item button + button {
+  margin-left: 4px;
+}
+
+.review-wirte-wrap .sns-share-wrap {
+  display: flex;
+  padding: 4px 16px 20px 16px;
+  align-items: baseline;
+}
+
+.review-wirte-wrap .sns-share-wrap p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.review-wirte-wrap .sns-share-wrap button {
+  margin-left: auto;
+}
+
+.review-wirte-wrap .sns-info {
+  padding: 24px 15px 50px 16px;
+  background: #f6f9ff;
+}
+
+.review-wirte-wrap .sns-info p {
+  position: relative;
+  padding-left: 11px;
+  color: #68696b;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.review-wirte-wrap .sns-info p::before {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  display: block;
+  width: 5px;
+  height: 1px;
+  background: #68696b;
+  content: "";
+}
+
+.review-wirte-wrap .btn-wrap {
+  padding: 10px 0 0 0;
+}
+
+.review-wirte-wrap .btn-wrap button {
+  width: 100%;
+  padding: 16px 22px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 24px;
+  background-color: #ebf0fb;
+}
