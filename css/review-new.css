@@ -324,3 +324,33 @@
   line-height: 24px;
   background-color: #ebf0fb;
 }
+
+.review-wirte-wrap .write-detail .app-review-tag {
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #68696b;
+}
+
+.review-wirte-wrap .input-item .title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.review-wirte-wrap .input-item .title-wrapper label {
+  padding-bottom: 0;
+}
+
+.review-wirte-wrap .input-item .title-wrapper button {
+  padding: 7px 12px;
+  border: 1px solid #b8bbbf;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+}
