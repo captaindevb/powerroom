@@ -283,6 +283,7 @@
 .mypage-box .no-list {
   padding: 100px 0;
   text-align: center;
+  background-color: #f6f9ff;
 }
 .mypage-box .no-list p {
   color: #929498;
@@ -872,24 +873,112 @@
   align-items: center;
   gap: 4px;
 }
+
 .review-list-box.gallery .review-filter img {
   margin-left: auto;
   height: 15px;
 }
+
 .review-list-box.gallery .review-summary {
   margin: 16px 16px 10px;
 }
+
 .review-list-box.gallery .my-review-list {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
 }
+
 .review-list-box.gallery .my-review-list li {
   width: 125px;
   margin-bottom: 0;
   border: none;
 }
+
 .review-list-box.gallery .my-review-list li img {
   border-radius: 0;
+}
+
+/* 마이페이지 - 저장 항목_목록 */
+.review-list-box.bookmark .review-filter {
+  margin: 16px 16px 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.review-list-box.bookmark .review-filter img {
+  margin-left: auto;
+  width: 15px;
+  height: 12px;
+}
+
+.review-list-box.bookmark .my-review-list .user-info-box {
+  margin: 14px 16px 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  color: #929498;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.review-list-box.bookmark .my-review-list .user-info-box span.name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  padding-left: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #373839;
+  letter-spacing: -0.24px;
+  overflow: hidden;
+}
+
+.review-list-box.bookmark .my-review-list .user-info-box span.name::after {
+  display: inline-block;
+  margin-left: 4px;
+  width: 1px;
+  height: 9px;
+  background: #b8bbbf;
+  content: "";
+}
+
+.review-list-box.bookmark .my-review-list .user-info-box img:last-child {
+  margin-left: auto;
+}
+
+.review-list-box.bookmark .my-review-list .product {
+  position: relative;
+  margin: 16px;
+  padding: 0;
+  border: none;
+}
+
+.review-list-box.bookmark .my-review-list .product .info p {
+  margin: 0;
+  width: 221px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  color: #000;
+}
+
+.review-list-box.bookmark .my-review-list .product img:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.review-list-box.bookmark .my-review-list .product p.name {
+  font-size: 16px;
+}
+
+.review-list-box.bookmark .my-review-list .product p.price {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.26px;
 }
