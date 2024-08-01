@@ -181,9 +181,14 @@
   color: #fff;
 }
 
-.mission-submit.active {
+.mission-submit.temp {
   background-color: #eceef2;
   color: black;
+}
+
+.mission-submit.active {
+  background-color: black;
+  color: #fff;
 }
 
 .tag-box {
@@ -225,6 +230,7 @@
   padding: 20px 16px;
   margin-top: 16px;
   background-color: #f6f9ff;
+  border-radius: 12px;
 }
 
 .content-submit .submit-box .main {
@@ -298,4 +304,34 @@
 
 .review-wirte-wrap.mission .input-item.review {
   margin: 25px 0 14px 0;
+}
+
+.product-info-popup {
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.product-info-popup .btn-wrap {
+  display: flex;
+  gap: 8px;
+  padding: 0 16px;
+  background-color: #fff;
+}
+
+.product-info-popup .btn-wrap button {
+  height: 52px;
+  width: 100%;
+  font-weight: 700;
+  color: black;
+  background-color: #eceef2;
+  border-radius: 8px;
+}
+
+.product-info-popup .btn-wrap button.save {
+  background-color: #dbdcdf;
+  color: #fff;
+}
+
+.review-wirte-wrap.mission .sns-share-wrap {
+  padding-bottom: 40px;
 }
