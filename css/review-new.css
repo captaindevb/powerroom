@@ -354,3 +354,45 @@
   font-weight: 700;
   line-height: 17px;
 }
+
+.modal-wrap .content.product-change {
+  padding-top: 44px;
+  text-align: center;
+}
+
+.modal-wrap .content.product-change p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.modal-wrap .content .btns {
+  display: flex;
+}
+
+.modal-wrap .content .btns button {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.modal-wrap .content .btns button.cancel {
+  background: #eceef2;
+  color: #222;
+}
+.modal-wrap .content .btns button.confirm {
+  background: #000;
+  color: #fff;
+}
+
+.modal-wrap .content.product-change .btns {
+  padding-top: 24px;
+  justify-content: space-between;
+}
+
+.modal-wrap .content.product-change .btns button {
+  width: calc(50% - 4px);
+}
