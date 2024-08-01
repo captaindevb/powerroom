@@ -20,6 +20,7 @@ https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B
 
 ##### 미션
 
-1.  Link: [미션 - 앱리뷰](09-mission/app-review.html)
+1. Link: [미션 - 앱리뷰](09-mission/app-review.html)
 2. Link: [미션 - sns 게시물-1개](09-mission/sns-single.html)
 3. Link: [미션 - sns 게시물-2개 이상](09-mission/sns-multi.html)
+4. Link: [미션 - sns 게시물-2개 이상-팝업](09-mission/sns-multi-popup.html)
