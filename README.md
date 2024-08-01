@@ -17,6 +17,7 @@ https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B
 
 1.  Link: [마이페이지-작성 리뷰 있음_목록, 작성 리뷰 없음](/07-mypage-new/mypage.html)
 2.  Link: [마이페이지-작성 리뷰 있음_아이콘, 작성 리뷰 없음](/07-mypage-new/mypage-gallery-view.html)
+3.  Link: [마이페이지-저장 항목_목록, 저장 항목 없음](/07-mypage-new/mypage-bookmark.html)
 
 ##### 미션
 
