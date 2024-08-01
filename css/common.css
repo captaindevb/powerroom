@@ -154,6 +154,16 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   position: absolute;
   top: 19px;
   right: 20px;
+  left: initial;
+}
+
+.common-wrap header button.btn-header-right.close {
+  top: 15px;
+  right: 15px;
+}
+
+.common-wrap header button.btn-header-right.close img {
+  width: 24px;
 }
 
 .common-wrap .common-content {
