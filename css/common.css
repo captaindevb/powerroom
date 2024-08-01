@@ -154,6 +154,16 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   position: absolute;
   top: 19px;
   right: 20px;
+  left: initial;
+}
+
+.common-wrap header button.btn-header-right.close {
+  top: 15px;
+  right: 15px;
+}
+
+.common-wrap header button.btn-header-right.close img {
+  width: 24px;
 }
 
 .common-wrap .common-content {
@@ -476,4 +486,37 @@ button.toggle.on {
 button.toggle.off {
   background: url(../asset/images/icon-toggle-off.png);
   background-size: 51px;
+}
+
+.modal-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.modal-wrap .dim {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-wrap .modal-inner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.modal-wrap .modal-inner .content {
+  padding: 10px 16px;
 }

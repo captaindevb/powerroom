@@ -12,12 +12,15 @@ https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B
 
 1.  Link: [리뷰 작성-상품 선택 전](/04-review-new/write-before-select.html)
 2.  Link: [리뷰 작성-리뷰 작성 중](/04-review-new/write-after-select.html)
+3.  Link: [리뷰 작성-리뷰 상품 변경 모달](/04-review-new/write-change-product.html)
+4.  Link: [리뷰 작성-상품 검색 메인](/04-review-new/product-search.html)
+5.  Link: [리뷰 작성-상품 검색 리스트](/04-review-new/product-search-list.html)
 
 ##### 마이페이지
 
-1.  Link: [마이페이지-작성 리뷰 있음_목록, 작성 리뷰 없음](/07-mypage-new/mypage.html)
-2.  Link: [마이페이지-작성 리뷰 있음_아이콘, 작성 리뷰 없음](/07-mypage-new/mypage-gallery-view.html)
-3.  Link: [마이페이지-저장 항목_목록, 저장 항목 없음](/07-mypage-new/mypage-bookmark.html)
+1.  Link: [마이페이지-작성 리뷰 있음\_목록, 작성 리뷰 없음](/07-mypage-new/mypage.html)
+2.  Link: [마이페이지-작성 리뷰 있음\_아이콘, 작성 리뷰 없음](/07-mypage-new/mypage-gallery-view.html)
+3.  Link: [마이페이지-저장 항목\_목록, 저장 항목 없음](/07-mypage-new/mypage-bookmark.html)
 
 ##### 미션
 
