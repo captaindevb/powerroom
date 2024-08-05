@@ -54,7 +54,10 @@
   line-height: 1.42;
 }
 
-.product-box .product-select-box select {
+.product-box .product-select-box {
+  max-width: 500px;
+}
+.product-box .product-select-box .select {
   width: 100%;
   padding: 16px;
   background: #fff url(../asset/images/icon-option-dropdown.png) right 18px
@@ -66,6 +69,34 @@
   border-top: 1px solid #f2f3f6;
   border-bottom: 1px solid #f2f3f6;
   font-size: 13px;
+}
+/* 옵션 있을 경우 display: block */
+.product-box .product-select-box .option {
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  max-width: 500px;
+  width: 100%;
+  font-size: 18px;
+  color: #373839;
+  border: 1px solid #b8b8b8;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #f2f3f6;
+  z-index: 1;
+}
+.product-box .product-select-box .option li {
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+}
+.product-box .product-select-box .select img,
+.product-box .product-select-box .option li img {
+  margin-right: 10px;
+  border: 1px solid #eceef2;
+  border-radius: 5px;
 }
 
 .product-box .tab-box {
