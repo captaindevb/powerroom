@@ -269,7 +269,7 @@
 
 .mypage-box .tab-box button {
   width: 49%;
-  height: 44px;
+  height: 48px;
   color: #b8bbbf;
   font-size: 15px;
   font-weight: 700;
@@ -722,6 +722,7 @@
   border-color: #dbdcdf;
   border-radius: 100px;
   font-size: 12px;
+  font-weight: bold;
 }
 .review-list-box .review-summary {
   margin: 10px 16px;

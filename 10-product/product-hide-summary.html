@@ -1,0 +1,387 @@
+<html>
+  <head>
+    <title>POWER ROOM</title>
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+  </head>
+  <body>
+    <div class="product-page-wrap common-wrap">
+      <header>
+        <button type="button" class="btn-header-left">
+          <img src="../asset/images/icon-top-back.png" alt="" />
+        </button>
+        <h2>상품</h2>
+      </header>
+      <div class="product-content common-content">
+        <!-- 리스트가 없을 때 class="background" 추가-->
+        <div class="product-box">
+          <div class="info-box">
+            <div class="thumb">
+              <img src="https://picsum.photos/375" alt="" />
+            </div>
+            <div class="detail-box">
+              <div class="brand">
+                <img src="https://picsum.photos/22" alt="" />
+                달바
+                <img src="../asset/images/icon-more-s.png" alt="" />
+              </div>
+              <p class="name">
+                아트클래스 바이로댕 쉐딩아트클래스
+                <img src="../asset/images/icon-bookmark-on.png" alt="" />
+              </p>
+              <p class="price">18,000원</p>
+            </div>
+          </div>
+
+          <div class="tab-box">
+            <button type="button" class="on">리뷰</button>
+            <button type="button" class="">상품 설명</button>
+          </div>
+          <div class="product-select-box">
+            <div class="select">상품 옵션을 선택하세요.</div>
+            <!-- 옵션 있을 경우 display: block -->
+            <ul class="option">
+              <li><img src="https://picsum.photos/39" alt="" />2호 모던</li>
+            </ul>
+          </div>
+
+          <div class="kr-review-box">
+            <div class="content">
+              <p>파루미가 알려주는</p>
+              <p class="title">한국 룸메들의 반응은?</p>
+              <!-- 라벨 홀수일 경우 class="item-odd" 추가 -->
+              <ul class="">
+                <li class="label">발색이 <em>선명해요</em></li>
+                <li class="label">발림성이 <em>부드러워요</em></li>
+                <li class="label">지속력이 <em>아쉬워요</em></li>
+                <li class="label">향이 <em>좋아요</em></li>
+                <li class="label">자극이 <em>있어요</em></li>
+                <li class="label">흡수력이 <em>매트해요</em></li>
+              </ul>
+            </div>
+          </div>
+          <div class="jp-review-box">
+            <p class="title">일본 룸메들의 반응은?</p>
+            <div class="review-summary hide">
+              <div class="star-box">
+                <p class="score">4.6 <em>(135)</em></p>
+                <img src="../asset/images/icon-star-on.png" alt="on" /><img
+                  src="../asset/images/icon-star-on.png"
+                  alt="on"
+                /><img src="../asset/images/icon-star-on.png" alt="on" /><img
+                  src="../asset/images/icon-star-on.png"
+                  alt="on"
+                /><img src="../asset/images/icon-star-off.png" alt="off" />
+              </div>
+
+              <div class="star-ratio">
+                <div class="progress-wrap">
+                  <div class="progress" role="progressbar">
+                    <div class="progress-bar" style="width: 100%"></div>
+                  </div>
+                  <span class="bold">5점</span>
+                </div>
+                <div class="progress-wrap">
+                  <div class="progress" role="progressbar">
+                    <div class="progress-bar" style="width: 40%"></div>
+                  </div>
+                  <span>4점</span>
+                </div>
+                <div class="progress-wrap">
+                  <div class="progress" role="progressbar">
+                    <div class="progress-bar" style="width: 10%"></div>
+                  </div>
+                  <span>3점</span>
+                </div>
+                <div class="progress-wrap">
+                  <div class="progress" role="progressbar">
+                    <div class="progress-bar" style="width: 0%"></div>
+                  </div>
+                  <span>2점</span>
+                </div>
+                <div class="progress-wrap">
+                  <div class="progress" role="progressbar">
+                    <div class="progress-bar" style="width: 0%"></div>
+                  </div>
+                  <span>1점</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-list-box">
+            <div class="review-filter">
+              <p>
+                <img src="../asset/images/icon-hashtag.png" alt="" />AI가 찾은
+                리뷰 속 키워드
+              </p>
+              <div class="filter-wrap">
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  name="options-base"
+                  id="ko"
+                  checked
+                />
+                <label class="btn" for="ko">한국</label>
+                <img
+                  class="divider"
+                  src="../asset/images/img-divider.png"
+                  alt=""
+                />
+                <div class="swipe-wrap">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    name="options-base"
+                    id="all"
+                  />
+                  <label class="btn" for="all">전체</label>
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    name="options-base"
+                    id="keyword-0"
+                    checked
+                  />
+                  <label class="btn" for="keyword-0">쿨톤</label>
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    name="options-base"
+                    id="keyword-1"
+                  />
+                  <label class="btn" for="keyword-1">고발색</label>
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    name="options-base"
+                    id="keyword-2"
+                  />
+                  <label class="btn" for="keyword-2">입문자용</label>
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    name="options-base"
+                    id="keyword-3"
+                  />
+                  <label class="btn" for="keyword-3">입문자용</label>
+                </div>
+              </div>
+            </div>
+            <div class="review-summary">
+              <span class="count">전체 135 건</span>
+              <select>
+                <option value="">인기순</option>
+                <option value="">최신순</option>
+              </select>
+            </div>
+            <ul class="product-review-list">
+              <li>
+                <div class="review-info-box">
+                  <span class="label">내돈내산</span>
+                  <div class="star-box">
+                    <img src="../asset/images/icon-star-on.png" alt="on" /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img
+                      src="../asset/images/icon-star-off.png"
+                      alt="off"
+                    /><img src="../asset/images/icon-star-off.png" alt="off" />
+                  </div>
+                  <span class="date">2024.08.11</span>
+                </div>
+                <div class="thumb">
+                  <img src="https://picsum.photos/90" alt="" />
+                  <img src="https://picsum.photos/90" alt="" />
+                  <img src="https://picsum.photos/90" alt="" />
+                  <img src="https://picsum.photos/90" alt="" />
+                  <img src="https://picsum.photos/90" alt="" />
+                </div>
+                <p class="title">혹시 아직도 투쿨쉐딩 안써보신분 있나요?🤎</p>
+                <span class="desc"
+                  >쉐딩하면 투쿨포스쿨! 국민템이죠🤎
+                  <span class="mark"
+                    >저는 겨울쿨톤 이지만 자연스러운 음영을 선호해 1호를
+                    선택</span
+                  >했어요! 3색 컬러로 단계별 그라데이션 컬러로 콧대와 브로우까지
+                  자연스러운 음영이 가능해요! 이미 너무 유명해서
+                  말모말모✨✨</span
+                >
+                <div class="user-reaction-wrap">
+                  <div class="user-info-box">
+                    <img src="https://picsum.photos/22" alt="" />
+                    <span class="name">총10자까지입력가능</span>
+                    <span class="tag">20대</span>
+                    <span class="tag">지성</span>
+                    <span class="tag">2+</span>
+                  </div>
+                  <div class="reaction">
+                    <img src="../asset/images/icon-review-like.png" alt="" />
+                    <span>23</span>
+                    <img src="../asset/images/icon-review-comment.png" alt="" />
+                    <span>6</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="review-info-box">
+                  <span class="label">내돈내산</span>
+                  <div class="star-box">
+                    <img src="../asset/images/icon-star-on.png" alt="on" /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img src="../asset/images/icon-star-on.png" alt="on" />
+                  </div>
+                  <span class="date">2024.08.11</span>
+                </div>
+                <div class="thumb">
+                  <img src="https://picsum.photos/90" alt="" />
+                  <img src="https://picsum.photos/90" alt="" />
+                  <img src="https://picsum.photos/90" alt="" />
+                  <img src="https://picsum.photos/90" alt="" />
+                  <img src="https://picsum.photos/90" alt="" />
+                </div>
+                <p class="title">가루날림 빼면 완벽한 쉐딩입니다ㅠㅠ</p>
+                <span class="desc"
+                  >[장점] 발색력도 너무 좋고,
+                  <span class="mark">겨쿨에게 색상도 완전 찰떡</span>입니다...
+                  [단점] 가루가 너무 많이 날려요... 진짜 이것만 빼면 완벽한
+                  쉐딩인데ㅠㅠ 단점이 있어도 이것만큼 컬러가 마음에 드는 제품이
+                  없어서</span
+                >
+                <div class="user-reaction-wrap">
+                  <span class="info">한국에서 작성된 리뷰예요.</span>
+                  <div class="reaction">
+                    <img src="../asset/images/icon-review-like.png" alt="" />
+                    <span>126</span>
+                    <img src="../asset/images/icon-review-comment.png" alt="" />
+                    <span>23</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="review-info-box">
+                  <span class="label dark">체험단</span>
+                  <div class="star-box">
+                    <img src="../asset/images/icon-star-on.png" alt="on" /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img src="../asset/images/icon-star-on.png" alt="on" />
+                  </div>
+                  <span class="date">2024.08.04</span>
+                </div>
+                <p class="title">바이로댕 쉐이딩 초보 분들에게 추천합니다!</p>
+                <span class="desc"
+                  >[사용한 상품] 바이로댕 쉐이딩 마스터 [상품의 특징] 2호는
+                  <span class="mark"
+                    >쿨톤맞춤으로 나온것 같은데, 노란끼 없고 완전 만족</span
+                  >합니다!</span
+                >
+                <div class="user-reaction-wrap">
+                  <div class="user-info-box">
+                    <img src="https://picsum.photos/22" alt="" />
+                    <span class="name">솔리테르</span>
+                    <span class="tag">30대</span>
+                    <span class="tag">건성</span>
+                    <span class="tag">2+</span>
+                  </div>
+                  <div class="reaction">
+                    <img src="../asset/images/icon-review-like.png" alt="" />
+                    <span>0</span>
+                    <img src="../asset/images/icon-review-comment.png" alt="" />
+                    <span>1</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="review-info-box">
+                  <span class="label dark">제품제공</span>
+                  <div class="star-box">
+                    <img src="../asset/images/icon-star-on.png" alt="on" /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img
+                      src="../asset/images/icon-star-on.png"
+                      alt="on"
+                    /><img
+                      src="../asset/images/icon-star-off.png"
+                      alt="off"
+                    /><img src="../asset/images/icon-star-off.png" alt="off" />
+                  </div>
+                  <span class="date">2024.08.02</span>
+                </div>
+                <div class="thumb">
+                  <img src="https://picsum.photos/90" alt="" />
+                </div>
+                <p class="title">내 인생 마지막 쉐딩은 투쿨이얍</p>
+                <span class="desc"
+                  >붉은 끼가 없어서
+                  <span class="mark"
+                    >쿨톤인 저에게 겉돌지 않고 색이 찰떡이였어요</span
+                  >
+                  ㅎㅎ 또 3가지 컬러 쉐이드를 블렌딩해 바를 수 있어서 활용도가
+                  높아요! 발색이 너무 진하지 않으니까 자연스럽게 쉐딩을 연결할
+                  수 있는게 아트클래스 바이 로댕의 가장 큰 장점인 것
+                  같아욥!!!</span
+                >
+                <div class="user-reaction-wrap">
+                  <div class="user-info-box">
+                    <img src="https://picsum.photos/22" alt="" />
+                    <span class="name">모이moi</span>
+                    <span class="tag">20대</span>
+                    <span class="tag">지성</span>
+                  </div>
+                  <div class="reaction">
+                    <img src="../asset/images/icon-review-like.png" alt="" />
+                    <span>3</span>
+                    <img src="../asset/images/icon-review-comment.png" alt="" />
+                    <span>1</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="floating-footer">
+            <button type="button">
+              <img src="../asset/images/icon-pencil.png" alt="" /> 리뷰쓰기
+            </button>
+            <!-- <button type="button" class="active">
+              <img src="../asset/images/icon-pencil.png" alt="" />일본 첫
+              리뷰쓰기 🎉
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
