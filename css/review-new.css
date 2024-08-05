@@ -728,3 +728,23 @@
   font-size: 13px;
   font-weight: 600;
 }
+.modal-wrap .content.out {
+  padding-top: 24px;
+}
+
+.modal-wrap .content.out .img-txt-wrap img {
+  width: 140px;
+}
+
+.modal-wrap .content.out .img-txt-wrap h5 {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.modal-wrap .content.out .img-txt-wrap p {
+  padding-top: 4px;
+  font-size: 14px;
+  color: #68696b;
+  font-weight: 400;
+}
