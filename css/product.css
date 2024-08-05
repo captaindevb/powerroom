@@ -397,33 +397,6 @@
   font-weight: 700;
   border-radius: 8px;
 }
-
-/* footer 버튼 */
-.product-page-wrap .floating-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  max-width: 500px;
-}
-.product-page-wrap .floating-footer button {
-  height: 56px;
-  width: 100%;
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #1c1c1e;
-}
-.product-page-wrap .floating-footer button img {
-  margin-right: 6px;
-  vertical-align: sub;
-}
-.product-page-wrap .floating-footer button.active {
-  background-color: #ff43ca;
-}
-
-.product-page-wrap .floating-footer button:disabled {
-  background-color: #ebf0fb;
-}
 /*
 .product-page-wrap .product-popup {
   padding: 20px;
@@ -502,8 +475,9 @@
   margin-left: 16px;
   flex-shrink: 0;
 }
-.review-list-box .review-filter .filter-wrap > .btn-check:checked + .btn {
+.review-list-box .review-filter .filter-wrap > .btn-check + .btn {
   padding: 6px 12px;
+  opacity: 1; /* disabled 스타일 처리 */
 }
 .review-list-box .review-filter .filter-wrap img.divider {
   padding: 0 4px;
@@ -565,10 +539,9 @@
 }
 
 /* 제품 상세 - 리뷰 리스트 */
-
 .review-list-box .product-review-list {
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: 56px;
 }
 
 .review-list-box .product-review-list li {
@@ -702,6 +675,7 @@
   margin: 14px 16px 16px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .review-list-box .product-review-list .user-info-box {
   display: flex;
@@ -717,7 +691,7 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
-  padding-left: 2px;
+  padding: 0 2px;
   font-size: 12px;
   font-weight: bold;
   color: #373839;
@@ -739,6 +713,15 @@
 
 .review-list-box .product-review-list .user-info-box img:last-child {
   margin-left: auto;
+}
+.review-list-box .product-review-list span.info {
+  overflow: hidden;
+  color: #b8bbbf;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
 }
 
 .review-list-box .product-review-list .product {
@@ -772,4 +755,31 @@
   font-size: 13px;
   font-weight: 700;
   letter-spacing: -0.26px;
+}
+
+/* footer 버튼 */
+.product-page-wrap .floating-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+}
+.product-page-wrap .floating-footer button {
+  height: 56px;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #1c1c1e;
+}
+.product-page-wrap .floating-footer button img {
+  margin-right: 6px;
+  vertical-align: sub;
+}
+.product-page-wrap .floating-footer button.active {
+  background-color: #ff43ca;
+}
+
+.product-page-wrap .floating-footer button:disabled {
+  background-color: #ebf0fb;
 }
