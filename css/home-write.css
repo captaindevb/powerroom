@@ -1,0 +1,12 @@
+.home-write-page-wrap header {
+  justify-content: space-around;
+}
+
+.home-write-page-wrap header button {
+  position: absolute;
+  right: 0;
+}
+
+.home-write-page-wrap header button img {
+  width: auto;
+}
