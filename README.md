@@ -30,3 +30,6 @@ https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B
 4. Link: [미션 - sns 게시물-2개 이상-팝업](09-mission/sns-multi-popup.html)
 5. Link: [미션 - sns 게시물 불러오기-리뷰적용](09-mission/sns-load.html)
 6. Link: [미션 - sns 게시물 불러오기-상품선택](09-mission/sns-load-multi-select.html)
+
+##### 홈 > 글쓰기 진입점
+1. Link: [홈 글쓰기 진입점](08-home-write/home-write.html)
