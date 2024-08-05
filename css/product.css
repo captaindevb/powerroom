@@ -215,6 +215,9 @@
   padding: 24px 0 20px;
   justify-content: space-around;
 }
+.product-box .jp-review-box .review-summary.hide {
+  padding-bottom: 0;
+}
 
 .product-box .jp-review-box .review-summary .star-box {
   text-align: center;
