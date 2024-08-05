@@ -697,3 +697,34 @@
   width: 24px;
   margin-right: 12px;
 }
+
+.center-modal-wrap .content.sns-load-fail {
+  text-align: center;
+}
+
+.center-modal-wrap .content.sns-load-fail img {
+  margin-top: -10px;
+  width: 140px;
+}
+
+.center-modal-wrap .content.sns-load-fail h5 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.center-modal-wrap .content.sns-load-fail p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #68696b;
+}
+
+.center-modal-wrap .content.sns-load-fail button {
+  width: 106px;
+  margin-top: 20px;
+  padding: 12px 0;
+  background: #000;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
