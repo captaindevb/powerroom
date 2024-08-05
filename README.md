@@ -16,6 +16,7 @@ https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B
 4.  Link: [리뷰 작성-상품 검색 메인](/04-review-new/product-search.html)
 5.  Link: [리뷰 작성-상품 검색 리스트](/04-review-new/product-search-list.html)
 6.  Link: [리뷰 작성-미등록 상품 리뷰](/04-review-new/write-unregistered-before.html)
+7.  Link: [리뷰 작성-SNS 게시물 불러오기 모달](/04-review-new/write-load-sns.html)
 
 ##### 마이페이지
 

@@ -674,3 +674,26 @@
 .item-unregistered-wrap .upload-img-wrap .swipe-wrap .img-item + .img-item {
   margin-left: 4px;
 }
+
+.modal-wrap .content.sns-load {
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+
+.modal-wrap .content.sns-load h5 {
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal-wrap .content.sns-load button {
+  display: flex;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.modal-wrap .content.sns-load button img {
+  width: 24px;
+  margin-right: 12px;
+}
