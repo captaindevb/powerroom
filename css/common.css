@@ -520,3 +520,34 @@ button.toggle.off {
 .modal-wrap .modal-inner .content {
   padding: 10px 16px;
 }
+
+.center-modal-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.center-modal-wrap .dim {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.center-modal-wrap .modal-inner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 260px;
+  padding: 32px 24px;
+  box-sizing: border-box;
+  height: auto;
+  background: #fff;
+  border-radius: 16px;
+}

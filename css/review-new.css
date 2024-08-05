@@ -544,3 +544,207 @@
   color: #929498;
   font-size: 11px;
 }
+
+.item-unregistered-wrap {
+  padding: 20px 16px 56px 16px;
+}
+
+.item-unregistered-wrap .title {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 16px;
+}
+
+.item-unregistered-wrap .title h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.item-unregistered-wrap .title button {
+  margin-left: auto;
+  font-size: 12px;
+  text-decoration-line: underline;
+  color: #929498;
+}
+
+.item-unregistered-wrap select {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  text-indent: 12px;
+  background: #373839 url(../asset/images/icon-review-selectbox-dropdown.png)
+    right 12px center no-repeat;
+  background-size: 14px;
+  appearance: none;
+  padding-right: 5px;
+  font-size: 13px;
+  border: 1px solid #68696b;
+  border-radius: 6px;
+  color: #dbdcdf;
+}
+
+.item-unregistered-wrap input[type="text"] {
+  font-size: 15px;
+  padding: 0;
+  background: #373839;
+  border: 1px solid #68696b;
+  border-radius: 4px;
+  text-indent: 12px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.item-unregistered-wrap input[type="text"] + input {
+  margin-top: 6px;
+}
+
+.item-unregistered-wrap input[type="text"]::placeholder {
+  color: #929498;
+}
+
+.item-unregistered-wrap input + .title {
+  margin-top: 25px;
+}
+
+.item-unregistered-wrap select option:disabled {
+  color: #68696b;
+}
+
+.review-wirte-wrap .sns-info + .btn-wrap {
+  padding-top: 0;
+}
+
+.item-unregistered-wrap .textarea-wrap {
+  background: #373839;
+  border: 1px solid #68696b;
+  border-radius: 6px;
+}
+
+.item-unregistered-wrap .textarea-wrap textarea {
+  padding: 8px 16px;
+  background: none;
+  border: 0;
+  height: 44px;
+  resize: none;
+  color: #fff;
+  box-sizing: content-box;
+  width: calc(100% - 32px);
+}
+
+.item-unregistered-wrap .textarea-wrap .text-btns {
+  display: flex;
+  padding: 8px 16px 16px 16px;
+}
+
+.item-unregistered-wrap .textarea-wrap .text-btns img {
+  width: 24px;
+}
+
+.item-unregistered-wrap .upload-img-wrap {
+  overflow: hidden;
+  margin-top: 8px;
+  width: calc(100% + 16px);
+}
+
+.item-unregistered-wrap .upload-img-wrap .swipe-wrap {
+  width: 150%;
+}
+
+.item-unregistered-wrap .upload-img-wrap .swipe-wrap .img-item {
+  position: relative;
+  width: 92px;
+  display: inline-block;
+}
+
+.item-unregistered-wrap .upload-img-wrap .swipe-wrap .img-item > img {
+  border-radius: 8px;
+}
+
+.item-unregistered-wrap .upload-img-wrap .swipe-wrap .img-item button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.item-unregistered-wrap .upload-img-wrap .swipe-wrap .img-item button img {
+  width: 17px;
+}
+
+.item-unregistered-wrap .upload-img-wrap .swipe-wrap .img-item + .img-item {
+  margin-left: 4px;
+}
+
+.modal-wrap .content.sns-load {
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+
+.modal-wrap .content.sns-load h5 {
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal-wrap .content.sns-load button {
+  display: flex;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.modal-wrap .content.sns-load button img {
+  width: 24px;
+  margin-right: 12px;
+}
+
+.center-modal-wrap .content.sns-load-fail {
+  text-align: center;
+}
+
+.center-modal-wrap .content.sns-load-fail img {
+  margin-top: -10px;
+  width: 140px;
+}
+
+.center-modal-wrap .content.sns-load-fail h5 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.center-modal-wrap .content.sns-load-fail p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #68696b;
+}
+
+.center-modal-wrap .content.sns-load-fail button {
+  width: 106px;
+  margin-top: 20px;
+  padding: 12px 0;
+  background: #000;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+.modal-wrap .content.out {
+  padding-top: 24px;
+}
+
+.modal-wrap .content.out .img-txt-wrap img {
+  width: 140px;
+}
+
+.modal-wrap .content.out .img-txt-wrap h5 {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.modal-wrap .content.out .img-txt-wrap p {
+  padding-top: 4px;
+  font-size: 14px;
+  color: #68696b;
+  font-weight: 400;
+}
