@@ -479,17 +479,31 @@
   flex-shrink: 0;
 }
 .review-list-box .review-filter .filter-wrap > .btn-check + .btn {
-  padding: 6px 12px;
-  opacity: 1; /* disabled 스타일 처리 */
+  min-height: 32px;
+  position: relative;
+  padding: 6px 12px 6px 30px;
 }
+
+.review-list-box .review-filter .filter-wrap > .btn-check + .btn::before {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  width: 15px;
+  height: 15px;
+  background: url(../asset/images/icon-filter-setting-off.png) center no-repeat;
+  content: "";
+}
+.review-list-box
+  .review-filter
+  .filter-wrap
+  > .btn-check:checked
+  + .btn::before {
+  background: url(../asset/images/icon-filter-setting-on.png) center no-repeat;
+}
+
 .review-list-box .review-filter .filter-wrap img.divider {
   padding: 0 4px;
 }
-.review-list-box .review-filter .filter-wrap > .btn-check:checked + .btn img {
-  margin-right: 5px;
-  vertical-align: bottom;
-}
-
 .review-list-box .review-filter .filter-wrap .swipe-wrap {
   display: inline-block;
 }
