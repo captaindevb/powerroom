@@ -42,7 +42,11 @@ https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B
 ##### 상품 상세
 
 1.  Link: [상품상세](/10-product/product.html)
-2.  Link: [상품상세-KR 간편 리뷰 요약_ 번역/순서 예시](/10-product/product-lang-jp.html)
+2.  Link: [상품상세-KR 간편 리뷰 요약\_ 번역/순서 예시](/10-product/product-lang-jp.html)
 3.  Link: [상품상세-전체 리뷰 없음](/10-product/product-no-review-01.html)
-4.  Link: [상품상세-KR 리뷰있음 + JP 리뷰 없음](/10-product/product-no-review-02.html)
+4.  Link: [상품상세-KR 리뷰있음+ JP 리뷰 없음](/10-product/product-no-review-02.html)
 5.  Link: [상품상세-JP 태그 요약 미노출](/10-product/product-hide-summary.html)
+6.  Link: [상품상세-AI 키워드 생략(1)](/10-product/product-hide-keyword-01.html)
+7.  Link: [상품상세-AI 키워드 생략(2)](/10-product/product-hide-keyword-02.html)
+8.  Link: [상품상세-리뷰 필터](/10-product/product-filter-modal.html)
+9.  Link: [상품상세-JP리뷰](/10-product/product-filter-jp.html)
