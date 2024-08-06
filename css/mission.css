@@ -309,6 +309,7 @@
 .product-info-popup .popup-content {
   max-height: 80%;
   overflow-y: auto;
+  background-color: #fff;
 }
 
 .product-info-popup .btn-wrap {
