@@ -551,3 +551,32 @@ button.toggle.off {
   background: #fff;
   border-radius: 16px;
 }
+
+.modal-wrap .content.write-profile {
+  position: relative;
+  text-align: center;
+}
+
+.modal-wrap .content.write-profile p {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.modal-wrap .content.write-profile .close {
+  position: absolute;
+  right: 22px;
+  top: 18px;
+}
+
+.modal-wrap .content.write-profile .confirm {
+  width: 100%;
+  height: 52px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #ff43ca;
+}
