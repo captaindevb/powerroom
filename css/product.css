@@ -318,12 +318,9 @@
   color: #b8bbbf;
 }
 .product-box .jp-review-box.empty .review-summary p.score em {
-  display: inline-block;
-  height: 17px;
-  vertical-align: middle;
-  line-height: 10px;
   color: #b8bbbf;
   font-size: 16px;
+  vertical-align: 3px;
 }
 .product-box .jp-review-box.empty .no-review {
   padding: 12px;
@@ -480,14 +477,8 @@
 }
 
 /* 제품 상세 - 필터 */
-.review-list-box .review-filter {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-}
 .review-list-box .review-filter p {
   margin: 16px 16px 12px;
-  width: 100%;
   font-size: 14px;
   font-weight: bold;
 }
@@ -497,12 +488,15 @@
 }
 .review-list-box .review-filter .filter-wrap {
   margin-left: 16px;
-  flex-shrink: 0;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
 }
 .review-list-box .review-filter .filter-wrap > .btn-check + .btn {
   min-height: 32px;
   position: relative;
   padding: 6px 12px 6px 33px;
+  flex-shrink: 0;
 }
 
 .review-list-box .review-filter .filter-wrap > .btn-check + .btn::before {
@@ -529,7 +523,7 @@
   padding: 0 4px;
 }
 .review-list-box .review-filter .filter-wrap .swipe-wrap {
-  display: inline-block;
+  flex-shrink: 0;
 }
 
 .review-list-box .review-filter .btn-check:checked + .btn {
@@ -905,6 +899,50 @@
   text-align: center;
 }
 
+.product-box .jp-review-box .review-summary.hide-keyword {
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.product-box .jp-review-box .review-summary.hide-keyword .star-box img {
+  width: 26px;
+  height: 26px;
+}
+.product-box .jp-review-box .review-summary.hide-keyword .score {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.24;
+  letter-spacing: -0.48px;
+}
+.product-box .jp-review-box .review-summary.hide-keyword .score span {
+  font-size: 24px;
+  line-height: 1.24;
+  letter-spacing: -0.48px;
+  color: #b8bbbf;
+}
+.product-box .jp-review-box .review-summary.hide-keyword .score em {
+  color: #b8bbbf;
+  font-size: 16px;
+  vertical-align: 3px;
+}
+
+.product-box .review-list-box.hide-keyword .review-filter {
+  display: block;
+}
+.product-box .review-list-box.hide-keyword .review-filter .count {
+  margin: 16px;
+}
+.product-box .review-list-box.hide-keyword .review-filter .count span {
+  color: #929498;
+}
+.product-box .review-list-box.hide-keyword .review-filter .filter-wrap {
+  margin-bottom: 14px;
+  justify-content: space-between;
+}
+.product-box .review-list-box.hide-keyword .review-summary {
+  margin: 0 16px;
+}
 /* bootstrap reset */
 .btn-check + .btn:hover {
   color: #929498;
