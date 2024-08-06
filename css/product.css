@@ -118,8 +118,11 @@
 }
 
 .product-box .kr-review-box {
-  padding: 16px;
+  padding: 20px 16px 16px;
   background-color: #fff;
+}
+.product-box .kr-review-box.only {
+  padding-bottom: 28px;
 }
 
 .product-box .kr-review-box .content {
