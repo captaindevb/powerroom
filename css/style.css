@@ -1665,34 +1665,32 @@ button.toggle.off {
   color: black;
 }
 
-.product-info-box {
-  display: flex;
+.review-list-box .product-info-box {
   align-items: center;
   padding: 16px 16px 28px 16px;
-
   background-color: #fff;
 }
 
-.product-info-box img {
+.review-list-box .product-info-box img {
   margin-right: 16px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.product-info-box .info p {
+.review-list-box .product-info-box .info p {
   margin-bottom: 5px;
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
 }
 
-.product-info-box .info span {
+.review-list-box .product-info-box .info span {
   font-size: 12px;
   font-weight: 700;
   color: #979797;
 }
 
-.product-info-box .info .mission-date {
+.review-list-box .product-info-box .info .mission-date {
   display: flex;
   padding: 3px 16px;
   margin-top: 6px;
