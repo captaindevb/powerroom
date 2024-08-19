@@ -1890,12 +1890,16 @@ button.toggle.off {
   line-height: 22px;
   margin-bottom: 16px;
 }
+.content-submit .submit-box .main.add {
+  margin-bottom: 6px;
+}
 
 .content-submit .submit-box .main span {
   color: #b8bbbf;
 }
 
 .content-submit .submit-box .sub {
+  margin-bottom: 16px;
   font-size: 13px;
   color: #929498;
 }
@@ -4347,6 +4351,7 @@ p {
 .profile-info-box .btn-wrap {
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
 .profile-info-box .follow {
@@ -4780,6 +4785,10 @@ p {
   width: 100%;
   justify-content: space-between;
   padding: 16px;
+}
+
+.review-detail-popup .popup-content .comment-wrap .origin .btn-wrap {
+  margin: 0;
 }
 
 .review-detail-popup .popup-content .comment-wrap .origin .text-wrap {
