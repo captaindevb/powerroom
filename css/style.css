@@ -2818,7 +2818,7 @@ button.toggle.off {
 }
 
 /* 마이페이지 - 작성 리뷰 있음_목록 */
-.review-list-box .review-filter {
+.mypage-content .review-list-box .review-filter {
   margin: 16px 16px 0;
 }
 .review-list-box .review-filter .btn-check:checked + .btn {
