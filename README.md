@@ -20,6 +20,8 @@ https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B
 8.  Link: [리뷰 작성-SNS 게시물 불러오기-실패 모달](/04-review-new/write-load-sns-fail.html)
 9.  Link: [리뷰 작성-뒤로가기 클릭 시 모달](/04-review-new/write-backkey-modal.html)
 10. Link: [프로필 작성하러가기 모달](/04-review-new/write-profile-modal.html)
+11. Link: [리뷰 작성-리뷰 작성 템플릿-그룹형](/04-review-new/template-group.html)
+12. Link: [리뷰 작성-리뷰 작성 템플릿-옵션형](/04-review-new/template-option.html)
 
 ##### 마이페이지
 

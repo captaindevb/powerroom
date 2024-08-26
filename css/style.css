@@ -5262,6 +5262,163 @@ p {
   width: calc(50% - 4px);
 }
 
+.modal-wrap .content.product-change.template {
+  padding-top: 16px;
+}
+.modal-wrap .content.product-change.template .overflow-area {
+  max-height: 400px;
+  overflow-y: scroll;
+  width: calc(100% - 90px);
+}
+
+.modal-wrap .content.product-change.template .title-area {
+  display: flex;
+}
+.modal-wrap .content.product-change.template .title-area h5 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000;
+}
+
+.modal-wrap .content.product-change.template .title-area button {
+  margin-left: auto;
+}
+
+.modal-wrap .content.product-change.template .title-area button img {
+  width: 22px;
+  vertical-align: middle;
+}
+.modal-wrap .content.product-change.template .title-area button {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  color: #dbdcdf;
+}
+
+.modal-wrap .content.product-change.template .template-area {
+  padding-top: 18px;
+  display: flex;
+}
+.modal-wrap .content.product-change.template .template-area .select {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.modal-wrap .content.product-change.template .template-area .select button {
+  width: 100%;
+  text-align: left;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.modal-wrap .content.product-change.template .template-area .select button.off {
+  color: #b8bbbf;
+}
+.modal-wrap .content.product-change.template .template-area .group-item {
+  width: 100%;
+  background: #f6f9ff;
+  padding: 20px 16px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.modal-wrap .content.product-change.template .template-area .group-item p {
+  color: #000;
+  font-size: 13px;
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item
+  .content {
+  margin: 8px 0 0 0;
+  padding: 8px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eceef2;
+  color: #929498;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item
+  .content
+  + p {
+  margin-top: 20px;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -2px;
+  padding-top: 10px;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  button {
+  font-size: 12px;
+  padding: 8px 14px;
+  border: 1px solid #dbdcdf;
+  border-radius: 100px;
+  color: #b8bbbf;
+  font-weight: 700;
+  background: #fff;
+  margin: 2px;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags {
+  padding-top: 10px;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags
+  + p {
+  padding-top: 20px;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  button.on {
+  border-color: #ff43ca;
+  color: #ff43ca;
+  background: rgba(255, 67, 202, 0.05);
+}
+
+.modal-wrap .content.product-change.template .btn-wrap .confirm {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+}
+
 .review-product-search {
   padding-top: 60px;
 }
