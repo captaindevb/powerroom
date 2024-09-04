@@ -1919,6 +1919,10 @@ button.toggle.off {
   margin-bottom: 8px;
 }
 
+.content-submit .submit-box .input-wrapper img {
+  width: 18px;
+}
+
 .content-submit .submit-box button {
   position: absolute;
   right: 16px;
