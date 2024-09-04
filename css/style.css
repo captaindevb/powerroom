@@ -1919,6 +1919,10 @@ button.toggle.off {
   margin-bottom: 8px;
 }
 
+.content-submit .submit-box .input-wrapper img {
+  width: 18px;
+}
+
 .content-submit .submit-box button {
   position: absolute;
   right: 16px;
@@ -3224,6 +3228,11 @@ button.toggle.off {
   border-radius: 6px;
 }
 
+.product-box .info-box .detail-box .brand img:last-child {
+  width: 12px;
+  height: 12px;
+}
+
 .product-box .info-box .detail-box .name {
   margin-top: 12px;
   font-size: 18px;
@@ -3231,6 +3240,8 @@ button.toggle.off {
   line-height: 1.42;
 }
 .product-box .info-box .detail-box .name img {
+  width: 24px;
+  height: 24px;
   float: right;
 }
 
@@ -3565,7 +3576,8 @@ button.toggle.off {
 }
 
 .product-box .jp-review-box .review-detail button img {
-  padding-left: 8px;
+  width: 13px;
+  margin-left: 8px;
   vertical-align: baseline;
 }
 
@@ -3655,6 +3667,12 @@ button.toggle.off {
   font-weight: 400;
   line-height: 21px;
 }
+
+.product-box .no-list img{
+  width: 81px;
+  height: 90px;
+}
+
 .product-box .no-list .btn-pink {
   background-color: #ff43ca;
   color: #fff;
@@ -3707,6 +3725,7 @@ button.toggle.off {
 }
 
 .review-list-box .review-filter .filter-wrap img.divider {
+  height: 29px;
   padding: 0 4px;
 }
 .review-list-box .review-filter .filter-wrap .swipe-wrap {
@@ -3889,7 +3908,9 @@ button.toggle.off {
 }
 
 .review-list-box .product-review-list li .reaction img {
-  padding-left: 12px;
+  width: 18px;
+  height: 18px;
+  margin-left: 12px;
   vertical-align: sub;
 }
 
@@ -3995,6 +4016,8 @@ button.toggle.off {
   background-color: #1c1c1e;
 }
 .product-page-wrap .floating-footer button img {
+  width: 18px;
+  height: 18px;
   margin-right: 6px;
   vertical-align: sub;
 }
@@ -4408,6 +4431,11 @@ p {
   margin-left: 12px;
 }
 
+.profile-info-box .more img {
+  width: 24px;
+  height: 24px;
+}
+
 .review-img {
   width: 100%;
   height: 375px;
@@ -4575,6 +4603,11 @@ p {
   margin-right: 14px;
 }
 
+.comment-box .comment-icon img {
+  width: 28px;
+  height: 28px;
+}
+
 .comment-box .comment-icon .left button span {
   margin-left: 4px;
   font-size: 14px;
@@ -4725,6 +4758,8 @@ p {
 }
 
 .review-detail-popup .popup-content .empty-wrap img {
+  width: 295px;
+  height: 100px;
   margin-bottom: 6px;
 }
 
@@ -4804,6 +4839,8 @@ p {
 }
 
 .review-detail-popup .popup-content .send-comment-wrap .write-input img {
+  width: 24px;
+  height: 24px;
   position: absolute;
   right: 18px;
   top: 12px;
@@ -4823,6 +4860,11 @@ p {
 
 .review-detail-popup .popup-content .comment-wrap .origin .btn-wrap {
   margin: 0;
+}
+
+.review-detail-popup .popup-content .comment-wrap .origin .btn-wrap img {
+  width: 24px;
+  height: 24px;
 }
 
 .review-detail-popup .popup-content .comment-wrap .origin .text-wrap {
