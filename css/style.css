@@ -93,7 +93,7 @@ input[type="checkbox"] {
   transform: translate(-50%, -50%) scale(0);
   width: 28px;
   height: 28px;
-  background: url(../asset/images/icon-controls-checkbox-on.png);
+  background: url(../asset/images/icon-controls-checkbox-on@3x.png);
   background-size: 100%;
   border-radius: 2px;
 }
@@ -143,6 +143,10 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   position: absolute;
   top: 19px;
   left: 20px;
+}
+
+.common-wrap header button.btn-header-left img.back {
+  width: 11px;
 }
 
 .common-wrap header button.back {
@@ -1117,20 +1121,20 @@ button.toggle.off {
 }
 
 .login-content .sns-box button.line {
-  background: #06c755 url(../asset/images/icon-my-line.png) 10px center / 36px
-    36px no-repeat;
+  background: #06c755 url(../asset/images/icon-my-line@3x.png) 10px center /
+    36px 36px no-repeat;
 }
 .login-content .sns-box button.x {
-  background: #000 url(../asset/images/icon-my-x.png) 10px center / 36px 36px
+  background: #000 url(../asset/images/icon-my-x@3x.png) 19px center / 18px 18px
     no-repeat;
 }
 .login-content .sns-box button.facebook {
-  background: #1877f2 url(../asset/images/icon-my-facebook.png) 10px center /
-    36px 36px no-repeat;
+  background: #1877f2 url(../asset/images/icon-my-facebook@3x.png) 16px center /
+    24px 24px no-repeat;
 }
 .login-content .sns-box button.apple {
-  background: #000 url(../asset/images/icon-my-apple.png) 10px center / 36px
-    36px no-repeat;
+  background: #000 url(../asset/images/icon-my-apple@3x.png) 21px center / 16px
+    19px no-repeat;
 }
 
 .login-content a.guest {
@@ -1394,7 +1398,7 @@ button.toggle.off {
   padding-right: 10px;
   color: #aeb2b9;
   font-size: 14px;
-  background: url(../asset/images/icon-more.png) right no-repeat;
+  background: url(../asset/images/icon-more@3x.png) right no-repeat;
   background-size: 6px 12px;
 }
 
@@ -2412,12 +2416,12 @@ button.toggle.off {
   background-color: #f6f9ff;
 }
 
-.mypage-box .no-list.bookmark img{
+.mypage-box .no-list.bookmark img {
   width: 295px;
   height: 110px;
 }
 
-.mypage-box .no-list.review img{
+.mypage-box .no-list.review img {
   width: 81px;
   height: 90px;
 }
@@ -2738,7 +2742,7 @@ button.toggle.off {
   line-height: 50px;
   border: 1px solid #d4d9dd;
   border-radius: 4px;
-  background: #fff url(../asset/images/icon-dropdown.png) no-repeat
+  background: #fff url(../asset/images/icon-dropdown@3x.png) no-repeat
     calc(100% - 21px) center / 12px 6px;
 }
 
@@ -3085,7 +3089,7 @@ button.toggle.off {
   background: #b8bbbf;
   content: "";
 }
-.review-list-box.bookmark .my-review-list .user-info-box img{
+.review-list-box.bookmark .my-review-list .user-info-box img {
   width: 24px;
   height: 24px;
 }
@@ -3111,7 +3115,7 @@ button.toggle.off {
   color: #000;
 }
 
-.review-list-box.bookmark .my-review-list .product img{
+.review-list-box.bookmark .my-review-list .product img {
   width: 24px;
   height: 24px;
 }
@@ -5875,14 +5879,14 @@ p {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  padding: 12px;
+  padding: 18px 20px;
   border-radius: 8px;
   background-color: #f6f9ff;
 }
 
 .review-content .info-box .rank-box img {
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 28px;
   margin-right: 10px;
 }
 
@@ -5908,7 +5912,7 @@ p {
   display: flex;
   align-items: center;
   padding: 10px 15px;
-  background: #fff url(../asset/images/icon-dropdown.png) no-repeat
+  background: #fff url(../asset/images/icon-dropdown@3x.png) no-repeat
     calc(100% - 21px) center / 12px 6px;
 }
 
@@ -6090,7 +6094,7 @@ p {
 }
 
 .popup-content-wrap .option-popup li.on {
-  background: url(../asset/images/icon-option-check.png) no-repeat
+  background: url(../asset/images/icon-option-check@3x.png) no-repeat
     calc(100% - 25px) center / 14px 14px;
 }
 
@@ -6154,8 +6158,8 @@ p {
   margin-bottom: 25px;
   border-radius: 4px;
   border: 1px solid #d4d9dd;
-  background: url(../asset/images/icon-dropdown.png) no-repeat calc(100% - 15px)
-    center / 12px 6px;
+  background: url(../asset/images/icon-dropdown@3x.png) no-repeat
+    calc(100% - 15px) center / 12px 6px;
 }
 
 .review-write-box .option-box img {
@@ -6168,8 +6172,14 @@ p {
   right: 0;
   top: -8px;
 }
+
+.review-write-box .star-box img {
+  width: 32px;
+  height: 32px;
+}
+
 .review-write-box .star-box img + img {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .review-write-box .star-guide-box {
