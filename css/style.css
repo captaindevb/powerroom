@@ -2403,6 +2403,17 @@ button.toggle.off {
   text-align: center;
   background-color: #f6f9ff;
 }
+
+.mypage-box .no-list.bookmark img{
+  width: 295px;
+  height: 110px;
+}
+
+.mypage-box .no-list.review img{
+  width: 81px;
+  height: 90px;
+}
+
 .mypage-box .no-list p {
   color: #929498;
   font-size: 15px;
@@ -2981,7 +2992,9 @@ button.toggle.off {
 }
 
 .review-list-box .my-review-list li .reaction img {
-  padding-left: 12px;
+  width: 18px;
+  height: 18px;
+  margin-left: 12px;
   vertical-align: sub;
 }
 
@@ -3064,6 +3077,10 @@ button.toggle.off {
   background: #b8bbbf;
   content: "";
 }
+.review-list-box.bookmark .my-review-list .user-info-box img{
+  width: 24px;
+  height: 24px;
+}
 
 .review-list-box.bookmark .my-review-list .user-info-box img:last-child {
   margin-left: auto;
@@ -3084,6 +3101,11 @@ button.toggle.off {
   -webkit-line-clamp: 1;
   overflow: hidden;
   color: #000;
+}
+
+.review-list-box.bookmark .my-review-list .product img{
+  width: 24px;
+  height: 24px;
 }
 
 .review-list-box.bookmark .my-review-list .product img:last-child {
