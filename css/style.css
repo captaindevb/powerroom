@@ -961,13 +961,20 @@ button.toggle.off {
   justify-content: space-around;
 }
 
+.home-write-page-wrap header h1 img {
+  width: 165px;
+  height: 16px;
+}
+
 .home-write-page-wrap header button {
   position: absolute;
   right: 0;
 }
 
 .home-write-page-wrap header button img {
-  width: auto;
+  width: 44px;
+  height: 44px;
+  margin-right: 16px;
 }
 
 .intro-page-wrap {
