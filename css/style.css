@@ -3228,6 +3228,11 @@ button.toggle.off {
   border-radius: 6px;
 }
 
+.product-box .info-box .detail-box .brand img:last-child {
+  width: 12px;
+  height: 12px;
+}
+
 .product-box .info-box .detail-box .name {
   margin-top: 12px;
   font-size: 18px;
@@ -3235,6 +3240,8 @@ button.toggle.off {
   line-height: 1.42;
 }
 .product-box .info-box .detail-box .name img {
+  width: 24px;
+  height: 24px;
   float: right;
 }
 
@@ -3569,7 +3576,8 @@ button.toggle.off {
 }
 
 .product-box .jp-review-box .review-detail button img {
-  padding-left: 8px;
+  width: 13px;
+  margin-left: 8px;
   vertical-align: baseline;
 }
 
@@ -3659,6 +3667,12 @@ button.toggle.off {
   font-weight: 400;
   line-height: 21px;
 }
+
+.product-box .no-list img{
+  width: 81px;
+  height: 90px;
+}
+
 .product-box .no-list .btn-pink {
   background-color: #ff43ca;
   color: #fff;
@@ -3711,6 +3725,7 @@ button.toggle.off {
 }
 
 .review-list-box .review-filter .filter-wrap img.divider {
+  height: 29px;
   padding: 0 4px;
 }
 .review-list-box .review-filter .filter-wrap .swipe-wrap {
@@ -3893,7 +3908,9 @@ button.toggle.off {
 }
 
 .review-list-box .product-review-list li .reaction img {
-  padding-left: 12px;
+  width: 18px;
+  height: 18px;
+  margin-left: 12px;
   vertical-align: sub;
 }
 
@@ -3999,6 +4016,8 @@ button.toggle.off {
   background-color: #1c1c1e;
 }
 .product-page-wrap .floating-footer button img {
+  width: 18px;
+  height: 18px;
   margin-right: 6px;
   vertical-align: sub;
 }
