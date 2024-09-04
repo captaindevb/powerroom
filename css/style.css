@@ -2129,6 +2129,8 @@ button.toggle.off {
   background-color: #fff;
 }
 .mypage-box .tool-box .sns-box img {
+  width: 24px;
+  height: 24px;
   margin-right: 3px;
 }
 
