@@ -1661,7 +1661,7 @@ button.toggle.off {
 }
 
 .app-review-page-wrap header button img {
-  width: 14px;
+  width: 24px;
 }
 
 .app-review-write-box {
@@ -1772,6 +1772,7 @@ button.toggle.off {
 }
 
 .write-guide .write-guide-box button img {
+  width: 13px;
   margin-left: 6px;
 }
 
