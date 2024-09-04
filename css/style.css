@@ -145,10 +145,6 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   left: 20px;
 }
 
-.common-wrap header button.btn-header-left img.back {
-  width: 11px;
-}
-
 .common-wrap header button.back {
   top: 5px;
   left: 0px;
