@@ -93,7 +93,7 @@ input[type="checkbox"] {
   transform: translate(-50%, -50%) scale(0);
   width: 28px;
   height: 28px;
-  background: url(../asset/images/icon-controls-checkbox-on@3x.png);
+  background: url(../asset/images/icon-controls-checkbox-on.png);
   background-size: 100%;
   border-radius: 2px;
 }
@@ -482,13 +482,13 @@ button.toggle {
 }
 
 button.toggle.on {
-  background: url(../asset/images/icon-toggle-on@3x.png);
+  background: url(../asset/images/icon-toggle-on.png);
   background-size: 51px;
   background-position-x: 5px;
 }
 
 button.toggle.off {
-  background: url(../asset/images/icon-toggle-off@3x.png);
+  background: url(../asset/images/icon-toggle-off.png);
   background-size: 51px;
 }
 
@@ -1117,19 +1117,19 @@ button.toggle.off {
 }
 
 .login-content .sns-box button.line {
-  background: #06c755 url(../asset/images/icon-my-line@3x.png) 10px center /
-    36px 36px no-repeat;
+  background: #06c755 url(../asset/images/icon-my-line.png) 10px center / 36px
+    36px no-repeat;
 }
 .login-content .sns-box button.x {
-  background: #000 url(../asset/images/icon-my-x@3x.png) 19px center / 18px 18px
+  background: #000 url(../asset/images/icon-my-x.png) 19px center / 18px 18px
     no-repeat;
 }
 .login-content .sns-box button.facebook {
-  background: #1877f2 url(../asset/images/icon-my-facebook@3x.png) 16px center /
+  background: #1877f2 url(../asset/images/icon-my-facebook.png) 16px center /
     24px 24px no-repeat;
 }
 .login-content .sns-box button.apple {
-  background: #000 url(../asset/images/icon-my-apple@3x.png) 21px center / 16px
+  background: #000 url(../asset/images/icon-my-apple.png) 21px center / 16px
     19px no-repeat;
 }
 
@@ -1394,7 +1394,7 @@ button.toggle.off {
   padding-right: 10px;
   color: #aeb2b9;
   font-size: 14px;
-  background: url(../asset/images/icon-more@3x.png) right no-repeat;
+  background: url(../asset/images/icon-more.png) right no-repeat;
   background-size: 6px 12px;
 }
 
@@ -2742,7 +2742,7 @@ button.toggle.off {
   line-height: 50px;
   border: 1px solid #d4d9dd;
   border-radius: 4px;
-  background: #fff url(../asset/images/icon-dropdown@3x.png) no-repeat
+  background: #fff url(../asset/images/icon-dropdown.png) no-repeat
     calc(100% - 21px) center / 12px 6px;
 }
 
@@ -3668,7 +3668,7 @@ button.toggle.off {
   line-height: 21px;
 }
 
-.product-box .no-list img{
+.product-box .no-list img {
   width: 81px;
   height: 90px;
 }
@@ -5031,7 +5031,7 @@ p {
   width: 100%;
   height: 40px;
   text-indent: 12px;
-  background: #373839 url(../asset/images/icon-review-selectbox-dropdown@3x.png)
+  background: #373839 url(../asset/images/icon-review-selectbox-dropdown.png)
     right 12px center no-repeat;
   background-size: 14px;
   appearance: none;
@@ -5673,7 +5673,7 @@ p {
   height: 40px;
   margin-bottom: 10px;
   text-indent: 12px;
-  background: #373839 url(../asset/images/icon-review-selectbox-dropdown@3x.png)
+  background: #373839 url(../asset/images/icon-review-selectbox-dropdown.png)
     right 12px center no-repeat;
   background-size: 14px;
   appearance: none;
@@ -5950,7 +5950,7 @@ p {
   display: flex;
   align-items: center;
   padding: 10px 15px;
-  background: #fff url(../asset/images/icon-dropdown@3x.png) no-repeat
+  background: #fff url(../asset/images/icon-dropdown.png) no-repeat
     calc(100% - 21px) center / 12px 6px;
 }
 
@@ -6132,7 +6132,7 @@ p {
 }
 
 .popup-content-wrap .option-popup li.on {
-  background: url(../asset/images/icon-option-check@3x.png) no-repeat
+  background: url(../asset/images/icon-option-check.png) no-repeat
     calc(100% - 25px) center / 14px 14px;
 }
 
@@ -6196,8 +6196,8 @@ p {
   margin-bottom: 25px;
   border-radius: 4px;
   border: 1px solid #d4d9dd;
-  background: url(../asset/images/icon-dropdown@3x.png) no-repeat
-    calc(100% - 15px) center / 12px 6px;
+  background: url(../asset/images/icon-dropdown.png) no-repeat calc(100% - 15px)
+    center / 12px 6px;
 }
 
 .review-write-box .option-box img {
