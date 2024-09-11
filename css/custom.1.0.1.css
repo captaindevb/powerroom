@@ -2570,3 +2570,90 @@ button.all-submit-btn {
 .modal-wrap .content.product-change.template .template-area {
   justify-content: space-between;
 }
+
+/*NEW 디자인 QA*/
+/*리뷰작성*/
+.review-product-search .search-input-wrap input {
+  font-size: 14px;
+}
+.modal-wrap .content.product-change.template .title-area button img {
+  margin-top: -3px;
+}
+.modal-wrap .content.product-change.template .template-area .select {
+  width: 74px;
+  margin-right: 11px;
+}
+.modal-wrap .content.product-change.template .overflow-area {
+  width: calc(100% - 85px);
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options {
+  margin-left: 0;
+  padding: 20px 16px;
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags {
+  display: flex;
+  flex-flow: wrap;
+  width: calc(100% + 2px);
+  margin-left: -2px;
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags
+  label {
+  border: 1px solid #eceef2;
+}
+.modal-wrap .content.product-change.template .overflow-area {
+  max-height: auto;
+}
+.modal-wrap .content.product-change.template .template-area .group-item p {
+  color: #222;
+  font-size: 13px;
+  line-height: 19px;
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags
+  label {
+  line-height: 30px;
+  padding: 0 13px;
+  font-size: 12px;
+  letter-spacing: -0.24px;
+}
+
+.review-wirte-wrap .input-item .title-wrapper button {
+  color: #222;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow::after {
+  background-size: 14px !important;
+  background: #373839
+    url(/assets/theme/powderroom/images/icon-review-selectbox-dropdown.png)
+    center center no-repeat;
+}
+
+.item-unregistered-wrap input:-webkit-autofill,
+.item-unregistered-wrap input:-webkit-autofill:hover,
+.item-unregistered-wrap input:-webkit-autofill:focus,
+.item-unregistered-wrap input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-transition: background-color 9999s ease-out;
+  -webkit-box-shadow: 0 0 0px 1000px #373839 inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+img#send-comment-btn {
+  width: 24px;
+}
