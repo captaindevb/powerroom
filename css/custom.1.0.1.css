@@ -2361,7 +2361,7 @@ button.all-submit-btn {
 }
 
 .product-content .product-box .kr-review-box .content ul::after {
-  background: url(../asset/images/img-character-wink@3x.png) center no-repeat;
+  background: url(../asset/images/img-character-wink.png) center no-repeat;
   background-size: 108px 113px;
 }
 
@@ -2425,7 +2425,7 @@ button.all-submit-btn {
   font-size: 11px;
   letter-spacing: -0.22px;
   line-height: 142%;
-  background: transparent url(../asset/images/icon-option-dropdown@3x.png) left
+  background: transparent url(../asset/images/icon-option-dropdown.png) left
     center no-repeat;
 }
 
