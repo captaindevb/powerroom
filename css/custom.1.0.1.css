@@ -2115,7 +2115,7 @@ button.all-submit-btn {
 
 .review-desc-wrapper .desc {
   color: #68696b;
-  font-weight: 12px;
+  font-size: 12px;
 }
 
 .write-guide .write-guide-box .guide {
@@ -2179,343 +2179,342 @@ button.all-submit-btn {
   margin-top: 3px;
 }
 
-
 /* 리뷰상세 모달 */
 .review-page-wrap .review-detail-popup .popup-header {
-    color: #000;
-    font-size: 18px;
+  color: #000;
+  font-size: 18px;
 }
 
 .review-detail-popup .popup-header span {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .review-detail-popup .popup-header span.like_count {
-    color: #000;
+  color: #000;
 }
 
 .review-detail-popup
-.comment-wrap
-.origin
-.text-wrap
-.comment-detail
-.text
-strong {
-    font-weight: 700;
+  .comment-wrap
+  .origin
+  .text-wrap
+  .comment-detail
+  .text
+  strong {
+  font-weight: 700;
 }
 
 .review-detail-popup .comment-wrap .origin .text-wrap .comment-detail .date {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .review-detail-popup
-.comment-wrap
-.origin
-.text-wrap
-.comment-detail
-.date
-button {
-    font-size: 11px;
+  .comment-wrap
+  .origin
+  .text-wrap
+  .comment-detail
+  .date
+  button {
+  font-size: 11px;
 }
 
 .review-detail-popup .popup-content .send-desc-wrap p {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .review-detail-popup .popup-content .send-desc-wrap p strong {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .review-detail-popup .popup-content .send-comment-wrap2 .write-input {
-    padding: 12px 16px;
+  padding: 12px 16px;
 }
 
 .review-detail-popup .popup-content .send-comment-wrap2 span {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .review-detail-popup .popup-content .send-comment-wrap2 input {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .review-detail-popup .popup-content .send-comment-wrap2 button {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .review-detail-popup .review-filter-detail .product-wrap .product-detail .desc {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .review-detail-popup .review-filter-detail .product-wrap .product-detail span {
-    color: #000;
+  color: #000;
 }
 
 .review-page-wrap .profile-info-box .user-wrap img {
-    width: 38px;
-    height: 38px;
+  width: 38px;
+  height: 38px;
 }
 
 .review-page-wrap .profile-info-box .user-wrap .user .time {
-    display: flex;
-    margin-top: 2px;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  margin-top: 2px;
+  flex-direction: row;
+  align-items: center;
 }
 
 .review-page-wrap .profile-info-box .user-wrap .user .time span.time-txt {
-    margin-right: 4px;
-    color: #929498;
+  margin-right: 4px;
+  color: #929498;
 }
 
 .review-page-wrap .profile-info-box .user-wrap .user .time span.tag {
-    display: block;
-    height: 20px;
-    padding: 0 6px;
-    margin-left: 4px;
-    align-content: center;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 142%;
-    border-radius: 4px;
-    background-color: #f2f3f6;
-    opacity: 0.8;
-    color: #000000;
+  display: block;
+  height: 20px;
+  padding: 0 6px;
+  margin-left: 4px;
+  align-content: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%;
+  border-radius: 4px;
+  background-color: #f2f3f6;
+  opacity: 0.8;
+  color: #000000;
 }
 
 .review-page-wrap .detail-box .title {
-    color: #000000;
+  color: #000000;
 }
 
 .review-page-wrap .reaction-box button.active span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .review-page-wrap .reaction-box button {
-    font-size: 8.5px;
-    color: #68696b;
+  font-size: 8.5px;
+  color: #68696b;
 }
 
 .review-page-wrap .reaction-box button span {
-    color: #000;
+  color: #000;
 }
 
 .review-page-wrap .reaction-box button img {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 /* 마이페이지 */
 .mypage-content .mypage-box .tab-box button.on {
-    color: #000;
-    border-bottom: 2px solid #000;
+  color: #000;
+  border-bottom: 2px solid #000;
 }
 
 .mypage-content .review-list-box .review-filter label {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .mypage-content .review-list-box .review-summary {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .mypage-content .review-list-box .my-review-list .review-info-box .label {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .mypage-content .review-list-box .my-review-list.list li .thumb {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
 .mypage-content .review-list-box .my-review-list.list li .thumb img:last-child {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .mypage-content .review-list-box .my-review-list.list li {
-    padding: 0;
+  padding: 0;
 }
 
 .mypage-content .review-list-box .my-review-list li .reaction span {
-    font-size: 14px;
-    font-weight: 500;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .mypage-content .review-list-box .my-review-list .review-info-box .label {
-    background: rgba(255, 67, 202, 0.7);
+  background: rgba(255, 67, 202, 0.7);
 }
 
 .mypage-content .review-list-box .my-review-list .review-info-box .label.dark {
-    background-color: #000;
+  background-color: #000;
 }
 
 /* 상품 상세 */
 .product-content .detail-box {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 .product-content .tab-box {
-    border-bottom: 1px solid #f2f3f6;
+  border-bottom: 1px solid #f2f3f6;
 }
 
 .product-content .product-box .kr-review-box .content p.title {
-    margin-top: 4px;
-    color: #000;
+  margin-top: 4px;
+  color: #000;
 }
 
 .product-content .product-box .kr-review-box .content ul::after {
-    background: url(../asset/images/img-character-wink@3x.png) center no-repeat;
-    background-size: 108px 113px;
+  background: url(../asset/images/img-character-wink@3x.png) center no-repeat;
+  background-size: 108px 113px;
 }
 
 .product-content .product-box .kr-review-box .content ul li {
-    width: 122px;
-    height: 33px;
-    font-size: 9px;
+  width: 122px;
+  height: 33px;
+  font-size: 9px;
 }
 
 .product-content .product-box .jp-review-box .title {
-    color: #000;
+  color: #000;
 }
 
 .product-content .product-box .jp-review-box .review-summary {
-    justify-content: center;
-    gap: 48px;
+  justify-content: center;
+  gap: 48px;
 }
 
 .product-content .product-box .jp-review-box .review-detail {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .product-content .product-box .jp-review-box .review-detail .progress-wrap {
-    display: grid;
+  display: grid;
 }
 
 .product-content .product-box .kr-review-box .content p.title {
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 142%;
-    letter-spacing: -0.26px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: -0.26px;
 }
 
 .product-box .kr-review-box .content p:first-child {
-    font-weight: 400;
-    letter-spacing: -0.54px;
+  font-weight: 400;
+  letter-spacing: -0.54px;
 }
 
 .product-content .toggle-button .button-text {
-    color: #929498;
+  color: #929498;
 }
 
 .product-content .review-list-box .review-filter p {
-    color: #000;
+  color: #000;
 }
 
 .product-content
-.review-list-box
-.review-filter
-.filter-wrap
-> .btn-check
-+ .btn {
-    line-height: 18px;
-    font-size: 13px;
-    padding: 7px 12px 7px 33px;
+  .review-list-box
+  .review-filter
+  .filter-wrap
+  > .btn-check
+  + .btn {
+  line-height: 18px;
+  font-size: 13px;
+  padding: 7px 12px 7px 33px;
 }
 
 .product-content .review-list-box .review-summary select {
-    background-size: 12px;
-    font-size: 11px;
-    letter-spacing: -0.22px;
-    line-height: 142%;
-    background: transparent url(../asset/images/icon-option-dropdown@3x.png) left
+  background-size: 12px;
+  font-size: 11px;
+  letter-spacing: -0.22px;
+  line-height: 142%;
+  background: transparent url(../asset/images/icon-option-dropdown@3x.png) left
     center no-repeat;
 }
 
 .product-content .review-list-box .product-review-list li p.title {
-    font-weight: 500;
-    line-height: 142%;
-    letter-spacing: -0.32px;
-    color: #000;
+  font-weight: 500;
+  line-height: 142%;
+  letter-spacing: -0.32px;
+  color: #000;
 }
 
 .product-content .review-list-box .product-review-list li .reaction span {
-    font-size: 14px;
-    font-weight: 500;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .product-content .review-list-box .product-review-list li img {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 
 .product-content .review-list-box .product-review-list li .thumb {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .product-content
-.review-list-box
-.product-review-list
-li
-.thumb
-img:last-child {
-    margin-right: 16px;
+  .review-list-box
+  .product-review-list
+  li
+  .thumb
+  img:last-child {
+  margin-right: 16px;
 }
 
 /* 리뷰작성 > 템플릿 */
 .modal-wrap .content.product-change.template .template-area .select button {
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 142%;
-    letter-spacing: -0.3px;
-    color: #222;
-    word-break: keep-all;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: -0.3px;
+  color: #222;
+  word-break: keep-all;
 }
 
 .modal-wrap .content.product-change.template .template-area .select {
-    margin-right: 12px;
+  margin-right: 12px;
 }
 
 .modal-wrap
-.content.product-change.template
-.template-area
-.group-item
-textarea.on {
-    height: 100%;
-    background: linear-gradient(
-            0deg,
-            rgba(255, 67, 202, 0.05) 0%,
-            rgba(255, 67, 202, 0.05) 100%
+  .content.product-change.template
+  .template-area
+  .group-item
+  textarea.on {
+  height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 67, 202, 0.05) 0%,
+      rgba(255, 67, 202, 0.05) 100%
     ),
     #fff !important;
 }
 
 .modal-wrap
-.content.product-change.template
-.template-area
-.group-item
-.content {
-    line-height: 142%;
-    letter-spacing: -0.24px;
+  .content.product-change.template
+  .template-area
+  .group-item
+  .content {
+  line-height: 142%;
+  letter-spacing: -0.24px;
 }
 
 .modal-wrap
-.content.product-change.template
-.template-area
-.group-item.options
-.tags
-label {
-    font-size: 13px;
-    line-height: 142%;
-    color: #929498;
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags
+  label {
+  font-size: 13px;
+  line-height: 142%;
+  color: #929498;
 }
 
 .modal-wrap
-.content.product-change.template
-.template-area
-.group-item.options
-.tags
-input[type="checkbox"]:checked
-+ label {
-    color: #ff43ca;
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags
+  input[type="checkbox"]:checked
+  + label {
+  color: #ff43ca;
 }
 
-.modal-wrap .content.product-change.template .template-area{
-    justify-content: space-between;
+.modal-wrap .content.product-change.template .template-area {
+  justify-content: space-between;
 }
