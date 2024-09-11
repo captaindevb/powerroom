@@ -2369,6 +2369,7 @@ button.all-submit-btn {
   width: 122px;
   height: 33px;
   font-size: 9px;
+  line-height: 33px;
 }
 
 .product-content .product-box .jp-review-box .title {
