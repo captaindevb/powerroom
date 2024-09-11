@@ -2401,7 +2401,24 @@ button.all-submit-btn {
   letter-spacing: -0.54px;
 }
 
+.product-content .product-box .info-box .detail-box .brand img:first-child {
+  width: 22px;
+  height: 22px;
+}
+
+.main-page-wrap header.line {
+  border-bottom: none;
+}
+
+.main-page-wrap nav.nav-wrap {
+  border-top: none;
+}
+.main-page-wrap {
+  background-color: #f6f9ff;
+}
+
 .product-content .toggle-button .button-text {
+  font-size: 12px;
   color: #929498;
 }
 
@@ -2447,6 +2464,11 @@ button.all-submit-btn {
 
 .product-content .review-list-box .product-review-list li .thumb {
   margin-right: 0;
+}
+
+.product-content .review-list-box .product-review-list li .thumb img {
+  width: 90px;
+  height: 90px;
 }
 
 .product-content
