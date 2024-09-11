@@ -2383,6 +2383,7 @@ button.all-submit-btn {
 
 .product-content .product-box .jp-review-box .review-detail {
   margin-top: 0;
+  padding: 0;
 }
 
 .product-content .product-box .jp-review-box .review-detail .progress-wrap {
@@ -2478,6 +2479,34 @@ button.all-submit-btn {
   .thumb
   img:last-child {
   margin-right: 16px;
+}
+
+.product-content .star2 {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+}
+
+.product-content .star2 .star2-rating-foreground {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(../asset/images/icon-product-review-star-on.png);
+}
+
+.product-content .star2 .star2-rating-background {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(../asset/images/icon-product-review-star-off.png);
+}
+
+.product-content .product-box .kr-review-box {
+  padding: 20px 16px 28px;
+}
+
+.product-content .product-box .kr-review-box + .jp-review-box {
+  padding-top: 8px;
 }
 
 /* 리뷰작성 > 템플릿 */
