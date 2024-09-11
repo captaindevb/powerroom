@@ -1983,3 +1983,198 @@ button.all-submit-btn {
 .center-modal-wrap .modal-inner {
   width: 288px;
 }
+
+/**********디자인 QA**********/
+/*리뷰 작성*/
+.review-item-wrap .item-select-wrap p {
+  font-weight: 300;
+}
+
+.review-item-wrap .item-select-wrap button {
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.review-item-wrap .item-select-wrap button img {
+  top: 11px;
+}
+
+.review-wirte-wrap .input-item > label {
+  line-height: 22px;
+  padding-bottom: 15px;
+}
+
+.review-wirte-wrap .input-item .valid-wrap {
+  margin-bottom: 0;
+}
+
+.review-wirte-wrap .input-item .btns.valid-wrap label {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.review-wirte-wrap .input-item input[type="text"] {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  padding: 12px 16px;
+}
+
+.review-wirte-wrap .input-item .textarea-wrap textarea {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  padding: 8px 16px 12px 16px;
+  height: 108px;
+}
+
+.review-wirte-wrap .input-item .text-btns {
+  padding: 4px 16px 12px 16px;
+}
+
+.review-wirte-wrap .input-item .text-btns .template {
+  font-size: 12px;
+  line-height: 17px;
+  padding: 7px 12px;
+}
+
+.review-wirte-wrap .btn-wrap button.all-submit-btn {
+  border-radius: 0;
+}
+
+.review-wirte-wrap .sns-info p {
+  font-weight: 300;
+}
+
+/*체험단 리뷰 작성*/
+.app-review-write-box .product-info-box img {
+  border: none;
+}
+
+.app-review-write-box .product-info-box .info p {
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.app-review-write-box .product-info-box .info p + span {
+  display: block;
+  font-size: 14px;
+  color: #68696b;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.app-review-write-box .product-info-box .info .mission-date {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.tag-box .title-wrapper button {
+  font-size: 12px;
+  line-height: 30px;
+  padding: 0 12px;
+  font-weight: 600;
+}
+
+.tag-box .req-tag input[type="text"] {
+  background: #fff !important;
+  border: 1px solid #eceef2;
+  color: #222;
+}
+
+.content-submit .submit-box .sub {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.tag-box .valid-wrap {
+  margin-bottom: 0;
+}
+
+.tag-box .req-tag.content-submit {
+  border-bottom: 0;
+}
+
+.product-info-box.review .content {
+  max-width: calc(100% - 100px);
+  margin-right: 0;
+}
+
+.mission-product-info-wrapper
+  .mission-product-info
+  .product-info-box
+  .info
+  span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.review-desc-wrapper .desc {
+  color: #68696b;
+  font-weight: 12px;
+}
+
+.write-guide .write-guide-box .guide {
+  line-height: 20px;
+}
+
+.write-guide .write-guide-box button.more-btn .button-text {
+  font-size: 10px;
+  color: #b8bbbf;
+}
+
+.write-guide .write-guide-box button.more-btn img {
+  margin-bottom: -4px;
+}
+
+.review-wirte-wrap .write-detail p {
+  color: #000;
+}
+.review-wirte-wrap .input-item > label {
+  color: #000;
+}
+
+/*상품 검색*/
+.review-product-search .search-main .inner svg + p {
+  font-size: 15px;
+}
+
+.review-product-search .search-main .inner svg + p + p {
+  font-size: 14px;
+  padding-top: 5px;
+  line-height: 21px;
+}
+
+.review-product-search .search-list ul li p {
+  line-height: 17px;
+}
+
+.modal-wrap .modal-inner .popup-header.review-mission {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  padding: 24px 16px 0 16px;
+}
+
+/*리뷰 상품 변경*/
+.modal-wrap .content.product-change p {
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.modal-wrap .content.product-change .btns button {
+  line-height: 23px;
+  padding: 14px;
+}
+
+/*SNS 불러오기 모달*/
+.modal-wrap .content.sns-load button {
+  padding: 13px 0;
+}
+.modal-wrap .content.sns-load > div + button {
+  margin-top: 3px;
+}
