@@ -1,5 +1,17 @@
 # POWERROOM-jp
 
+## 디자인 QA
+
+### 2024.09.11
+
+https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B3%B5%EC%9C%A0%EC%9A%A9)v.1.0_Design-Library?node-id=1433-25160&node-type=SECTION&t=O2ts2K3yadJj6Nsf-0
+
+QA 작업 전달 드릴 사항
+https://captaindevb.notion.site/QA-c4051cf6a83f42909dbdbd997010d907
+참고하여 작업 부탁드립니다.
+
+기존 아이콘 수정 작업 건은 common.css에 적용해주셔야 하며, 디자인 QA 작업만 custom.css에 작업하였습니다. 참고 부탁드립니다.
+
 ## UI개발
 
 ### 2024.07.29 (JP_v.1.0)
