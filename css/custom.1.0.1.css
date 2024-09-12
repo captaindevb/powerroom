@@ -3125,3 +3125,9 @@ img#send-comment-btn {
   word-break: break-all;
   inline-size: max-content;
 }
+
+.popup-dim-wrap .popup-content-wrap .popup-header button {
+  width: 44px;
+  top: 9px;
+  right: 10px;
+}
