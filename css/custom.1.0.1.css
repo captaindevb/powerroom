@@ -2897,3 +2897,8 @@ img#send-comment-btn {
   width: 100%;
   height: 100%;
 }
+
+.floating-footer button.modal-submit-btn,
+.floating-footer button.all-submit-btn {
+  border-radius: 0;
+}
