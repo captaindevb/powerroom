@@ -2618,7 +2618,7 @@ button.all-submit-btn {
 /* 홈 */
 .main-ranking,
 .main-ranking {
-    background: #fff;
+  background: #fff;
 }
 
 /*NEW 디자인 QA*/
@@ -2891,4 +2891,9 @@ img#send-comment-btn {
 
 .review-wirte-wrap .upload-img-wrap .swipe-wrap .img-item {
   margin: 8px 0 10px 0;
+}
+
+.review-list-box.bookmark .my-review-list .product .image-container img {
+  width: 100%;
+  height: 100%;
 }
