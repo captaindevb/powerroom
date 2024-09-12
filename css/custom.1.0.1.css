@@ -212,7 +212,6 @@ html {
 
 .star2-rating {
   display: flex;
-  gap: 4px;
 }
 
 .star2 {
@@ -246,10 +245,6 @@ html {
 .star2-mini .star2-rating-foreground {
   height: 16px;
   background-size: 16px 16px;
-}
-
-.star2-mini {
-  gap: 2px;
 }
 
 .star2-mini .star2 {
