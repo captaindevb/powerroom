@@ -3100,3 +3100,12 @@ img#send-comment-btn {
 .review-product-search .search-list ul li .img-wrap {
   background: none;
 }
+
+.app-review-write-box
+  .tag-box
+  .req-tag.content-submit
+  .submit-box
+  .input-box
+  input {
+  padding-right: 45px;
+}
