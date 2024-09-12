@@ -2410,6 +2410,14 @@ button.all-submit-btn {
   margin-left: 2px;
 }
 
+.mypage-content .review-list-box.bookmark .my-review-list .user-info-box .info {
+  color: #b8bbbf;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: -0.24px;
+}
+
 /* 리뷰 > 상품 상세 */
 .detail-box .product .product-detail .name strong,
 .detail-box .product .product-detail .name span {
