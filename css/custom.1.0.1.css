@@ -2398,7 +2398,6 @@ button.all-submit-btn {
 }
 
 .product-content .product-box .kr-review-box .content ul::after {
-  background: url(../asset/images/img-character-wink.png) center no-repeat;
   background-size: 108px 113px;
 }
 
@@ -2414,6 +2413,7 @@ button.all-submit-btn {
 }
 
 .product-content .product-box .jp-review-box .review-summary {
+  padding-bottom: 0;
   justify-content: center;
   gap: 48px;
 }
@@ -2421,6 +2421,10 @@ button.all-submit-btn {
 .product-content .product-box .jp-review-box .review-detail {
   margin-top: 0;
   padding: 0;
+}
+
+.product-content .product-box .jp-review-box .review-summary + .review-detail {
+  padding-top: 20px;
 }
 
 .product-content .product-box .jp-review-box .review-detail .progress-wrap {
@@ -2476,12 +2480,9 @@ button.all-submit-btn {
 }
 
 .product-content .review-list-box .review-summary select {
-  background-size: 12px;
   font-size: 11px;
   letter-spacing: -0.22px;
   line-height: 142%;
-  background: transparent url(../asset/images/icon-option-dropdown.png) left
-    center no-repeat;
 }
 
 .product-content .review-list-box .product-review-list li p.title {
@@ -2518,24 +2519,22 @@ button.all-submit-btn {
   margin-right: 16px;
 }
 
-.product-content .star2 {
+.product-content .review-summary .star2 {
   width: 24px;
   height: 24px;
   padding: 0;
 }
 
-.product-content .star2 .star2-rating-foreground {
+.product-content .review-summary .star2 .star2-rating-foreground {
   width: 24px;
   height: 24px;
   background-size: 24px 24px;
-  background-image: url(../asset/images/icon-product-review-star-on.png);
 }
 
-.product-content .star2 .star2-rating-background {
+.product-content .review-summary .star2 .star2-rating-background {
   width: 24px;
   height: 24px;
   background-size: 24px 24px;
-  background-image: url(../asset/images/icon-product-review-star-off.png);
 }
 
 .product-content .product-box .kr-review-box {
@@ -2544,6 +2543,7 @@ button.all-submit-btn {
 
 .product-content .product-box .kr-review-box + .jp-review-box {
   padding-top: 8px;
+  padding-bottom: 28px;
 }
 .common-wrap header button.btn-header-left {
   top: 5px;
@@ -2613,6 +2613,12 @@ button.all-submit-btn {
 
 .modal-wrap .content.product-change.template .template-area {
   justify-content: space-between;
+}
+
+/* 홈 */
+.main-ranking,
+.main-ranking {
+    background: #fff;
 }
 
 /*NEW 디자인 QA*/
