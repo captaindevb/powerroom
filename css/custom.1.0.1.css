@@ -2588,6 +2588,11 @@ button.all-submit-btn {
   height: 90px;
 }
 
+.product-content .review-list-box .product-review-list li .user-info-box img {
+  width: 22px;
+  height: 22px;
+}
+
 .product-content
   .review-list-box
   .product-review-list
