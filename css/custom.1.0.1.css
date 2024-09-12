@@ -2138,6 +2138,15 @@ button.all-submit-btn {
   color: #000;
 }
 
+.app-review-write-box .tag-box .submit-box .input-box button {
+  height: 24px;
+  top: 13px;
+}
+.app-review-write-box .tag-box .submit-box .input-box button img {
+  width: 24px;
+  height: 24px;
+}
+
 /*상품 검색*/
 .review-product-search .search-main .inner svg + p {
   font-size: 15px;
