@@ -2157,7 +2157,7 @@ button.all-submit-btn {
   font-size: 18px;
   font-weight: 700;
   color: #222;
-  padding: 24px 16px 0 16px;
+  padding: 24px 16px 16px 16px;
 }
 
 /*리뷰 상품 변경*/
@@ -2901,4 +2901,62 @@ img#send-comment-btn {
 .floating-footer button.modal-submit-btn,
 .floating-footer button.all-submit-btn {
   border-radius: 0;
+}
+
+.floating-footer.review-mission {
+  display: flex;
+  padding: 16px;
+  box-sizing: border-box;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 16px) !important;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 16px) !important;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.floating-footer.review-mission button {
+  width: calc(50% - 4px);
+  border-radius: 8px;
+}
+
+.floating-footer.review-mission button:first-child {
+  background: #eceef2;
+  color: #222;
+}
+
+.floating-footer.review-mission button:last-child {
+  background: #ebf0fb;
+  color: #fff;
+}
+
+.popup-content .mission-product-info-wrapper .mission-product-info {
+  padding-top: 0;
+}
+
+.modal-wrap .review-wirte-wrap.mission {
+  margin-bottom: 0;
+  padding-bottom: 92px;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 92px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 92px);
+}
+
+.modal-wrap .review-wirte-wrap.mission .tag-item .btns label {
+  font-size: 13px !important;
+  color: #222 !important;
+  border: 1px solid #b8bbbf;
+  line-height: 34px;
+  margin-right: 6px;
+  padding: 0 13px !important;
+  margin-bottom: 0px !important;
+  font-weight: 700;
+}
+
+.modal-wrap
+  .review-wirte-wrap.mission
+  .tag-item
+  .btns
+  input[type="checkbox"]:checked
+  + label {
+  border-color: #ff43ca;
+  color: #ff43ca !important;
+  background: rgba(255, 67, 202, 0.1);
 }
