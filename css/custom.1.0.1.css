@@ -2282,6 +2282,10 @@ button.all-submit-btn {
   color: #000000;
 }
 
+.review-page-wrap .profile-info-box .btn-wrap .more-dot3-button img {
+  width: 24px;
+}
+
 .review-page-wrap .detail-box .title {
   color: #000000;
 }
@@ -2507,6 +2511,13 @@ button.all-submit-btn {
 
 .product-content .product-box .kr-review-box + .jp-review-box {
   padding-top: 8px;
+}
+.common-wrap header button.btn-header-left {
+  top: 5px;
+  left: 0;
+}
+.common-wrap header button.btn-header-left img {
+  width: 44px;
 }
 
 /* 리뷰작성 > 템플릿 */
