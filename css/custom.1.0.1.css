@@ -212,7 +212,6 @@ html {
 
 .star2-rating {
   display: flex;
-  gap: 4px;
 }
 
 .star2 {
@@ -246,10 +245,6 @@ html {
 .star2-mini .star2-rating-foreground {
   height: 16px;
   background-size: 16px 16px;
-}
-
-.star2-mini {
-  gap: 2px;
 }
 
 .star2-mini .star2 {
@@ -2413,6 +2408,14 @@ button.all-submit-btn {
   .name
   + .tag {
   margin-left: 2px;
+}
+
+.mypage-content .review-list-box.bookmark .my-review-list .user-info-box .info {
+  color: #b8bbbf;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: -0.24px;
 }
 
 /* 리뷰 > 상품 상세 */
