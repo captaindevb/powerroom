@@ -3109,3 +3109,14 @@ img#send-comment-btn {
   input {
   padding-right: 45px;
 }
+
+.review-wirte-wrap .tag-wrap .tag-item {
+  overflow-x: scroll;
+}
+
+.review-wirte-wrap .tag-wrap .tag-item .swipe-wrap {
+  flex-flow: wrap;
+  width: unset;
+  word-break: break-all;
+  inline-size: max-content;
+}
