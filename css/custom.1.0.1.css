@@ -2614,3 +2614,219 @@ button.all-submit-btn {
 .modal-wrap .content.product-change.template .template-area {
   justify-content: space-between;
 }
+
+/*NEW 디자인 QA*/
+/*리뷰작성*/
+.review-product-search .search-input-wrap input {
+  font-size: 14px;
+}
+.modal-wrap .content.product-change.template .title-area button img {
+  margin-top: -3px;
+}
+.modal-wrap .content.product-change.template .template-area .select {
+  width: 74px;
+  margin-right: 11px;
+}
+.modal-wrap .content.product-change.template .overflow-area {
+  width: calc(100% - 85px);
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options {
+  margin-left: 0;
+  padding: 20px 16px;
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags {
+  display: flex;
+  flex-flow: wrap;
+  width: calc(100% + 2px);
+  margin-left: -2px;
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags
+  label {
+  border: 1px solid #eceef2;
+}
+.modal-wrap .content.product-change.template .overflow-area {
+  max-height: auto;
+}
+.modal-wrap .content.product-change.template .template-area .group-item p {
+  color: #222;
+  font-size: 13px;
+  line-height: 19px;
+}
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item.options
+  .tags
+  label {
+  line-height: 30px;
+  padding: 0 13px;
+  font-size: 12px;
+  letter-spacing: -0.24px;
+}
+
+.review-wirte-wrap .input-item .title-wrapper button {
+  color: #222;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow::after {
+  background-size: 14px !important;
+  background: #373839
+    url(/assets/theme/powderroom/images/icon-review-selectbox-dropdown.png)
+    center center no-repeat;
+}
+
+.item-unregistered-wrap input:-webkit-autofill,
+.item-unregistered-wrap input:-webkit-autofill:hover,
+.item-unregistered-wrap input:-webkit-autofill:focus,
+.item-unregistered-wrap input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-transition: background-color 9999s ease-out;
+  -webkit-box-shadow: 0 0 0px 1000px #373839 inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+img#send-comment-btn {
+  width: 24px;
+}
+
+.review-wirte-wrap .input-item .btns.valid-wrap label {
+  font-size: 13px !important;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .overflow-area
+  .group-item
+  textarea#textarea-type1,
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .overflow-area
+  .group-item
+  textarea#textarea-type1.on {
+  height: 248px !important;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .overflow-area
+  .group-item
+  textarea#textarea-type2,
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .overflow-area
+  .group-item
+  textarea#textarea-type2.on {
+  height: 230px !important;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item
+  textarea {
+  overflow-y: hidden;
+  padding: 3px 7px !important;
+  line-height: 17px;
+}
+
+.modal-wrap
+  .content.product-change.template
+  .template-area
+  .group-item
+  textarea.on {
+  font-weight: 700;
+}
+
+.item-unregistered-wrap div.valid-wrap {
+  margin-bottom: 0;
+}
+
+.item-unregistered-wrap div:nth-child(2) {
+  margin-bottom: 6px;
+}
+
+.item-unregistered-wrap div:nth-child(2) select {
+  font-size: 14px;
+  color: #929498;
+}
+
+.item-unregistered-wrap div:nth-child(2) select option {
+  color: #fff;
+}
+
+.item-unregistered-wrap div:nth-child(2) select:invalid,
+.item-unregistered-wrap div:nth-child(2) select option[value=""],
+.item-unregistered-wrap div:nth-child(2) select option:first-child {
+  color: #929498;
+}
+
+.item-unregistered-wrap div:nth-child(3) {
+  margin-bottom: 6px;
+}
+
+.item-unregistered-wrap
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__placeholder {
+  color: #929498 !important;
+}
+
+.item-unregistered-wrap
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered[title] {
+  color: #fff !important;
+}
+
+.item-unregistered-wrap div:nth-child(5) {
+  margin-bottom: 25px;
+}
+
+.item-unregistered-wrap .textarea-wrap textarea {
+  line-height: 20px;
+  font-size: 13px;
+  letter-spacing: -0.2px;
+}
+
+.popup-content .comment-wrap .origin .text-wrap .comment-detail .text {
+  display: inline;
+  word-break: break-all;
+}
+.review-detail-popup
+  .comment-wrap
+  .origin
+  .text-wrap
+  .comment-detail
+  .text
+  strong {
+  display: inline !important;
+}
+
+.review-detail-popup .comment-wrap .origin .text-wrap .comment-detail .date {
+  padding-top: 3px;
+}
+
+.write-guide-box.expanded .guide-wrapper {
+  max-height: none !important;
+}
+
+.write-guide-box.expanded .guide-wrapper #missionGuide {
+  max-height: none !important;
+}
