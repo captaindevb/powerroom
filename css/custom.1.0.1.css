@@ -2374,6 +2374,38 @@ button.all-submit-btn {
   -webkit-line-clamp: 1;
 }
 
+.mypage-content
+  .review-list-box.bookmark
+  .my-review-list
+  .user-info-box
+  span.name::after {
+  display: none;
+}
+
+.mypage-content
+  .review-list-box.bookmark
+  .my-review-list
+  .user-info-box
+  span.tag {
+  padding: 6px;
+  border-radius: 4px;
+  opacity: 0.8;
+  background: #f2f3f6;
+  font-size: 10px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: -0.2px;
+}
+
+.mypage-content
+  .review-list-box.bookmark
+  .my-review-list
+  .user-info-box
+  .name
+  + .tag {
+  margin-left: 2px;
+}
+
 /* 리뷰 > 상품 상세 */
 .detail-box .product .product-detail .name strong,
 .detail-box .product .product-detail .name span {
@@ -2421,6 +2453,10 @@ button.all-submit-btn {
 .product-content .product-box .jp-review-box .review-detail {
   margin-top: 0;
   padding: 0;
+}
+
+.product-content .product-box .jp-review-box {
+  padding-bottom: 28px;
 }
 
 .product-content .product-box .jp-review-box .review-summary + .review-detail {
