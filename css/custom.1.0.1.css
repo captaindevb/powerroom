@@ -2505,6 +2505,10 @@ button.all-submit-btn {
   padding-top: 20px;
 }
 
+.product-content .product-box .jp-review-box .review-detail button {
+  position: initial;
+}
+
 .product-content .product-box .jp-review-box .review-detail .progress-wrap {
   display: grid;
 }
