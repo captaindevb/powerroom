@@ -3135,3 +3135,7 @@ img#send-comment-btn {
   top: 9px;
   right: 10px;
 }
+
+.exp-content .exp-join-form .form-box .form-item.valid-wrap {
+  margin-bottom: 0;
+}
