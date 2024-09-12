@@ -3088,3 +3088,11 @@ img#send-comment-btn {
   height: 4px;
   border-radius: 50%;
 }
+
+.product-box .product-select-box .option.selectbox3 {
+  z-index: 11;
+}
+
+.review-product-search .search-list ul li .img-wrap {
+  background: none;
+}
