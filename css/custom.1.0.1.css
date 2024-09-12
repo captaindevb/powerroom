@@ -3029,3 +3029,14 @@ img#send-comment-btn {
 .app-review-write-box .write-guide .write-guide-box .guide-wrapper {
   max-height: 150px;
 }
+
+.modal-wrap .content.write-profile .close {
+  right: 9px;
+  top: 9px;
+  width: 44px;
+  height: 44px;
+}
+
+.modal-wrap .content.write-profile .close img {
+  width: 100%;
+}
