@@ -2771,6 +2771,10 @@ img#send-comment-btn {
   color: #fff;
 }
 
+.item-unregistered-wrap div:nth-child(2) select:valid {
+  color: #fff !important;
+}
+
 .item-unregistered-wrap div:nth-child(2) select:invalid,
 .item-unregistered-wrap div:nth-child(2) select option[value=""],
 .item-unregistered-wrap div:nth-child(2) select option:first-child {
@@ -2829,4 +2833,56 @@ img#send-comment-btn {
 
 .write-guide-box.expanded .guide-wrapper #missionGuide {
   max-height: none !important;
+}
+
+.char-count {
+  display: none;
+}
+
+.review-detail-popup .popup-content .send-comment-wrap .write-input {
+  display: flex;
+  height: 46px;
+  padding: 0 16px;
+  border: 1px solid #373839;
+  border-radius: 100px;
+}
+.review-detail-popup .popup-content .send-comment-wrap .write-input .name {
+  flex-basis: content;
+  line-height: 43px;
+  font-size: 15px;
+  font-weight: 700;
+  width: auto;
+}
+.review-detail-popup .popup-content .send-comment-wrap .write-input input {
+  width: unset;
+  flex: 1;
+  padding: 0 3px 0 6px;
+  height: auto;
+  line-height: 42px;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+.review-detail-popup .popup-content .send-comment-wrap .write-input button {
+  flex-basis: content;
+  width: 40px;
+  height: 44px;
+  margin-left: auto;
+}
+.review-detail-popup .popup-content .send-comment-wrap .write-input button img {
+  margin-left: 5px;
+  position: relative;
+  right: initial;
+  top: initial;
+}
+
+.review-wirte-wrap .upload-img-wrap {
+  margin: 0;
+  padding: 0;
+}
+
+.review-wirte-wrap .upload-img-wrap .swipe-wrap .img-item {
+  margin: 8px 0 10px 0;
 }
