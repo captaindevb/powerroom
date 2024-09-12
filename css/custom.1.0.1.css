@@ -2350,6 +2350,39 @@ button.all-submit-btn {
   background-color: #000;
 }
 
+.mypage-content .review-list-box .my-review-list li .product p.name {
+  display: flex;
+  align-items: center;
+  line-height: 142%;
+}
+
+.mypage-content .review-list-box .my-review-list li .product p.name strong {
+  color: #68696b;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  margin-right: 8px;
+}
+
+.mypage-content .review-list-box .my-review-list li .product p.name span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #929498;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}
+
+/* 리뷰 > 상품 상세 */
+.detail-box .product .product-detail .name strong,
+.detail-box .product .product-detail .name span {
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
 /* 상품 상세 */
 .product-content .detail-box {
   border-bottom: 0;
