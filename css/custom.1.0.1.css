@@ -3040,12 +3040,24 @@ img#send-comment-btn {
 }
 
 .mission-product-info .product-info-box .content .img-wrap {
-  background: rgba(0, 0, 0, 0.04);
+  position: relative;
   margin-right: 12px;
   border-radius: 8px;
   width: 80px;
   height: 80px;
 }
+
+.mission-product-info .product-info-box .content .img-wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 12px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
 .mission-product-info .product-info-box .content .img-wrap img {
   margin-right: 0;
   width: 80px !important;
