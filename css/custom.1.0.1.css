@@ -3093,7 +3093,8 @@ img#send-comment-btn {
 }
 
 /* 미션 */
-.review-desc-wrapper .desc {
+.review-desc-wrapper .desc,
+.review-desc-wrapper .desc * {
   color: #68696b;
   font-size: 12px;
   font-style: normal;
