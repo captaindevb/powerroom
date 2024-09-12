@@ -2282,6 +2282,10 @@ button.all-submit-btn {
   color: #000000;
 }
 
+.review-page-wrap .profile-info-box .btn-wrap .more-dot3-button img {
+  width: 24px;
+}
+
 .review-page-wrap .detail-box .title {
   color: #000000;
 }
@@ -2344,6 +2348,39 @@ button.all-submit-btn {
 
 .mypage-content .review-list-box .my-review-list .review-info-box .label.dark {
   background-color: #000;
+}
+
+.mypage-content .review-list-box .my-review-list li .product p.name {
+  display: flex;
+  align-items: center;
+  line-height: 142%;
+}
+
+.mypage-content .review-list-box .my-review-list li .product p.name strong {
+  color: #68696b;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  margin-right: 8px;
+}
+
+.mypage-content .review-list-box .my-review-list li .product p.name span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #929498;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}
+
+/* 리뷰 > 상품 상세 */
+.detail-box .product .product-detail .name strong,
+.detail-box .product .product-detail .name span {
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 /* 상품 상세 */
@@ -2507,6 +2544,13 @@ button.all-submit-btn {
 
 .product-content .product-box .kr-review-box + .jp-review-box {
   padding-top: 8px;
+}
+.common-wrap header button.btn-header-left {
+  top: 5px;
+  left: 0;
+}
+.common-wrap header button.btn-header-left img {
+  width: 44px;
 }
 
 /* 리뷰작성 > 템플릿 */
