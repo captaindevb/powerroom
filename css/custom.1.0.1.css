@@ -3008,3 +3008,24 @@ img#send-comment-btn {
   color: #ff43ca !important;
   background: rgba(255, 67, 202, 0.1);
 }
+
+.mission-product-info .product-info-box .content .img-wrap {
+  background: rgba(0, 0, 0, 0.04);
+  margin-right: 12px;
+  border-radius: 8px;
+  width: 80px;
+  height: 80px;
+}
+.mission-product-info .product-info-box .content .img-wrap img {
+  margin-right: 0;
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.mission-product-info .product-info-box .content .info {
+  flex: 1;
+}
+
+.app-review-write-box .write-guide .write-guide-box .guide-wrapper {
+  max-height: 150px;
+}
