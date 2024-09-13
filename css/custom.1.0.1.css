@@ -3226,6 +3226,22 @@ img#send-comment-btn {
   border: 1px solid #b8bbbf !important;
 }
 
+.review-wirte-wrap
+  .tag-wrap
+  .tag-item
+  .swipe-wrap.btns
+  input[type="radio"]:checked
+  + label,
+.review-wirte-wrap
+  .tag-wrap
+  .tag-item
+  .swipe-wrap.btns
+  input[type="checkbox"]:checked
+  + label {
+  border-color: #ff43ca !important;
+  color: #ff43ca !important;
+}
+
 .item-unregistered-wrap .textarea-wrap textarea {
   font-size: 13px;
   line-height: 21px;
@@ -3302,7 +3318,7 @@ img#send-comment-btn {
 }
 
 .main-page-wrap:has(.review-detail-content) {
-    background: #fff !important;
+  background: #fff !important;
 }
 
 /**max 추가**/
