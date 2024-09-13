@@ -101,6 +101,13 @@ html {
   font-size: 15px;
 }
 
+.item-unregistered-wrap > div:nth-child(2) {
+  height: 40px;
+}
+.item-unregistered-wrap > div:nth-child(2) select {
+  height: 40px;
+}
+
 .review-product-search .search-input-container {
   width: 100%;
   max-width: 500px;
