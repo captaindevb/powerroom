@@ -3174,3 +3174,13 @@ img#send-comment-btn {
 .product-box .info-box .detail-box .name button {
   display: flex;
 }
+
+.review-wirte-wrap .tag-wrap .tag-item .swipe-wrap.btns label {
+  line-height: 34px;
+  padding: 0 13px !important;
+  font-size: 13px !important;
+  color: #222222;
+  letter-spacing: -0.26px;
+  font-weight: 600;
+  border: 1px solid #b8bbbf !important;
+}
