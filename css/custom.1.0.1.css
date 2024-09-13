@@ -3301,6 +3301,10 @@ img#send-comment-btn {
   padding-bottom: calc(env(safe-area-inset-bottom));
 }
 
+.main-page-wrap:has(.review-detail-content) {
+    background: #fff !important;
+}
+
 /**max 추가**/
 
 .nav-wrap {
