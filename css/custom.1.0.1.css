@@ -2571,6 +2571,8 @@ button.all-submit-btn {
   font-size: 11px;
   letter-spacing: -0.22px;
   line-height: 142%;
+  width: auto;
+  padding-left: 16px;
 }
 
 .product-content .review-list-box .product-review-list li p.title {
