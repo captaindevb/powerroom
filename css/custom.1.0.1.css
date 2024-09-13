@@ -3258,4 +3258,19 @@ img#send-comment-btn {
 
 .item-unregistered-wrap div.valid-wrap .select2-container {
   width: 100% !important;
+.detail-box .product,
+.review-list-box .my-review-list li .product {
+  position: relative;
+}
+
+.detail-box .product::after,
+.review-list-box .my-review-list li .product::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.03);
 }
