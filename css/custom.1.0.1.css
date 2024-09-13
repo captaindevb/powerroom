@@ -2328,6 +2328,16 @@ button.all-submit-btn {
 
 .mypage-content .review-list-box .my-review-list .review-info-box .label {
   font-weight: 500;
+  background: #000000;
+  color: #fff;
+}
+
+.mypage-content
+  .review-list-box
+  .my-review-list
+  .review-info-box
+  .label.order {
+  background: rgba(255, 67, 202, 0.70);
 }
 
 .mypage-content .review-list-box .my-review-list.list li .thumb {
@@ -2345,10 +2355,6 @@ button.all-submit-btn {
 .mypage-content .review-list-box .my-review-list li .reaction span {
   font-size: 14px;
   font-weight: 500;
-}
-
-.mypage-content .review-list-box .my-review-list .review-info-box .label {
-  background: rgba(255, 67, 202, 0.7);
 }
 
 .mypage-content .review-list-box .my-review-list .review-info-box .label.dark {
