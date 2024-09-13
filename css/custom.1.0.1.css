@@ -3194,3 +3194,9 @@ img#send-comment-btn {
 .item-unregistered-wrap .textarea-wrap textarea::placeholder {
   color: #929498 !important;
 }
+
+.modal-wrap .content.product-change .btns button {
+  padding: 14px 0;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+}
