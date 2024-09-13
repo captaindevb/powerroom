@@ -3292,3 +3292,41 @@ img#send-comment-btn {
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.03);
 }
+
+.review-detail-popup .popup-content .input-wrap {
+  bottom: 0;
+  bottom: calc(constant(safe-area-inset-bottom));
+  bottom: calc(env(safe-area-inset-bottom));
+}
+
+/**max 추가**/
+
+.nav-wrap {
+  z-index: 9999;
+  box-sizing: content-box;
+  padding-bottom: calc(env(safe-area-inset-bottom)) !important;
+}
+
+.floating-footer,
+.modal-wrap .modal-inner,
+.search-bottom {
+  box-sizing: content-box;
+  padding-bottom: calc(env(safe-area-inset-bottom)) !important;
+  background-color: #fff;
+}
+
+#container-contents {
+  padding-bottom: calc(env(safe-area-inset-bottom)) !important;
+}
+
+/* .search-input-container {
+  z-index: 10009;
+} */
+
+.review-detail-popup .popup-content {
+  padding-bottom: 70px;
+  box-sizing: content-box;
+  height: initial;
+  max-height: 408px;
+  min-height: 208px;
+}
