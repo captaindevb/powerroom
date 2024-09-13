@@ -3228,3 +3228,18 @@ img#send-comment-btn {
   line-height: 22px;
   letter-spacing: -0.3px;
 }
+
+.review-detail-popup .popup-content {
+  padding-bottom: 91px;
+}
+.review-detail-popup .popup-content .input-wrap {
+  padding-bottom: 21px;
+}
+
+.review-list-box .review-filter .filter-wrap > .btn-check + .btn::before {
+  background-size: 15px !important;
+}
+
+#review-filter-modal .footer {
+  padding-bottom: 21px;
+}
