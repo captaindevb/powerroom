@@ -949,8 +949,8 @@ textarea {
 }
 
 .status-darkgray {
-  color: white;
-  background-color: #68696b !important;
+  color: white !important;
+  background-color: #000 !important;
 }
 
 .status-gray {
@@ -3433,6 +3433,11 @@ img#send-comment-btn {
   box-sizing: content-box;
   padding-bottom: calc(env(safe-area-inset-bottom)) !important;
   background-color: #fff;
+}
+
+.floating-footer button.all-submit-btn {
+    background: #eceef2;
+    color: #000;
 }
 
 .mypage-box .my-experience-box li .product-box .img-wrap {
