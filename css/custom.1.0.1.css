@@ -3405,3 +3405,9 @@ img#send-comment-btn {
 .review-list-box .review-summary {
   margin: 0 16px 25px 0 !important;
 }
+
+#auto-save-modal .popup-content {
+  box-sizing: content-box;
+  padding-bottom: calc(env(safe-area-inset-bottom)) !important;
+  background-color: #fff;
+}
