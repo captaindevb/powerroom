@@ -3401,3 +3401,7 @@ img#send-comment-btn {
   ~ li.item-odd {
   margin-bottom: -33px;
 }
+
+.review-list-box .review-summary {
+  margin: 0 16px 25px 0 !important;
+}
