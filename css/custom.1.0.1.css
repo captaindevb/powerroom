@@ -2503,6 +2503,17 @@ button.all-submit-btn {
 .product-box .kr-review-box .content ul li:nth-child(1) {
   margin-left: 10px;
 }
+.product-box .kr-review-box .content ul li:nth-child(2) {
+  margin-left: 3px;
+}
+
+.product-box .kr-review-box .content ul li:nth-child(5) {
+  margin-left: 9px;
+}
+
+.product-box .kr-review-box .content ul li:nth-child(6) {
+  margin-right: 19px;
+}
 
 .product-content .product-box .jp-review-box .title {
   color: #000;
