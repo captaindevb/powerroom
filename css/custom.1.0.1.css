@@ -2300,6 +2300,7 @@ button.all-submit-btn {
 
 .review-page-wrap .detail-box .title {
   color: #000000;
+  word-break: break-word;
 }
 
 .review-page-wrap .reaction-box button.active span {
@@ -3384,19 +3385,19 @@ img#send-comment-btn {
 }
 
 .product-box
-.kr-review-box
-.content
-ul
-li:nth-last-child(3):not(.item-odd)
-~ li.item-odd {
-    margin-bottom: -33px;
+  .kr-review-box
+  .content
+  ul
+  li:nth-last-child(3):not(.item-odd)
+  ~ li.item-odd {
+  margin-bottom: -33px;
 }
 
 .product-box
-.kr-review-box
-.content
-ul
-li:nth-last-child(5):not(.item-odd)
-~ li.item-odd {
-    margin-bottom: -33px;
+  .kr-review-box
+  .content
+  ul
+  li:nth-last-child(5):not(.item-odd)
+  ~ li.item-odd {
+  margin-bottom: -33px;
 }
