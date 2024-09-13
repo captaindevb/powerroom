@@ -2332,12 +2332,8 @@ button.all-submit-btn {
   color: #fff;
 }
 
-.mypage-content
-  .review-list-box
-  .my-review-list
-  .review-info-box
-  .label.order {
-  background: rgba(255, 67, 202, 0.70);
+.mypage-content .review-list-box .my-review-list .review-info-box .label.order {
+  background: rgba(255, 67, 202, 0.7);
 }
 
 .mypage-content .review-list-box .my-review-list.list li .thumb {
@@ -3235,17 +3231,23 @@ img#send-comment-btn {
   letter-spacing: -0.3px;
 }
 
-.review-detail-popup .popup-content {
-  padding-bottom: 91px;
-}
-.review-detail-popup .popup-content .input-wrap {
-  padding-bottom: 21px;
-}
-
 .review-list-box .review-filter .filter-wrap > .btn-check + .btn::before {
   background-size: 15px !important;
 }
 
-#review-filter-modal .footer {
-  padding-bottom: 21px;
+.popup-content-wrap {
+  padding-bottom: calc(constant(safe-area-inset-bottom));
+  padding-bottom: calc(env(safe-area-inset-bottom));
+  background: #fff;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.modal-wrap .modal-inner {
+  padding-bottom: calc(constant(safe-area-inset-bottom));
+  padding-bottom: calc(env(safe-area-inset-bottom));
+}
+
+.comment-popup .popup-content:has(.empty-wrap) {
+  height: 370px;
 }
