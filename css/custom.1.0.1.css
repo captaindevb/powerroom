@@ -2859,11 +2859,11 @@ img#send-comment-btn {
   margin-bottom: 0;
 }
 
-.item-unregistered-wrap div:nth-child(2) {
+.item-unregistered-wrap > div:nth-child(2) {
   margin-bottom: 6px;
 }
 
-.item-unregistered-wrap div:nth-child(2) select {
+.item-unregistered-wrap > div:nth-child(2) select {
   font-size: 14px;
   color: #929498;
 }
@@ -3183,4 +3183,14 @@ img#send-comment-btn {
   letter-spacing: -0.26px;
   font-weight: 600;
   border: 1px solid #b8bbbf !important;
+}
+
+.item-unregistered-wrap .textarea-wrap textarea {
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.item-unregistered-wrap .textarea-wrap textarea::placeholder {
+  color: #929498 !important;
 }
