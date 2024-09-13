@@ -3170,3 +3170,7 @@ img#send-comment-btn {
   z-index: 0;
   content: "";
 }
+
+.product-box .info-box .detail-box .name button {
+  display: flex;
+}
