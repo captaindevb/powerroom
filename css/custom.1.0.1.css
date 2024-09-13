@@ -3453,3 +3453,24 @@ img#send-comment-btn {
   border-radius: 0;
   border: 0;
 }
+
+#mission-review-form-wrap
+  .mission-product-info-wrapper
+  .mission-product-info
+  .product-info-box {
+  position: relative;
+}
+
+#mission-review-form-wrap
+  .mission-product-info-wrapper
+  .mission-product-info
+  .product-info-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  border-radius: 12px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.04);
+}
