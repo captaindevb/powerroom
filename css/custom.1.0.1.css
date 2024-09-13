@@ -2300,7 +2300,7 @@ button.all-submit-btn {
 
 .review-page-wrap .detail-box .title {
   color: #000000;
-  word-break: break-word;
+  word-break: break-all;
 }
 
 .review-page-wrap .reaction-box button.active span {
