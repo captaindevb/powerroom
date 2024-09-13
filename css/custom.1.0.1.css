@@ -2608,6 +2608,9 @@ button.all-submit-btn {
   width: auto;
   padding-left: 16px;
 }
+.review-list-box .product-review-list li {
+  border: 0;
+}
 
 .product-content .review-list-box .product-review-list li p.title {
   font-weight: 500;
