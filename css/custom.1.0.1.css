@@ -2506,7 +2506,13 @@ button.all-submit-btn {
 }
 
 .product-content .product-box .jp-review-box .review-detail button {
-  position: initial;
+  position: relative;
+  height: 36px;
+}
+
+.product-box .jp-review-box .review-detail button .gradation {
+  height: 36px;
+  top: -36px;
 }
 
 .product-content .product-box .jp-review-box .review-detail .progress-wrap {
