@@ -3258,6 +3258,7 @@ img#send-comment-btn {
 
 .item-unregistered-wrap div.valid-wrap .select2-container {
   width: 100% !important;
+}
 .detail-box .product,
 .review-list-box .my-review-list li .product {
   position: relative;
@@ -3273,4 +3274,8 @@ img#send-comment-btn {
   height: 48px;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.03);
+}
+
+.review-detail-popup .popup-content {
+  padding-bottom: 71px;
 }
