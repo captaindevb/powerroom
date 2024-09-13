@@ -3434,3 +3434,22 @@ img#send-comment-btn {
   padding-bottom: calc(env(safe-area-inset-bottom)) !important;
   background-color: #fff;
 }
+
+.mypage-box .my-experience-box li .product-box .img-wrap {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  margin-right: 15px;
+}
+
+.mypage-box .my-experience-box li .product-box .img-wrap img.thumb {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 0;
+  border-radius: 0;
+  border: 0;
+}
