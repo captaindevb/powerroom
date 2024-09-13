@@ -2512,15 +2512,15 @@ button.all-submit-btn {
   margin-left: 10px;
 }
 .product-box .kr-review-box .content ul li:nth-child(2) {
-  margin-left: 3px;
+  margin-right: 3px !important;
 }
 
 .product-box .kr-review-box .content ul li:nth-child(5) {
-  margin-left: 9px;
+  margin-left: 9px !important;
 }
 
 .product-box .kr-review-box .content ul li:nth-child(6) {
-  margin-right: 19px;
+  margin-right: 16px !important;
 }
 
 .product-content .product-box .jp-review-box .title {
@@ -3381,4 +3381,22 @@ img#send-comment-btn {
   height: initial;
   max-height: 408px;
   min-height: 208px;
+}
+
+.product-box
+.kr-review-box
+.content
+ul
+li:nth-last-child(3):not(.item-odd)
+~ li.item-odd {
+    margin-bottom: -33px;
+}
+
+.product-box
+.kr-review-box
+.content
+ul
+li:nth-last-child(5):not(.item-odd)
+~ li.item-odd {
+    margin-bottom: -33px;
 }
