@@ -2346,6 +2346,7 @@ button.all-submit-btn {
 
 .mypage-content .review-list-box .my-review-list.list li {
   padding: 0;
+  border: 0 !important;
 }
 
 .mypage-content .review-list-box .my-review-list li .reaction span {
