@@ -92,6 +92,7 @@ html {
 }
 
 .review-wirte-wrap .upload-img-wrap .swipe-wrap {
+  gap: 8px;
   width: auto;
 }
 
@@ -2130,6 +2131,26 @@ button.all-submit-btn {
   margin-bottom: -4px;
 }
 
+.review-wirte-wrap .write-detail {
+  padding: 25px 0 0 0;
+}
+
+.review-wirte-wrap .write-detail .star-wrap,
+.review-wirte-wrap .write-detail .input-item:not(.valid-wrap),
+.review-wirte-wrap .write-detail .input-item.valid-wrap .title-wrapper {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.review-wirte-wrap .write-detail .input-item.valid-wrap .textarea-wrap {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.review-wirte-wrap .write-detail .input-item.valid-wrap .upload-img-wrap {
+  padding-left: 16px;
+}
+
 .review-wirte-wrap .write-detail p {
   color: #000;
 }
@@ -3031,6 +3052,8 @@ img#send-comment-btn {
 }
 
 .review-wirte-wrap .upload-img-wrap .swipe-wrap .img-item {
+  width: 92px;
+  height: 92px;
   margin: 8px 0 10px 0;
 }
 
