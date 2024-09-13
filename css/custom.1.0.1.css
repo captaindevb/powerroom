@@ -3356,3 +3356,12 @@ img#send-comment-btn {
   max-height: 408px;
   min-height: 208px;
 }
+
+.mypage-box .intro-box .comment {
+  word-break: break-all;
+}
+
+.mypage-box .intro-box > div:first-child {
+  flex: 1;
+  width: calc(100%-105px);
+}
