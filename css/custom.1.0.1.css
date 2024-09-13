@@ -3235,12 +3235,18 @@ img#send-comment-btn {
   background-size: 15px !important;
 }
 
-.popup-content-wrap {
+#review-filter-modal .popup-content-wrap {
   padding-bottom: calc(constant(safe-area-inset-bottom));
   padding-bottom: calc(env(safe-area-inset-bottom));
   background: #fff;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
+}
+
+.review-detail-popup.comment-popup .popup-content {
+  padding-bottom: 71px;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 71px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 71px);
 }
 
 .modal-wrap .modal-inner {
@@ -3274,8 +3280,4 @@ img#send-comment-btn {
   height: 48px;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.03);
-}
-
-.review-detail-popup .popup-content {
-  padding-bottom: 71px;
 }
