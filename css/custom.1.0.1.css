@@ -3294,7 +3294,7 @@ img#send-comment-btn {
 }
 
 .comment-popup .popup-content:has(.empty-wrap) {
-  height: 370px;
+  height: 300px;
 }
 
 .item-unregistered-wrap .textarea-wrap .text-btns {
