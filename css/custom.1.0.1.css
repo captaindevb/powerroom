@@ -3978,3 +3978,7 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel) {
 .center-modal-wrap .content.sns-load-fail {
   padding: 0;
 }
+
+.review-list-box.bookmark .my-review-list .product::after {
+  display: none;
+}
