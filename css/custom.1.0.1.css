@@ -3970,3 +3970,11 @@ div:where(.swal2-container) input.swal2-input::placeholder {
 div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel) {
   margin-right: 8px !important;
 }
+
+#sns-result-modal .modal-inner {
+  padding-bottom: 32px !important;
+}
+
+.center-modal-wrap .content.sns-load-fail {
+  padding: 0;
+}
