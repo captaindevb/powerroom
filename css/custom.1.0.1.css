@@ -3906,7 +3906,7 @@ div:where(.swal2-container) div:where(.swal2-popup) {
 }
 
 div:where(.swal2-container).swal2-center > .swal2-popup {
-  max-width: 247px;
+  max-width: 311px;
   padding: 0 24px;
   border-radius: 16px;
 }
@@ -3939,10 +3939,34 @@ div:where(.swal2-container) button:where(.swal2-styled) {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  padding: 12px 16px;
   min-width: 106px;
+  width: calc(50% - 4px);
+  padding: 12px 10px;
 }
 
 div:where(.swal2-container) div:where(.swal2-actions) {
   padding-bottom: 32px;
+  margin-top: 20px !important;
+  width: 100%;
+  justify-content: center;
+}
+
+div:where(.swal2-container) input.swal2-input {
+  width: 100%;
+  margin: 0 !important;
+  border: 1px solid #eceef2 !important;
+  border-radius: 6px !important;
+  margin-top: 16px !important;
+  line-height: 40px;
+  padding: 0 !important;
+  text-indent: 15px;
+  font-size: 13px !important;
+}
+
+div:where(.swal2-container) input.swal2-input::placeholder {
+  color: #b8bbbf;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel) {
+  margin-right: 8px !important;
 }
