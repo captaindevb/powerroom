@@ -3822,3 +3822,41 @@ img#send-comment-btn {
   line-height: 1.3;
   max-height: 2.6em;
 }
+
+.center-modal-wrap.system {
+  z-index: 10000;
+}
+
+.center-modal-wrap.system .modal-inner {
+  width: 247px;
+  height: auto;
+}
+.center-modal-wrap.system .content {
+  text-align: center;
+}
+
+.center-modal-wrap.system .content h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+.center-modal-wrap.system .content p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #68696b;
+  margin-top: 8px;
+}
+
+.center-modal-wrap.system .content button {
+  width: 106px;
+  margin-top: 20px;
+  padding: 12px 0;
+  background: #000;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
