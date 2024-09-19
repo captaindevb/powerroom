@@ -3860,3 +3860,28 @@ img#send-comment-btn {
   font-weight: 500;
   line-height: 25px;
 }
+
+/* 로그아웃 모달 */
+.modal-wrap.logout {
+    z-index: 10000;
+}
+
+.modal-wrap.logout .modal-inner {
+    padding-bottom: calc(env(safe-area-inset-bottom));
+}
+
+.modal-wrap.logout .content.product-change {
+    padding-top: 40px;
+}
+
+.modal-wrap.logout .content.out .img-txt-wrap h5 {
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 142%; /* 22.72px */
+    letter-spacing: -0.32px;
+}
+
+.modal-wrap.logout .content.product-change .btns {
+    padding-top: 20px;
+}
