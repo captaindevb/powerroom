@@ -2618,16 +2618,21 @@ button.all-submit-btn {
   height: 22px;
 }
 
-.product-content .product-box .brand {
+.product-content .product-box .brand-name {
   position: relative;
+  color: #929498;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.26px;
+  line-height: 142%;
 }
 
-.product-content .product-box .brand::after {
+.product-content .product-box .brand-name::after {
   content: "";
   position: absolute;
   transform: rotate(-90deg);
-  top: 6px;
-  left: 60px;
+  top: 3px;
+  right: -18px;
   width: 12px;
   height: 12px;
   background: url(/assets/theme/powderroom/images/icon-dropdown-s.png) left
@@ -3766,7 +3771,7 @@ img#send-comment-btn {
   .profile-img {
   width: 18px;
   height: 18px;
-  border-radius: 16px;
+  border-radius: 6px;
 }
 
 .review-detail-popup
