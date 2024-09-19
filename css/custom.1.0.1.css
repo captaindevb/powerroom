@@ -586,6 +586,23 @@ html {
   /* 원형 모양을 만들기 위해 추가 */
 }
 
+.review-desc-wrapper .desc ul li {
+  position: relative;
+  padding-left: 11px;
+}
+.review-desc-wrapper .desc ul li::before {
+  position: absolute;
+  left: 0;
+  top: 11px;
+  transform: translateY(-50%);
+  display: block;
+  width: 3px;
+  height: 3px;
+  background: #68696b;
+  content: "";
+  border-radius: 50%;
+}
+
 .mypage-content .review-list-box {
   padding-bottom: 10px;
 }
