@@ -586,6 +586,23 @@ html {
   /* 원형 모양을 만들기 위해 추가 */
 }
 
+.review-desc-wrapper .desc ul li {
+  position: relative;
+  padding-left: 11px;
+}
+.review-desc-wrapper .desc ul li::before {
+  position: absolute;
+  left: 0;
+  top: 11px;
+  transform: translateY(-50%);
+  display: block;
+  width: 3px;
+  height: 3px;
+  background: #68696b;
+  content: "";
+  border-radius: 50%;
+}
+
 .mypage-content .review-list-box {
   padding-bottom: 10px;
 }
@@ -679,6 +696,22 @@ html {
 .review-list-box.gallery .my-review-list img {
   width: 100% !important;
   height: auto !important;
+  background: #fff;
+}
+
+.my-review-list.gallery .img-wrap {
+  position: relative;
+  overflow: hidden;
+  padding-top: 100%;
+}
+
+.my-review-list.gallery img {
+  top: 0;
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center;
 }
 
 .mypage-box .profile-box {
@@ -719,13 +752,7 @@ html {
 }
 
 .review-list-box .my-review-list.list li .thumb img {
-  height: 115px;
-}
-
-@media (max-width: 375px) {
-  .review-list-box .my-review-list.list li .thumb img {
-    height: 80px;
-  }
+  height: 90px;
 }
 
 .common-content .floating-footer button.active {
@@ -2195,6 +2222,7 @@ button.all-submit-btn {
 /*SNS 불러오기 모달*/
 .modal-wrap .content.sns-load button {
   padding: 13px 0;
+  align-items: center;
 }
 
 .modal-wrap .content.sns-load > div + button {
@@ -2588,6 +2616,23 @@ button.all-submit-btn {
 .product-content .product-box .info-box .detail-box .brand img:first-child {
   width: 22px;
   height: 22px;
+}
+
+.product-content .product-box .brand {
+  position: relative;
+}
+
+.product-content .product-box .brand::after {
+  content: "";
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 6px;
+  left: 60px;
+  width: 12px;
+  height: 12px;
+  background: url(/assets/theme/powderroom/images/icon-dropdown-s.png) left
+    center no-repeat;
+  background-size: 100%;
 }
 
 .main-page-wrap header.line {
