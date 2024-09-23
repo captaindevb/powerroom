@@ -3547,7 +3547,6 @@ img#send-comment-btn {
   width: 100px;
   height: 113px;
   margin-right: 16px;
-  /* flex: 1; */
 }
 
 .popup-content
@@ -4087,4 +4086,30 @@ div:where(.swal2-container) .swal2-html-container {
   .mission-product-info
   .product-info-box {
   display: flex;
+}
+
+.app-review-write-box.common-content .product-info-box .info {
+  width: calc(100% - 116px);
+}
+
+.app-review-write-box.common-content .product-info-box .img-wrap {
+  position: relative;
+}
+
+.app-review-write-box.common-content .product-info-box .img-wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: 9999;
+  width: inherit;
+  height: inherit;
+  border-radius: 8px;
+}
+
+.mypage-box .my-experience-box li .product-box .info-box {
+  width: calc(100% - 115px);
 }
