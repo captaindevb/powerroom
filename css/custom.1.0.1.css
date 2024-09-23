@@ -590,6 +590,7 @@ html {
   position: relative;
   padding-left: 11px;
 }
+
 .review-desc-wrapper .desc ul li::before {
   position: absolute;
   left: 0;
@@ -3320,6 +3321,7 @@ img#send-comment-btn {
   border: 1px solid #b8bbbf !important;
   padding-bottom: 1px !important;
 }
+
 .review-wirte-wrap
   .tag-wrap
   .tag-item
@@ -3545,6 +3547,7 @@ img#send-comment-btn {
   width: 100px;
   height: 113px;
   margin-right: 16px;
+  /* flex: 1; */
 }
 
 .popup-content
@@ -3836,6 +3839,7 @@ img#send-comment-btn {
   width: 247px;
   height: auto;
 }
+
 .center-modal-wrap.system .content {
   text-align: center;
 }
@@ -3847,6 +3851,7 @@ img#send-comment-btn {
   line-height: 23px;
   margin-bottom: 0;
 }
+
 .center-modal-wrap.system .content p {
   font-size: 13px;
   line-height: 20px;
@@ -3883,7 +3888,8 @@ img#send-comment-btn {
   padding-top: 0;
   font-size: 16px;
   font-weight: 500;
-  line-height: 142%; /* 22.72px */
+  line-height: 142%;
+  /* 22.72px */
   letter-spacing: -0.32px;
 }
 
@@ -3900,6 +3906,59 @@ div:where(.swal2-container) div:where(.swal2-popup) {
 }
 
 /*개발 모달*/
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+.swal2-container {
+  z-index: 11000;
+}
+
+div:where(.swal2-container)
+  button:where(.swal2-styled):where(.swal2-confirm):focus-visible {
+  box-shadow: 0 0 0 3px rgba(150, 150, 150, 0.5);
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  width: initial;
+  border-radius: 14px;
+  background-color: #d7d7d7;
+}
+
+div:where(.swal2-container) h2:where(.swal2-title) {
+  font-size: 16px;
+  padding: 1.5em 1em 0;
+}
+
+div:where(.swal2-container) label:where(.swal2-input-label) {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.swal2-actions button {
+  border-radius: 20px;
+}
+
+div:where(.swal2-container) input.swal2-input {
+  padding: 5px;
+  height: initial;
+  border-radius: 10px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 0.9rem;
+  background-color: white;
+  border: 0.5px solid #ababae;
+  box-shadow: inset 0 0 0 0.5px #c6c6c8;
+}
+
+div:where(.swal2-container) div:where(.swal2-validation-message) {
+  font-size: 0.8rem;
+}
+
+.swal2-icon {
+  display: none !important;
+}
 
 .modal-wrap.logout .content.product-change .btns {
   padding-top: 20px;
@@ -3981,4 +4040,51 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel) {
 
 .review-list-box.bookmark .my-review-list .product::after {
   display: none;
+}
+
+.my-review-list .product .image-container {
+  width: 110px;
+  height: 110px;
+}
+
+.my-review-list .product .image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: 9999;
+  width: inherit;
+  height: inherit;
+  border-radius: 8px;
+}
+
+/* max */
+div:where(.swal2-container) .swal2-html-container {
+  padding: 32px 0 0.3em 0;
+}
+
+.comment-detail .image-preview img {
+  max-height: 100px;
+}
+
+.center-modal-wrap .content.sns-load-fail img {
+  width: 140px !important;
+}
+
+#sns-post-result-modal {
+  z-index: 10002;
+}
+
+#sns-post-result-modal .modal-inner {
+  padding-bottom: 32px !important;
+}
+
+#mission-review-form-wrap
+  .mission-product-info-wrapper
+  .mission-product-info
+  .product-info-box {
+  display: flex;
 }
