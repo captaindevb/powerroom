@@ -4147,3 +4147,32 @@ div:where(.swal2-container) .swal2-html-container {
   background-color: #ebf0fb;
   color: #fff;
 }
+
+.review-detail-popup .review-filter-detail .product .img-wrap {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  margin-right: 12px;
+  border-radius: 12px;
+}
+
+.review-detail-popup .review-filter-detail .product .img-wrap img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review-list-box .product-review-list .user-info-box .img-wrap {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+}
+
+.review-list-box .product-review-list .user-info-box .img-wrap img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
