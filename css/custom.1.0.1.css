@@ -2296,8 +2296,22 @@ button.all-submit-btn {
   margin-right: 8px;
 }
 
+.review-detail-popup .review-filter-detail .product-wrap .product-detail {
+  height: 20px;
+}
+
 .review-detail-popup .review-filter-detail .product-wrap .product-detail span {
   color: #000;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px !important;
+}
+
+.review-detail-popup
+  .review-filter-detail
+  .product-profile-wrap
+  div:first-child {
+  line-height: 142%;
 }
 
 .review-page-wrap .profile-info-box .user-wrap img {
