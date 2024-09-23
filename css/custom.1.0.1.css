@@ -526,7 +526,7 @@ html {
   display: flex;
   justify-content: center;
   xmargin: 5px 0 30px 0;
-  z-index: 10001;
+  z-index: 9998;
 }
 
 .review-detail-content .swiper-pagination-inner {
