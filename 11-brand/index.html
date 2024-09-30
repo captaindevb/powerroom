@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>POWER ROOM</title>
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/custom.1.0.1.css" />
+  </head>
+  <body>
+    <div class="product-page-wrap common-wrap brand">
+      <header>
+        <button type="button" class="btn-header-left" data-move-page="back">
+          <img src="../asset/images/icon-header-back.png" alt="" />
+        </button>
+        <h2 class="overflow-ellipsis">アミューズ</h2>
+        <button
+          type="button"
+          class="btn-header-right cursor-pointer"
+          xdata-move-page="/"
+          hx-get="/"
+          hx-target="#container-contents"
+          hx-push-url="true"
+          hx-swap="innerHTML show:window:top"
+        >
+          <img src="../asset/images/icon-top-home.png" alt="" />
+        </button>
+      </header>
+
+      <!--start::브랜드관 영역-->
+      <div class="brand-main">
+        <div class="top-brand-info">
+          <img class="bg-area" src="../asset/images/brand-bg-sample.jpg" />
+        </div>
+
+        <div class="campaign-banner">
+          <div class="swiper-wrap">
+            <div class="swiper-item">체험단.</div>
+          </div>
+        </div>
+
+        <div class="tab-depth1">
+          <button type="button">商品</button>
+          <button type="button">レビュー</button>
+          <button type="button">マガジン</button>
+        </div>
+
+        <div class="depth1-container">
+          <!--상품(product-container), 리뷰(review-container), 매거진(magazine-container) 영역-->
+          <div class="product-container">
+            <div class="tab-depth2">
+              <div class="swipe-scroll-area">
+                <button type="button">全体</button>
+                <button type="button">スキンケア</button>
+                <button type="button">肌悩み</button>
+                <button type="button">グリンビューティー</button>
+                <button type="button">ベースメイクアップ</button>
+                <button type="button">全体</button>
+                <button type="button">スキンケア</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end::브랜드관 영역-->
+    </div>
+  </body>
+</html>
