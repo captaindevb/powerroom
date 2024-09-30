@@ -4183,6 +4183,10 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 /* 브랜드관 */
+.brand {
+  background-color: #f6f9ff;
+}
+
 .common-wrap.brand {
   min-height: 100vh;
   margin-bottom: 0;
@@ -4220,11 +4224,6 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 /* 브랜드관 > 리뷰탭 */
-.depth1-container {
-  height: 100%;
-  background-color: #f6f9ff;
-}
-
 .depth1-container .review-container .review-list-box.first {
   padding: 16px 0 10px 0;
 }
@@ -4240,6 +4239,10 @@ div:where(.swal2-container) .swal2-html-container {
   font-weight: 400;
   line-height: 142%; /* 17.04px */
   letter-spacing: -0.24px;
+}
+
+.depth1-container .review-container .review-list-box .product .info .brand {
+  background-color: #fff;
 }
 
 .depth1-container
@@ -4262,7 +4265,7 @@ div:where(.swal2-container) .swal2-html-container {
   height: 90px;
 }
 
-.depth1-container .no-list.review p {
+.depth1-container .no-list p {
   color: #929498;
   font-size: 14px;
   margin: 10px 0;
@@ -4271,7 +4274,7 @@ div:where(.swal2-container) .swal2-html-container {
   letter-spacing: -0.28px;
 }
 
-.depth1-container .no-list.review button {
+.depth1-container .no-list button {
   padding: 7px 16px !important;
   border-radius: 8px;
   line-height: 142%;
@@ -4280,4 +4283,14 @@ div:where(.swal2-container) .swal2-html-container {
   color: #fff;
   font-size: 11px;
   font-weight: 700;
+}
+
+/* 브랜드관 > 매거진 탭 */
+.depth1-container .no-list.magazine img {
+  width: 90px;
+  height: 90px;
+}
+
+.depth1-container .no-list.magazine button {
+  background-color: #222222;
 }
