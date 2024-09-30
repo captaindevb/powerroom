@@ -1,0 +1,366 @@
+<html>
+  <head>
+    <title>POWER ROOM</title>
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/custom.1.0.1.css" />
+  </head>
+  <body>
+    <div class="product-page-wrap common-wrap brand">
+      <header>
+        <button type="button" class="btn-header-left" data-move-page="back">
+          <img src="../asset/images/icon-header-back.png" alt="" />
+        </button>
+        <h2 class="overflow-ellipsis">アミューズ</h2>
+        <button
+          type="button"
+          class="btn-header-right cursor-pointer"
+          xdata-move-page="/"
+          hx-get="/"
+          hx-target="#container-contents"
+          hx-push-url="true"
+          hx-swap="innerHTML show:window:top"
+        >
+          <img src="../asset/images/icon-top-home.png" alt="" />
+        </button>
+      </header>
+
+      <!--start::브랜드관 영역-->
+      <div class="brand-main">
+        <div class="top-brand-info">
+          <img class="bg-area" src="../asset/images/brand-bg-sample.jpg" />
+        </div>
+
+        <div class="campaign-banner">
+          <div class="swiper-wrap">
+            <div class="swiper-item">체험단.</div>
+          </div>
+        </div>
+
+        <div class="tab-depth1">
+          <button type="button">商品</button>
+          <button type="button">レビュー</button>
+          <button type="button">マガジン</button>
+        </div>
+
+        <div class="depth1-container">
+          <!--상품(product-container), 리뷰(review-container), 매거진(magazine-container) 영역-->
+          <!-- 리뷰 있는경우 -->
+          <div class="mypage-content review-container">
+            <div class="review-list-box first">
+              <p class="count">全体 342 件</p>
+              <div class="review-summary">
+                <select>
+                  <option value="">人気順</option>
+                  <option value="">最新順</option>
+                </select>
+              </div>
+            </div>
+            <div class="review-list-box">
+              <ul class="my-review-list product-review-list">
+                <li>
+                  <div class="review-info-box">
+                    <span class="label order">自腹購入</span>
+                    <div class="star-box star2-rating star2-mini">
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                    </div>
+                    <span class="date">2024.08.11</span>
+                  </div>
+                  <div class="thumb">
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                  </div>
+                  <p class="title">粉を振り切ると完璧なシェーディングです</p>
+                  <span class="desc"
+                    >【長所】発色力もとてもよく、冬クールに色もぴったりです···
+                    【短所】 粉がたくさん飛びます···
+                    本当にこれを除けば完璧なシェーディングです。（涙）
+                    短所があってもこれほどカラーが気に入る製品がなくて</span
+                  >
+                  <div class="product">
+                    <img src="https://picsum.photos/48" alt="" />
+                    <div class="info">
+                      <p class="brand">アミューズ</p>
+                      <p class="name">
+                        <strong>エアリーフィット サンスティック</strong>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="user-reaction-wrap">
+                    <div class="user-info-box">
+                      <span class="info">韓国で作成されたレビューです。</span>
+                    </div>
+                    <div class="reaction">
+                      <span class="cursor-pointer">
+                        <img
+                          src="/assets/theme/powderroom/images/icon-review-like.png"
+                          alt=""
+                        />
+                        <span>0</span>
+                      </span>
+                      <span class="cursor-pointer">
+                        <img
+                          src="/assets/theme/powderroom/images/icon-review-comment.png"
+                          alt=""
+                        />
+                        <span>0</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="review-info-box">
+                    <span class="label event">商品提供</span>
+                    <div class="star-box star2-rating star2-mini">
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                    </div>
+                    <span class="date">2024.08.11</span>
+                  </div>
+                  <div class="thumb">
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                  </div>
+                  <p class="title">粉を振り切ると完璧なシェーディングです</p>
+                  <span class="desc"
+                    >【長所】発色力もとてもよく、冬クールに色もぴったりです···
+                    【短所】 粉がたくさん飛びます···
+                    本当にこれを除けば完璧なシェーディングです。（涙）
+                    短所があってもこれほどカラーが気に入る製品がなくて</span
+                  >
+                  <div class="product">
+                    <img src="https://picsum.photos/48" alt="" />
+                    <div class="info">
+                      <p class="brand">アミューズ</p>
+                      <p class="name">
+                        <strong>エアリーフィット サンスティック</strong>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="user-reaction-wrap">
+                    <div class="user-info-box">
+                      <div class="img-wrap">
+                        <img src="https://picsum.photos/90" />
+                      </div>
+                      <span class="name">ソナビューティー</span>
+                      <span class="tag">20代</span>
+                      <span class="tag">乾燥肌</span>
+                      <!-- <span class="tag">2+</span> -->
+                    </div>
+                    <div class="reaction">
+                      <span class="cursor-pointer">
+                        <img
+                          src="/assets/theme/powderroom/images/icon-review-like.png"
+                          alt=""
+                        />
+                        <span>0</span>
+                      </span>
+                      <span class="cursor-pointer">
+                        <img
+                          src="/assets/theme/powderroom/images/icon-review-comment.png"
+                          alt=""
+                        />
+                        <span>0</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="review-info-box">
+                    <span class="label raffle">体験団</span>
+                    <div class="star-box star2-rating star2-mini">
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                      <div class="star2">
+                        <div
+                          class="star2-rating-foreground"
+                          style="width: 100%"
+                        ></div>
+                        <div class="star2-rating-background"></div>
+                      </div>
+                    </div>
+                    <span class="date">2024.08.11</span>
+                  </div>
+                  <div class="thumb">
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                    <img src="https://picsum.photos/90" alt="" />
+                  </div>
+                  <p class="title">粉を振り切ると完璧なシェーディングです</p>
+                  <span class="desc"
+                    >【長所】発色力もとてもよく、冬クールに色もぴったりです···
+                    【短所】 粉がたくさん飛びます···
+                    本当にこれを除けば完璧なシェーディングです。（涙）
+                    短所があってもこれほどカラーが気に入る製品がなくて</span
+                  >
+                  <div class="product">
+                    <img src="https://picsum.photos/48" alt="" />
+                    <div class="info">
+                      <p class="brand">アミューズ</p>
+                      <p class="name">
+                        <strong>エアリーフィット サンスティック</strong>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="user-reaction-wrap">
+                    <div class="user-info-box">
+                      <div class="img-wrap">
+                        <img src="https://picsum.photos/90" />
+                      </div>
+                      <span class="name">ソナビューティー</span>
+                      <span class="tag">20代</span>
+                      <span class="tag">乾燥肌</span>
+                      <!-- <span class="tag">2+</span> -->
+                    </div>
+                    <div class="reaction">
+                      <span class="cursor-pointer">
+                        <img
+                          src="/assets/theme/powderroom/images/icon-review-like.png"
+                          alt=""
+                        />
+                        <span>0</span>
+                      </span>
+                      <span class="cursor-pointer">
+                        <img
+                          src="/assets/theme/powderroom/images/icon-review-comment.png"
+                          alt=""
+                        />
+                        <span>0</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 리뷰 없는경우 -->
+          <div class="no-list review">
+            <img
+              src="/assets/theme/powderroom/images/img-review.png"
+              class="no-review"
+              alt=""
+            />
+
+            <p>まだ作成されたレビューがございません</p>
+            <button type="button" class="btn btn-pink">
+              初レビュー作成 🎉
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--end::브랜드관 영역-->
+    </div>
+  </body>
+</html>
