@@ -4176,3 +4176,8 @@ div:where(.swal2-container) .swal2-html-container {
   height: 100%;
   object-fit: cover;
 }
+
+.modal-wrap .content.out .img-txt-wrap p {
+  padding-top: 6px;
+  line-height: 142%;
+}
