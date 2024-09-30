@@ -4232,13 +4232,23 @@ div:where(.swal2-container) .swal2-html-container {
   margin: 0 16px 0 0 !important;
 }
 
+.depth1-container
+  .review-container
+  .review-list-box.first
+  .review-summary
+  select {
+  width: 49px;
+  font-size: 11px;
+}
+
 .depth1-container .review-container .review-list-box.first .count {
   margin-left: 16px;
   color: #929498;
-  font-size: 12px;
+  font-size: 11px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 142%; /* 17.04px */
-  letter-spacing: -0.24px;
+  line-height: 142%; /* 15.62px */
+  letter-spacing: -0.22px;
 }
 
 .depth1-container .review-container .review-list-box .product .info .brand {
@@ -4252,6 +4262,16 @@ div:where(.swal2-container) .swal2-html-container {
   li
   .thumb {
   margin-right: 0 !important;
+}
+
+.depth1-container
+  .review-container
+  .review-list-box
+  .product-review-list
+  li
+  .thumb
+  img:last-child {
+  margin-right: 16px;
 }
 
 .depth1-container .no-list {
