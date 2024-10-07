@@ -4387,7 +4387,7 @@ div:where(.swal2-container) .swal2-html-container {
   padding-top: 1px;
   font-size: 15px;
   font-weight: 700;
-  line-height: 22px;
+  line-height: 24px;
   letter-spacing: -0.3px;
   color: #000;
   vertical-align: top;
@@ -4401,7 +4401,7 @@ div:where(.swal2-container) .swal2-html-container {
   font-weight: 700;
   color: #ff43ca;
   letter-spacing: -0.26px;
-  line-height: 19px;
+  line-height: 24px;
   vertical-align: top;
 }
 
