@@ -4461,19 +4461,19 @@ div:where(.swal2-container) .swal2-html-container {
 
 .brand-main .product-container .tab-depth2 {
   justify-content: space-between;
-  padding: 0 6px;
   background: #fff;
   overflow-x: scroll;
   overflow-y: visible;
   box-sizing: content-box;
+  border-bottom: 1px solid #f2f3f6;
 }
 
 .brand-main .product-container .tab-depth2 .swipe-scroll-area {
+  padding: 0 6px;
   flex-flow: wrap;
   width: unset;
   word-break: break-all;
   inline-size: max-content;
-  border-bottom: 1px solid #f2f3f6;
 }
 
 .brand-main .product-container .tab-depth2 button {
@@ -4564,7 +4564,9 @@ div:where(.swal2-container) .swal2-html-container {
 
 .brand-main .product-container .sort-info .sort {
   margin-left: auto;
-  width: 49px;
+  width: 35px;
+  padding: 0 0 0 13px !important;
+  box-sizing: content-box;
   appearance: none;
   border: none;
   background: none;
