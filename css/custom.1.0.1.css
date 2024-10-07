@@ -4795,7 +4795,6 @@ div:where(.swal2-container) .swal2-html-container {
 .depth1-container .no-list button {
   padding: 7px 17px 7px 17px !important;
   border-radius: 8px;
-  line-height: 100%;
   letter-spacing: -0.22px;
   background-color: #ff43ca;
   color: #fff;
