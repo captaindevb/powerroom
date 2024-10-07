@@ -4465,6 +4465,12 @@ div:where(.swal2-container) .swal2-html-container {
   overflow-x: scroll;
   overflow-y: visible;
   box-sizing: content-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.brand-main .product-container .tab-depth2::-webkit-scrollbar {
+  display: none;
 }
 
 .brand-main .product-container .tab-depth2 .swipe-scroll-area {
@@ -4507,7 +4513,14 @@ div:where(.swal2-container) .swal2-html-container {
   padding: 16px 0 10px 16px;
   overflow-x: scroll;
   overflow-y: visible;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
+
+.brand-main .product-container .tab-depth3::-webkit-scrollbar {
+  display: none;
+}
+
 .brand-main .product-container .tab-depth3 .swipe-scroll-area {
   flex-flow: wrap;
   width: unset;
@@ -4783,5 +4796,5 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .common-wrap header button.btn-header-right {
-  right: 14px;
+  right: 12px;
 }
