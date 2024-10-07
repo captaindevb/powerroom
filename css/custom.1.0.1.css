@@ -4680,7 +4680,9 @@ div:where(.swal2-container) .swal2-html-container {
   .review-list-box.first
   .review-summary
   select {
-  width: 49px;
+  width: 35px;
+  padding: 0 0 0 13px !important;
+  box-sizing: content-box;
   font-size: 11px;
 }
 
