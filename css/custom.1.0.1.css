@@ -4702,6 +4702,13 @@ div:where(.swal2-container) .swal2-html-container {
   background-color: #fff;
 }
 
+.depth1-container .review-container .review-list-box .star2-rating-foreground {
+  background-image: url(../asset/images/icon-star-on.png);
+}
+.depth1-container .review-container .review-list-box .star2-rating-background {
+  background-image: url(../asset/images/icon-star-off.png);
+}
+
 .depth1-container
   .review-container
   .review-list-box
