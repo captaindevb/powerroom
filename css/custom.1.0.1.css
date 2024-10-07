@@ -4781,3 +4781,7 @@ div:where(.swal2-container) .swal2-html-container {
 .common-wrap header h2 {
   font-size: 18px;
 }
+
+.common-wrap header button.btn-header-right {
+  right: 14px;
+}
