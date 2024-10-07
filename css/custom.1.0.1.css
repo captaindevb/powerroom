@@ -4426,7 +4426,6 @@ div:where(.swal2-container) .swal2-html-container {
   padding: 0 16px;
   justify-content: space-between;
   flex-wrap: nowrap;
-  border-bottom: 1px solid #f2f3f6;
   background: #fff;
 }
 
