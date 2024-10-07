@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/custom.1.0.1.css" />
   </head>
   <body>
+    <!--브랜드관 페이지 일시 최상위 div 클래스명 추가-->
     <div class="product-page-wrap common-wrap brand">
       <header>
         <button type="button" class="btn-header-left" data-move-page="back">
@@ -35,17 +36,109 @@
       <!--start::브랜드관 영역-->
       <div class="brand-main">
         <div class="top-brand-info">
-          <img class="bg-area" src="../asset/images/brand-bg-sample.jpg" />
+          <div class="bg-wrap">
+            <img class="bg-area" src="../asset/images/brand-bg-sample.jpg" />
+          </div>
+          <div class="brand-content">
+            <div class="img-wrap">
+              <img
+                class="brand-logo"
+                src="../asset/images/brand-main-logo-smple.png"
+              />
+            </div>
+            <div class="info-wrap">
+              <div class="title">
+                <h5>アミューズアミューアミューズアミュー</h5>
+                <div class="sns">
+                  <button class="insta">
+                    <img
+                      src="../asset/images/icon-brand-main-sns-insta.png"
+                      alt="인스타그램"
+                    />
+                  </button>
+                  <button class="twitter">
+                    <img
+                      src="../asset/images/icon-brand-main-sns-twitter.png"
+                      alt="트위터"
+                    />
+                  </button>
+                  <button class="youtube">
+                    <img
+                      src="../asset/images/icon-brand-main-sns-youtube.png"
+                      alt="유튜브"
+                    />
+                  </button>
+                  <button class="homepage">
+                    <img
+                      src="../asset/images/icon-brand-main-sns-link.png"
+                      alt="홈페이지 링크"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="desc">
+                <p>
+                  ブランド説明領域ですブランド説明領域ですブランド説明領域ですブランド説明領域ですブランド説明
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="campaign-banner">
-          <div class="swiper-wrap">
-            <div class="swiper-item">체험단.</div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-item">
+                <div class="img-wrap">
+                  <img
+                    class="campaign-img"
+                    src="../asset/images/brand-main-campaign-sample.jpg"
+                  />
+                </div>
+                <div class="content-wrap">
+                  <h5 class="title">
+                    <img
+                      src="../asset/images/icon-brand-main-compaign-title.png"
+                    />
+                    <strong>体験団イベント</strong>
+                    <span>D-4</span>
+                  </h5>
+                  <p class="desc">
+                    アミューズ「ハローキティ限定エディション
+                    ウォームトーン&クールトーンセット イベント100名様募集
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-item">
+                <div class="img-wrap">
+                  <img
+                    class="campaign-img"
+                    src="../asset/images/brand-main-campaign-sample.jpg"
+                  />
+                </div>
+                <div class="content-wrap">
+                  <h5 class="title">
+                    <img
+                      src="../asset/images/icon-brand-main-compaign-title.png"
+                    />
+                    <strong>体験団イベント</strong>
+                    <span>D-4</span>
+                  </h5>
+                  <p class="desc">
+                    アミューズ「ハローキティ限定エディション
+                    ウォームトーン&クールトーンセット イベント100名様募集
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination-wrap">
+              <span><b>1</b> / 2</span>
+            </div>
           </div>
         </div>
 
         <div class="tab-depth1">
-          <button type="button">商品</button>
+          <button type="button" class="on">商品</button>
           <button type="button">レビュー</button>
           <button type="button">マガジン</button>
         </div>
@@ -56,7 +149,7 @@
             <div class="tab-depth2">
               <div class="swipe-scroll-area">
                 <button type="button">全体</button>
-                <button type="button">スキンケア</button>
+                <button type="button" class="on">スキンケア</button>
                 <button type="button">肌悩み</button>
                 <button type="button">グリンビューティー</button>
                 <button type="button">ベースメイクアップ</button>
@@ -64,6 +157,111 @@
                 <button type="button">スキンケア</button>
               </div>
             </div>
+            <div class="tab-depth3">
+              <div class="swipe-scroll-area">
+                <button type="button" class="on">全体</button>
+                <button type="button">化粧水</button>
+                <button type="button">パッド</button>
+                <button type="button">美容液</button>
+                <button type="button">全体美容液</button>
+                <button type="button">化粧水</button>
+                <button type="button">パッド</button>
+                <button type="button">美容液</button>
+              </div>
+            </div>
+
+            <div class="sort-info">
+              <div class="number">全体 342 件</div>
+              <select class="sort">
+                <option value="best">人気順</option>
+                <option value="new">最新順</option>
+              </select>
+            </div>
+
+            <ul class="brand-product-list">
+              <li>
+                <div class="img-wrap">
+                  <img src="../asset/images/brand-main-product-sample1.jpg" />
+                </div>
+                <p class="brand-name">アミューズ</p>
+                <p class="product-name">メタフィクシングビーガンクッション</p>
+                <p class="price">3,400</p>
+                <p class="star">
+                  <img src="../asset/images/icon-brand-product-star.png" />
+                  <span>4.8</span>
+                </p>
+              </li>
+              <li>
+                <div class="img-wrap">
+                  <img src="../asset/images/brand-main-product-sample1.jpg" />
+                </div>
+                <p class="brand-name">
+                  アミューズアミューズアミューズアミューズ
+                </p>
+                <p class="product-name">
+                  デュティントデュティントデュティントデュティントデュティントデュティント
+                </p>
+                <p class="price">3,400</p>
+                <p class="star">
+                  <img src="../asset/images/icon-brand-product-star.png" />
+                  <span>4.8</span>
+                </p>
+              </li>
+              <li>
+                <div class="img-wrap">
+                  <img src="../asset/images/brand-main-product-sample2.jpg" />
+                </div>
+                <p class="brand-name">アミューズ</p>
+                <p class="product-name">デュティント</p>
+                <p class="price">3,400</p>
+                <p class="star">
+                  <img src="../asset/images/icon-brand-product-star.png" />
+                  <span>4.8</span>
+                </p>
+              </li>
+              <li>
+                <div class="img-wrap">
+                  <img src="../asset/images/brand-main-product-sample1.jpg" />
+                </div>
+                <p class="brand-name">
+                  アミューズアミューズアミューズアミューズ
+                </p>
+                <p class="product-name">デュティント</p>
+                <p class="price">3,400</p>
+                <p class="star">
+                  <img src="../asset/images/icon-brand-product-star.png" />
+                  <span>4.8</span>
+                </p>
+              </li>
+              <li>
+                <div class="img-wrap">
+                  <img src="../asset/images/brand-main-product-sample1.jpg" />
+                </div>
+                <p class="brand-name">アミューズ</p>
+                <p class="product-name">メタフィクシングビーガンクッション</p>
+                <p class="price">3,400</p>
+                <p class="star">
+                  <img src="../asset/images/icon-brand-product-star.png" />
+                  <span>4.8</span>
+                </p>
+              </li>
+              <li>
+                <div class="img-wrap">
+                  <img src="../asset/images/brand-main-product-sample1.jpg" />
+                </div>
+                <p class="brand-name">
+                  アミューズアミューズアミューズアミューズ
+                </p>
+                <p class="product-name">
+                  デュティントデュティントデュティントデュティントデュティントデュティント
+                </p>
+                <p class="price">3,400</p>
+                <p class="star">
+                  <img src="../asset/images/icon-brand-product-star.png" />
+                  <span>4.8</span>
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
