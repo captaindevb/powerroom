@@ -1,4 +1,13 @@
-# POWERROOM-jp
+## 파우더룸 브랜드관
+
+아래 링크를 클릭하여 해당 페이지로 바로가기 합니다
+
+1.  Link: [브랜드관\_상품](/11-brand/index.html)
+2.  Link: [브랜드관\_상품없음](/11-brand/index_no_result.html)
+3.  Link: [브랜드관\_리뷰](/11-brand/review-tab.html)
+4.  Link: [브랜드관-매거진](/11-brand/magazine-tab.html)
+
+<!-- # POWERROOM-jp
 
 ## 디자인 QA
 
@@ -71,4 +80,4 @@ https://www.figma.com/design/gOsrDD6u732xmjuixJZf80/(JP_%EC%99%B8%EB%B6%80-%EA%B
 6.  Link: [상품상세-AI 키워드 생략(1)](/10-product/product-hide-keyword-01.html)
 7.  Link: [상품상세-AI 키워드 생략(2)](/10-product/product-hide-keyword-02.html)
 8.  Link: [상품상세-리뷰 필터](/10-product/product-filter-modal.html)
-9.  Link: [상품상세-JP리뷰](/10-product/product-filter-jp.html)
+9.  Link: [상품상세-JP리뷰](/10-product/product-filter-jp.html) -->
