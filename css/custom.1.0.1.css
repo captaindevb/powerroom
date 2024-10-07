@@ -4710,6 +4710,10 @@ div:where(.swal2-container) .swal2-html-container {
   letter-spacing: -0.22px;
 }
 
+.depth1-container .review-container .review-list-box .label {
+  line-height: 18px;
+}
+
 .depth1-container .review-container .review-list-box .product .info .brand {
   background-color: #fff;
 }
@@ -4728,6 +4732,34 @@ div:where(.swal2-container) .swal2-html-container {
   li
   .thumb {
   margin-right: 0 !important;
+}
+
+.depth1-container
+  .review-container
+  .review-list-box
+  .product-review-list
+  li
+  .title {
+  color: #000;
+}
+
+.depth1-container
+  .review-container
+  .review-list-box
+  .product-review-list
+  li
+  .user-reaction-wrap
+  .reaction {
+  margin: 0;
+}
+
+.depth1-container
+  .review-container
+  .review-list-box
+  .product-review-list
+  li
+  img {
+  border-radius: 6px;
 }
 
 .depth1-container
@@ -4763,12 +4795,13 @@ div:where(.swal2-container) .swal2-html-container {
 .depth1-container .no-list button {
   padding: 7px 17px 7px 17px !important;
   border-radius: 8px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: -0.22px;
   background-color: #ff43ca;
   color: #fff;
   font-size: 11px;
   font-weight: 700;
+  height: 30px;
 }
 
 /* 브랜드관 > 매거진 탭 */
