@@ -4576,10 +4576,10 @@ div:where(.swal2-container) .swal2-html-container {
 
 .brand-main .product-container .sort-info .sort {
   margin-left: auto;
-  width: 35px;
+  width: auto;
   line-height: 16px;
   height: 16px;
-  padding: 0 0 0 13px !important;
+  padding: 0 0 0 16px !important;
   box-sizing: content-box;
   appearance: none;
   border: none;
@@ -4587,9 +4587,9 @@ div:where(.swal2-container) .swal2-html-container {
   color: #929498;
   font-size: 12px;
   font-weight: 400;
-  background: transparent url(../asset/images/icon-brand-main-sort-arrow.png)
-    left center no-repeat;
-  background-size: 9px;
+  background: transparent url(../asset/images/icon-dropdown-select-s.png) left
+    center no-repeat;
+  background-size: 12px;
   text-align: right;
 }
 
