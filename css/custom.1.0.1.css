@@ -4510,7 +4510,7 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .brand-main .product-container .tab-depth3 {
-  padding: 16px 0 10px 16px;
+  padding: 16px 16px 10px 16px;
   overflow-x: scroll;
   overflow-y: visible;
   -ms-overflow-style: none;
@@ -4554,13 +4554,13 @@ div:where(.swal2-container) .swal2-html-container {
   margin-left: 0;
 }
 
-.brand-main
+/* .brand-main
   .product-container
   .tab-depth3
   .swipe-scroll-area
   button:last-child {
   margin-right: 16px;
-}
+} */
 
 .brand-main .product-container .sort-info {
   display: flex;
