@@ -4596,14 +4596,13 @@ div:where(.swal2-container) .swal2-html-container {
 .brand-main .product-container .brand-product-list {
   display: flex;
   flex-flow: wrap;
-  padding: 0 16px;
+  padding: 0 16px 16px 16px;
   place-content: inherit;
-  gap: 12px;
+  gap: 16px 13px;
 }
 
 .brand-main .product-container .brand-product-list li {
-  width: calc(50% - 6px);
-  margin-bottom: 16px;
+  width: calc(50% - 6.5px);
 }
 
 .brand-main .product-container .brand-product-list .img-wrap {
@@ -4674,6 +4673,7 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .brand-main .product-container .brand-product-list .star span {
+  display: inline-block;
   color: #929498;
   line-height: 18px;
   font-size: 12px;
