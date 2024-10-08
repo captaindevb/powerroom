@@ -4578,21 +4578,21 @@ div:where(.swal2-container) .swal2-html-container {
 
 .brand-main .product-container .sort-info .sort {
   margin-left: auto;
-  width: auto;
-  line-height: 16px;
-  height: 16px;
-  padding: 0 0 0 16px !important;
-  box-sizing: content-box;
   appearance: none;
   border: none;
   background: none;
   color: #929498;
-  font-size: 12px;
   font-weight: 400;
-  background: transparent url(../asset/images/icon-dropdown-select-s.png) left
+  background: transparent url(../asset/images/icon-option-dropdown.png) left
     center no-repeat;
   background-size: 12px;
   text-align: right;
+  box-sizing: content-box;
+  font-size: 11px;
+  letter-spacing: -0.22px;
+  line-height: 142%;
+  width: auto;
+  padding-left: 16px;
 }
 
 .brand-main .product-container .brand-product-list {
@@ -4696,10 +4696,12 @@ div:where(.swal2-container) .swal2-html-container {
   .review-list-box.first
   .review-summary
   select {
-  width: 35px;
-  padding: 0 0 0 13px !important;
   box-sizing: content-box;
   font-size: 11px;
+  letter-spacing: -0.22px;
+  line-height: 142%;
+  width: auto;
+  padding-left: 16px;
 }
 
 .depth1-container .review-container .review-list-box.first .count {
