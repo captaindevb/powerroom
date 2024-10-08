@@ -4538,13 +4538,13 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .brand-main .product-container .tab-depth3 button {
-  line-height: 30px;
+  line-height: 29px;
   font-size: 13px;
   color: #929498;
   font-weight: 700;
   border: 1px solid #dbdcdf;
   border-radius: 100px;
-  padding: 0 15px;
+  padding: 0 15px 1px 15px;
   float: left;
   margin-left: 4px;
 }
