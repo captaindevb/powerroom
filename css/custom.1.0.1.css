@@ -4431,6 +4431,10 @@ div:where(.swal2-container) .swal2-html-container {
   gap: 20px;
 }
 
+.brand-main .depth1-container .tab-depth2 {
+  border-top: 1px solid #f2f3f6;
+}
+
 .brand-main .tab-depth1 button {
   position: relative;
   font-size: 15px;
