@@ -4395,7 +4395,6 @@ div:where(.swal2-container) .swal2-html-container {
 
 .brand-main .campaign-banner .swiper-item .content-wrap h5 span {
   display: inline-block;
-  padding-top: 2px;
   padding-left: 4px;
   font-size: 13px;
   font-weight: 700;
