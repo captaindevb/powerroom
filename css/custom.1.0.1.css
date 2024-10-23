@@ -1487,6 +1487,18 @@ nav.nav-wrap a:hover {
   margin-right: 2px;
 }
 
+.review-wirte-wrap .btns label {
+  margin-right: 6px;
+}
+
+.review-wirte-wrap .star-wrap {
+  margin-left: 0;
+}
+
+.review-wirte-wrap .star-wrap button + button {
+  margin-left: 4px;
+}
+
 .btns input {
   display: none;
 }
