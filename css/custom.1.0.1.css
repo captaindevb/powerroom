@@ -674,7 +674,7 @@ html {
   /* 긴 단어 처리 */
   margin: 12px 16px 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.3;
   /* 줄 간격 추가 */
   max-height: 2.6em;
@@ -2438,6 +2438,7 @@ button.all-submit-btn {
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
   margin-right: 8px;
+  font-weight: 700;
 }
 
 .mypage-content .review-list-box .my-review-list li .product p.name span {
@@ -4187,13 +4188,14 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 /* 브랜드관 */
-.brand {
+/* .brand {
   background-color: #f6f9ff;
-}
+} */
 
 .common-wrap.brand {
   min-height: 100vh;
   margin-bottom: 0;
+  background-color: #f6f9ff;
 }
 .brand-main {
   padding-top: 56px;
@@ -4289,7 +4291,6 @@ div:where(.swal2-container) .swal2-html-container {
 }
 .brand-main .top-brand-info .brand-content .info-wrap .sns {
   margin-left: auto;
-  margin-right: -4px;
   padding-left: 5px;
 }
 
@@ -4303,7 +4304,7 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .brand-main .top-brand-info + .tab-depth1 {
-  margin-top: 12px;
+  margin-top: 0px;
 }
 
 .brand-main .campaign-banner {
@@ -4498,6 +4499,7 @@ div:where(.swal2-container) .swal2-html-container {
   word-break: break-all;
   inline-size: max-content;
   border-bottom: 1px solid #f2f3f6;
+  min-width: 100%;
 }
 
 .brand-main .product-container .tab-depth2 button {
@@ -4699,6 +4701,16 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 /* 브랜드관 > 리뷰탭 */
+
+.brand-main .review-list-box .product-review-list .product .info p {
+  display: block;
+  width: 100%;
+}
+
+.brand-main .review-list-box .product-review-list .product .info p strong {
+  margin: 0 !important;
+}
+
 .depth1-container .review-container .review-list-box.first {
   padding: 16px 0 10px 0;
 }
