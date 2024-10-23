@@ -3262,6 +3262,10 @@ img#send-comment-btn {
   background: none;
 }
 
+.review-product-search .search-list {
+  background: #fff;
+}
+
 .app-review-write-box
   .tag-box
   .req-tag.content-submit
@@ -4328,7 +4332,10 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .brand-main .campaign-banner .swiper-container .swiper-pagination-wrap span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   padding: 5px 8px;
   font-size: 12px;
   font-weight: 400;
@@ -4419,6 +4426,15 @@ div:where(.swal2-container) .swal2-html-container {
   word-wrap: break-word;
   letter-spacing: -0.24px;
 }
+
+.brand-main .campaign-banner .swiper-item .content-wrap .desc + p {
+  color: #222;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
 .brand-main .tab-depth1 {
   display: flex;
   height: 40px;
@@ -4797,6 +4813,7 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .depth1-container .no-list button {
+  border: none;
   padding: 7px 17px 7px 17px !important;
   border-radius: 8px;
   letter-spacing: -0.22px;
