@@ -3262,6 +3262,10 @@ img#send-comment-btn {
   background: none;
 }
 
+.review-product-search .search-list {
+  background: #fff;
+}
+
 .app-review-write-box
   .tag-box
   .req-tag.content-submit
