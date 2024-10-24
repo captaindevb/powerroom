@@ -5845,3 +5845,11 @@ nav.nav-wrap button.profile .img-wrap img {
 .exp-content .exp-join-form .info-box p.title {
   font-size: 12px;
 }
+
+.detail-box .product .product-detail .brand {
+  margin-right: 8px;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
