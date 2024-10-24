@@ -5843,7 +5843,7 @@ nav.nav-wrap button.profile .img-wrap img {
 }
 
 .exp-content .exp-join-form .info-box p.title {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .detail-box .product .product-detail .brand {
@@ -5852,4 +5852,33 @@ nav.nav-wrap button.profile .img-wrap img {
   -webkit-line-clamp: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+}
+
+.mypage-content .review-list-box .my-review-list.list li .product .cursor-pointer:first-child {
+    width: 100%;
+}
+
+.mypage-content .review-list-box .my-review-list.list li .product .info {
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.mypage-content
+.review-list-box
+.my-review-list.list
+li
+.product
+.image-container
+.img-wrap {
+    width: 110px;
+    height: 110px;
+}
+
+.mypage-content .review-list-box .my-review-list.list li .product .info p {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
 }
