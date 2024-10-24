@@ -5827,3 +5827,20 @@ nav.nav-wrap button.profile .img-wrap img {
 .main-new-page-wrap .notice-wrapper .notice:last-child {
   border-bottom: 0;
 }
+
+.exp-content .exp-join-form .info-box .img-wrap {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.exp-content .exp-join-form .info-box .img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exp-content .exp-join-form .info-box p.title {
+  font-size: 12px;
+}
