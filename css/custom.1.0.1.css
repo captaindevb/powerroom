@@ -4837,7 +4837,8 @@ div:where(.swal2-container) .swal2-html-container {
   letter-spacing: -0.28px;
 }
 
-.depth1-container .no-list button {
+.depth1-container .no-list button,
+.depth1-container .no-list button:active {
   border: none;
   padding: 7px 17px 7px 17px !important;
   border-radius: 8px;
