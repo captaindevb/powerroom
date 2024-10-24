@@ -5887,3 +5887,11 @@ nav.nav-wrap button.profile .img-wrap img {
   text-overflow: ellipsis;
   width: 100%;
 }
+
+.common-wrap header button.btn-header-right {
+  top: 15px;
+}
+
+.common-wrap header button.btn-header-right img {
+  width: 24px;
+}
