@@ -4720,9 +4720,9 @@ div:where(.swal2-container) .swal2-html-container {
   width: 100%;
 }
 
-.brand-main .review-list-box .product-review-list .product .info p strong {
-  margin: 0 !important;
-}
+/*.brand-main .review-list-box .product-review-list .product .info p strong {*/
+/*  margin: 0 !important;*/
+/*}*/
 
 .depth1-container .review-container .review-list-box.first {
   padding: 16px 0 10px 0;
@@ -5854,31 +5854,36 @@ nav.nav-wrap button.profile .img-wrap img {
   -webkit-box-orient: vertical;
 }
 
-.mypage-content .review-list-box .my-review-list.list li .product .cursor-pointer:first-child {
-    width: 100%;
+.mypage-content
+  .review-list-box
+  .my-review-list.list
+  li
+  .product
+  .cursor-pointer:first-child {
+  width: 100%;
 }
 
 .mypage-content .review-list-box .my-review-list.list li .product .info {
-    display: flex;
-    width: 100%;
-    margin-left: 10px;
-    flex-direction: column;
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  flex-direction: column;
 }
 
 .mypage-content
-.review-list-box
-.my-review-list.list
-li
-.product
-.image-container
-.img-wrap {
-    width: 110px;
-    height: 110px;
+  .review-list-box
+  .my-review-list.list
+  li
+  .product
+  .image-container
+  .img-wrap {
+  width: 110px;
+  height: 110px;
 }
 
 .mypage-content .review-list-box .my-review-list.list li .product .info p {
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100%;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
 }
