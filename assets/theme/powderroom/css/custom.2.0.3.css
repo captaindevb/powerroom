@@ -5870,6 +5870,7 @@ nav.nav-wrap button.profile .img-wrap img {
   width: 100%;
   margin-left: 10px;
   flex-direction: column;
+  gap: 2px;
 }
 
 .mypage-content
@@ -5896,4 +5897,19 @@ nav.nav-wrap button.profile .img-wrap img {
 
 .common-wrap header button.btn-header-right img {
   width: 24px;
+}
+
+.review-list-box .my-review-list li p.title {
+  font-weight: 700;
+  color: #000;
+  line-height: 142%;
+}
+
+.my-review-list .product .image-container::before {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.review-list-box.bookmark .my-review-list .product .info p {
+  margin-bottom: 0;
+  line-height: 142%;
 }
