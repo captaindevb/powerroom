@@ -5900,3 +5900,13 @@ nav.nav-wrap button.profile .img-wrap img {
 .common-wrap header button.btn-header-right img {
   width: 24px;
 }
+
+.review-list-box .my-review-list li p.title {
+  font-weight: 700;
+  color: #000;
+  line-height: 142%;
+}
+
+.my-review-list .product .image-container::before {
+  background-color: rgba(0, 0, 0, 0.03);
+}
