@@ -130,7 +130,7 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   text-align: center;
   width: 100%;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .common-wrap header button img {
@@ -207,7 +207,7 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   background-color: #d4d9dd;
   color: #fff;
   border-radius: 4px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .common-wrap.full-page .common-footer button.on {
@@ -354,7 +354,7 @@ nav.nav-wrap button.on {
   background-color: #fff;
   border-radius: 18px 18px 0 0;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   border-bottom: 1px solid #ebf0fb;
 }
 
@@ -387,7 +387,7 @@ nav.nav-wrap button.on {
 
 .popup-dim-wrap .popup-content-wrap .popup-bottom button.active {
   color: #2a3548;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-list-box .review-list {
@@ -440,7 +440,7 @@ nav.nav-wrap button.on {
   display: flex;
   align-items: center;
   width: 65%;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-list-box .review-list .user-info-box .user .name {
@@ -476,7 +476,7 @@ nav.nav-wrap button.on {
   margin-bottom: 30px;
   color: #aeb2b9;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .error-page-wrap button {
@@ -639,7 +639,7 @@ button.toggle.off {
 
 .exp-content .exp-sort-box button.on {
   color: #2a3548;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .exp-content .exp-list-box li {
@@ -655,7 +655,7 @@ button.toggle.off {
   margin: 10px 0;
   font-size: 20px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -679,7 +679,7 @@ button.toggle.off {
 .exp-content .exp-list-box li .info-box .name {
   color: #6d7684;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 4px;
 }
 
@@ -742,7 +742,7 @@ button.toggle.off {
   width: 32%;
   padding: 5px 0;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .exp-content .exp-learning-info dd {
@@ -772,7 +772,7 @@ button.toggle.off {
   margin-bottom: 20px;
   font-size: 18px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .exp-content .exp-winner-list dt i {
@@ -803,7 +803,7 @@ button.toggle.off {
   height: 60px;
   width: 100%;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
 }
 
@@ -836,7 +836,7 @@ button.toggle.off {
   padding: 0 30px;
   text-align: center;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 46px;
   background-color: #fff;
   border: 1px solid #d4d9dd;
@@ -877,7 +877,7 @@ button.toggle.off {
 .exp-content .exp-join-form .info-box p.title {
   font-size: 18px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 600;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -886,7 +886,7 @@ button.toggle.off {
 }
 
 .exp-content .exp-join-form .info-box span.name {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
   color: #979797;
 }
@@ -907,7 +907,7 @@ button.toggle.off {
 
 .exp-content .exp-join-form .form-item .form-item-title {
   display: block;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 12px;
 }
 
@@ -965,13 +965,13 @@ button.toggle.off {
 .exp-content .join-completed-box p {
   margin: 30px 0;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .exp-content .join-completed-box dt {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .exp-content .join-completed-box dd {
@@ -1007,7 +1007,7 @@ button.toggle.off {
 .intro-page-wrap .intro-title {
   margin-bottom: 20px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 32px;
 }
 
@@ -1019,7 +1019,7 @@ button.toggle.off {
   padding-bottom: 20px;
   font-size: 24px;
   line-height: 32px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .intro-page-wrap .silde-box img {
@@ -1047,7 +1047,7 @@ button.toggle.off {
   height: 50px;
   max-width: 305px;
   border-radius: 4px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .login-page-wrap header {
@@ -1076,7 +1076,7 @@ button.toggle.off {
   text-align: center;
   width: 100%;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .login-content {
@@ -1104,7 +1104,7 @@ button.toggle.off {
   padding: 0 30px;
   text-align: center;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 46px;
   background-color: #fff;
   border: 1px solid #d4d9dd;
@@ -1136,7 +1136,7 @@ button.toggle.off {
   margin-bottom: 15px;
   border-radius: 4px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .login-content .sns-box button.line {
@@ -1177,7 +1177,7 @@ button.toggle.off {
 .signin-content .profile-title {
   padding-top: 80px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 34px;
 }
 
@@ -1243,7 +1243,7 @@ button.toggle.off {
 .signin-content .agree-title {
   padding: 80px 0 20px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 26px;
 }
 
@@ -1312,7 +1312,7 @@ button.toggle.off {
 .magazine-content li .subject {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
@@ -1332,7 +1332,7 @@ button.toggle.off {
   margin-top: -56px;
   text-align: center;
   color: #aeb2b9;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .magazine-content .magazine-detail {
@@ -1369,7 +1369,7 @@ button.toggle.off {
   padding: 20px;
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 24px;
   background-color: #fff;
   border-bottom: 1px solid #ebf0fb;
@@ -1420,7 +1420,7 @@ button.toggle.off {
 
 .common-content .top-title span {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .common-content .top-title a.btn-more {
@@ -1446,7 +1446,7 @@ button.toggle.off {
 
 .main-silde p {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 15px;
   margin-bottom: 4px;
   display: -webkit-box;
@@ -1485,7 +1485,7 @@ button.toggle.off {
 .main-ranking li label {
   width: 42px;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .main-ranking li label i {
@@ -1543,7 +1543,7 @@ button.toggle.off {
   margin-bottom: 5px;
   color: #6d7684;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .main-ranking li .info-box p {
@@ -1555,7 +1555,7 @@ button.toggle.off {
 .main-ranking li .info-box .star-box {
   display: block;
   margin: 10px 0;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .main-ranking li .info-box .star-box img {
@@ -1604,14 +1604,14 @@ button.toggle.off {
   padding: 10px 0;
   color: #fff;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .main-apply > div .info-box span {
   display: block;
   color: #fff;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .main-magazine {
@@ -1643,7 +1643,7 @@ button.toggle.off {
 .main-magazine li .title {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 24px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -1707,7 +1707,7 @@ button.toggle.off {
 .box-title {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 25px;
   color: black;
 }
@@ -1727,13 +1727,13 @@ button.toggle.off {
 .review-list-box .product-info-box .info p {
   margin-bottom: 5px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 25px;
 }
 
 .review-list-box .product-info-box .info span {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: #979797;
 }
 
@@ -1766,7 +1766,7 @@ button.toggle.off {
 .write-guide .write-guide-box .box-title {
   margin-bottom: 4px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 19px;
 }
 
@@ -1778,7 +1778,7 @@ button.toggle.off {
 
 .write-guide .write-guide-box .guide span {
   color: #68696b;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .write-guide .write-guide-box button {
@@ -1846,7 +1846,7 @@ button.toggle.off {
   .info
   span {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 19px;
   color: black;
 }
@@ -1872,7 +1872,7 @@ button.toggle.off {
   width: 100%;
   padding: 16px 22px;
   background-color: #ebf0fb;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   color: #fff;
@@ -1932,7 +1932,7 @@ button.toggle.off {
 
 .content-submit .submit-box .main {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 22px;
   margin-bottom: 16px;
 }
@@ -1995,7 +1995,7 @@ button.toggle.off {
   height: 30px;
   border-radius: 8px;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -2028,7 +2028,7 @@ button.toggle.off {
 .product-info-popup .btn-wrap button {
   height: 52px;
   width: 100%;
-  font-weight: 700;
+  font-weight: 600;
   color: black;
   background-color: #eceef2;
   border-radius: 8px;
@@ -2057,7 +2057,7 @@ button.toggle.off {
   text-align: center;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%;
 }
 
@@ -2072,7 +2072,7 @@ button.toggle.off {
   height: 52px;
   width: 100%;
   margin-bottom: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: black;
   background-color: #eceef2;
   border-radius: 8px;
@@ -2130,7 +2130,7 @@ button.toggle.off {
 
 .sns-load-popup.multi .product-info-box .content .info span {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%;
   /* 18.46px */
   letter-spacing: -0.26px;
@@ -2209,7 +2209,7 @@ button.toggle.off {
 
 .mypage-box .intro-box .name {
   margin-bottom: 10px;
-  font-weight: 700;
+  font-weight: 600;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
@@ -2240,7 +2240,7 @@ button.toggle.off {
 }
 
 .mypage-box .profile-box .name {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-box .profile-box .btn-edit {
@@ -2289,7 +2289,7 @@ button.toggle.off {
 
 .mypage-box .my-experience-box .title {
   margin-bottom: 10px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-box .my-experience-box .ex-ing-box {
@@ -2324,7 +2324,7 @@ button.toggle.off {
 .mypage-box .my-experience-box .ex-ing-box span.num {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -2350,7 +2350,7 @@ button.toggle.off {
 
 .mypage-box .my-experience-box li p {
   color: #979797;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
 }
 
@@ -2383,7 +2383,7 @@ button.toggle.off {
   height: 50px;
   border: 1px solid #d4d9dd;
   border-radius: 4px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-box .my-experience-box li .btn-box button.wide {
@@ -2459,7 +2459,7 @@ button.toggle.off {
   height: 48px;
   color: #b8bbbf;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-box .tab-box button.on {
@@ -2495,7 +2495,7 @@ button.toggle.off {
   background-color: #ff43ca;
   color: #fff;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 8px;
 }
 
@@ -2508,7 +2508,7 @@ button.toggle.off {
 
 .mypage-box .self-box p {
   margin-bottom: 10px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-box .detail-add-box {
@@ -2527,7 +2527,7 @@ button.toggle.off {
 }
 
 .mypage-box .detail-add-box li .title {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-box .my-experience-form {
@@ -2552,12 +2552,12 @@ button.toggle.off {
 .mypage-box .my-experience-form .info-box .name {
   color: #979797;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-box .my-experience-form .info-box .title {
   padding: 6px 0;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   line-height: 28px;
 }
@@ -2584,7 +2584,7 @@ button.toggle.off {
   display: block;
   padding-bottom: 10px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-box .my-experience-form .form-box .form-item-title strong {
@@ -2656,7 +2656,7 @@ button.toggle.off {
   height: 60px;
   width: 100%;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   background-color: #2a3548;
 }
@@ -2682,7 +2682,7 @@ button.toggle.off {
 }
 
 .mypage-popup .form-box .form-title {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -2711,7 +2711,7 @@ button.toggle.off {
   height: 50px;
   border-radius: 4px;
   border: 1px solid #d4d9dd;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-popup .form-box .form-item button.on {
@@ -2807,7 +2807,7 @@ button.toggle.off {
 }
 
 .withdraw-box .form-box .form-title {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -2845,7 +2845,7 @@ button.toggle.off {
 .mypage-content .join-completed-box p {
   padding: 30px 0;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-content .tracking-box {
@@ -2866,7 +2866,7 @@ button.toggle.off {
   position: relative;
   margin-bottom: 5px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .mypage-content .tracking-box dd button {
@@ -2893,7 +2893,7 @@ button.toggle.off {
   height: 50px;
   background-color: #ff43ca;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 4px;
 }
 
@@ -2917,7 +2917,7 @@ button.toggle.off {
 
 .mypage-content .no-traking-box .title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   padding-bottom: 20px;
 }
 
@@ -3025,7 +3025,7 @@ button.toggle.off {
   background-color: #ff7bda;
   border-radius: 4px;
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   line-height: 1.7;
 }
@@ -3091,7 +3091,7 @@ button.toggle.off {
 .review-list-box .my-review-list li .reaction span {
   padding-left: 3px;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.26px;
   color: #929498;
 }
@@ -3226,7 +3226,7 @@ button.toggle.off {
 
 .review-list-box.bookmark .my-review-list .product p.price {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.26px;
 }
 
@@ -3259,7 +3259,7 @@ button.toggle.off {
 
 .notification-content li .noti-content .name {
   margin-bottom: 10px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
 }
 
@@ -3282,7 +3282,7 @@ button.toggle.off {
   margin-top: -56px;
   text-align: center;
   color: #aeb2b9;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* ì œí’ˆ ìƒì„¸ - JP + KRë¦¬ë·° */
@@ -3316,7 +3316,7 @@ button.toggle.off {
   gap: 6px;
   color: #929498;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.26px;
 }
 
@@ -3348,7 +3348,7 @@ button.toggle.off {
 .product-box .info-box .detail-box .price {
   margin-top: 6px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.42;
 }
 
@@ -3411,7 +3411,7 @@ button.toggle.off {
   height: 48px;
   color: #b8bbbf;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .product-box .tab-box button.on {
@@ -3491,7 +3491,7 @@ button.toggle.off {
 
 .product-box .kr-review-box .content ul .label em {
   color: #ff43ca;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .product-box .kr-review-box .content ul li:nth-child(1) {
@@ -3555,7 +3555,7 @@ button.toggle.off {
 
 .product-box .jp-review-box .title {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .product-box .jp-review-box .review-summary {
@@ -3582,7 +3582,7 @@ button.toggle.off {
   margin: 8px 0;
   color: #000;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.24;
   letter-spacing: -0.48px;
 }
@@ -3607,7 +3607,7 @@ button.toggle.off {
 
 .product-box .jp-review-box .review-summary .star-ratio .progress-wrap .bold {
   color: #000;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .product-box .jp-review-box .review-summary .star-ratio .progress {
@@ -3631,7 +3631,7 @@ button.toggle.off {
 .product-box .jp-review-box.empty .review-summary p.score {
   min-width: 100px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.48px;
   text-align: right;
 }
@@ -3733,7 +3733,7 @@ button.toggle.off {
   align-self: center;
   color: #ff43ca;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.42;
   letter-spacing: -0.22px;
 }
@@ -3816,7 +3816,7 @@ button.toggle.off {
   background-color: #ff43ca;
   color: #fff;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 8px;
 }
 
@@ -3992,7 +3992,7 @@ button.toggle.off {
   background-color: #ff7bda;
   border-radius: 4px;
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   line-height: 1.7;
 }
@@ -4057,7 +4057,7 @@ button.toggle.off {
 .review-list-box .product-review-list li .reaction span {
   padding-left: 3px;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.26px;
   color: #929498;
 }
@@ -4153,7 +4153,7 @@ button.toggle.off {
 
 .review-list-box .product-review-list .product p.price {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.26px;
 }
 
@@ -4169,7 +4169,7 @@ button.toggle.off {
   height: 56px;
   width: 100%;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   background-color: #1c1c1e;
 }
@@ -4234,7 +4234,7 @@ button.toggle.off {
   margin-bottom: 12px;
   color: #222;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.26px;
 }
 
@@ -4244,7 +4244,7 @@ button.toggle.off {
   border-radius: 100px;
   border: 1px solid #eceef2;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: #929498;
   line-height: 1;
   letter-spacing: -0.24px;
@@ -4288,7 +4288,7 @@ button.toggle.off {
 .product-box .jp-review-box .review-summary.hide-keyword .score {
   color: #000;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.24;
   letter-spacing: -0.48px;
 }
@@ -4365,7 +4365,7 @@ button.toggle.off {
 
 .rank-content .rank-sort-box button.sort.on {
   color: #ff43ca;
-  font-weight: 700;
+  font-weight: 600;
   border-color: #ff43ca;
 }
 
@@ -4419,7 +4419,7 @@ button.toggle.off {
 .rank-content .rank-list li label {
   width: 42px;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   flex-shrink: 0;
 }
 
@@ -4488,7 +4488,7 @@ button.toggle.off {
   margin-bottom: 5px;
   color: #6d7684;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .rank-content .rank-list li .info-box p {
@@ -4501,7 +4501,7 @@ button.toggle.off {
 .rank-content .rank-list li .info-box .star-box {
   display: block;
   margin: 10px 0;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .rank-content .rank-list li .info-box .star-box img {
@@ -4520,7 +4520,7 @@ button.toggle.off {
   padding-top: 100px;
   text-align: center;
   color: #aeb2b9;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 p {
@@ -4648,7 +4648,7 @@ p {
   opacity: 0.8;
   background-color: #000;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .detail-box .grade .star-wrap button img {
@@ -4660,7 +4660,7 @@ p {
   display: block;
   margin-bottom: 14px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%;
   /* 25.56px */
 }
@@ -4716,7 +4716,7 @@ p {
 .detail-box .product .product-detail .name strong {
   margin-right: 8px;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%;
   /* 18.46px */
   letter-spacing: -0.26px;
@@ -4821,7 +4821,7 @@ p {
   margin-right: 8px;
   color: #000;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%;
   /* 19.88px */
 }
@@ -4860,7 +4860,7 @@ p {
 .review-detail-popup .popup-content .review-filter .btn {
   padding: 8px 14px;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%;
   /* 18.46px */
   letter-spacing: -0.26px;
@@ -4920,7 +4920,7 @@ p {
   color: #373839;
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%;
   /* 19.88px */
 }
@@ -5022,7 +5022,7 @@ p {
   padding: 12px 16px;
   border: 1px solid #373839;
   border-radius: 100px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-detail-popup .popup-content .send-comment-wrap .write-input {
@@ -5101,7 +5101,7 @@ p {
 
 .popup-content .comment-wrap .origin .text-wrap .comment-detail .text span {
   color: #ff43ca;
-  font-weight: 700;
+  font-weight: 600;
   margin-right: 4px;
 }
 
@@ -5120,7 +5120,7 @@ p {
   margin-left: 12px;
   color: #929498;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%;
   /* 17.04px */
   letter-spacing: -0.24px;
@@ -5491,7 +5491,7 @@ p {
   border: 1px solid #b8bbbf;
   border-radius: 8px;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 17px;
 }
 
@@ -5555,7 +5555,7 @@ p {
 .modal-wrap .content.product-change.template .title-area h5 {
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 26px;
   color: #000;
 }
@@ -5572,7 +5572,7 @@ p {
 .modal-wrap .content.product-change.template .title-area button {
   font-size: 13px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   color: #dbdcdf;
 }
 
@@ -5591,7 +5591,7 @@ p {
   text-align: left;
   color: #000;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 30px;
   margin: 20px 0;
 }
@@ -5657,7 +5657,7 @@ p {
   border: 1px solid #dbdcdf;
   border-radius: 100px;
   color: #b8bbbf;
-  font-weight: 700;
+  font-weight: 600;
   background: #fff;
   margin: 2px;
 }
@@ -6083,7 +6083,7 @@ p {
   margin-bottom: 5px;
   color: #6d7684;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-content .info-box p {
@@ -6096,7 +6096,7 @@ p {
 .review-content .info-box .star-box {
   display: block;
   margin: 10px 0;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-content .info-box .star-box span {
@@ -6147,7 +6147,7 @@ p {
   width: 50%;
   height: 44px;
   color: #aeb2b9;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-content .review-list-box .tab-box button.on {
@@ -6180,7 +6180,7 @@ p {
   height: 60px;
   width: 100%;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   background-color: #2a3548;
 }
@@ -6198,7 +6198,7 @@ p {
   padding-top: 80px;
   text-align: center;
   color: #aeb2b9;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-content .product-info-box {
@@ -6217,7 +6217,7 @@ p {
 }
 
 .review-content .product-info-box dt {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -6257,7 +6257,7 @@ p {
 .review-content .product-info-box .graph-box li .star {
   font-size: 12px;
   color: #6d7684;
-  font-weight: 700;
+  font-weight: 600;
   min-width: 40px;
 }
 
@@ -6280,7 +6280,7 @@ p {
 
 .review-content .product-info-box .graph-box li .persent {
   color: #6d7684;
-  font-weight: 700;
+  font-weight: 600;
   margin-right: 5px;
 }
 
@@ -6299,7 +6299,7 @@ p {
 }
 
 .review-content .review-detail-box .subject-box .name-date .name {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-content .review-detail-box .subject-box .name-date .name img {
@@ -6316,7 +6316,7 @@ p {
 .review-content .review-detail-box .subject-box .subject {
   padding-top: 20px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-content .review-detail-box .review-detail {
@@ -6373,13 +6373,13 @@ p {
 .review-write-box .product-info-box .info p {
   margin-bottom: 5px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 28px;
 }
 
 .review-write-box .product-info-box .info span {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: #979797;
 }
 
@@ -6400,7 +6400,7 @@ p {
   height: 50px;
   border-radius: 4px;
   border: 1px solid #d4d9dd;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-write-box .rating-box .category-btn-box button.on {
@@ -6411,7 +6411,7 @@ p {
 .review-write-box .box-title {
   position: relative;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 12px;
 }
 
@@ -6546,7 +6546,7 @@ p {
 }
 
 .review-privacy-box .form-box .form-title {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -6570,7 +6570,7 @@ p {
   height: 50px;
   border-radius: 4px;
   border: 1px solid #d4d9dd;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .review-privacy-box .form-box .form-item button.on {
@@ -6596,13 +6596,13 @@ p {
 .app-review-write-box .product-info-box .info p {
   margin-bottom: 5px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 25px;
 }
 
 .app-review-write-box .product-info-box .info span {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: #979797;
 }
 
@@ -6633,12 +6633,12 @@ p {
 .popup-content .product-info-box .info p {
   margin-bottom: 5px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 25px;
 }
 
 .popup-content .product-info-box .info span {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: #979797;
 }
