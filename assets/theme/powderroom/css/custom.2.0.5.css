@@ -5501,6 +5501,7 @@ nav.nav-wrap button.profile .img-wrap img {
 }
 
 .main-new-page-wrap .rank-horizontal .img-wrap .bookmark-btn {
+  z-index: 1;
   position: absolute;
   bottom: 8px;
   right: 8px;
@@ -5509,7 +5510,6 @@ nav.nav-wrap button.profile .img-wrap img {
 }
 
 .main-new-page-wrap .rank-horizontal .img-wrap .bookmark-btn img {
-  z-index: 10;
   width: 100%;
   height: 100%;
 }
