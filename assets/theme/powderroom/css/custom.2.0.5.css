@@ -5157,7 +5157,7 @@ nav.nav-wrap button.profile .img-wrap img {
 }
 
 .main-new-page-wrap .main-new .tab-depth .swipe-scroll-area {
-  padding: 0 6px;
+  padding: 0 16px;
   flex-flow: wrap;
   width: unset;
   word-break: break-all;
@@ -5214,7 +5214,7 @@ nav.nav-wrap button.profile .img-wrap img {
 .main-new-page-wrap .banner-container .banner {
   position: relative;
   width: 100%;
-  aspect-ratio: auto 343 / 290;
+  height: 290px;
   overflow: hidden;
   padding: 4px 16px;
   display: flex;
