@@ -5214,11 +5214,16 @@ nav.nav-wrap button.profile .img-wrap img {
 .main-new-page-wrap .banner-container .banner {
   position: relative;
   width: 100%;
-  height: 290px;
   overflow: hidden;
   padding: 4px 16px;
   display: flex;
   justify-content: center;
+}
+
+.main-new-page-wrap .banner-container .banner:before {
+  content: "";
+  display: block;
+  padding-top: calc(290 / 343 * 100%);
 }
 
 .main-new-page-wrap .banner-container .banner img.banner-img {
@@ -5228,6 +5233,7 @@ nav.nav-wrap button.profile .img-wrap img {
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
+  margin-bottom: 0;
 }
 
 .main-new-page-wrap .banner-container .banner .contents {
