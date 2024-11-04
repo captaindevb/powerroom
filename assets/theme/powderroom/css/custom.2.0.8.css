@@ -740,6 +740,7 @@ html {
 
 .review-wirte-wrap .input-item .textarea-wrap textarea {
   line-height: 150%;
+  color: #222222;
 }
 
 .review-list-box .my-review-list.list li {
@@ -2038,6 +2039,7 @@ button.all-submit-btn {
   font-size: 15px;
   line-height: 21px;
   padding: 12px 16px;
+  color: #222222;
 }
 
 .review-wirte-wrap .input-item .textarea-wrap textarea {
@@ -2170,6 +2172,22 @@ button.all-submit-btn {
 .review-wirte-wrap .write-detail .input-item.valid-wrap .textarea-wrap {
   margin-left: 16px;
   margin-right: 16px;
+}
+
+.review-wirte-wrap .input-item .title-wrapper label {
+  color: #000000;
+}
+
+.review-wirte-wrap .write-detail .input-item.valid-wrap .textarea-wrap label {
+  color: #000000;
+}
+
+.review-wirte-wrap .tag-wrap p {
+  color: #222222;
+}
+
+.review-wirte-wrap .sns-share-wrap p {
+  color: #000000;
 }
 
 .review-wirte-wrap .write-detail .input-item.valid-wrap .upload-img-wrap {
@@ -4864,7 +4882,7 @@ div:where(.swal2-container) .swal2-html-container {
 
 .depth1-container .no-list.brand-product {
   background-color: #f6f9ff;
-  height: 363px;
+  height: 283px;
 }
 
 .depth1-container .no-list.brand-product img.no-review {
