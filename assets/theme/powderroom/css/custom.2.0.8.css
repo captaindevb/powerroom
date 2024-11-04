@@ -5145,7 +5145,7 @@ nav.nav-wrap button.profile .img-wrap img {
   height: 50px;
 }
 
-.main-new-page-wrap header button:first-child {
+.main-new-page-wrap header button.logo {
   position: absolute;
   left: 16px;
   width: 165px;
@@ -6031,16 +6031,10 @@ nav.nav-wrap button.profile .img-wrap img {
   margin-bottom: 0;
 }
 
-.main-banner-all-wrap header button {
-  left: 0 !important;
-  width: 24px !important;
-  height: 24px !important;
-  margin: 10px;
-}
-
 .main-banner-all-wrap header button img {
   width: 24px !important;
   height: 24px !important;
+  margin: 10px;
 }
 
 .main-banner-all-wrap .main-banner-all {
