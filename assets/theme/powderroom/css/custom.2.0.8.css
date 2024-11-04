@@ -6077,7 +6077,7 @@ nav.nav-wrap button.profile .img-wrap img {
 /* 홈메인 > 이벤트 탭 */
 .main-new-page-wrap .event-container.active {
   padding: 4px 16px 30px 16px;
-  margin-bottom: 0;
+  margin-bottom: 17px;
 }
 
 .main-new-page-wrap .event-container.active .event-wrapper {
