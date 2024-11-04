@@ -6027,10 +6027,57 @@ nav.nav-wrap button.profile .img-wrap img {
 }
 
 /* 메인배너 전체보기 */
-.main-banner-all header button img {
+.main-banner-all-wrap {
+  margin-bottom: 0;
+}
+
+.main-banner-all-wrap header button {
+  left: 0 !important;
   width: 24px !important;
   height: 24px !important;
   margin: 10px;
+}
+
+.main-banner-all-wrap header button img {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.main-banner-all-wrap .main-banner-all {
+  padding-top: 56px;
+}
+
+.main-banner-all-wrap .main-banner-all .banner-container {
+  display: flex;
+  flex-direction: column;
+  margin: 4px 16px 0 16px;
+  gap: 10px;
+}
+
+.main-banner-all-wrap .main-banner-all .banner-container .banner {
+  padding: 0;
+}
+
+.main-banner-all-wrap .main-banner-all .banner-container .banner .contents {
+  padding: 14px 15px;
+}
+
+.main-banner-all-wrap
+  .main-banner-all
+  .banner-container
+  .banner
+  .contents
+  .title {
+  left: 15px;
+}
+
+.main-banner-all-wrap
+  .main-banner-all
+  .banner-container
+  .banner
+  .contents
+  label {
+  left: 15px;
 }
 
 /* 홈메인 > 이벤트 탭 */
