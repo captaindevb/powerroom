@@ -5166,8 +5166,12 @@ nav.nav-wrap button.profile .img-wrap img {
 .main-new-page-wrap .main-new {
   padding-top: 50px;
 }
+.main-new-page-wrap .main-new:has(.tab-depth) {
+  padding-top: 91px;
+}
 
 .main-new-page-wrap .main-new .tab-depth {
+  width: 100%;
   justify-content: space-between;
   background: #fff;
   overflow-x: scroll;
@@ -5175,6 +5179,9 @@ nav.nav-wrap button.profile .img-wrap img {
   box-sizing: content-box;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  position: fixed;
+  top: 50px;
+  z-index: 9999;
 }
 
 .main-new-page-wrap .main-new .tab-depth::-webkit-scrollbar {
