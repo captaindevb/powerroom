@@ -6196,3 +6196,19 @@ nav.nav-wrap button.profile .img-wrap img {
   img:last-child {
   margin-right: 16px;
 }
+
+/* 푸터 Top 버튼 */
+.btn-top {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+}
+
+.nav-wrap + .btn-top {
+  bottom: 78px;
+}
+
+.btn-top img {
+  width: 52px;
+  height: 52px;
+}
