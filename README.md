@@ -4,8 +4,8 @@
 
 1.  Link: [메인](/12-main-new/main-new.html)
 2.  Link: [메인 > 이벤트 탭](/12-main-new/main-new-event.html)
-3.  Link: [이벤트 (하단바로 진입)](/13-main-banner/main-banner.html)
-4.  Link: [메인 배너 전체보기 (새창)](/14-event/event.html)
+3.  Link: [이벤트 (하단바로 진입)](/14-event/event.html)
+4.  Link: [메인 배너 전체보기 (새창)](/13-main-banner/main-banner.html)
 
 ## 파우더룸 브랜드관
 
