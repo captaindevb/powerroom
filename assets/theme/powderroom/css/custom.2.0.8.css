@@ -6124,3 +6124,68 @@ nav.nav-wrap button.profile .img-wrap img {
   height: 11px;
   margin-right: 5px;
 }
+
+/* 홈메인 > 리뷰 탭 */
+.main-new-page-wrap .main-new .review-container .review-list-box.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 16px 10px 0;
+}
+
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box.first
+  .review-filter {
+  margin: 0;
+}
+
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box.first
+  .review-summary {
+  margin: 0 !important;
+}
+
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box.first
+  .review-summary
+  select {
+  font-size: 11px;
+  width: 49px;
+}
+
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box.first
+  .review-filter
+  label {
+  border: 1px solid #dbdcdf;
+  line-height: 18px;
+}
+
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box
+  .product-review-list
+  li
+  .thumb {
+  margin-right: 0;
+}
+
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box
+  .product-review-list
+  li
+  .thumb
+  img:last-child {
+  margin-right: 16px;
+}
