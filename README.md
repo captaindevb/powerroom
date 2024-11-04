@@ -4,7 +4,7 @@
 
 ### 메인 > 탭
 1.  Link: [메인](/12-main-new/main-new.html)
-2.  Link: [메인 > 랭킹 탭]()
+2.  Link: [메인 > 랭킹 탭](/12-main-new/main-new-rank.html)
 3.  Link: [메인 > 메거진 탭]()
 4.  Link: [메인 > 이벤트 탭](/12-main-new/main-new-event.html)
 5.  Link: [메인 > 리뷰 탭](/12-main-new/main-new-review.html)

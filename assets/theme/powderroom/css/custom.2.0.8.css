@@ -5166,11 +5166,13 @@ nav.nav-wrap button.profile .img-wrap img {
 .main-new-page-wrap .main-new {
   padding-top: 50px;
 }
+
 .main-new-page-wrap .main-new:has(.tab-depth) {
   padding-top: 91px;
 }
 
 .main-new-page-wrap .main-new .tab-depth {
+  max-width: 500px;
   width: 100%;
   justify-content: space-between;
   background: #fff;
@@ -6211,4 +6213,57 @@ nav.nav-wrap button.profile .img-wrap img {
 .btn-top img {
   width: 52px;
   height: 52px;
+}
+
+/* 홈메인 > 랭킹 탭 */
+.main-new-page-wrap .rank-container.active {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.main-new-page-wrap .rank-container.active .tab-depth2 {
+  border-top: 1px solid #eceef2;
+  padding: 14px 10px 14px 16px;
+  justify-content: space-between;
+  overflow-x: scroll;
+  overflow-y: visible;
+}
+
+.main-new-page-wrap .rank-container.active .tab-depth2 .swipe-scroll-area {
+  word-break: break-all;
+  inline-size: max-content;
+}
+
+.main-new-page-wrap .rank-container.active .tab-depth2 button {
+  line-height: 29px;
+  font-size: 13px;
+  color: #929498;
+  font-weight: 600;
+  border: 1px solid #dbdcdf;
+  border-radius: 100px;
+  padding: 0 15px 1px 15px;
+  float: left;
+  margin-right: 4px;
+}
+
+.main-new-page-wrap .rank-container.active .tab-depth2 button.on {
+  border-color: #ff43ca;
+  background: rgba(255, 67, 202, 0.1);
+  color: #ff43ca;
+}
+
+.main-new-page-wrap .rank-container.active .tab-depth2 button:last-child {
+  margin-right: 0;
+}
+
+.main-new-page-wrap .rank-container.active .rank-vertical-wrapper {
+  padding: 0 16px 20px 16px;
+}
+
+.main-new-page-wrap .rank-container.active .rank-vertical .product-name {
+  font-size: 16px;
+}
+
+.main-new-page-wrap .rank-container.active .rank-vertical .price {
+  font-weight: 700;
 }
