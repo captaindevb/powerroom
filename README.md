@@ -13,6 +13,7 @@
 1.  Link: [이벤트 (하단바로 진입)](/14-main-event/main-event.html)
 2.  Link: [메인 배너 전체보기 (새창)](/13-main-banner/main-banner.html)
 3.  Link: [리뷰 (홈메인 더보기 진입)](/15-main-review/main-review.html)
+4.  Link: [랭킹 (홈메인 더보기/하단바 진입)](/16-main-rank/main-rank.html)
 
 ## 파우더룸 브랜드관
 
