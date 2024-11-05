@@ -18,6 +18,7 @@
 3.  Link: [매거진 (홈메인 더보기 진입))](/15-main-magazine/main-magazine.html)
 4.  Link: [리뷰 (홈메인 더보기 진입)](/15-main-review/main-review.html)
 5.  Link: [랭킹 (홈메인 더보기/하단바 진입)](/16-main-rank/main-rank.html)
+<!--
 
 ## 파우더룸 브랜드관
 
@@ -26,7 +27,7 @@
 1.  Link: [브랜드관\_상품](/11-brand/index.html)
 2.  Link: [브랜드관\_상품없음](/11-brand/index_no_result.html)
 3.  Link: [브랜드관\_리뷰](/11-brand/review-tab.html)
-4.  Link: [브랜드관-매거진](/11-brand/magazine-tab.html)
+4.  Link: [브랜드관-매거진](/11-brand/magazine-tab.html) -->
 
 <!-- # POWERROOM-jp
 
