@@ -6232,23 +6232,23 @@ nav.nav-wrap button.profile .img-wrap img {
   margin-bottom: 30px;
 }
 
-.main-new .tab-depth2 {
+.main-new .tab-depth-rank {
   padding: 14px 10px 14px 16px;
   justify-content: space-between;
   overflow-x: scroll;
   overflow-y: visible;
 }
 
-.main-new .tab-depth + .tab-depth2 {
+.main-new .tab-depth + .tab-depth-rank {
   border-top: 1px solid #eceef2;
 }
 
-.main-new .tab-depth2 .swipe-scroll-area {
+.main-new .tab-depth-rank .swipe-scroll-area {
   word-break: break-all;
   inline-size: max-content;
 }
 
-.main-new .tab-depth2 button {
+.main-new .tab-depth-rank button {
   line-height: 29px;
   font-size: 13px;
   color: #929498;
@@ -6260,13 +6260,13 @@ nav.nav-wrap button.profile .img-wrap img {
   margin-right: 4px;
 }
 
-.main-new .tab-depth2 button.on {
+.main-new .tab-depth-rank button.on {
   border-color: #ff43ca;
   background: rgba(255, 67, 202, 0.1);
   color: #ff43ca;
 }
 
-.main-new .tab-depth2 button:last-child {
+.main-new .tab-depth-rank button:last-child {
   margin-right: 0;
 }
 
