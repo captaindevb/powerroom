@@ -5692,7 +5692,7 @@ nav.nav-wrap button.profile .img-wrap img {
 .main-new-page-wrap .rank-vertical .product-name {
   font-size: 15px;
   font-weight: 700;
-  line-height: 136%; /* 20.4px */
+  line-height: 142%; /* 20.4px */
   letter-spacing: -0.3px;
 }
 
@@ -6277,9 +6277,9 @@ nav.nav-wrap button.profile .img-wrap img {
   font-size: 16px;
 }
 
-.main-new-page-wrap .rank-container.active .rank-vertical .price {
+/* .main-new-page-wrap .rank-container.active .rank-vertical .price {
   font-weight: 700;
-}
+} */
 
 /* 리뷰 valid 팝업 */
 .review-valid-popup .popup-content-wrap {
