@@ -5229,7 +5229,7 @@ nav.nav-wrap button.profile .img-wrap img {
   margin-right: 7px;
 }
 
-.main-new-page-wrap .main-new .tab-depth button.highlight::after {
+.main-new-page-wrap .main-new .tab-depth button.highlight::before {
   position: absolute;
   top: 8px;
   right: 4px;
@@ -6344,4 +6344,10 @@ nav.nav-wrap button.profile .img-wrap img {
   font-weight: 700;
   line-height: 142%; /* 22.72px */
   letter-spacing: -0.32px;
+}
+
+/* 매거진 new */
+
+.main-new .magazine-content {
+  padding-top: 0;
 }

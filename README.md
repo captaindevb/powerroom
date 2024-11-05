@@ -3,17 +3,20 @@
 아래 링크를 클릭하여 해당 페이지로 바로가기 합니다
 
 ### 메인 > 탭
+
 1.  Link: [메인](/12-main-new/main-new.html)
 2.  Link: [메인 > 랭킹 탭](/12-main-new/main-new-rank.html)
-3.  Link: [메인 > 메거진 탭]()
+3.  Link: [메인 > 메거진 탭](/12-main-new/main-magazine.html)
 4.  Link: [메인 > 이벤트 탭](/12-main-new/main-new-event.html)
 5.  Link: [메인 > 리뷰 탭](/12-main-new/main-new-review.html)
 
 ### 메인 > 더보기/하단바
+
 1.  Link: [이벤트 (하단바로 진입)](/14-main-event/main-event.html)
 2.  Link: [메인 배너 전체보기 (새창)](/13-main-banner/main-banner.html)
-3.  Link: [리뷰 (홈메인 더보기 진입)](/15-main-review/main-review.html)
-4.  Link: [랭킹 (홈메인 더보기/하단바 진입)](/16-main-rank/main-rank.html)
+3.  Link: [매거진 (홈메인 더보기 진입))](/15-main-magazine/main-magazine.html)
+4.  Link: [리뷰 (홈메인 더보기 진입)](/15-main-review/main-review.html)
+5.  Link: [랭킹 (홈메인 더보기/하단바 진입)](/16-main-rank/main-rank.html)
 
 ## 파우더룸 브랜드관
 
