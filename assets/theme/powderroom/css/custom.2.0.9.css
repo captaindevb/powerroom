@@ -5056,7 +5056,7 @@ nav.nav-wrap button.profile .img-wrap img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  padding: 18px 0;
 }
 
 .common-footer-new .company-drop button strong {
@@ -5079,7 +5079,7 @@ nav.nav-wrap button.profile .img-wrap img {
   display: none;
   flex-direction: column;
   gap: 5px;
-  padding: 6px 20px 16px 20px;
+  margin: 6px 0 16px 0;
 }
 
 .common-footer-new .company-drop.visible ul {
@@ -5092,6 +5092,10 @@ nav.nav-wrap button.profile .img-wrap img {
   font-weight: 400;
   line-height: 150%; /* 18px */
   letter-spacing: -0.24px;
+}
+
+.common-footer-new .company-drop ul li a {
+  color: #68696b;
 }
 
 .common-footer-new .company-drop ul li strong {
@@ -5111,11 +5115,11 @@ nav.nav-wrap button.profile .img-wrap img {
 
 .common-footer-new .company-link a {
   display: inline-block;
-  height: 20px;
-  line-height: 20px;
+  height: 18px;
+  line-height: 18px;
   text-decoration: none;
   position: relative;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: -0.26px;
   color: #929498;
@@ -5124,7 +5128,7 @@ nav.nav-wrap button.profile .img-wrap img {
 .common-footer-new .company-link a::after {
   content: "";
   position: absolute;
-  top: 5px;
+  top: 4px;
   right: -8px;
   transform: translateX(-50%);
   width: 1px;
@@ -5141,9 +5145,9 @@ nav.nav-wrap button.profile .img-wrap img {
 }
 
 .common-footer-new .copyright {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 400;
-  line-height: 142%; /* 14.2px */
+  line-height: 142%; /* 12.78px */
   color: #929498;
   margin-bottom: 8px;
 }
