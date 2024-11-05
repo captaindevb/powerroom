@@ -4225,8 +4225,18 @@ div:where(.swal2-container) .swal2-html-container {
   background-color: #f6f9ff;
 }
 
+.main-new-page-wrap.common-wrap.brand {
+  min-height: calc(100vh - 58px);
+  margin-bottom: 58px;
+  background-color: #fff;
+}
+
 .brand-main {
   padding-top: 56px;
+}
+
+.main-new .brand-main {
+  padding-top: 0;
 }
 
 .brand-main .top-brand-info {

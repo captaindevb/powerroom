@@ -6,9 +6,10 @@
 
 1.  Link: [메인](/12-main-new/main-new.html)
 2.  Link: [메인 > 랭킹 탭](/12-main-new/main-new-rank.html)
-3.  Link: [메인 > 메거진 탭](/12-main-new/main-magazine.html)
-4.  Link: [메인 > 이벤트 탭](/12-main-new/main-new-event.html)
-5.  Link: [메인 > 리뷰 탭](/12-main-new/main-new-review.html)
+3.  Link: [메인 > 브랜드관 탭](/12-main-new/main-brand.html)
+4.  Link: [메인 > 메거진 탭](/12-main-new/main-magazine.html)
+5.  Link: [메인 > 이벤트 탭](/12-main-new/main-new-event.html)
+6.  Link: [메인 > 리뷰 탭](/12-main-new/main-new-review.html)
 
 ### 메인 > 더보기/하단바
 
