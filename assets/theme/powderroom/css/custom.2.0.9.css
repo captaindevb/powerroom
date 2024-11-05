@@ -4225,8 +4225,18 @@ div:where(.swal2-container) .swal2-html-container {
   background-color: #f6f9ff;
 }
 
+.main-new-page-wrap.common-wrap.brand {
+  min-height: calc(100vh - 58px);
+  margin-bottom: 58px;
+  background-color: #fff;
+}
+
 .brand-main {
   padding-top: 56px;
+}
+
+.main-new .brand-main {
+  padding-top: 0;
 }
 
 .brand-main .top-brand-info {
@@ -5229,7 +5239,7 @@ nav.nav-wrap button.profile .img-wrap img {
   margin-right: 7px;
 }
 
-.main-new-page-wrap .main-new .tab-depth button.highlight::after {
+.main-new-page-wrap .main-new .tab-depth button.highlight::before {
   position: absolute;
   top: 8px;
   right: 4px;
@@ -6344,4 +6354,10 @@ nav.nav-wrap button.profile .img-wrap img {
   font-weight: 700;
   line-height: 142%; /* 22.72px */
   letter-spacing: -0.32px;
+}
+
+/* 매거진 new */
+
+.main-new .magazine-content {
+  padding-top: 0;
 }
