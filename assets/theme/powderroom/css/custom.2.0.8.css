@@ -6270,3 +6270,78 @@ nav.nav-wrap button.profile .img-wrap img {
 .main-new-page-wrap .rank-container.active .rank-vertical .price {
   font-weight: 700;
 }
+
+/* 리뷰 valid 팝업 */
+.review-valid-popup .popup-content-wrap {
+  position: relative;
+}
+
+.review-valid-popup .popup-content-wrap .popup-content {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.review-valid-popup .popup-content-wrap .close-top {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.review-valid-popup .popup-content-wrap .close-top img {
+  width: 14px;
+  height: 14px;
+}
+
+.review-valid-popup .popup-content-wrap .popup-content {
+  padding: 0;
+}
+
+.review-valid-popup .popup-content-wrap .empty-wrap {
+  padding: 40px 16px 12px 16px;
+}
+
+.review-valid-popup .popup-content-wrap .empty-wrap img {
+  width: 103px;
+  height: 109px;
+  margin-bottom: 15px;
+}
+
+.review-valid-popup .popup-content-wrap .empty-wrap strong {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 142%; /* 22.72px */
+  letter-spacing: -0.32px;
+  margin-bottom: 4px;
+}
+
+.review-valid-popup .popup-content-wrap .empty-wrap p {
+  overflow: hidden;
+  color: #ff43ca;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%; /* 18.46px */
+  letter-spacing: -0.26px;
+  margin-bottom: 20px;
+}
+
+.review-valid-popup .popup-content-wrap .empty-wrap button {
+  display: flex;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #ff43ca;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 142%; /* 22.72px */
+  letter-spacing: -0.32px;
+}
