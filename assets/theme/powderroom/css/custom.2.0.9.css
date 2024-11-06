@@ -5642,11 +5642,11 @@ nav.nav-wrap button.profile .img-wrap img {
 }
 
 .main-new-page-wrap .rank-vertical .rank-tag {
+  flex-shrink: 0;
   display: flex;
   justify-content: center;
   width: 20px;
   height: 20px;
-  padding: 0 9px;
   border-radius: 12px;
   background: #000;
   color: #fff;
