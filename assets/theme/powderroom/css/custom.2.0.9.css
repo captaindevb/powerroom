@@ -6366,3 +6366,7 @@ nav.nav-wrap button.profile .img-wrap img {
 .main-new .magazine-content {
   padding-top: 0;
 }
+
+.main-new .magazine-content ul li .desc {
+  white-space: nowrap;
+}
