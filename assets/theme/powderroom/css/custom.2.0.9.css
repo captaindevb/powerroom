@@ -4938,13 +4938,13 @@ nav.nav-wrap {
 }
 
 nav.nav-wrap button {
-  width: 69px;
+  width: 69px !important;
   height: 57px;
   color: #929498;
 }
 
 nav.nav-wrap button.write-btn {
-  width: 106px;
+  width: 101px !important;
 }
 
 nav.nav-wrap button span {
@@ -5700,7 +5700,7 @@ nav.nav-wrap button.profile .img-wrap img {
 
 .main-new-page-wrap .rank-vertical .product-name {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 142%; /* 20.4px */
   letter-spacing: -0.3px;
 }
