@@ -5011,6 +5011,11 @@ nav.nav-wrap button.profile .img-wrap img {
   border-radius: 20px;
   object-fit: cover;
   margin-bottom: 0;
+  opacity: 0.6;
+}
+
+nav.nav-wrap button.profile.on .img-wrap img {
+  opacity: 1;
 }
 
 /* 메인 홈 공통 푸터 (리뉴얼) */
