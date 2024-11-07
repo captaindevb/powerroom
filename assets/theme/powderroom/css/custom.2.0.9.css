@@ -4958,7 +4958,7 @@ nav.nav-wrap button span {
 nav.nav-wrap button img {
   width: 24px;
   height: 24px;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
 
 nav.nav-wrap button.on span {
@@ -4992,7 +4992,6 @@ nav.nav-wrap button.profile {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
   opacity: 0.9;
 }
 
@@ -5001,6 +5000,7 @@ nav.nav-wrap button.profile.on {
 }
 
 nav.nav-wrap button.profile .img-wrap {
+  margin: 8px 0 3px 0;
   width: 24px;
   height: 24px;
 }
@@ -5010,6 +5010,7 @@ nav.nav-wrap button.profile .img-wrap img {
   height: 100%;
   border-radius: 20px;
   object-fit: cover;
+  margin-bottom: 0;
 }
 
 /* 메인 홈 공통 푸터 (리뉴얼) */
@@ -6268,8 +6269,8 @@ nav.nav-wrap button.profile .img-wrap img {
   overflow-y: visible;
 }
 
-.main-new .tab-depth + .tab-depth-rank {
-  border-top: 1px solid #eceef2;
+.main-new .tab-depth.rank {
+  border-bottom: 1px solid #eceef2;
 }
 
 .main-new .tab-depth-rank .swipe-scroll-area {
