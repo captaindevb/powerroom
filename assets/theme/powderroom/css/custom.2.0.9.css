@@ -4938,12 +4938,20 @@ nav.nav-wrap {
 }
 
 nav.nav-wrap button {
-  display: inline-block;
-  flex: 0 0 18.29%;
-  height: 56px;
+  width: 69px;
+  height: 57px;
+  color: #929498;
+}
+
+nav.nav-wrap button.write-btn {
+  width: 106px;
+}
+
+nav.nav-wrap button span {
+  display: block;
   font-size: 10px;
   font-weight: 500;
-  line-height: 142%; /* 14.2px */
+  line-height: 142%;
   color: #929498;
 }
 
@@ -4953,17 +4961,14 @@ nav.nav-wrap button img {
   margin-bottom: 6px;
 }
 
-nav.nav-wrap button.on {
+nav.nav-wrap button.on span {
   font-weight: 600;
   color: #000;
 }
 
-nav.nav-wrap button.write-btn {
-  flex: 0 0 26.67%;
-}
-
 nav.nav-wrap button.write-btn span {
-  margin: 0 12px;
+  width: 76px;
+  margin: 0 auto;
   display: flex;
   height: 45px;
   justify-content: center;
@@ -6212,6 +6217,26 @@ nav.nav-wrap button.profile .img-wrap img {
   .thumb
   img:last-child {
   margin-right: 16px;
+}
+
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box
+  .product-review-list
+  .user-info-box
+  .img-wrap
+  img {
+  border-radius: 6px;
+}
+
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box
+  .product-review-list
+  .reaction {
+  margin: 0;
 }
 
 /* 푸터 Top 버튼 */
