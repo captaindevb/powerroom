@@ -6380,7 +6380,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .main-new .tab-depth-rank {
-  padding: 14px 10px 14px 16px;
+  padding: 64px 10px 14px 16px !important;
   justify-content: space-between;
   overflow-x: scroll;
   overflow-y: visible;
