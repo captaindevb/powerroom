@@ -6542,3 +6542,20 @@ nav.nav-wrap a {
 .sub-header header {
   display: none;
 }
+
+.mypage-box .review-list-box .review-summary {
+  margin-bottom: 10px !important;
+}
+
+.review-list-box .review-summary img {
+  position: absolute;
+  right: 16px;
+}
+
+.review-wirte-wrap .input-item input[type="text"]::placeholder {
+  color: #b8bbbf !important;
+}
+
+.item-unregistered-wrap select {
+  padding-right: 35px;
+}
