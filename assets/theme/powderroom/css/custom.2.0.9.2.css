@@ -187,6 +187,40 @@ html {
   overflow: scroll;
 }
 
+.review-list-box .product-review-list .review-info-box .star-box {
+  margin-top: 0 !important;
+}
+
+.review-list-box .product-review-list .review-info-box .star-box .star2 {
+  padding: 0 !important;
+  width: 18px;
+  height: 18px;
+}
+
+.review-list-box
+  .product-review-list
+  .review-info-box
+  .star-box
+  .star2
+  .star2-rating-foreground {
+  height: 18px;
+  background-size: 18px 18px;
+}
+
+.review-list-box
+  .product-review-list
+  .review-info-box
+  .star-box
+  .star2
+  .star2-rating-background {
+  height: 18px;
+  background-size: 18px 18px;
+}
+
+.review-list-box .product-review-list .review-info-box .date {
+  font-size: 12px !important;
+}
+
 .review-list-box .product-review-list li .thumb {
   overflow: scroll;
 }
@@ -404,6 +438,10 @@ html {
   overflow-y: auto;
 }
 
+#review-filter-modal .product-popup .filter-wrap .btn {
+  border-color: #eceef2;
+}
+
 .product-popup .form-box .form-title {
   margin-bottom: 12px;
   color: #222;
@@ -543,6 +581,36 @@ html {
 
 .review-detail-content .swiper-container .review-img {
   margin-bottom: 0;
+}
+
+.review-detail-content .detail-box .grade .star-box {
+  margin-top: 0 !important;
+}
+
+.review-detail-content .detail-box .grade .star-box .star2 {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+}
+
+.review-detail-content
+  .detail-box
+  .grade
+  .star-box
+  .star2
+  .star2-rating-foreground {
+  height: 18px;
+  background-size: 18px 18px;
+}
+
+.review-detail-content
+  .detail-box
+  .grade
+  .star-box
+  .star2
+  .star2-rating-background {
+  height: 18px;
+  background-size: 18px 18px;
 }
 
 .swiper-pagination-bullet {
@@ -2574,7 +2642,22 @@ button.all-submit-btn {
 }
 
 .product-content .tab-box {
+  height: 48px;
   border-bottom: 1px solid #f2f3f6;
+}
+
+.product-content .tab-box button {
+  height: 48px;
+}
+
+.product-content .tab-box + .product-select-box .selectbox3 {
+  border-top: 0;
+}
+
+.product-box .product-select-box .selectbox3 {
+  font-weight: 500;
+  height: 56px;
+  align-content: center;
 }
 
 .product-content .product-box .kr-review-box .content p.title {
@@ -4207,6 +4290,10 @@ div:where(.swal2-container) .swal2-html-container {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.review-list-box .product-review-list .user-info-box span.tag {
+  font-weight: 400 !important;
 }
 
 .modal-wrap .content.out .img-txt-wrap p {
