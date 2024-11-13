@@ -2149,20 +2149,29 @@ button.all-submit-btn {
 .app-review-write-box .product-info-box .info p {
   line-height: 26px;
   margin-bottom: 0;
+  color: #000000;
 }
 
 .app-review-write-box .product-info-box .info p + span {
   display: block;
   font-size: 14px;
-  color: #68696b;
+  color: #373839 !important;
   font-weight: 300;
   line-height: 20px;
 }
 
 .app-review-write-box .product-info-box .info .mission-date {
+  height: 24px;
   display: inline-block;
   font-size: 11px;
   line-height: 16px;
+}
+
+.app-review-write-box .tag-box .req-tag .title-wrapper + p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 142%; /* 19.88px */
+  letter-spacing: -0.28px;
 }
 
 .tag-box .title-wrapper button {
@@ -3661,6 +3670,15 @@ img#send-comment-btn {
 #mission-review-form-wrap
   .mission-product-info-wrapper
   .mission-product-info
+  .product-info-box
+  img {
+  height: 80px;
+  border-radius: 12px;
+}
+
+#mission-review-form-wrap
+  .mission-product-info-wrapper
+  .mission-product-info
   .product-info-box::after {
   content: "";
   position: absolute;
@@ -3668,7 +3686,7 @@ img#send-comment-btn {
   left: 0;
   width: 80px;
   border-radius: 12px;
-  height: 100%;
+  height: 80px !important;
   background-color: rgba(0, 0, 0, 0.04);
 }
 
@@ -4216,6 +4234,13 @@ div:where(.swal2-container) .swal2-html-container {
   .product-info-box {
   display: flex;
 }
+#mission-review-form-wrap
+  .mission-product-info-wrapper
+  .mission-product-info
+  .product-info-box
+  .info {
+  align-self: center;
+}
 
 .app-review-write-box.common-content .product-info-box .info {
   width: calc(100% - 116px);
@@ -4233,7 +4258,7 @@ div:where(.swal2-container) .swal2-html-container {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.05);
-  z-index: 9999;
+  z-index: 9998 !important;
   width: inherit;
   height: inherit;
   border-radius: 8px;
