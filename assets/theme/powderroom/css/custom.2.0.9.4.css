@@ -6683,7 +6683,7 @@ nav.nav-wrap a {
   content: "";
   position: absolute;
   left: 10px;
-  top: 10;
+  top: 10px;
   width: 48px;
   height: 48px;
   border-radius: 8px;
