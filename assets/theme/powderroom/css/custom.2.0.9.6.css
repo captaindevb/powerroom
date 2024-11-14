@@ -6679,7 +6679,7 @@ nav.nav-wrap a {
 
 .review-list-box .review-summary img {
   position: absolute;
-  right: 16px;
+  right: 0;
 }
 
 .review-wirte-wrap .input-item input[type="text"]::placeholder {
@@ -6812,4 +6812,8 @@ nav.nav-wrap a.profile img {
 
 nav.nav-wrap a.profile.on img {
   opacity: 1;
+}
+
+.review-list-box .review-summary {
+  position: relative;
 }
