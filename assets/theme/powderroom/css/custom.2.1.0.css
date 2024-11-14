@@ -5527,7 +5527,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 .main-new-page-wrap .event-wrapper {
   display: flex;
-  gap: 8px;
+  gap: 10px;
   overflow-x: auto;
 }
 
