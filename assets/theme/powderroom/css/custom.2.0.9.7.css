@@ -5650,6 +5650,12 @@ nav.nav-wrap button.profile.on .img-wrap img {
   overflow-x: auto;
 }
 
+.main-new-page-wrap
+  .rank-container.horizontal
+  .rank-horizontal-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
 .main-new-page-wrap .rank-horizontal {
   width: 132px;
 }
@@ -5882,6 +5888,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
   gap: 13px;
 }
 
+.main-new-page-wrap .magazine-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
 .main-new-page-wrap .magazine-wrapper .magazine {
   width: 234px;
 }
@@ -5979,6 +5989,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
   display: flex;
   overflow-x: auto;
   gap: 13px;
+}
+
+.main-new-page-wrap .review-container .review-wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 .main-new-page-wrap .review-wrapper .review {
@@ -6725,6 +6739,10 @@ nav.nav-wrap a {
 
 .main-new .review-list-box .product-review-list .user-info-box span.name {
   font-weight: 600;
+}
+
+.main-new-page-wrap .event-container {
+  padding-top: 20px !important;
 }
 
 /* add */
