@@ -6835,3 +6835,7 @@ nav.nav-wrap a.profile.on img {
 .review-list-box .review-summary {
   position: relative;
 }
+
+.sub-header .rank-tab-container::-webkit-scrollbar {
+  display: none;
+}
