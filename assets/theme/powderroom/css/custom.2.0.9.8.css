@@ -6672,8 +6672,14 @@ nav.nav-wrap a {
   padding-top: 14px !important;
 }
 
+/* 이벤트 페이지용 */
 .main-new-page-wrap .event-container {
   padding-top: 54px !important;
+}
+
+/* 메인 > 이벤트용 */
+.main-new-page-wrap .event-container.swiper {
+  padding-top: 20px !important;
 }
 
 .sub-header .event-container {
@@ -6740,10 +6746,6 @@ nav.nav-wrap a {
 
 .main-new .review-list-box .product-review-list .user-info-box span.name {
   font-weight: 600;
-}
-
-.main-new-page-wrap .event-container {
-  padding-top: 20px !important;
 }
 
 /* add */
