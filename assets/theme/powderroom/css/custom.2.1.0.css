@@ -6403,6 +6403,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 /* 푸터 Top 버튼 */
 .btn-top {
+  z-index: 999;
   position: fixed;
   bottom: 20px;
   right: 0;
