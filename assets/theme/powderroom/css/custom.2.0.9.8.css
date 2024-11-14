@@ -219,7 +219,7 @@ html {
 }
 
 .review-list-box .product-review-list .review-info-box .date {
-  font-size: 12px !important;
+  font-size: 10px !important;
 }
 
 .review-list-box .product-review-list li .thumb {
@@ -611,6 +611,7 @@ html {
   .star2
   .star2-rating-background {
   height: 18px;
+  width: 18px;
   background-size: 18px 18px;
 }
 
