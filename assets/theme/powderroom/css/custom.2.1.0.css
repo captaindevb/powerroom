@@ -4052,6 +4052,8 @@ div:where(.swal2-container) div:where(.swal2-popup) {
 
 .review-list-box .review-summary .count {
   margin-left: 16px;
+  line-height: 142%;
+  font-size: 11px;
 }
 
 /*개발 모달*/
