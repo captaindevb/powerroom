@@ -523,7 +523,7 @@ html {
 
 .filter-wrap > .btn-check:checked + .btn {
   color: #ff43ca;
-  border-color: #ff43ca;
+  border-color: #ff43ca !important;
   background-color: #ff43ca1a;
 }
 
@@ -2821,6 +2821,27 @@ button.all-submit-btn {
 
 .review-list-box .product-review-list li {
   border: 0;
+}
+
+.review-list-box .product-review-list li.no-list {
+  padding: 41px 0 36px !important;
+  text-align: center !important;
+  background-color: #f6f9ff !important;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.review-list-box .product-review-list li.no-list img {
+  width: 81px;
+  height: 90px;
+}
+
+.review-list-box .product-review-list li.no-list p {
+  color: #929498;
+  font-size: 15px;
+  margin: 10px 0 15px;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .product-content .review-list-box .product-review-list li p.title {
@@ -5615,7 +5636,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   justify-content: center;
   align-items: center;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 600 !important;
   line-height: 142%;
   /* 15.62px */
   letter-spacing: -0.22px;
