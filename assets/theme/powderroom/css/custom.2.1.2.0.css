@@ -6872,6 +6872,10 @@ nav.nav-wrap a.profile .img {
 }
 
 nav.nav-wrap a.profile img.img {
+  opacity: 0.6;
+}
+
+nav.nav-wrap a.profile.on img.img {
   opacity: 1;
 }
 
