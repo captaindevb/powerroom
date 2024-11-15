@@ -5527,6 +5527,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 .main-new-page-wrap .comm-container {
   padding: 20px 0 20px 16px;
   margin-bottom: 10px;
+  margin-right: 0 !important;
 }
 
 .main-new-page-wrap .main-sub-title {
@@ -5694,7 +5695,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .main-new-page-wrap .rank-horizontal:last-child {
-  margin-right: 16px;
+  margin-right: 16px !important;
 }
 
 .main-new-page-wrap .rank-horizontal .img-wrap {
@@ -5930,7 +5931,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .main-new-page-wrap .magazine-wrapper .magazine:last-child {
-  margin-right: 16px;
+  margin-right: 16px !important;
 }
 
 .main-new-page-wrap .magazine-wrapper .magazine .img-wrap {
@@ -6966,7 +6967,7 @@ nav.nav-wrap a.profile.on img {
 
 .main-new-page-wrap .magazine-wrapper .magazine:last-child {
   padding-right: 0 !important;
-  margin-right: 0 !important;
+  margin-right: 16px !important;
 }
 
 .main-new-page-wrap .rank-container.horizontal .rank-horizontal-wrapper {
@@ -6984,7 +6985,7 @@ nav.nav-wrap a.profile.on img {
 }
 
 .main-new-page-wrap .review-wrapper .review:last-child {
-  margin-right: 0;
+  margin-right: 16px !important;
 }
 
 .hide-scrollbar {
