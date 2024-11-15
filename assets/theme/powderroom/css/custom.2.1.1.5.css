@@ -6816,11 +6816,12 @@ nav.nav-wrap a span {
 }
 
 nav.nav-wrap a.on span {
-  font-weight: 600;
+  font-weight: 700;
   color: #000;
 }
 
 nav.nav-wrap a.profile {
+  position: relative;
   opacity: 0.9;
 }
 
@@ -6828,15 +6829,45 @@ nav.nav-wrap a.profile.on {
   opacity: 1;
 }
 
+nav.nav-wrap a.profile.on::after {
+  display: none;
+}
+
 nav.nav-wrap a.profile .img {
   width: 24px;
   height: 24px;
+  opacity: 0.6;
+}
+
+nav.nav-wrap a.profile img.img {
+  opacity: 1;
+}
+
+nav.nav-wrap a.profile.on .img {
+  opacity: 1;
 }
 
 nav.nav-wrap a.profile img {
   border-radius: 20px;
   object-fit: cover;
-  opacity: 0.6;
+}
+
+nav.nav-wrap a.profile img + br + span::after {
+  position: absolute;
+  border-radius: 100%;
+  top: 0;
+  left: 22px;
+  display: block;
+  width: 25px;
+  height: 24px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(<path-to-image>) lightgray 50% / cover no-repeat;
+  content: "";
+  opacity: 0.1;
 }
 
 nav.nav-wrap a.profile.on img {
@@ -6937,4 +6968,8 @@ nav.nav-wrap a.profile.on img {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
   /* Chrome, Safari, Opera */
+}
+
+.exp-content .top-info-box {
+  background-position-y: bottom;
 }
