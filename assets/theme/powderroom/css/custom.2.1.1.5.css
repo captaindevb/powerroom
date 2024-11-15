@@ -6815,6 +6815,11 @@ nav.nav-wrap a span {
   background-image: url("../images/icon-new-tabbar-profile-on.png");
 }
 
+nav.nav-wrap a.on span {
+  font-weight: 600;
+  color: #000;
+}
+
 nav.nav-wrap a.profile {
   opacity: 0.9;
 }
@@ -6844,4 +6849,92 @@ nav.nav-wrap a.profile.on img {
 
 .sub-header .rank-tab-container::-webkit-scrollbar {
   display: none;
+}
+
+.main-new-page-wrap .banner-container .contents {
+  /* width: 100%; */
+  /* height: 100%; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 18px 31px;
+  z-index: 3;
+}
+
+.main-new-page-wrap .banner-container .contents .paging {
+  position: absolute;
+  display: flex;
+  padding: 2px 8px;
+  bottom: 18px;
+  right: 31px;
+  align-items: center;
+  color: #ffffff;
+  line-height: 142%;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+}
+
+.main-new-page-wrap .banner-container .contents .paging strong {
+  font-weight: 500;
+  color: #fff;
+}
+
+.main-new-page-wrap .banner-container .contents .paging span {
+  color: #fff;
+}
+
+.main-new-page-wrap .banner-container .contents .paging img {
+  margin-left: 6px;
+  width: 9px;
+  height: 9px;
+}
+
+.main-new-page-wrap .magazine-wrapper {
+  display: flex;
+  overflow-x: visible;
+  gap: 0;
+}
+
+.main-new-page-wrap .comm-container {
+  padding: 20px 0 20px 0px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.main-new-page-wrap .magazine-wrapper .magazine:last-child {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+.main-new-page-wrap .rank-container.horizontal .rank-horizontal-wrapper {
+  overflow: visible;
+  gap: 0;
+}
+
+.main-new-page-wrap .rank-horizontal:last-child {
+  margin-right: 0;
+}
+
+.main-new-page-wrap .review-container .review-wrapper {
+  overflow: visible;
+  gap: 0;
+}
+
+.main-new-page-wrap .review-wrapper .review:last-child {
+  margin-right: 0;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
 }
