@@ -2753,9 +2753,17 @@ button.all-submit-btn {
   letter-spacing: -0.54px;
 }
 
+.product-content .product-box .info-box .detail-box .brand .img-wrap {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+
 .product-content .product-box .info-box .detail-box .brand img:first-child {
   width: 22px;
   height: 22px;
+  position: absolute;
+  object-fit: contain;
 }
 
 .product-content .product-box .brand-name {
@@ -5636,7 +5644,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   justify-content: center;
   align-items: center;
   font-size: 11px;
-  font-weight: 600 !important;
+  font-weight: 500;
   line-height: 142%;
   /* 15.62px */
   letter-spacing: -0.22px;
