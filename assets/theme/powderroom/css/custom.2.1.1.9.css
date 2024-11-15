@@ -5868,7 +5868,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .main-new-page-wrap .rank-vertical .contents-wrap {
-  display: flex;
+  display: grid;
   flex-direction: column;
 }
 
@@ -6298,6 +6298,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 .main-new-page-wrap .event-container.active {
   padding: 4px 16px 30px 16px;
   margin-bottom: 17px;
+  margin-left: 0;
 }
 
 .main-new-page-wrap .event-container.active .event-wrapper {
@@ -6452,6 +6453,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 .main-new-page-wrap .rank-container.active {
   padding: 0;
   margin-bottom: 30px;
+  margin-left: 0;
 }
 
 .main-new .tab-depth-rank {
