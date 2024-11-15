@@ -5981,6 +5981,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
   position: relative;
 }
 
+.main-new-page-wrap .banner-slide .slide-box .banner-wrap .swiper-slide {
+  padding: 0 8px;
+}
+
 .main-new-page-wrap .banner-slide .slide-box img {
   width: 100%;
   border-radius: 12px;
