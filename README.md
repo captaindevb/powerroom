@@ -2,6 +2,13 @@
 
 아래 링크를 클릭하여 해당 페이지로 바로가기 합니다
 
+### 서베이
+
+1.  Link: [이벤트 신청 - 서베이 전 유형](/17-event-join/event-join-all-survey.html)
+2.  Link: [이벤트 신청 - 앱리뷰](/17-event-join/event-join-app.html)
+3.  Link: [미션 제출 시 서베이 위치]()
+4.  Link: [마이페이지 배송정보 영역](/07-mypage/mypage-edit-popup-05.html)
+
 ### 메인 > 탭
 
 1.  Link: [메인](/12-main-new/main-new.html)

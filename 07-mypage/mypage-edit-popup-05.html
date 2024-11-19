@@ -1,0 +1,236 @@
+<html>
+  <head>
+    <title>POWER ROOM</title>
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/theme/powderroom/css/style.2.0.2.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/theme/powderroom/css/custom.2.1.2.2.css"
+    />
+  </head>
+  <body>
+    <div class="mypage-page-wrap common-wrap">
+      <header class="line">
+        <button type="button" class="btn-header-left">
+          <img src="../asset/images/icon-top-back.png" alt="" />
+        </button>
+        <h2>体験団</h2>
+        <button type="button" class="btn-header-right">
+          <img src="../asset/images/icon-top-settings.png" alt="" />
+        </button>
+      </header>
+      <div class="mypage-content common-content">
+        <div class="mypage-box">
+          <div class="profile-box edit-mode">
+            <div class="thumb">
+              <img
+                id="preview"
+                xclass="dynamic-image"
+                src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/02/68/9c/02689c913f625d48f672bf82e5400995b4c5d9e7.jpg"
+                width="115"
+                alt=""
+              />
+              <button type="button" class="btn-camera">
+                <img
+                  id="camera-icon"
+                  src="https://cf.dev.powderroom.mobi/assets/theme/powderroom/images/img-camera.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <input
+            type="file"
+            name="profile_image_url"
+            id="file-input"
+            accept="image/*"
+          />
+          <div class="self-box" style="margin-bottom: 0">
+            <p>ニックネーム</p>
+            <input
+              type="text"
+              name="aes_hex_nickname"
+              class="name"
+              value="❤️~^^~~"
+              xdata-maxlength="10"
+              maxlength="10"
+            />
+          </div>
+          <div class="self-box">
+            <p>自己紹介</p>
+            <textarea name="message" xdata-maxlength="50" maxlength="50">
+H</textarea
+            >
+          </div>
+          <div class="self-box"></div>
+          <ul class="detail-add-box">
+            <li class="cursor-pointer" onclick="$('.profile1-popup').show();">
+              <span class="title">基本情報</span><span>設定</span>
+            </li>
+            <li class="cursor-pointer" onclick="$('.profile2-popup').show();">
+              <span class="title">ソーシャル·チャンネル</span><span>設定</span>
+            </li>
+            <li class="cursor-pointer" onclick="$('.profile3-popup').show();">
+              <span class="title">皮膚情報</span><span>設定</span>
+            </li>
+            <li class="cursor-pointer" onclick="$('.profile4-popup').show();">
+              <span class="title">お届け先管理</span><span>設定</span>
+            </li>
+          </ul>
+          <div
+            class="floating-footer"
+            style="
+              z-index: 10001;
+              padding-bottom: calc(env(safe-area-inset-bottom));
+            "
+          >
+            <button type="type" xdisabled="">保存</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 기본정보 팝업 -->
+      <div class="popup-dim-wrap">
+        <div class="popup-content-wrap">
+          <div class="popup-header">
+            お届け先管理
+            <button type="button" onclick="$('.popup-dim-wrap').hide();">
+              <img
+                src="../assets/theme/powderroom/images/icon-top-close-black.png"
+                alt=""
+              />
+            </button>
+          </div>
+          <div class="popup-content mypage-popup">
+            <div class="event-join-wrapper">
+              <div class="delivery-info-box event-comm-box">
+                <div class="form-box">
+                  <div class="form-item">
+                    <span class="title">お名前 (漢字)</span>
+                    <div class="flex-box">
+                      <input
+                        type="text"
+                        class="event-input sm"
+                        placeholder="性"
+                        value="金"
+                      />
+                      <input
+                        type="text"
+                        class="event-input sm"
+                        placeholder="名"
+                        value="波庴"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item">
+                    <span class="title">お名前 (カナ)</span>
+                    <div class="flex-box">
+                      <input
+                        type="text"
+                        class="event-input sm"
+                        placeholder="性"
+                        value="キム"
+                      />
+                      <input
+                        type="text"
+                        class="event-input sm"
+                        placeholder="名"
+                        value="パルーム"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item">
+                    <span class="title">お名前 (英語)</span>
+                    <div class="flex-box">
+                      <input
+                        type="text"
+                        class="event-input sm"
+                        placeholder="性"
+                        value="Kim"
+                      />
+                      <input
+                        type="text"
+                        class="event-input sm"
+                        placeholder="名"
+                        value="Parum"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item">
+                    <span class="title">携帯番号</span>
+                    <div class="flex-box">
+                      <input
+                        type="text"
+                        class="event-input lg"
+                        placeholder="数字のみ入力"
+                        value="0101234123"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item">
+                    <span class="title">住所</span>
+                    <div class="flex-box">
+                      <input
+                        type="text"
+                        class="event-input sm"
+                        placeholder="郵便番号"
+                        value="202-0044"
+                      />
+                      <button type="button" class="sm auto-btn">
+                        住所自動入力
+                      </button>
+                    </div>
+                  </div>
+                  <div class="form-item">
+                    <button type="button" class="dodo-btn">東京都</button>
+                    <div class="flex-box">
+                      <input
+                        type="text"
+                        class="event-input lg"
+                        placeholder="市区町村を入力"
+                        value="千代田市"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-item">
+                    <input
+                      type="text"
+                      class="event-input"
+                      placeholder="詳細住所の入力"
+                      value="カジチョ 2-10-9"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="edit-info-wrap">
+              <h5>配送先管理の案内</h5>
+              <p>
+                * 体験談申請時、入力した名前、住所、連絡先を簡単に呼び出します。
+              </p>
+              <p>
+                * イベント申請後変更した情報はイベント申請情報に反映されません。
+              </p>
+              <p>* 変更が必要な情報はイベント申請前に修正して下さい。</p>
+            </div>
+          </div>
+
+          <div class="floating-footer">
+            <button type="type">保存</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
