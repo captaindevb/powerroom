@@ -7282,73 +7282,82 @@ hr.divider {
 }
 
 .event-join-wrapper .btn-wrapper .complete-btn.active {
-  background: #FF43CA;
+  background: #ff43ca;
 }
 
 /* 이벤트 서베이 */
 .event-input {
-    height: 46px;
-    padding: 0 16px;
-    border: 1px solid #eceef2;
-    border-radius: 6px;
-    background: #fff;
-    font-size: 15px;
-    color: #000;
-    font-weight: 400;
-    letter-spacing: -0.3px;
+  height: 46px;
+  padding: 0 16px;
+  border: 1px solid #eceef2;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: -0.3px;
 }
 .event-input.caution {
-    border: 1px solid #ff43ca;
+  border: 1px solid #ff43ca;
 }
 
 .event-input::placeholder {
-    color: #b8bbbf;
+  color: #b8bbbf;
 }
 
 .event-input-checkbox + label::before {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: url("../images/input-check-off.png") no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    border-radius: 0;
-    content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/input-check-off.png") no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  content: "";
 }
 
 .event-input-checkbox + label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    width: fit-content;
-    font-size: 13px;
-    line-height: 142%;
-    font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  font-size: 13px;
+  line-height: 142%;
+  font-weight: 400;
 }
 .event-input-checkbox + label span {
-    max-width: calc(100% - 28px);
+  max-width: calc(100% - 28px);
 }
 
 .event-input-checkbox:checked + label::before {
-    background: url("../images/input-check-on.png") no-repeat;
-    background-size: cover;
+  background: url("../images/input-check-on.png") no-repeat;
+  background-size: cover;
+}
+
+.event-input-checkbox:disabled + label::before {
+  background: url("../images/input-check-disabled.png") no-repeat;
+  background-size: cover;
 }
 
 .event-input-checkbox:checked + label {
-    color: initial !important;
-    background: initial !important;
+  color: initial !important;
+  background: initial !important;
 }
 .event-input-checkbox.radio {
-    display: none;
+  display: none;
 }
 .event-input-checkbox.radio + label::before {
-    background: url("../images/input-radio-off.png") no-repeat;
-    background-size: cover;
+  background: url("../images/input-radio-off.png") no-repeat;
+  background-size: cover;
 }
 
 .event-input-checkbox.radio:checked + label::before {
-    background: url("../images/input-radio-on.png") no-repeat;
-    background-size: cover;
+  background: url("../images/input-radio-on.png") no-repeat;
+  background-size: cover;
+}
+.event-input-checkbox.radio:disabled + label::before {
+  background: url("../images/input-radio-disabled.png") no-repeat;
+  background-size: cover;
 }
