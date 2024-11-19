@@ -29,7 +29,7 @@
             alt=""
           />
         </button>
-        <h2>이벤트 신청</h2>
+        <h2>イベントの申し込み</h2>
       </header>
       <div class="event-join-wrapper">
         <div class="product-info-box">
@@ -42,17 +42,18 @@
             />
           </div>
           <div class="info">
-            <p>에이프릴스킨</p>
-            <span>캐로틴 멜팅 클렌징밤 90ml</span>
-            <span class="mission-date">미션 마감일: 12월 3일</span>
+            <p>
+              バニラコ, マック, キス, バイオヒールボ, ミルクタッチ, ビープレーン
+            </p>
+            <span>韓国人気商品イベント</span>
           </div>
         </div>
         <hr class="divider" />
         <!-- 이벤트 상품 -->
-        <div class="event-product-box">
-          <div class="info">
-            <p>이벤트 상품</p>
-            <p>항목 중 랜덤 제공</p>
+        <div class="event-product-box event-comm-box">
+          <div class="header">
+            イベント商品
+            <span>一つ選択提供</span>
           </div>
           <div class="detail">
             <p>레디 투 웨어</p>
@@ -61,9 +62,100 @@
         </div>
         <hr class="divider" />
         <!-- 배송정보 -->
-        <div class="delivery-info"></div>
+        <div class="delivery-info-box event-comm-box">
+          <div class="header">発送情報</div>
+          <div class="form-box">
+            <div class="form-item">
+              <span class="title">お名前 (漢字)</span>
+              <div class="flex-box">
+                <input type="text" class="sm" placeholder="性" />
+                <input type="text" class="sm" placeholder="名" />
+              </div>
+            </div>
+            <div class="form-item">
+              <span class="title">お名前 (カナ)</span>
+              <div class="flex-box">
+                <input type="text" class="sm" placeholder="性" />
+                <input type="text" class="sm" placeholder="名" />
+              </div>
+            </div>
+            <div class="form-item">
+              <span class="title">お名前 (英語)</span>
+              <div class="flex-box">
+                <input type="text" class="sm" placeholder="性" />
+                <input type="text" class="sm" placeholder="名" />
+              </div>
+            </div>
+            <div class="form-item">
+              <span class="title">携帯番号</span>
+              <input type="text" class="lg" placeholder="数字のみ入力" />
+            </div>
+            <div class="form-item">
+              <span class="title">住所</span>
+              <div class="flex-box">
+                <input type="text" class="sm" placeholder="郵便番号" />
+                <button type="button" class="sm auto-btn">住所自動入力</button>
+              </div>
+            </div>
+            <div class="form-item">
+              <div class="flex-box full">
+                <button type="button" class="dodo-btn">都道府県</button>
+                <input type="text" class="lg" placeholder="市区町村を入力" />
+              </div>
+            </div>
+            <div class="form-item">
+              <input type="text" placeholder="詳細住所の入力" />
+            </div>
+          </div>
+          <div class="save-check">
+            <!-- TODO 체크버튼 추가 필요 -->
+            <p>SNS・チャンネル及びお届け先情報を保存する</p>
+          </div>
+          <p class="desc">
+            チェックする際に、入力及び修正した配送情報は<br />
+            <span>MY > プロフィール編集</span>に保存されます
+          </p>
+        </div>
         <hr class="divider" />
         <!-- 설문 -->
+        <div class="survey-info-box event-comm-box">
+          <div class="header">発送情報</div>
+        </div>
+        <hr class="divider" />
+        <!--  이용자 동의 -->
+        <div class="user-agree-box event-comm-box">
+          <div class="header">利用者の同意</div>
+          <div class="desc">
+            • 体験団応募は日本在住の方のみとなっております。<br />•
+            体験団に当選した場合、Powderroom
+            JPのレビューURLをレビュー送信期間内に送信しなければなりません。<br />•
+            体験団を通して作成された商品レビュー(文章、イメージ、動画
+            等)はPowderroom
+            JPと商品提供ブランドのマーケティングに活用されることがあります。<br />•
+            レビューの約束を実行しなかった場合、今後実行される体験団選抜対象から除外となります。体験団に当選された場合必ず約束を実行お願い申し上げます。<br />•
+            体験団応募後の配送住所は変更不可となっております。<br />•
+            住所、連絡先の間違えた記入による製品誤配送や紛失が発生した場合の再配送は不可となっております。<br />•
+            ブランドの事情による配送遅延や、通関手続き遅延等の事情で商品配送が遅延することがあります。配送が遅延する場合、加入時に登録されたEmailにご案内申し上げます。<br />•
+            配送中に商品が破損した場合、商品の破損状態を写真で撮影し、Powderroom
+            JP
+            ウェブサイトのMY>お問い合わせを通じて送っていただければ確認後、サポートさせていただきます。<br />•
+            お申し込み時に作成していただいたInstagram
+            IDのアカウントに体験団当選商品のレビューを作成しなければなりません。他人のInstagram
+            ID
+            を虚偽で作成し当選商品を受け取りする場合、商品の返還を要求することもあります。<br />•
+            Instagram
+            アカウントは必ず公開アカウントでなくてはなりません。レビュー期間中にInstagramアカウントを非公開に転換、ID変更することも不可となっております。
+          </div>
+          <div class="agree-check">
+            <!-- TODO 체크버튼 추가 필요 -->
+            <p>SNS・チャンネル及びお届け先情報を保存する</p>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <button class="complete-btn">申し込みする</button>
+          <!-- 활성상태 -->
+          <!-- <button class="complete-btn active">申し込みする</button>-->
+        </div>
       </div>
     </div>
   </body>
