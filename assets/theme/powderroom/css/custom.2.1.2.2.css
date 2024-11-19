@@ -7278,6 +7278,10 @@ hr.divider {
   letter-spacing: -0.26px;
 }
 
+.event-join-wrapper .user-agree-box .agree-check input:checked + label span {
+  color: #222222;
+}
+
 .event-join-wrapper .btn-wrapper {
   padding: 0 16px 24px;
 }
@@ -7296,6 +7300,10 @@ hr.divider {
 
 .event-join-wrapper .btn-wrapper .complete-btn.active {
   background: #ff43ca;
+}
+
+.event-join-wrapper .btn-wrapper .complete-btn.edit {
+  background: #000;
 }
 
 .event-join-wrapper .survey-info-box .header {

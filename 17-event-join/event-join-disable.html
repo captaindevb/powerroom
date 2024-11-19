@@ -29,7 +29,7 @@
             alt=""
           />
         </button>
-        <h2>イベントの申し込み</h2>
+        <h2>이벤트 신청 수정</h2>
       </header>
       <div class="event-join-wrapper">
         <div class="product-info-box">
@@ -56,71 +56,8 @@
             <span>一つ選択提供</span>
           </div>
           <div class="detail">
-            <div class="event-input-btn">
-              <!--체크박스로 사용 시 class에서 radio 삭제-->
-              <input
-                type="radio"
-                id="radio-name1"
-                name="radio1"
-                class="event-input-checkbox radio"
-              />
-              <label for="radio-name1"
-                ><span
-                  >[ハローキティエディション] クリーンイットゼロ オリジナル
-                  クレンジングバーム</span
-                ></label
-              >
-            </div>
-            <div class="event-input-btn">
-              <input
-                type="radio"
-                id="radio-name2"
-                name="radio1"
-                class="event-input-checkbox radio"
-              />
-              <label for="radio-name2"
-                ><span>[ハローキティエディション] トートバッグ</span></label
-              >
-            </div>
-            <div class="event-input-btn">
-              <input
-                type="radio"
-                id="radio-name3"
-                name="radio1"
-                class="event-input-checkbox radio"
-              />
-              <label for="radio-name3"
-                ><span
-                  >クリーンイットゼロオリジナルクレンジングバームトラベルキット</span
-                ></label
-              >
-            </div>
-            <div class="event-input-btn">
-              <input
-                type="radio"
-                id="radio-name4"
-                name="radio1"
-                class="event-input-checkbox radio"
-              />
-              <label for="radio-name4"
-                ><span
-                  >スタジオ フィックス フルイッド SPF 25 / <b>NW11</b></span
-                ></label
-              >
-            </div>
-            <div class="event-input-btn">
-              <input
-                type="radio"
-                id="radio-name5"
-                name="radio1"
-                class="event-input-checkbox radio"
-              />
-              <label for="radio-name5"
-                ><span
-                  >スタジオ フィックス フルイッド SPF 25 / <b>N11</b></span
-                ></label
-              >
-            </div>
+            <p>[ハローキティエディション] トートバッグ</p>
+            <p>[ハローキティエディション] トートバッグ</p>
           </div>
         </div>
         <hr class="divider" />
@@ -129,11 +66,7 @@
           <div class="header">Instagramの情報</div>
           <div class="sns-wrap">
             <!--input 벨리데이션 미통과시 class에 caution추가-->
-            <input
-              type="text"
-              class="event-input"
-              placeholder="InstagramのIDを入力してください"
-            />
+            <input type="text" class="event-input" value="Parumi" disabled />
             <p>アカウント非公開の方は応募対象外となります</p>
             <p>
               必ず自分のアカウントで入力してください<br />
@@ -141,28 +74,6 @@
             </p>
           </div>
         </div>
-
-        <!-- 인스타그램 정보 벨리데이션 미통과-->
-        <!-- <div class="event-comm-box">
-          <div class="header">Instagramの情報</div>
-          <div class="sns-wrap">
-            <input
-              type="text"
-              class="event-input caution"
-              placeholder="InstagramのIDを入力してください"
-            />
-            <span class="survey-error-msg"
-              >인스타그램 ID에는 영문, 숫자, 밑줄 및 마침표만 입력할 수
-              있어요</span
-            >
-            <p>アカウント非公開の方は応募対象外となります</p>
-            <p>
-              必ず自分のアカウントで入力してください<br />
-              必要に応じてInstagramのアカウントの<br />所有者を確認するDMを発送します
-            </p>
-          </div>
-        </div> -->
-
         <hr class="divider" />
         <!-- 배송정보 -->
         <div class="delivery-info-box event-comm-box">
@@ -171,22 +82,52 @@
             <div class="form-item">
               <span class="title">お名前 (漢字)</span>
               <div class="flex-box">
-                <input type="text" class="event-inputsm" placeholder="性" />
-                <input type="text" class="event-inputsm" placeholder="名" />
+                <input
+                  type="text"
+                  class="event-input sm"
+                  value="Kim"
+                  disabled
+                />
+                <input
+                  type="text"
+                  class="event-input sm"
+                  value="Parum"
+                  disabled
+                />
               </div>
             </div>
             <div class="form-item">
               <span class="title">お名前 (カナ)</span>
               <div class="flex-box">
-                <input type="text" class="event-inputsm" placeholder="性" />
-                <input type="text" class="event-inputsm" placeholder="名" />
+                <input
+                  type="text"
+                  class="event-input sm"
+                  value="Kim"
+                  disabled
+                />
+                <input
+                  type="text"
+                  class="event-input sm"
+                  value="Parum"
+                  disabled
+                />
               </div>
             </div>
             <div class="form-item">
               <span class="title">お名前 (英語)</span>
               <div class="flex-box">
-                <input type="text" class="event-inputsm" placeholder="性" />
-                <input type="text" class="event-inputsm" placeholder="名" />
+                <input
+                  type="text"
+                  class="event-input sm"
+                  value="Kim"
+                  disabled
+                />
+                <input
+                  type="text"
+                  class="event-input sm"
+                  value="Parum"
+                  disabled
+                />
               </div>
             </div>
             <div class="form-item">
@@ -195,7 +136,8 @@
                 <input
                   type="text"
                   class="event-input lg"
-                  placeholder="数字のみ入力"
+                  value="0101234123"
+                  disabled
                 />
               </div>
             </div>
@@ -205,7 +147,8 @@
                 <input
                   type="text"
                   class="event-input sm"
-                  placeholder="郵便番号"
+                  value="101-0044"
+                  disabled
                 />
                 <!--버튼 비활성화-->
                 <button type="button" class="sm auto-btn" disabled>
@@ -213,8 +156,8 @@
                 </button>
                 <!--버튼 활성화-->
                 <!-- <button type="button" class="sm auto-btn on">
-                                  住所自動入力
-                                </button> -->
+                  住所自動入力
+                </button> -->
               </div>
             </div>
             <div class="form-item">
@@ -226,15 +169,18 @@
                 <input
                   type="text"
                   class="event-input lg"
-                  placeholder="市区町村を入力"
+                  value="千代田市"
+                  disabled
                 />
               </div>
             </div>
+
             <div class="form-item">
               <input
                 type="text"
                 class="event-input"
-                placeholder="詳細住所の入力"
+                value="カジチョ 2-10-9"
+                disabled
               />
             </div>
           </div>
@@ -244,6 +190,7 @@
                 type="checkbox"
                 id="check-id1"
                 class="event-input-checkbox line"
+                disabled
               />
               <label for="check-id1"
                 ><span>SNS・チャンネル及びお届け先情報を保存する</span></label
@@ -277,25 +224,9 @@
                 <input
                   type="text"
                   class="event-input"
-                  placeholder="回答フォームをもう一度確認してください"
+                  disabled
+                  value="回答フォームをもう一度確認してください"
                 />
-              </div>
-            </div>
-            <div class="survey-item error-item">
-              <p class="title">
-                写真で該当する本人の髪の長さをInch単位で入力してください
-                <span class="desc">*説明領域</span>
-              </p>
-              <div class="img-wrap">
-                <img src="https://picsum.photos/311/253" alt="" class="thumb" />
-              </div>
-              <div class="survey-input-wrap">
-                <input
-                  type="text"
-                  class="event-input caution"
-                  value="파우더룸"
-                />
-                <span class="survey-error-msg">Inchを含める必要があります</span>
               </div>
             </div>
             <!--질문 타이틀 영역-->
@@ -316,6 +247,8 @@
                   type="radio"
                   id="id1"
                   name="radio2"
+                  checked
+                  disabled
                   class="event-input-checkbox radio"
                 />
                 <label for="id1"><span>複数選択式の回答領域</span></label>
@@ -325,6 +258,7 @@
                   type="radio"
                   id="id2"
                   name="radio2"
+                  disabled
                   class="event-input-checkbox radio"
                 />
                 <label for="id2"><span>複数選択式の回答領域</span></label>
@@ -334,6 +268,7 @@
                   type="radio"
                   id="id3"
                   name="radio2"
+                  disabled
                   class="event-input-checkbox radio"
                 />
                 <label for="id3"><span>複数選択式の回答領域</span></label>
@@ -343,6 +278,7 @@
                   type="radio"
                   id="id4"
                   name="radio2"
+                  disabled
                   class="event-input-checkbox radio"
                 />
                 <label for="id4"><span>複数選択式の回答領域</span></label>
@@ -377,6 +313,7 @@
                     name="radio3"
                     class="event-input-checkbox radio"
                     checked
+                    disabled
                   />
                   <label for="id5"
                     ><span
@@ -390,6 +327,7 @@
                     id="id6"
                     name="radio3"
                     class="event-input-checkbox radio"
+                    disabled
                   />
                   <label for="id6"><span>いいえ</span></label>
                 </div>
@@ -409,6 +347,8 @@
                     id="id7"
                     name="radio4"
                     class="event-input-checkbox radio"
+                    checked
+                    disabled
                   />
                   <label for="id7"><span>はい</span></label>
                 </div>
@@ -418,6 +358,7 @@
                     id="id8"
                     name="radio4"
                     class="event-input-checkbox radio"
+                    disabled
                   />
                   <label for="id8"><span>いいえ</span></label>
                 </div>
@@ -446,6 +387,8 @@
                     id="id9"
                     name="radio5"
                     class="event-input-checkbox radio"
+                    checked
+                    disabled
                   />
                   <label for="id9"><span>はい</span></label>
                 </div>
@@ -455,6 +398,7 @@
                     id="id10"
                     name="radio5"
                     class="event-input-checkbox radio"
+                    disabled
                   />
                   <label for="id10"><span>いいえ</span></label>
                 </div>
@@ -474,6 +418,7 @@
                     id="id11"
                     name="radio6"
                     class="event-input-checkbox radio"
+                    disabled
                   />
                   <label for="id11"><span>はい</span></label>
                 </div>
@@ -483,6 +428,8 @@
                     id="id12"
                     name="radio6"
                     class="event-input-checkbox radio"
+                    checked
+                    disabled
                   />
                   <label for="id12"><span>いいえ</span></label>
                 </div>
@@ -502,6 +449,7 @@
                       id="id13"
                       name="radio7"
                       class="event-input-checkbox radio"
+                      disabled
                     />
                     <label for="id13">
                       <div class="product-survey-box">
@@ -526,6 +474,7 @@
                       id="id14"
                       name="radio7"
                       class="event-input-checkbox radio"
+                      disabled
                     />
                     <label for="id14">
                       <div class="product-survey-box">
@@ -550,6 +499,7 @@
                       id="id15"
                       name="radio7"
                       class="event-input-checkbox radio"
+                      disabled
                     />
                     <label for="id15">
                       <div class="product-survey-box">
@@ -574,6 +524,7 @@
                       id="id16"
                       name="radio7"
                       class="event-input-checkbox radio"
+                      disabled
                     />
                     <label for="id16">
                       <div class="product-survey-box">
@@ -599,6 +550,7 @@
                       name="radio7"
                       class="event-input-checkbox radio"
                       checked
+                      disabled
                     />
                     <label for="id17">
                       <div class="product-survey-box">
@@ -624,12 +576,13 @@
                     id="id18"
                     name="radio7"
                     class="event-input-checkbox radio"
+                    disabled
                   />
                   <label for="id18"><span>その他</span></label>
                 </div>
               </div>
               <!--  객관식 다중 선택-->
-              <div class="survey-item error-item">
+              <div class="survey-item">
                 <p class="title">
                   お使いになりたい商品を2つ以上/以下選んでください
                 </p>
@@ -639,6 +592,7 @@
                       type="checkbox"
                       id="id19"
                       class="event-input-checkbox"
+                      disabled
                     />
                     <label for="id19">
                       <div class="product-survey-box">
@@ -662,6 +616,7 @@
                       type="checkbox"
                       id="id20"
                       class="event-input-checkbox"
+                      disabled
                     />
                     <label for="id20">
                       <div class="product-survey-box">
@@ -685,6 +640,7 @@
                       type="checkbox"
                       id="id21"
                       class="event-input-checkbox"
+                      disabled
                     />
                     <label for="id21">
                       <div class="product-survey-box">
@@ -708,6 +664,7 @@
                       type="checkbox"
                       id="id22"
                       class="event-input-checkbox"
+                      disabled
                     />
                     <label for="id22">
                       <div class="product-survey-box">
@@ -732,6 +689,7 @@
                       id="id23"
                       class="event-input-checkbox"
                       checked
+                      disabled
                     />
                     <label for="id23">
                       <div class="product-survey-box">
@@ -751,7 +709,6 @@
                     </label>
                   </div>
                 </div>
-                <span class="survey-error-msg">Inchを含める必要があります</span>
               </div>
             </div>
 
@@ -768,6 +725,7 @@
                 type="text"
                 class="event-input"
                 value="回答エリアです。回答エリアです。回答エリアです。回答エリアです。回答エリアです。回答エリアです。回答エリアです。"
+                disabled
               />
             </div>
           </div>
@@ -798,25 +756,21 @@
             アカウントは必ず公開アカウントでなくてはなりません。レビュー期間中にInstagramアカウントを非公開に転換、ID変更することも不可となっております。
           </div>
           <div class="agree-check">
-            <div class="event-input-btn">
-              <input
-                type="checkbox"
-                id="check-id2"
-                class="event-input-checkbox line"
-              />
-              <label for="check-id2"
-                ><span>上記の事項にすべて同意します</span></label
-              >
+            <div class="agree-check">
+              <div class="event-input-btn">
+                <input
+                  type="checkbox"
+                  id="check-id2"
+                  class="event-input-checkbox line"
+                  checked
+                  disabled
+                />
+                <label for="check-id2"
+                  ><span>上記の事項にすべて同意します</span></label
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="btn-wrapper">
-          <!-- 신청완료하기 비활성상태 -->
-          <button class="complete-btn">申し込みする</button>
-          <!-- 신청완료하기 활성상태 -->
-          <!-- <button class="complete-btn active">申し込みする</button>-->
-          <!-- 신청 정보 수정하기 버튼-->
-          <!--          <button class="complete-btn edit">신청 정보 수정하기</button>-->
         </div>
       </div>
     </div>
