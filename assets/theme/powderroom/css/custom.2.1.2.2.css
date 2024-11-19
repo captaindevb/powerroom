@@ -7270,7 +7270,7 @@ hr.divider {
   letter-spacing: -0.26px;
 }
 
-.event-join-wrapper .user-agree-box .agree-check p {
+.event-join-wrapper .user-agree-box .agree-check label span {
   color: #929498;
   font-size: 13px;
   font-weight: 400;
@@ -7298,6 +7298,212 @@ hr.divider {
   background: #ff43ca;
 }
 
+.event-join-wrapper .survey-info-box .header {
+  margin-bottom: 12px;
+}
+
+.event-join-wrapper .survey-info-box .survey-item {
+  padding: 20px 16px;
+  background: #f6f9ff;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-radius: 6px;
+}
+
+.event-join-wrapper .survey-info-box .survey-item .gap5 {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.event-join-wrapper .survey-info-box .survey-item.error-item {
+  border: 1px solid #ff43ca;
+}
+
+.event-join-wrapper .survey-info-box .survey-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.event-join-wrapper .survey-info-box .survey-box .survey-item .title {
+  width: fit-content;
+  color: #222;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: -0.28px;
+}
+
+.event-join-wrapper .survey-info-box .survey-box .survey-item .title .star {
+  width: 5px;
+  height: 5px;
+  margin-bottom: 9px;
+}
+
+.event-join-wrapper .survey-info-box .survey-box .survey-item .desc {
+  display: block;
+  color: #929498;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: -0.24px;
+  margin-top: 6px;
+}
+
+.event-join-wrapper .survey-info-box .survey-box .survey-item .img-wrap {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 14px;
+}
+
+.event-join-wrapper .survey-info-box .survey-box .survey-item .img-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+.survey-input-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.survey-error-msg {
+  display: contents;
+  color: #ff43ca;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: -0.24px;
+}
+
+.event-join-wrapper
+  .survey-info-box
+  .survey-box
+  .survey-item
+  .product-survey-box {
+  position: relative;
+  padding: 10px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.event-input-btn.img-input
+  input[type="radio"]:checked
+  + label
+  .product-survey-box
+  .product-detail
+  .product-option
+  strong {
+  color: #000000;
+}
+
+.survey-info-box .survey-box .survey-item .product-survey-box::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 48px;
+  border-radius: 8px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.survey-info-box .survey-box .survey-item .product-survey-box img {
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.survey-info-box
+  .survey-box
+  .survey-item
+  .product-survey-box
+  .product-detail
+  p {
+  color: #68696b;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: -0.24px;
+}
+
+.survey-info-box
+  .survey-box
+  .survey-item
+  .product-survey-box
+  .product-detail
+  strong {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: -0.26px;
+  color: #68696b;
+}
+
+.survey-info-box
+  .survey-box
+  .survey-item
+  .product-survey-box
+  .product-detail
+  .product-option {
+  display: flex;
+}
+
+.survey-info-box
+  .survey-box
+  .survey-item
+  .product-survey-box
+  .product-detail
+  .product-option
+  p {
+  color: #929498;
+}
+
+.event-join-wrapper .survey-info-box .survey-group-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.event-join-wrapper .survey-info-box .survey-group-item .group-title {
+  color: #222;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: -0.3px;
+  margin-bottom: 4px;
+}
+
+.event-join-wrapper .survey-info-box .survey-group-item .group-desc {
+  color: #929498;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 142%;
+  letter-spacing: -0.26px;
+}
+
+.event-join-wrapper .survey-info-box .survey-group-item .group-img-wrap {
+  margin-top: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.event-join-wrapper .survey-info-box .survey-group-item .group-img-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
 /* 이벤트 서베이 */
 .event-input {
   height: 46px;
@@ -7310,6 +7516,7 @@ hr.divider {
   font-weight: 400;
   letter-spacing: -0.3px;
 }
+
 .event-input.caution {
   border: 1px solid #ff43ca;
 }
@@ -7352,6 +7559,7 @@ hr.divider {
   line-height: 142%;
   font-weight: 400;
 }
+
 .event-input-checkbox + label span {
   max-width: calc(100% - 28px);
 }
@@ -7370,9 +7578,11 @@ hr.divider {
   color: initial !important;
   background: initial !important;
 }
+
 .event-input-checkbox.radio {
   display: none;
 }
+
 .event-input-checkbox.radio + label::before {
   background: url("../images/input-radio-off.png") no-repeat;
   background-size: cover;
@@ -7382,6 +7592,7 @@ hr.divider {
   background: url("../images/input-radio-on.png") no-repeat;
   background-size: cover;
 }
+
 .event-input-checkbox.radio:checked:disabled + label::before {
   background: url("../images/input-radio-disabled.png") no-repeat;
   background-size: cover;
@@ -7396,6 +7607,7 @@ hr.divider {
   background: url("../images/input-check-line-on.png") no-repeat;
   background-size: cover;
 }
+
 .event-input-checkbox.line:checked:disabled + label::before {
   background: url("../images/input-check-line-disabled.png") no-repeat;
   background-size: cover;

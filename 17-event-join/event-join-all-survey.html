@@ -88,7 +88,7 @@
                 id="radio-name3"
                 name="radio1"
                 class="event-input-checkbox radio"
-              />
+            />
               <label for="radio-name3"
                 ><span
                   >クリーンイットゼロオリジナルクレンジングバームトラベルキット</span
@@ -171,30 +171,27 @@
             <div class="form-item">
               <span class="title">お名前 (漢字)</span>
               <div class="flex-box">
-                <input type="text" class="event-input sm" placeholder="性" />
-                <input type="text" class="event-input sm" placeholder="名" />
+                <input type="text" class="event-inputsm" placeholder="性" />
+                <input type="text" class="event-inputsm" placeholder="名" />
               </div>
             </div>
             <div class="form-item">
               <span class="title">お名前 (カナ)</span>
               <div class="flex-box">
-                <input type="text" class="event-input sm" placeholder="性" />
-                <input type="text" class="event-input sm" placeholder="名" />
+                <input type="text" class="event-inputsm" placeholder="性" />
+                <input type="text" class="event-inputsm" placeholder="名" />
               </div>
             </div>
             <div class="form-item">
               <span class="title">お名前 (英語)</span>
               <div class="flex-box">
-                <input type="text" class="event-input sm" placeholder="性" />
-                <input type="text" class="event-input sm" placeholder="名" />
+                <input type="text" class="event-inputsm" placeholder="性" />
+                <input type="text" class="event-inputsm" placeholder="名" />
               </div>
             </div>
             <div class="form-item">
-              <span class="title">携帯番号</span>
-              <div class="flex-box">
-                <input
-                  type="text"
-                  class="event-input lg"
+              <span class="title">携帯番号</span><div class="flex-box">
+              <input type="text" class="event-input lg"
                   placeholder="数字のみ入力"
                 />
               </div>
@@ -202,9 +199,7 @@
             <div class="form-item">
               <span class="title">住所</span>
               <div class="flex-box">
-                <input
-                  type="text"
-                  class="event-input sm"
+                <input type="text" class="event-input sm"
                   placeholder="郵便番号"
                 />
                 <!--버튼 비활성화-->
@@ -219,24 +214,16 @@
             </div>
             <div class="form-item">
               <!--버튼 비활성화-->
-              <button type="button" class="dodo-btn" disabled>都道府県</button>
+                <button type="button" class="dodo-btn"disabled>都道府県</button>
               <!--버튼 활성화-->
               <!-- <button type="button" class="dodo-btn on" disabled>東京都</button> -->
               <div class="flex-box">
-                <input
-                  type="text"
-                  class="event-input lg"
+                <input type="text" class="event-input lg"
                   placeholder="市区町村を入力"
-                />
-              </div>
+              /></div>
             </div>
-
             <div class="form-item">
-              <input
-                type="text"
-                class="event-input"
-                placeholder="詳細住所の入力"
-              />
+              <input type="text"class="event-input" placeholder="詳細住所の入力" />
             </div>
           </div>
           <div class="save-check">
@@ -247,7 +234,7 @@
                 class="event-input-checkbox line"
               />
               <label for="check-id1"
-                ><span>SNS・チャンネル及びお届け先情報を保存する</span></label
+            ><span>SNS・チャンネル及びお届け先情報を保存する</span></label
               >
             </div>
           </div>
@@ -260,6 +247,518 @@
         <!-- 설문 -->
         <div class="survey-info-box event-comm-box">
           <div class="header">発送情報</div>
+          <div class="survey-box">
+            <div class="survey-item">
+              <p class="title">
+                写真で該当する本人の髪の長さをInch単位で入力してください
+                <img
+                  class="star"
+                  src="../assets/theme/powderroom/images/icon-survey-star.png"
+                  alt=""
+                />
+                <span class="desc">*説明領域</span>
+              </p>
+              <div class="img-wrap">
+                <img src="https://picsum.photos/311/253" alt="" class="thumb" />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="event-input"
+                  placeholder="回答フォームをもう一度確認してください"
+                />
+              </div>
+            </div>
+            <div class="survey-item error-item">
+              <p class="title">
+                写真で該当する本人の髪の長さをInch単位で入力してください
+                <span class="desc">*説明領域</span>
+              </p>
+              <div class="img-wrap">
+                <img src="https://picsum.photos/311/253" alt="" class="thumb" />
+              </div>
+              <div class="survey-input-wrap">
+                <input
+                  type="text"
+                  class="event-input caution"
+                  value="파우더룸"
+                />
+                <span class="survey-error-msg">Inchを含める必要があります</span>
+              </div>
+            </div>
+            <!--질문 타이틀 영역-->
+            <div class="survey-item">
+              <p class="title star">
+                質問タイトルエリア
+                <img
+                  class="star"
+                  src="../assets/theme/powderroom/images/icon-survey-star.png"
+                  alt=""
+                />
+              </p>
+              <div class="img-wrap">
+                <img src="https://picsum.photos/311/165" alt="" class="thumb" />
+              </div>
+              <div class="event-input-btn">
+                <input
+                  type="radio"
+                  id="id1"
+                  name="radio"
+                  class="event-input-checkbox radio"
+                />
+                <label for="id1"><span>複数選択式の回答領域</span></label>
+              </div>
+              <div class="event-input-btn">
+                <input
+                  type="radio"
+                  id="id2"
+                  name="radio"
+                  class="event-input-checkbox radio"
+                />
+                <label for="id2"><span>複数選択式の回答領域</span></label>
+              </div>
+              <div class="event-input-btn">
+                <input
+                  type="radio"
+                  id="id3"
+                  name="radio"
+                  class="event-input-checkbox radio"
+                />
+                <label for="id3"><span>複数選択式の回答領域</span></label>
+              </div>
+              <div class="event-input-btn">
+                <input
+                  type="radio"
+                  id="id4"
+                  name="radio"
+                  class="event-input-checkbox radio"
+                />
+                <label for="id4"><span>複数選択式の回答領域</span></label>
+              </div>
+            </div>
+            <!-- 설문 그룹 설명  -->
+            <div class="survey-group-item">
+              <div class="survey-group-header">
+                <p class="group-title">アンケートグループタイトル</p>
+                <p class="group-desc">アンケートグループの説明領域です。</p>
+                <div class="group-img-wrap">
+                  <img
+                    src="https://picsum.photos/343/155"
+                    alt=""
+                    class="thumb"
+                  />
+                </div>
+              </div>
+              <div class="survey-item">
+                <p class="title star">
+                  質問タイトルエリア質問タイトルエリア質問タイ質問タイトルエリア質問タイトルエリ
+                  <img
+                    class="star"
+                    src="../assets/theme/powderroom/images/icon-survey-star.png"
+                    alt=""
+                  />
+                </p>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id5"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                    checked
+                  />
+                  <label for="id5"
+                    ><span
+                      >選択肢の回答領域選択肢の回答領域選択肢の回答領域の選択肢の回答領域の選択肢の回答領域の選択肢の回答領域の選択肢の回答領域の選択肢の回</span
+                    ></label
+                  >
+                </div>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id6"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                  />
+                  <label for="id6"><span>いいえ</span></label>
+                </div>
+              </div>
+              <div class="survey-item">
+                <p class="title star">
+                  質問タイトルエリア
+                  <img
+                    class="star"
+                    src="../assets/theme/powderroom/images/icon-survey-star.png"
+                    alt=""
+                  />
+                </p>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id7"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                  />
+                  <label for="id7"><span>はい</span></label>
+                </div>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id8"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                  />
+                  <label for="id8"><span>いいえ</span></label>
+                </div>
+              </div>
+            </div>
+            <!-- 브랜드 인지도 -->
+            <div class="survey-group-item">
+              <div class="survey-group-header">
+                <p class="group-title">ブランドの認知度</p>
+                <p class="group-desc">
+                  ブランド認知度に関するアンケート項目です。。
+                </p>
+              </div>
+              <div class="survey-item">
+                <p class="title star">
+                  いち髪について聞いたことがありますか？
+                  <img
+                    class="star"
+                    src="../assets/theme/powderroom/images/icon-survey-star.png"
+                    alt=""
+                  />
+                </p>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id9"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                  />
+                  <label for="id9"><span>はい</span></label>
+                </div>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id10"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                  />
+                  <label for="id10"><span>いいえ</span></label>
+                </div>
+              </div>
+              <div class="survey-item">
+                <p class="title star">
+                  いち髪の商品を使ったことがありますか？
+                  <img
+                    class="star"
+                    src="../assets/theme/powderroom/images/icon-survey-star.png"
+                    alt=""
+                  />
+                </p>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id11"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                  />
+                  <label for="id11"><span>はい</span></label>
+                </div>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id12"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                  />
+                  <label for="id12"><span>いいえ</span></label>
+                </div>
+              </div>
+              <!--  객관식 단일 선택-->
+              <div class="survey-item">
+                <p class="title">
+                  いち髪ブランドの商品を使ったことがある場合、どんな商品か選んでください。
+                  <span class="desc"
+                    >*使用してみた経験がある方のみお答えください</span
+                  >
+                </p>
+                <div class="gap5">
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="radio"
+                      id="id13"
+                      name="radio"
+                      class="event-input-checkbox radio"
+                    />
+                    <label for="id13">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="radio"
+                      id="id14"
+                      name="radio"
+                      class="event-input-checkbox radio"
+                    />
+                    <label for="id14">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="radio"
+                      id="id15"
+                      name="radio"
+                      class="event-input-checkbox radio"
+                    />
+                    <label for="id15">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="radio"
+                      id="id16"
+                      name="radio"
+                      class="event-input-checkbox radio"
+                    />
+                    <label for="id16">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="radio"
+                      id="id17"
+                      name="radio"
+                      class="event-input-checkbox radio"
+                      checked
+                    />
+                    <label for="id17">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="event-input-btn">
+                  <input
+                    type="radio"
+                    id="id18"
+                    name="radio"
+                    class="event-input-checkbox radio"
+                  />
+                  <label for="id18"><span>その他</span></label>
+                </div>
+              </div>
+              <!--  객관식 다중 선택-->
+              <div class="survey-item error-item">
+                <p class="title">
+                  お使いになりたい商品を2つ以上/以下選んでください
+                </p>
+                <div class="gap5">
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="checkbox"
+                      id="id19"
+                      class="event-input-checkbox"
+                    />
+                    <label for="id19">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="checkbox"
+                      id="id20"
+                      class="event-input-checkbox"
+                    />
+                    <label for="id20">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="checkbox"
+                      id="id21"
+                      class="event-input-checkbox"
+                    />
+                    <label for="id21">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="checkbox"
+                      id="id22"
+                      class="event-input-checkbox"
+                    />
+                    <label for="id22">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="event-input-btn img-input">
+                    <input
+                      type="checkbox"
+                      id="id23"
+                      class="event-input-checkbox"
+                      checked
+                    />
+                    <label for="id23">
+                      <div class="product-survey-box">
+                        <img
+                          src="https://picsum.photos/48"
+                          alt=""
+                          class="thumb"
+                        />
+                        <div class="product-detail">
+                          <p>いちがみ</p>
+                          <div class="product-option">
+                            <strong>ラッピングマスク</strong>
+                            <p>01 GNG01</p>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <span class="survey-error-msg">Inchを含める必要があります</span>
+              </div>
+            </div>
+
+            <!-- 질문 -->
+            <div class="survey-item">
+              <p class="title">
+                質問タイトルエリア質問タイトルエリア質問タイ質問タイトルエリア質問タイトルエリア質問タイ質問タイトルエリア質問タイトルエリア質問タイ
+                <span class="desc"
+                  >*
+                  質問説明領域です。質問説明領域です。質問説明領域です。質問説明領域です。質問説明領域です。質問説明領域です。質問説明領域です。質問説明領域です。質問説明領域です。</span
+                >
+              </p>
+              <input
+                type="text"
+                class="event-input"
+                value="回答エリアです。回答エリアです。回答エリアです。回答エリアです。回答エリアです。回答エリアです。回答エリアです。"
+              />
+            </div>
+          </div>
         </div>
         <hr class="divider" />
         <!--  이용자 동의 -->
