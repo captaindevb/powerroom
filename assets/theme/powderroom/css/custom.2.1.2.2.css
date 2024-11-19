@@ -7184,24 +7184,19 @@ hr.divider {
   display: flex;
   justify-content: space-between;
   gap: 8px;
-}
-
-.event-join-wrapper .delivery-info-box .form-box .form-item .flex-box input {
-  height: 46px;
-  padding: 12px 16px;
-  align-items: center;
+  width: calc(100% - 97px);
 }
 
 .event-join-wrapper .delivery-info-box .form-box .form-item .sm {
-  width: 119px;
+  width: calc(50% - 4px);
 }
 
 .event-join-wrapper .delivery-info-box .form-box .form-item .lg {
-  width: 246px;
+  width: 100%;
 }
 
 .event-join-wrapper .delivery-info-box .form-box .form-item button {
-  width: 119px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
@@ -7225,6 +7220,8 @@ hr.divider {
   font-weight: 400;
   line-height: 142%;
   letter-spacing: -0.3px;
+  border: 1px solid #eceef2;
+  height: 46px;
 }
 
 .event-join-wrapper .delivery-info-box .save-check p {
@@ -7301,8 +7298,14 @@ hr.divider {
   border: 1px solid #ff43ca;
 }
 
+.event-input:focus {
+  border: 1px solid #373839;
+  caret-color: #ff43ca;
+}
+
 .event-input::placeholder {
   color: #b8bbbf;
+  font-weight: 400;
 }
 
 .event-input-checkbox + label::before {
@@ -7374,4 +7377,83 @@ hr.divider {
 .event-input-checkbox.line:checked:disabled + label::before {
   background: url("../images/input-check-line-disabled.png") no-repeat;
   background-size: cover;
+}
+
+.event-join-wrapper
+  .event-product-box
+  .detail
+  .event-input-checkbox
+  + label
+  span {
+  font-size: 13px;
+  color: #68696b;
+  line-height: 142%;
+}
+
+.event-join-wrapper
+  .event-product-box
+  .detail
+  .event-input-checkbox
+  + label
+  span
+  b {
+  font-weight: 700;
+}
+
+.event-join-wrapper
+  .event-product-box
+  .detail
+  .event-input-checkbox:checked
+  + label
+  span {
+  font-weight: 700;
+  color: #222;
+}
+
+.event-join-wrapper
+  .event-product-box
+  .detail
+  .event-input-btn
+  + .event-input-btn {
+  margin-top: 4px;
+}
+
+.save-check .event-input-checkbox + label span {
+  font-size: 13px;
+  color: #929498;
+  line-height: 142%;
+  letter-spacing: -0.26px;
+}
+
+.event-comm-box .sns-wrap input {
+  margin: 16px 0 0 0;
+}
+
+.event-comm-box .sns-wrap p {
+  position: relative;
+  padding-left: 6px;
+  font-size: 12px;
+  color: #929498;
+  font-weight: 400;
+  line-height: 142%; /* 17.04px */
+  letter-spacing: -0.24px;
+}
+.event-comm-box .sns-wrap p::before {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  content: "*";
+}
+
+.event-comm-box .sns-wrap .survey-error-msg {
+  margin-top: 8px;
+}
+
+.event-comm-box .sns-wrap .survey-error-msg + p {
+  margin-top: 16px;
+}
+
+.event-comm-box .sns-wrap input + p {
+  margin-top: 16px;
 }
