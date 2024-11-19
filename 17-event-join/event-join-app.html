@@ -68,48 +68,75 @@
             <div class="form-item">
               <span class="title">お名前 (漢字)</span>
               <div class="flex-box">
-                <input type="text" class="sm" placeholder="性" />
-                <input type="text" class="sm" placeholder="名" />
+                <input type="text" class="event-input sm" placeholder="性" />
+                <input type="text" class="event-input sm" placeholder="名" />
               </div>
             </div>
             <div class="form-item">
               <span class="title">お名前 (カナ)</span>
               <div class="flex-box">
-                <input type="text" class="sm" placeholder="性" />
-                <input type="text" class="sm" placeholder="名" />
+                <input type="text" class="event-input sm" placeholder="性" />
+                <input type="text" class="event-input sm" placeholder="名" />
               </div>
             </div>
             <div class="form-item">
               <span class="title">お名前 (英語)</span>
               <div class="flex-box">
-                <input type="text" class="sm" placeholder="性" />
-                <input type="text" class="sm" placeholder="名" />
+                <input type="text" class="event-input sm" placeholder="性" />
+                <input type="text" class="event-input sm" placeholder="名" />
               </div>
             </div>
             <div class="form-item">
               <span class="title">携帯番号</span>
-              <input type="text" class="lg" placeholder="数字のみ入力" />
+              <div class="flex-box">
+                <input
+                  type="text"
+                  class="event-input lg"
+                  placeholder="数字のみ入力"
+                />
+              </div>
             </div>
             <div class="form-item">
               <span class="title">住所</span>
               <div class="flex-box">
-                <input type="text" class="sm" placeholder="郵便番号" />
+                <input
+                  type="text"
+                  class="event-input sm"
+                  placeholder="郵便番号"
+                />
                 <button type="button" class="sm auto-btn">住所自動入力</button>
               </div>
             </div>
             <div class="form-item">
-              <div class="flex-box full">
-                <button type="button" class="dodo-btn">都道府県</button>
-                <input type="text" class="lg" placeholder="市区町村を入力" />
+              <button type="button" class="dodo-btn">都道府県</button>
+              <div class="flex-box">
+                <input
+                  type="text"
+                  class="event-input lg"
+                  placeholder="市区町村を入力"
+                />
               </div>
             </div>
+
             <div class="form-item">
-              <input type="text" placeholder="詳細住所の入力" />
+              <input
+                type="text"
+                class="event-input"
+                placeholder="詳細住所の入力"
+              />
             </div>
           </div>
           <div class="save-check">
-            <!-- TODO 체크버튼 추가 필요 -->
-            <p>SNS・チャンネル及びお届け先情報を保存する</p>
+            <div class="event-input-btn">
+              <input
+                type="checkbox"
+                id="check-id1"
+                class="event-input-checkbox line"
+              />
+              <label for="check-id1"
+                ><span>SNS・チャンネル及びお届け先情報を保存する</span></label
+              >
+            </div>
           </div>
           <p class="desc">
             チェックする際に、入力及び修正した配送情報は<br />
@@ -147,8 +174,18 @@
             アカウントは必ず公開アカウントでなくてはなりません。レビュー期間中にInstagramアカウントを非公開に転換、ID変更することも不可となっております。
           </div>
           <div class="agree-check">
-            <!-- TODO 체크버튼 추가 필요 -->
-            <p>SNS・チャンネル及びお届け先情報を保存する</p>
+            <div class="agree-check">
+              <div class="event-input-btn">
+                <input
+                  type="checkbox"
+                  id="check-id2"
+                  class="event-input-checkbox line"
+                />
+                <label for="check-id2"
+                  ><span>上記の事項にすべて同意します</span></label
+                >
+              </div>
+            </div>
           </div>
         </div>
         <div class="btn-wrapper">

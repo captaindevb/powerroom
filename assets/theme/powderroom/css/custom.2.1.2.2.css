@@ -7276,6 +7276,10 @@ hr.divider {
   border-radius: 8px;
   background: #ebf0fb;
   color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: -0.32px;
 }
 
 .event-join-wrapper .btn-wrapper .complete-btn.active {
@@ -7301,6 +7305,12 @@ hr.divider {
 .event-input:focus {
   border: 1px solid #373839;
   caret-color: #ff43ca;
+}
+
+.event-input:disabled {
+  border-color: #eceef2;
+  background: #f2f3f6;
+  color: #68696b;
 }
 
 .event-input::placeholder {
@@ -7423,6 +7433,7 @@ hr.divider {
   color: #929498;
   line-height: 142%;
   letter-spacing: -0.26px;
+  font-weight: 400;
 }
 
 .event-comm-box .sns-wrap input {
@@ -7456,4 +7467,12 @@ hr.divider {
 
 .event-comm-box .sns-wrap input + p {
   margin-top: 16px;
+}
+
+.event-comm-box .agree-check .event-input-checkbox + label span {
+  font-size: 13px;
+  color: #929498;
+  line-height: 142%;
+  letter-spacing: -0.26px;
+  font-weight: 400;
 }
