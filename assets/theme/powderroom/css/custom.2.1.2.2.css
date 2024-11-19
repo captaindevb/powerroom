@@ -7336,7 +7336,7 @@ hr.divider {
   background-size: cover;
 }
 
-.event-input-checkbox:disabled + label::before {
+.event-input-checkbox:checked:disabled + label::before {
   background: url("../images/input-check-disabled.png") no-repeat;
   background-size: cover;
 }
@@ -7357,7 +7357,21 @@ hr.divider {
   background: url("../images/input-radio-on.png") no-repeat;
   background-size: cover;
 }
-.event-input-checkbox.radio:disabled + label::before {
+.event-input-checkbox.radio:checked:disabled + label::before {
   background: url("../images/input-radio-disabled.png") no-repeat;
+  background-size: cover;
+}
+
+.event-input-checkbox.line + label::before {
+  background: url("../images/input-check-line-off.png") no-repeat;
+  background-size: cover;
+}
+
+.event-input-checkbox.line:checked + label::before {
+  background: url("../images/input-check-line-on.png") no-repeat;
+  background-size: cover;
+}
+.event-input-checkbox.line:checked:disabled + label::before {
+  background: url("../images/input-check-line-disabled.png") no-repeat;
   background-size: cover;
 }
