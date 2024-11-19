@@ -7061,11 +7061,11 @@ hr.divider {
   padding-top: 56px;
 }
 
-.event-join-wrapper .event-comm-box {
+.event-join-wrapper .survey-comm-box {
   padding: 24px 16px;
 }
 
-.event-join-wrapper .event-comm-box .header {
+.event-join-wrapper .survey-comm-box .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7075,7 +7075,7 @@ hr.divider {
   line-height: 142%;
 }
 
-.event-join-wrapper .event-comm-box .header span {
+.event-join-wrapper .survey-comm-box .header span {
   color: #ff43ca;
   font-size: 12px;
   font-weight: 500;
@@ -7668,11 +7668,11 @@ hr.divider {
   font-weight: 400;
 }
 
-.event-comm-box .sns-wrap input {
+.survey-comm-box .sns-wrap input {
   margin: 16px 0 0 0;
 }
 
-.event-comm-box .sns-wrap p {
+.survey-comm-box .sns-wrap p {
   position: relative;
   padding-left: 6px;
   font-size: 12px;
@@ -7681,7 +7681,7 @@ hr.divider {
   line-height: 142%; /* 17.04px */
   letter-spacing: -0.24px;
 }
-.event-comm-box .sns-wrap p::before {
+.survey-comm-box .sns-wrap p::before {
   position: absolute;
   display: inline-block;
   left: 0;
@@ -7689,19 +7689,19 @@ hr.divider {
   content: "*";
 }
 
-.event-comm-box .sns-wrap .survey-error-msg {
+.survey-comm-box .sns-wrap .survey-error-msg {
   margin-top: 8px;
 }
 
-.event-comm-box .sns-wrap .survey-error-msg + p {
+.survey-comm-box .sns-wrap .survey-error-msg + p {
   margin-top: 16px;
 }
 
-.event-comm-box .sns-wrap input + p {
+.survey-comm-box .sns-wrap input + p {
   margin-top: 16px;
 }
 
-.event-comm-box .agree-check .event-input-checkbox + label span {
+.survey-comm-box .agree-check .event-input-checkbox + label span {
   font-size: 13px;
   color: #929498;
   line-height: 142%;
@@ -7709,7 +7709,7 @@ hr.divider {
   font-weight: 400;
 }
 
-.mypage-popup .event-join-wrapper .event-comm-box {
+.mypage-popup .event-join-wrapper .survey-comm-box {
   padding: 0;
 }
 
