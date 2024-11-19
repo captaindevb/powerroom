@@ -7043,3 +7043,52 @@ nav.nav-wrap a.profile.on img {
 .exp-content .top-info-box {
   background-position-y: bottom;
 }
+
+/* 이벤트 신청 */
+hr.divider {
+  height: 12px;
+  border: none;
+  background-color: #f6f9ff;
+  width: 100%;
+}
+
+.event-join-page .event-join-wrapper {
+  padding-top: 56px;
+}
+
+.event-join-page .event-join-wrapper .product-info-box {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.event-join-page .event-join-wrapper .product-info-box .img-wrap {
+  position: relative;
+  width: 100px;
+  height: 113px;
+  margin-right: 16px;
+}
+
+.event-join-page .event-join-wrapper .product-info-box .img-wrap img {
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.event-join-page .event-join-wrapper .product-info-box .img-wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: 9998 !important;
+  width: inherit;
+  height: inherit;
+  border-radius: 8px;
+}
