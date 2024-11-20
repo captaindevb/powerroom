@@ -7280,6 +7280,7 @@ hr.divider {
 
 .event-join-wrapper .user-agree-box .agree-check input:checked + label span {
   color: #222222;
+  font-weight: 700;
 }
 
 .event-join-wrapper .btn-wrapper {
