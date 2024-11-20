@@ -7386,7 +7386,13 @@ hr.divider {
   letter-spacing: -0.24px;
 }
 
+/* 이미지 포함된 라디오,체크박스 */
+.img-input .event-input-checkbox + label {
+  width: 100%;
+}
+
 .survey-info-box .survey-box .survey-item .product-survey-box {
+  width: calc(100% - 28px);
   position: relative;
   padding: 10px;
   background: #ffffff;
@@ -7421,6 +7427,10 @@ hr.divider {
   width: 48px;
   height: 48px;
   margin-right: 20px;
+}
+
+.survey-info-box .survey-box .survey-item .product-survey-box .product-detail {
+  width: calc(100% - 68px);
 }
 
 .survey-info-box
