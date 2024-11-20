@@ -7636,6 +7636,7 @@ hr.divider {
   font-size: 13px;
   color: #68696b;
   line-height: 142%;
+  letter-spacing: -0.26px;
 }
 
 .event-join-wrapper
@@ -7776,5 +7777,12 @@ hr.divider {
   color: #68696b;
   font-weight: 400;
   line-height: 160%;
+  letter-spacing: -0.26px;
+}
+
+.survey-item .event-input-checkbox + label span {
+  font-size: 13px;
+  color: #222;
+  line-height: 142%;
   letter-spacing: -0.26px;
 }
