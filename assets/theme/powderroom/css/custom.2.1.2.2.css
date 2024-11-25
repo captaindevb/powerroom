@@ -2937,7 +2937,7 @@ button.all-submit-btn {
 }
 
 .common-wrap header button.btn-header-left {
-  top: 5px;
+  top: 3px;
   left: 0;
 }
 
@@ -7058,7 +7058,7 @@ hr.divider {
 }
 
 .event-join-page .event-join-wrapper {
-  padding-top: 56px;
+  padding-top: 50px;
 }
 
 .survey-comm-box {
@@ -7411,8 +7411,35 @@ hr.divider {
   .product-survey-box
   .product-detail
   .product-option
+  strong,
+.event-input-btn.img-input
+  input[type="checkbox"]:checked
+  + label
+  .product-survey-box
+  .product-detail
+  .product-option
   strong {
   color: #000000;
+}
+
+.event-input-btn.img-input
+  input[type="radio"]:checked
+  + label
+  .product-survey-box
+  .product-detail
+  > p,
+.event-input-btn.img-input
+  input[type="checkbox"]:checked
+  + label
+  .product-survey-box
+  .product-detail
+  > p {
+  color: #000;
+}
+
+.event-input-btn input[type="radio"]:checked + label span,
+.event-input-btn input[type="checkbox"]:checked + label span {
+  font-weight: 700;
 }
 
 .survey-info-box .survey-box .survey-item .product-survey-box::after {
@@ -7430,7 +7457,7 @@ hr.divider {
   border-radius: 8px;
   width: 48px;
   height: 48px;
-  margin-right: 20px;
+  margin-right: 12px;
 }
 
 .survey-info-box .survey-box .survey-item .product-survey-box .product-detail {
@@ -7485,6 +7512,7 @@ hr.divider {
   .product-detail
   .product-option
   p {
+  padding-left: 8px;
   color: #929498;
 }
 
@@ -7655,6 +7683,7 @@ hr.divider {
   span
   b {
   font-weight: 700;
+  color: #68696b;
 }
 
 .event-join-wrapper
@@ -7664,6 +7693,16 @@ hr.divider {
   + label
   span {
   font-weight: 700;
+  color: #222;
+}
+
+.event-join-wrapper
+  .event-product-box
+  .detail
+  .event-input-checkbox:checked
+  + label
+  span
+  b {
   color: #222;
 }
 
