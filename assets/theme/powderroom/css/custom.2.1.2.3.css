@@ -7833,3 +7833,7 @@ hr.divider {
   line-height: 142%;
   letter-spacing: -0.26px;
 }
+
+.mypage-page-wrap .mypage-popup {
+  overflow-x: hidden;
+}
