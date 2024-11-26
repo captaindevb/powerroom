@@ -5364,7 +5364,12 @@ nav.nav-wrap button.profile.on .img-wrap img {
   padding-top: 50px;
 }
 
-.main-new-page-wrap .main-new:has(.tab-depth) {
+/* 아이폰 미니에서 적용되지 않는 이슈(아이폰 특정 버전)*/
+/* .main-new-page-wrap .main-new:has(.tab-depth) {
+  padding-top: 91px;
+} */
+
+.main-new-page-wrap .main-new .tab-depth + div {
   padding-top: 91px;
 }
 
@@ -6630,10 +6635,6 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 .main-new-page-wrap .main-new {
   padding-top: 0;
-}
-
-.main-new-page-wrap .main-new:has(.tab-depth) {
-  padding-top: 91px;
 }
 
 .pt-50px {
