@@ -7148,6 +7148,7 @@ hr.divider {
   padding: 16px;
   background: #f6f9ff;
   flex-direction: column;
+  border-radius: 6px;
 }
 
 .event-join-wrapper .event-product-box .detail:has(input) {
@@ -7458,6 +7459,10 @@ hr.divider {
 .event-input-btn input[type="radio"]:checked + label span,
 .event-input-btn input[type="checkbox"]:checked + label span {
   font-weight: 700;
+}
+
+.event-input-btn input[type="checkbox"].line:checked + label span {
+  color: #222;
 }
 
 .survey-info-box .survey-box .survey-item .product-survey-box .img-wrap {
