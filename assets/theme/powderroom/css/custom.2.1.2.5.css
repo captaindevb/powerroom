@@ -7866,3 +7866,8 @@ hr.divider {
 .mypage-page-wrap .mypage-popup {
   overflow-x: hidden;
 }
+
+.product-page-wrap .product-box .product-select-box ul.option {
+  height: auto;
+  position: absolute !important;
+}
