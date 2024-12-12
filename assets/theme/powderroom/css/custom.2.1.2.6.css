@@ -3737,7 +3737,7 @@ img#send-comment-btn {
   width: 80px;
   border-radius: 12px;
   height: 80px !important;
-  background-color: rgba(0, 0, 0, 0.04);
+  /*background-color: rgba(0, 0, 0, 0.04);*/
 }
 
 .app-review-write-box .product-info-box .img-wrap {
@@ -5080,6 +5080,10 @@ div:where(.swal2-container) .swal2-html-container {
   white-space: nowrap;
   padding: 0 56px;
   color: #000;
+}
+
+.exp-page-wrap header h2 {
+  padding: 0;
 }
 
 .common-wrap header button.btn-header-right {
@@ -7114,7 +7118,7 @@ hr.divider {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.05);
+  /*background-color: rgba(0, 0, 0, 0.05);*/
   z-index: 9998 !important;
   width: inherit;
   height: inherit;
@@ -7384,7 +7388,7 @@ hr.divider {
 }
 
 .survey-error-msg {
-  display: contents;
+  display: block;
   color: #ff43ca;
   font-size: 12px;
   font-weight: 400;
@@ -7609,6 +7613,7 @@ hr.divider {
   border-color: #eceef2;
   background: #f2f3f6;
   color: #68696b;
+  text-overflow: ellipsis;
 }
 
 .event-input::placeholder {
@@ -7893,4 +7898,27 @@ hr.divider {
   font-weight: 400;
   line-height: 160%;
   letter-spacing: -0.26px;
+}
+
+.event-join-wrapper .error {
+  display: block;
+  margin: 8px 0 16px 0 !important;
+  color: #ff43ca;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: -0.24px;
+}
+
+.event-join-wrapper .survey-info-box .error {
+  display: contents;
+}
+
+.event-join-wrapper .delivery-info-box .form-box {
+  margin-bottom: 0;
+}
+
+.event-join-wrapper input:-webkit-autofill {
+  background-color: white !important; /* 자동완성 배경색 제거 */
+  box-shadow: 0 0 0px 1000px white inset !important; /* 배경색을 흰색으로 채움 */
 }
