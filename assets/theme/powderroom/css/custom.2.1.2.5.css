@@ -7871,3 +7871,26 @@ hr.divider {
   height: auto;
   position: absolute !important;
 }
+
+.exp-content .form-box .form-item .exp-desc-wrapper {
+  padding: 24px 16px;
+}
+
+.exp-content .form-box .form-item .exp-desc-wrapper .exp-title {
+  color: #222;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: -0.36px;
+}
+
+.exp-content .form-box .form-item .exp-desc-wrapper .exp-desc {
+  color: #68696b;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.26px;
+}
