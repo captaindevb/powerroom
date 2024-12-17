@@ -464,7 +464,7 @@ html {
 }
 
 .popup-dim-wrap {
-  z-index: 10001;
+  z-index: 1000001;
   top: initial;
   bottom: 0;
 }
