@@ -7877,11 +7877,11 @@ hr.divider {
   position: absolute !important;
 }
 
-.exp-content .form-box .form-item .exp-desc-wrapper {
+.exp-content .exp-desc-wrapper {
   padding: 24px 16px;
 }
 
-.exp-content .form-box .form-item .exp-desc-wrapper .exp-title {
+.exp-content .exp-desc-wrapper .exp-title {
   color: #222;
   margin-bottom: 16px;
   font-size: 18px;
@@ -7891,7 +7891,7 @@ hr.divider {
   letter-spacing: -0.36px;
 }
 
-.exp-content .form-box .form-item .exp-desc-wrapper .exp-desc {
+.exp-content .exp-desc-wrapper .exp-desc {
   color: #68696b;
   font-size: 13px;
   font-style: normal;
