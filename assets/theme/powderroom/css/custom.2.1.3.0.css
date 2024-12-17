@@ -7242,6 +7242,11 @@ hr.divider {
   height: 46px;
 }
 
+.event-join-wrapper .delivery-info-box .form-box .form-item .dodo-btn:disabled {
+  color: #68696b;
+  opacity: 1;
+}
+
 .event-join-wrapper .delivery-info-box .form-box .form-item .dodo-btn.on {
   color: #68696b;
 }
