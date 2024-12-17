@@ -7745,7 +7745,7 @@ hr.divider {
   .detail
   .event-input-btn
   + .event-input-btn {
-  margin-top: 4px;
+  /* margin-top: 4px; */
 }
 
 .save-check .event-input-checkbox + label span {
