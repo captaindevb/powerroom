@@ -7922,3 +7922,8 @@ hr.divider {
   background-color: white !important; /* 자동완성 배경색 제거 */
   box-shadow: 0 0 0px 1000px white inset !important; /* 배경색을 흰색으로 채움 */
 }
+
+#mission-review-form-wrap:has(.survey-info-box) .tag-box {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
