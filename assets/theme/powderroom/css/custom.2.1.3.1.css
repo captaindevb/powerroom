@@ -7931,3 +7931,7 @@ hr.divider {
   border-bottom: 0;
   margin-bottom: 0;
 }
+
+.main-new .magazine-content .content img {
+  margin-bottom: 0;
+}
