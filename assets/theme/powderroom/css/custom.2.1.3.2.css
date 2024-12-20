@@ -7935,3 +7935,15 @@ hr.divider {
 .main-new .magazine-content .content img {
   margin-bottom: 0;
 }
+
+.event-join-wrapper .delivery-info-box .error:empty + .save-check {
+  margin-top: 16px;
+}
+
+.event-join-wrapper .event-product-box .detail .error {
+  margin: 0 !important;
+}
+
+.event-join-wrapper .event-product-box .detail .error .error {
+  margin: 0 !important;
+}
