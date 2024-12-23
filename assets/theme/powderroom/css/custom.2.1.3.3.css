@@ -1692,6 +1692,27 @@ input[type="checkbox"]:checked + label {
   display: none;
 }
 
+#mission-review-form-wrap .error {
+  color: #ff43ca !important;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  line-height: 142%;
+  margin-top: 5px;
+}
+
+#mission-review-form-wrap .content-submit .submit-box .error{
+  margin-bottom:0;
+}
+
+#mission-review-form-wrap .error:empty {
+  margin-top: 0;
+}
+
+#mission-review-form-wrap .dark.error {
+  color: #ff43ca !important;
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -4303,7 +4324,7 @@ div:where(.swal2-container) .swal2-html-container {
   position: relative;
 }
 
-.app-review-write-box.common-content .product-info-box .img-wrap::after {
+/* .app-review-write-box.common-content .product-info-box .img-wrap::after {
   content: "";
   position: absolute;
   top: 0;
@@ -4315,7 +4336,7 @@ div:where(.swal2-container) .swal2-html-container {
   width: inherit;
   height: inherit;
   border-radius: 8px;
-}
+} */
 
 .mypage-box .my-experience-box li .product-box .info-box {
   width: calc(100% - 115px);
@@ -7870,6 +7891,7 @@ hr.divider {
   color: #222;
   line-height: 142%;
   letter-spacing: -0.26px;
+  word-break: break-all;
 }
 
 .mypage-page-wrap .mypage-popup {
