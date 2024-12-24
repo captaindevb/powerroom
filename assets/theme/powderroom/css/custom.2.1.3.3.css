@@ -1696,13 +1696,11 @@ input[type="checkbox"]:checked + label {
   color: #ff43ca !important;
   font-size: 12px;
   margin-top: 0px;
-  margin-bottom: 20px;
   line-height: 142%;
-  margin-top: 5px;
 }
 
-#mission-review-form-wrap .content-submit .submit-box .error{
-  margin-bottom:0;
+#mission-review-form-wrap .content-submit .submit-box .error {
+  margin-bottom: 0;
 }
 
 #mission-review-form-wrap .error:empty {
