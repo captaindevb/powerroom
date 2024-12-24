@@ -7377,6 +7377,7 @@ hr.divider {
   font-weight: 700;
   line-height: 142%;
   letter-spacing: -0.28px;
+  word-break: break-all;
 }
 
 .survey-info-box .survey-box .survey-item .title .star {
