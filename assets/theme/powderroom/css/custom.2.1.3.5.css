@@ -1934,6 +1934,10 @@ input[type="checkbox"]:checked + label {
   color: red !important;
 }
 
+.review-wirte-wrap .error {
+  color: #ff43ca !important;
+}
+
 .valid-wrap {
   margin-bottom: 6px;
   position: relation;
