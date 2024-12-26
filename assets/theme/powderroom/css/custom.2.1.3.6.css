@@ -1699,6 +1699,15 @@ input[type="checkbox"]:checked + label {
   line-height: 142%;
 }
 
+.review-wirte-wrap.mission .error {
+  margin-top: 8px !important;
+}
+
+.review-wirte-wrap.mission .textarea-wrap .error {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
 #mission-review-form-wrap .content-submit .submit-box .error {
   margin-bottom: 0;
 }
