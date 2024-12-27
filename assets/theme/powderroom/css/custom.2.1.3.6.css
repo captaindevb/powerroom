@@ -7100,6 +7100,7 @@ hr.divider {
 
 .survey-comm-box {
   padding: 24px 16px;
+  margin-bottom:56px;
 }
 
 .survey-comm-box .header {
@@ -7331,13 +7332,17 @@ hr.divider {
 }
 
 .event-join-wrapper .btn-wrapper {
-  padding: 0 16px 24px;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .event-join-wrapper .btn-wrapper .complete-btn {
   width: 100%;
   height: 52px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   background: #ebf0fb;
   color: #ffffff;
   font-size: 16px;
@@ -7603,6 +7608,7 @@ hr.divider {
   line-height: 142%;
   letter-spacing: -0.3px;
   margin-bottom: 4px;
+  word-break: break-all;
 }
 
 .survey-info-box .survey-group-item .group-desc {
@@ -7611,6 +7617,7 @@ hr.divider {
   font-weight: 500;
   line-height: 142%;
   letter-spacing: -0.26px;
+  word-break: break-all;
 }
 
 .survey-info-box .survey-group-item .group-img-wrap {
