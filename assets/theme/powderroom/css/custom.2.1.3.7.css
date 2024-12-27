@@ -7101,7 +7101,7 @@ hr.divider {
 
 .survey-comm-box {
   padding: 24px 16px;
-  margin-bottom: 56px;
+  /* margin-bottom: 56px; */
 }
 
 .survey-comm-box .header {
