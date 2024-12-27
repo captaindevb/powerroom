@@ -1709,6 +1709,7 @@ input[type="checkbox"]:checked + label {
 }
 
 #mission-review-form-wrap .content-submit .submit-box .error {
+  margin-top: 8px;
   margin-bottom: 0;
 }
 
@@ -7100,7 +7101,7 @@ hr.divider {
 
 .survey-comm-box {
   padding: 24px 16px;
-  margin-bottom:56px;
+  margin-bottom: 56px;
 }
 
 .survey-comm-box .header {
