@@ -1946,6 +1946,9 @@ input[type="checkbox"]:checked + label {
 
 .review-wirte-wrap .error {
   color: #ff43ca !important;
+  font-size: 12px;
+  margin-top: 8px;
+  line-height: 142%;
 }
 
 .valid-wrap {
@@ -3418,7 +3421,7 @@ img#send-comment-btn {
   width: 100%;
   border-radius: 12px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.04);
+  /* background-color: rgba(0, 0, 0, 0.04); */
 }
 
 .mission-product-info .product-info-box .content .img-wrap img {
