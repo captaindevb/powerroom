@@ -3770,7 +3770,7 @@ img#send-comment-btn {
   width: 80px;
   border-radius: 12px;
   height: 80px !important;
-  /*background-color: rgba(0, 0, 0, 0.04);*/
+  background-color: rgba(0, 0, 0, 0.04);
 }
 
 .app-review-write-box .product-info-box .img-wrap {
