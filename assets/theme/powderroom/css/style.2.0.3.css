@@ -3930,6 +3930,15 @@ button.toggle.off {
   text-align: right;
 }
 
+.main-new-page-wrap
+  .main-new
+  .review-container
+  .review-list-box.first
+  .review-summary
+  select {
+  padding-left: 14px;
+}
+
 /* ì œí’ˆ ìƒì„¸ - ë¦¬ë·° ë¦¬ìŠ¤íŠ¸ */
 .review-list-box .product-review-list {
   padding: 0;
