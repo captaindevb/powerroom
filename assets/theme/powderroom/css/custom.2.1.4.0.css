@@ -7992,3 +7992,19 @@ hr.divider {
 .event-join-wrapper .event-product-box .detail .error .error {
   margin: 0 !important;
 }
+
+.exp-content .exp-desc-wrapper + .exp-winner-list {
+  padding-bottom: 0;
+}
+
+.popup-content-wrap .delivery-info-box .address-error {
+  margin: 0 !important;
+}
+
+.popup-content-wrap .delivery-info-box .address-error .error {
+  margin: 0 !important;
+}
+
+.popup-content-wrap .delivery-info-box .form-item:last-child .event-input {
+  margin-bottom: 0;
+}
