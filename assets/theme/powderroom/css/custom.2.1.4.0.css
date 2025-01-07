@@ -8008,3 +8008,23 @@ hr.divider {
 .popup-content-wrap .delivery-info-box .form-item:last-child .event-input {
   margin-bottom: 0;
 }
+
+.event-join-wrapper .event-product-box .detail {
+  gap: 0 !important;
+}
+
+.event-join-wrapper
+  .event-product-box
+  .detail
+  .event-input-btn
+  + .event-input-btn {
+  margin-top: 8px;
+}
+
+.event-join-wrapper .event-product-box .detail .error {
+  margin-top: 8px !important;
+}
+
+.event-join-wrapper .event-product-box .detail .error:empty {
+  margin-top: 0 !important;
+}
