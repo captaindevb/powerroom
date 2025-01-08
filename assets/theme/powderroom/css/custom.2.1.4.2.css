@@ -8005,8 +8005,12 @@ hr.divider {
   margin: 0 !important;
 }
 
-.popup-content-wrap .delivery-info-box .form-item:last-child .event-input {
+.popup-content-wrap .delivery-info-box .form-item:nth-child(6) .event-input {
   margin-bottom: 0;
+}
+
+.popup-content-wrap .delivery-info-box .form-item + .address-error {
+  margin-top: -2px !important;
 }
 
 .event-join-wrapper .event-product-box .detail {
