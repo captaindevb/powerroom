@@ -8042,6 +8042,16 @@ hr.divider {
 .event-join-wrapper
   .event-product-box
   .detail
+  .event-input-checkbox
+  + label
+  span
+  b {
+  font-weight: 600;
+}
+
+.event-join-wrapper
+  .event-product-box
+  .detail
   .event-input-checkbox.hidden
   + label
   span
