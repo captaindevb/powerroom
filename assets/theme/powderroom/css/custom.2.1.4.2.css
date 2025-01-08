@@ -7260,6 +7260,7 @@ hr.divider {
   background-color: #eceef2;
   color: #222222;
 }
+
 .event-join-wrapper .delivery-info-box .form-box .form-item button:disabled {
   cursor: not-allowed;
 }
@@ -7817,6 +7818,7 @@ hr.divider {
   line-height: 142%; /* 17.04px */
   letter-spacing: -0.24px;
 }
+
 .survey-comm-box .sns-wrap p::before {
   position: absolute;
   display: inline-block;
@@ -7884,6 +7886,7 @@ hr.divider {
   border: 1px solid #eceef2;
   height: 46px;
 }
+
 .mypage-popup .edit-info-wrap {
   padding: 24px 16px;
   background: #f6f9ff;
@@ -8011,6 +8014,10 @@ hr.divider {
 
 .popup-content-wrap .delivery-info-box .form-item + .address-error {
   margin-top: -2px !important;
+}
+
+.popup-content-wrap .delivery-info-box .form-item .flex-box input {
+  margin-bottom: 0;
 }
 
 .event-join-wrapper .event-product-box .detail {
