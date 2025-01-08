@@ -8039,6 +8039,16 @@ hr.divider {
   margin-top: 8px;
 }
 
+.event-join-wrapper
+  .event-product-box
+  .detail
+  .event-input-checkbox.hidden
+  + label
+  span
+  b {
+  color: #68696b !important;
+}
+
 .event-join-wrapper .event-product-box .detail .error {
   margin-top: 8px !important;
 }
