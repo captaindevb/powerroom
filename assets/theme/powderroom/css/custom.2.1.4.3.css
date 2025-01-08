@@ -8013,6 +8013,13 @@ hr.divider {
 }
 
 .popup-content-wrap .delivery-info-box .form-item + .address-error {
+  margin-top: -10px !important;
+}
+
+.popup-content-wrap
+  .delivery-info-box
+  .form-item
+  + .address-error:has(> *[style*="display: block"]) {
   margin-top: -2px !important;
 }
 
