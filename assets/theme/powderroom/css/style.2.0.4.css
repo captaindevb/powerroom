@@ -123,7 +123,7 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
 }
 
 .common-wrap header.line {
-  border-bottom: 1px solid #ebf0fb;
+  border-bottom: 1px solid #f2f3f6;
 }
 
 .common-wrap header h2 {
@@ -1373,6 +1373,32 @@ button.toggle.off {
   line-height: 24px;
   background-color: #fff;
   border-bottom: 1px solid #ebf0fb;
+}
+
+.magazine-content .magazine-detail .title-date-wrap {
+  background: #fff;
+  padding: 10px 16px 0 16px;
+}
+
+.magazine-content .magazine-detail .title-date-wrap .tit {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 142%;
+  letter-spacing: -0.32px;
+  word-break: break-all;
+}
+
+.magazine-content .magazine-detail .title-date-wrap .date {
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  color: #929498;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 142%; /* 17.04px */
+  letter-spacing: -0.24px;
+  border-bottom: 1px solid #f2f3f6;
 }
 
 .magazine-content .content {

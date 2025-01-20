@@ -8066,3 +8066,8 @@ hr.divider {
 .event-join-wrapper .event-product-box .detail .error:empty {
   margin-top: 0 !important;
 }
+
+/* 매거진, 공지사항 상세 */
+header.detail-header {
+  border-bottom: 1px solid #f2f3f6;
+}

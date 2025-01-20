@@ -2,6 +2,10 @@
 
 아래 링크를 클릭하여 해당 페이지로 바로가기 합니다
 
+### 매거진/공지사항 상세
+
+1.  Link: [매거진/공지사항 상세](/05-magazine/detail.html)
+
 ### 서베이
 
 1.  Link: [이벤트 신청 - 서베이 전 유형](/17-event-join/event-join-all-survey.html)
