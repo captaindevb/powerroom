@@ -2890,11 +2890,13 @@ button.all-submit-btn {
 }
 
 .product-content .review-list-box .review-summary select {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: -0.22px;
   line-height: 142%;
   width: auto;
   padding-left: 16px;
+  font-weight: 600;
+  background-size: 14px;
 }
 
 .review-list-box .product-review-list li {
@@ -4421,8 +4423,8 @@ div:where(.swal2-container) .swal2-html-container {
 
 .review-list-box .product-review-list .user-info-box .img-wrap {
   position: relative;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 6px;
 }
 
@@ -4874,15 +4876,14 @@ div:where(.swal2-container) .swal2-html-container {
   margin-left: auto;
   appearance: none;
   border: none;
-  background: none;
   color: #929498;
-  font-weight: 400;
+  font-weight: 600;
   background: transparent url(../images/icon-option-dropdown.png) left center
     no-repeat;
-  background-size: 12px;
+  background-size: 14px;
   text-align: right;
   box-sizing: content-box;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: -0.22px;
   line-height: 142%;
   width: auto;
@@ -5006,14 +5007,15 @@ div:where(.swal2-container) .swal2-html-container {
   line-height: 142%;
   width: auto;
   padding-left: 16px;
+  background-size: 14px;
 }
 
 .depth1-container .review-container .review-list-box.first .count {
   margin-left: 16px;
   color: #929498;
-  font-size: 11px;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%;
   /* 15.62px */
   letter-spacing: -0.22px;
@@ -6486,8 +6488,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
   .review-list-box.first
   .review-summary
   select {
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 600;
   width: 49px;
+  background-size: 14px;
 }
 
 .main-new-page-wrap
@@ -8151,4 +8155,14 @@ header.detail-header {
 
 .profile4-popup .popup-content-wrap .popup-header {
   color: #000000;
+}
+
+.review-list-box .product-review-list li .reaction img {
+  width: 20px;
+  height: 20px;
+}
+
+.review-list-box .my-review-list li .reaction img {
+  width: 20px;
+  height: 20px;
 }
