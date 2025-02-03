@@ -107,7 +107,7 @@ html {
 }
 
 .item-unregistered-wrap > div:nth-child(2) select {
-  height: 40px;
+  height: 46px;
 }
 
 .review-product-search .search-input-container {
@@ -129,6 +129,7 @@ html {
 
 .review-product-search .search-bottom button {
   padding: 19px 0;
+  font-size: 13px;
 }
 
 .review-product-search .search-list {
@@ -219,7 +220,8 @@ html {
 }
 
 .review-list-box .product-review-list .review-info-box .date {
-  font-size: 10px !important;
+  font-size: 12px !important;
+  font-weight: 500;
 }
 
 .review-list-box .product-review-list li .thumb {
@@ -1538,8 +1540,8 @@ nav.nav-wrap a:hover {
 
 .upload-img-wrap .img-item {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 92px;
+  height: 92px;
   flex: 0 0 auto;
   /* 크기 고정 */
 }
@@ -1814,7 +1816,7 @@ input[type="checkbox"]:checked + label {
 
 .select2-selection.select2-selection--single {
   width: 100% !important;
-  height: 50px !important;
+  height: 46px !important;
   margin-bottom: 0px !important;
   text-indent: 12px !important;
   background: #373839 !important;
@@ -1824,6 +1826,16 @@ input[type="checkbox"]:checked + label {
   border: 1px solid #68696b !important;
   border-radius: 6px;
   color: #dbdcdf !important;
+}
+
+.select2-selection.select2-selection--single .select2-selection__rendered {
+  height: 44px;
+  font-size: 15px;
+  line-height: 23px !important;
+}
+
+.select2-selection.select2-selection--single .select2-selection__rendered .select2-selection__placeholder {
+  font-size: 15px;
 }
 
 .select2-container--default
@@ -2126,22 +2138,25 @@ button.all-submit-btn {
 }
 
 .center-modal-wrap .modal-inner {
-  width: 288px;
+  width: 248px !important;
 }
 
 /**********디자인 QA**********/
 /*리뷰 작성*/
 .review-item-wrap .item-select-wrap p {
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .review-item-wrap .item-select-wrap button {
-  font-weight: 300;
+  font-weight: 700;
+  font-size: 13px;
   line-height: 18px;
 }
 
 .review-item-wrap .item-select-wrap button img {
-  top: 11px;
+  width: 18px;
+  height: 18px;
+  top: 12px;
 }
 
 .review-wirte-wrap .input-item > label {
@@ -2155,7 +2170,7 @@ button.all-submit-btn {
 
 .review-wirte-wrap .input-item .btns.valid-wrap label {
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .review-wirte-wrap .input-item input[type="text"] {
@@ -2468,6 +2483,7 @@ button.all-submit-btn {
   height: 20px;
   line-height: 20px;
   padding: 0 6px !important;
+  font-weight: 600 !important;
 }
 
 .review-detail-popup
@@ -2502,7 +2518,7 @@ button.all-submit-btn {
   align-content: center;
   font-size: 10px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 142%;
   border-radius: 4px;
   background-color: #f2f3f6;
@@ -2631,7 +2647,7 @@ button.all-submit-btn {
   opacity: 0.8;
   background: #f2f3f6;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 600;
   color: #000;
   letter-spacing: -0.2px;
 }
@@ -2874,11 +2890,13 @@ button.all-submit-btn {
 }
 
 .product-content .review-list-box .review-summary select {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: -0.22px;
   line-height: 142%;
   width: auto;
   padding-left: 16px;
+  font-weight: 600;
+  background-size: 14px;
 }
 
 .review-list-box .product-review-list li {
@@ -3056,6 +3074,10 @@ button.all-submit-btn {
   font-size: 14px;
 }
 
+.review-product-search .search-input-wrap input::placeholder {
+  color: #B8BBBF;
+}
+
 .modal-wrap .content.product-change.template .title-area button img {
   margin-top: -3px;
 }
@@ -3115,7 +3137,7 @@ button.all-submit-btn {
   label {
   line-height: 30px;
   padding: 0 13px;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: -0.24px;
 }
 
@@ -3199,14 +3221,15 @@ img#send-comment-btn {
 
 .item-unregistered-wrap div.valid-wrap {
   margin-bottom: 0;
+  height: 46px;
 }
 
 .item-unregistered-wrap > div:nth-child(2) {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .item-unregistered-wrap > div:nth-child(2) select {
-  font-size: 14px;
+  font-size: 15px;
   color: #929498;
 }
 
@@ -3244,6 +3267,10 @@ img#send-comment-btn {
 
 .item-unregistered-wrap div:nth-child(5) {
   margin-bottom: 25px;
+}
+
+.item-unregistered-wrap div:nth-child(5) input {
+  height: 46px;
 }
 
 .item-unregistered-wrap .textarea-wrap textarea {
@@ -3983,6 +4010,7 @@ img#send-comment-btn {
 
 .mypage-box .no-list p {
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .mypage-box .no-list button {
@@ -4136,7 +4164,8 @@ div:where(.swal2-container) div:where(.swal2-popup) {
 .review-list-box .review-summary .count {
   margin-left: 16px;
   line-height: 142%;
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 /*개발 모달*/
@@ -4394,8 +4423,8 @@ div:where(.swal2-container) .swal2-html-container {
 
 .review-list-box .product-review-list .user-info-box .img-wrap {
   position: relative;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 6px;
 }
 
@@ -4407,7 +4436,8 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .review-list-box .product-review-list .user-info-box span.tag {
-  font-weight: 400 !important;
+  font-weight: 600 !important;
+  font-size: 10px !important;
 }
 
 .modal-wrap .content.out .img-txt-wrap p {
@@ -4846,15 +4876,14 @@ div:where(.swal2-container) .swal2-html-container {
   margin-left: auto;
   appearance: none;
   border: none;
-  background: none;
   color: #929498;
-  font-weight: 400;
+  font-weight: 600;
   background: transparent url(../images/icon-option-dropdown.png) left center
     no-repeat;
-  background-size: 12px;
+  background-size: 14px;
   text-align: right;
   box-sizing: content-box;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: -0.22px;
   line-height: 142%;
   width: auto;
@@ -4978,14 +5007,15 @@ div:where(.swal2-container) .swal2-html-container {
   line-height: 142%;
   width: auto;
   padding-left: 16px;
+  background-size: 14px;
 }
 
 .depth1-container .review-container .review-list-box.first .count {
   margin-left: 16px;
   color: #929498;
-  font-size: 11px;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%;
   /* 15.62px */
   letter-spacing: -0.22px;
@@ -6265,6 +6295,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   -webkit-line-clamp: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  font-weight: 500;
 }
 
 .mypage-content
@@ -6300,6 +6331,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
+  font-weight: 500;
 }
 
 .common-wrap header button.btn-header-right {
@@ -6456,8 +6488,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
   .review-list-box.first
   .review-summary
   select {
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 600;
   width: 49px;
+  background-size: 14px;
 }
 
 .main-new-page-wrap
@@ -6823,7 +6857,7 @@ nav.nav-wrap a {
 
 .main-new .review-list-box .product-review-list li p.title {
   color: #000;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 142%;
   -webkit-line-clamp: 2;
 }
@@ -6846,6 +6880,14 @@ nav.nav-wrap a {
 
 .main-new .review-list-box .product-review-list .product .info p {
   width: auto;
+}
+
+.main-new .review-list-box .product-review-list .product .info p.brand {
+  font-weight: 500;
+}
+
+.main-new .review-list-box .product-review-list .product .info p.name strong {
+  color: #68696b;
 }
 
 .main-new .review-list-box .product-review-list li .reaction span {
@@ -7250,7 +7292,7 @@ hr.divider {
   background: #f2f3f6;
   color: #b8bbbf;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 142%;
   letter-spacing: -0.3px;
@@ -7271,7 +7313,7 @@ hr.divider {
 
 .event-join-wrapper .delivery-info-box .form-box .form-item .dodo-btn {
   width: 89px;
-  color: #b8bbbf;
+  color: #68696B;
   font-size: 15px;
   font-weight: 400;
   line-height: 142%;
@@ -7905,9 +7947,9 @@ hr.divider {
 }
 
 .mypage-popup .edit-info-wrap p {
-  font-size: 13px;
+  font-size: 12px;
   color: #68696b;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 160%;
   letter-spacing: -0.26px;
 }
@@ -8070,4 +8112,57 @@ hr.divider {
 /* 매거진, 공지사항 상세 */
 header.detail-header {
   border-bottom: 1px solid #f2f3f6;
+}
+
+#review-new-product-wrap ~ .modal-wrap .content.out .img-txt-wrap p {
+  font-weight: 500;
+}
+
+.review-item-wrap .item-unregistered-wrap {
+  padding: 20px 16px 31px 16px !important;
+}
+
+.review-item-wrap .item-unregistered-wrap #imagePreviewContainer {
+  margin: 0 !important;
+}
+
+.center-modal-wrap .content.sns-load-fail h5 {
+  line-height: 142%;
+  font-weight: 700;
+  color: #000000;
+}
+
+.center-modal-wrap .content.sns-load-fail p {
+  font-size: 13px;
+}
+
+.center-modal-wrap .content.sns-load-fail button {
+  width: 136px;
+  height: 46px;
+  font-size: 16px;
+}
+
+.review-list-box .my-review-list .review-info-box .date {
+  font-size: 12px !important;
+  font-weight: 500;
+}
+
+.review-list-box.bookmark .my-review-list .user-info-box img {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+}
+
+.profile4-popup .popup-content-wrap .popup-header {
+  color: #000000;
+}
+
+.review-list-box .product-review-list li .reaction img {
+  width: 20px;
+  height: 20px;
+}
+
+.review-list-box .my-review-list li .reaction img {
+  width: 20px;
+  height: 20px;
 }
