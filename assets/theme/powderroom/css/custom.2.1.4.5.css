@@ -107,7 +107,7 @@ html {
 }
 
 .item-unregistered-wrap > div:nth-child(2) select {
-  height: 40px;
+  height: 46px;
 }
 
 .review-product-search .search-input-container {
@@ -129,6 +129,7 @@ html {
 
 .review-product-search .search-bottom button {
   padding: 19px 0;
+  font-size: 13px;
 }
 
 .review-product-search .search-list {
@@ -1814,7 +1815,7 @@ input[type="checkbox"]:checked + label {
 
 .select2-selection.select2-selection--single {
   width: 100% !important;
-  height: 50px !important;
+  height: 46px !important;
   margin-bottom: 0px !important;
   text-indent: 12px !important;
   background: #373839 !important;
@@ -1824,6 +1825,16 @@ input[type="checkbox"]:checked + label {
   border: 1px solid #68696b !important;
   border-radius: 6px;
   color: #dbdcdf !important;
+}
+
+.select2-selection.select2-selection--single .select2-selection__rendered {
+  height: 44px;
+  font-size: 15px;
+  line-height: 23px !important;
+}
+
+.select2-selection.select2-selection--single .select2-selection__rendered .select2-selection__placeholder {
+  font-size: 15px;
 }
 
 .select2-container--default
@@ -2132,16 +2143,19 @@ button.all-submit-btn {
 /**********디자인 QA**********/
 /*리뷰 작성*/
 .review-item-wrap .item-select-wrap p {
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .review-item-wrap .item-select-wrap button {
-  font-weight: 300;
+  font-weight: 700;
+  font-size: 13px;
   line-height: 18px;
 }
 
 .review-item-wrap .item-select-wrap button img {
-  top: 11px;
+  width: 18px;
+  height: 18px;
+  top: 12px;
 }
 
 .review-wirte-wrap .input-item > label {
@@ -2155,7 +2169,7 @@ button.all-submit-btn {
 
 .review-wirte-wrap .input-item .btns.valid-wrap label {
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .review-wirte-wrap .input-item input[type="text"] {
@@ -3056,6 +3070,10 @@ button.all-submit-btn {
   font-size: 14px;
 }
 
+.review-product-search .search-input-wrap input::placeholder {
+  color: #B8BBBF;
+}
+
 .modal-wrap .content.product-change.template .title-area button img {
   margin-top: -3px;
 }
@@ -3199,14 +3217,15 @@ img#send-comment-btn {
 
 .item-unregistered-wrap div.valid-wrap {
   margin-bottom: 0;
+  height: 46px;
 }
 
 .item-unregistered-wrap > div:nth-child(2) {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .item-unregistered-wrap > div:nth-child(2) select {
-  font-size: 14px;
+  font-size: 15px;
   color: #929498;
 }
 
@@ -3244,6 +3263,10 @@ img#send-comment-btn {
 
 .item-unregistered-wrap div:nth-child(5) {
   margin-bottom: 25px;
+}
+
+.item-unregistered-wrap div:nth-child(5) input {
+  height: 46px;
 }
 
 .item-unregistered-wrap .textarea-wrap textarea {
@@ -8070,4 +8093,12 @@ hr.divider {
 /* 매거진, 공지사항 상세 */
 header.detail-header {
   border-bottom: 1px solid #f2f3f6;
+}
+
+#review-new-product-wrap ~ .modal-wrap .content.out .img-txt-wrap p {
+  font-weight: 500;
+}
+
+.review-item-wrap .item-unregistered-wrap {
+  padding: 20px 16px 31px 16px !important;
 }
