@@ -1539,8 +1539,8 @@ nav.nav-wrap a:hover {
 
 .upload-img-wrap .img-item {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 92px;
+  height: 92px;
   flex: 0 0 auto;
   /* 크기 고정 */
 }
@@ -2137,7 +2137,7 @@ button.all-submit-btn {
 }
 
 .center-modal-wrap .modal-inner {
-  width: 288px;
+  width: 248px !important;
 }
 
 /**********디자인 QA**********/
@@ -8101,4 +8101,24 @@ header.detail-header {
 
 .review-item-wrap .item-unregistered-wrap {
   padding: 20px 16px 31px 16px !important;
+}
+
+.review-item-wrap .item-unregistered-wrap #imagePreviewContainer {
+  margin: 0 !important;
+}
+
+.center-modal-wrap .content.sns-load-fail h5 {
+  line-height: 142%;
+  font-weight: 700;
+  color: #000000;
+}
+
+.center-modal-wrap .content.sns-load-fail p {
+  font-size: 13px;
+}
+
+.center-modal-wrap .content.sns-load-fail button {
+  width: 136px;
+  height: 46px;
+  font-size: 16px;
 }
