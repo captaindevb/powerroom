@@ -220,7 +220,8 @@ html {
 }
 
 .review-list-box .product-review-list .review-info-box .date {
-  font-size: 10px !important;
+  font-size: 12px !important;
+  font-weight: 500;
 }
 
 .review-list-box .product-review-list li .thumb {
@@ -2482,6 +2483,7 @@ button.all-submit-btn {
   height: 20px;
   line-height: 20px;
   padding: 0 6px !important;
+  font-weight: 600 !important;
 }
 
 .review-detail-popup
@@ -2516,7 +2518,7 @@ button.all-submit-btn {
   align-content: center;
   font-size: 10px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 142%;
   border-radius: 4px;
   background-color: #f2f3f6;
@@ -2645,7 +2647,7 @@ button.all-submit-btn {
   opacity: 0.8;
   background: #f2f3f6;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 600;
   color: #000;
   letter-spacing: -0.2px;
 }
@@ -4006,6 +4008,7 @@ img#send-comment-btn {
 
 .mypage-box .no-list p {
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .mypage-box .no-list button {
@@ -4159,7 +4162,8 @@ div:where(.swal2-container) div:where(.swal2-popup) {
 .review-list-box .review-summary .count {
   margin-left: 16px;
   line-height: 142%;
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 /*개발 모달*/
@@ -4430,7 +4434,8 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .review-list-box .product-review-list .user-info-box span.tag {
-  font-weight: 400 !important;
+  font-weight: 600 !important;
+  font-size: 10px !important;
 }
 
 .modal-wrap .content.out .img-txt-wrap p {
@@ -6288,6 +6293,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   -webkit-line-clamp: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  font-weight: 500;
 }
 
 .mypage-content
@@ -6323,6 +6329,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
+  font-weight: 500;
 }
 
 .common-wrap header button.btn-header-right {
@@ -6846,7 +6853,7 @@ nav.nav-wrap a {
 
 .main-new .review-list-box .product-review-list li p.title {
   color: #000;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 142%;
   -webkit-line-clamp: 2;
 }
@@ -6869,6 +6876,14 @@ nav.nav-wrap a {
 
 .main-new .review-list-box .product-review-list .product .info p {
   width: auto;
+}
+
+.main-new .review-list-box .product-review-list .product .info p.brand {
+  font-weight: 500;
+}
+
+.main-new .review-list-box .product-review-list .product .info p.name strong {
+  color: #68696b;
 }
 
 .main-new .review-list-box .product-review-list li .reaction span {
@@ -7273,7 +7288,7 @@ hr.divider {
   background: #f2f3f6;
   color: #b8bbbf;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 142%;
   letter-spacing: -0.3px;
@@ -7294,7 +7309,7 @@ hr.divider {
 
 .event-join-wrapper .delivery-info-box .form-box .form-item .dodo-btn {
   width: 89px;
-  color: #b8bbbf;
+  color: #68696B;
   font-size: 15px;
   font-weight: 400;
   line-height: 142%;
@@ -7928,9 +7943,9 @@ hr.divider {
 }
 
 .mypage-popup .edit-info-wrap p {
-  font-size: 13px;
+  font-size: 12px;
   color: #68696b;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 160%;
   letter-spacing: -0.26px;
 }
@@ -8121,4 +8136,19 @@ header.detail-header {
   width: 136px;
   height: 46px;
   font-size: 16px;
+}
+
+.review-list-box .my-review-list .review-info-box .date {
+  font-size: 12px !important;
+  font-weight: 500;
+}
+
+.review-list-box.bookmark .my-review-list .user-info-box img {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+}
+
+.profile4-popup .popup-content-wrap .popup-header {
+  color: #000000;
 }
