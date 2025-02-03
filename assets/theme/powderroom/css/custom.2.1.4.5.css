@@ -428,6 +428,7 @@ html {
   background-color: #000;
   color: white;
   text-align: center;
+  font-size: 16px;
 }
 
 #review-filter-modal .footer {
@@ -2096,7 +2097,7 @@ textarea.on {
 
 .product-info-box.review button.edit {
   background-color: #eceef2;
-  color: black;
+  color: #222222;
 }
 
 .btn-wrap button {
@@ -2226,7 +2227,7 @@ button.all-submit-btn {
 .app-review-write-box .product-info-box .info p + span {
   display: block;
   font-size: 14px;
-  color: #68696B !important;
+  color: #373839 !important;
   font-weight: 500;
   line-height: 20px;
 }
@@ -2387,7 +2388,7 @@ button.all-submit-btn {
 .modal-wrap .modal-inner .popup-header.review-mission {
   font-size: 18px;
   font-weight: 700;
-  color: #222;
+  color: #000000;
   padding: 24px 16px 16px 16px;
 }
 
@@ -2395,6 +2396,7 @@ button.all-submit-btn {
 .modal-wrap .content.product-change p {
   font-weight: 500;
   line-height: 23px;
+  color: #222222;
 }
 
 .modal-wrap .content.product-change .btns button {
@@ -2406,6 +2408,7 @@ button.all-submit-btn {
 .modal-wrap .content.sns-load button {
   padding: 13px 0;
   align-items: center;
+  color: #222222;
 }
 
 .modal-wrap .content.sns-load > div + button {
@@ -4362,6 +4365,14 @@ div:where(.swal2-container) .swal2-html-container {
   .product-info-box
   .info {
   align-self: center;
+}
+
+#mission-review-form-wrap
+.mission-product-info-wrapper
+.mission-product-info
+.product-info-box
+.info p {
+  color: #000000;
 }
 
 .app-review-write-box.common-content .product-info-box .info {
@@ -8177,4 +8188,8 @@ header.detail-header {
 
 .popup-content-wrap input {
   font-size: 15px !important;
+}
+
+.modal-wrap .content.sns-load h5 {
+  color: #222222;
 }
