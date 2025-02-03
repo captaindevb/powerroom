@@ -428,6 +428,7 @@ html {
   background-color: #000;
   color: white;
   text-align: center;
+  font-size: 16px;
 }
 
 #review-filter-modal .footer {
@@ -2096,7 +2097,7 @@ textarea.on {
 
 .product-info-box.review button.edit {
   background-color: #eceef2;
-  color: black;
+  color: #222222;
 }
 
 .btn-wrap button {
@@ -2227,7 +2228,7 @@ button.all-submit-btn {
   display: block;
   font-size: 14px;
   color: #373839 !important;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 20px;
 }
 
@@ -2257,6 +2258,7 @@ button.all-submit-btn {
   background: #fff !important;
   border: 1px solid #eceef2;
   color: #222;
+  font-size: 15px;
 }
 
 .content-submit .submit-box .sub {
@@ -2287,6 +2289,8 @@ button.all-submit-btn {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  font-size: 16px;
+  color: #373839;
 }
 
 .review-desc-wrapper .desc {
@@ -2299,12 +2303,13 @@ button.all-submit-btn {
 }
 
 .write-guide .write-guide-box button.more-btn .button-text {
-  font-size: 10px;
-  color: #b8bbbf;
+  font-size: 11px;
+  color: #929498;
 }
 
 .write-guide .write-guide-box button.more-btn img {
-  margin-bottom: -4px;
+  margin-bottom: -3px;
+  width: 14px;
 }
 
 .review-wirte-wrap .write-detail {
@@ -2383,7 +2388,7 @@ button.all-submit-btn {
 .modal-wrap .modal-inner .popup-header.review-mission {
   font-size: 18px;
   font-weight: 700;
-  color: #222;
+  color: #000000;
   padding: 24px 16px 16px 16px;
 }
 
@@ -2391,6 +2396,7 @@ button.all-submit-btn {
 .modal-wrap .content.product-change p {
   font-weight: 500;
   line-height: 23px;
+  color: #222222;
 }
 
 .modal-wrap .content.product-change .btns button {
@@ -2402,6 +2408,7 @@ button.all-submit-btn {
 .modal-wrap .content.sns-load button {
   padding: 13px 0;
   align-items: center;
+  color: #222222;
 }
 
 .modal-wrap .content.sns-load > div + button {
@@ -3482,7 +3489,7 @@ img#send-comment-btn {
   color: #68696b;
   font-size: 12px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 160%;
   letter-spacing: -0.24px;
 }
@@ -3786,7 +3793,7 @@ img#send-comment-btn {
   .product-info-box
   img {
   height: 80px;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 #mission-review-form-wrap
@@ -3798,7 +3805,7 @@ img#send-comment-btn {
   top: 0;
   left: 0;
   width: 80px;
-  border-radius: 12px;
+  border-radius: 8px;
   height: 80px !important;
   background-color: rgba(0, 0, 0, 0.04);
 }
@@ -4282,7 +4289,7 @@ div:where(.swal2-container) input.swal2-input {
   line-height: 40px;
   padding: 0 !important;
   text-indent: 15px;
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 
 div:where(.swal2-container) input.swal2-input::placeholder {
@@ -4358,6 +4365,14 @@ div:where(.swal2-container) .swal2-html-container {
   .product-info-box
   .info {
   align-self: center;
+}
+
+#mission-review-form-wrap
+.mission-product-info-wrapper
+.mission-product-info
+.product-info-box
+.info p {
+  color: #000000;
 }
 
 .app-review-write-box.common-content .product-info-box .info {
@@ -8165,4 +8180,16 @@ header.detail-header {
 .review-list-box .my-review-list li .reaction img {
   width: 20px;
   height: 20px;
+}
+
+.mypage-box .self-box input {
+  font-size: 15px;
+}
+
+.popup-content-wrap input {
+  font-size: 15px !important;
+}
+
+.modal-wrap .content.sns-load h5 {
+  color: #222222;
 }
