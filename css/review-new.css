@@ -683,7 +683,7 @@
 .modal-wrap .content.sns-load h5 {
   padding-bottom: 15px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-wrap .content.sns-load button {
@@ -709,7 +709,7 @@
 
 .center-modal-wrap .content.sns-load-fail h5 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   padding: 10px 0;
 }
 .center-modal-wrap .content.sns-load-fail p {
@@ -726,7 +726,7 @@
   border-radius: 8px;
   color: #fff;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .modal-wrap .content.out {
   padding-top: 24px;
@@ -739,7 +739,7 @@
 .modal-wrap .content.out .img-txt-wrap h5 {
   padding-top: 10px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-wrap .content.out .img-txt-wrap p {

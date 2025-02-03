@@ -562,7 +562,7 @@ button.toggle.off {
   margin-bottom: 25px;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-wrap .content.write-profile .close {
@@ -576,7 +576,7 @@ button.toggle.off {
   height: 52px;
   font-size: 16px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 8px;
   background: #ff43ca;
 }

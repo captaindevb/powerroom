@@ -566,7 +566,7 @@ button.toggle.off {
   margin-bottom: 25px;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-wrap .content.write-profile .close {
@@ -580,7 +580,7 @@ button.toggle.off {
   height: 52px;
   font-size: 16px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 8px;
   background: #ff43ca;
 }
@@ -3344,7 +3344,7 @@ button.toggle.off {
 
 .product-box .kr-review-box .content p.title {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .product-box .kr-review-box .content ul {
@@ -3618,7 +3618,7 @@ button.toggle.off {
     #fff;
   color: #373839;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.42;
   letter-spacing: -0.24px;
 }
@@ -5783,7 +5783,7 @@ p {
 .modal-wrap .content.sns-load h5 {
   padding-bottom: 15px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-wrap .content.sns-load button {
@@ -5809,7 +5809,7 @@ p {
 
 .center-modal-wrap .content.sns-load-fail h5 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   padding: 10px 0;
 }
 .center-modal-wrap .content.sns-load-fail p {
@@ -5826,7 +5826,7 @@ p {
   border-radius: 8px;
   color: #fff;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .modal-wrap .content.out {
   padding-top: 24px;
@@ -5839,7 +5839,7 @@ p {
 .modal-wrap .content.out .img-txt-wrap h5 {
   padding-top: 10px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-wrap .content.out .img-txt-wrap p {

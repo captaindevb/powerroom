@@ -377,7 +377,7 @@ html {
   /* background: linear-gradient(0deg, rgba(255, 67, 202, 0.45) 0%, rgba(255, 67, 202, 0.45) 100%), #fff; */
   color: #373839;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.42;
   letter-spacing: -0.24px;
 }
@@ -2100,7 +2100,7 @@ button.all-submit-btn {
   font-size: 12px;
   line-height: 30px;
   padding: 0 12px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .tag-box .req-tag input[type="text"] {
@@ -3348,7 +3348,7 @@ img#send-comment-btn {
   font-size: 13px !important;
   color: #222222;
   letter-spacing: -0.26px;
-  font-weight: 600;
+  font-weight: 700;
   border: 1px solid #b8bbbf !important;
   padding-bottom: 1px !important;
 }
@@ -3876,7 +3876,7 @@ img#send-comment-btn {
 
 .center-modal-wrap.system .content h5 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: #000;
   line-height: 23px;
   margin-bottom: 0;

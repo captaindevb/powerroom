@@ -320,7 +320,7 @@ html {
 }
 
 .review-list-box .product-info-box dt {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
@@ -412,7 +412,7 @@ html {
   /* background: linear-gradient(0deg, rgba(255, 67, 202, 0.45) 0%, rgba(255, 67, 202, 0.45) 100%), #fff; */
   color: #373839;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.42;
   letter-spacing: -0.24px;
 }
@@ -447,7 +447,7 @@ html {
   margin-bottom: 12px;
   color: #222;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.26px;
 }
 
@@ -457,7 +457,7 @@ html {
   border-radius: 100px;
   border: 1px solid #eceef2;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   color: #929498;
   line-height: 1;
   letter-spacing: -0.24px;
@@ -1254,7 +1254,7 @@ nav.nav-wrap .d-flex {
 
 .common-section .top-title span {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .common-section .top-title a.btn-more {
@@ -1296,7 +1296,7 @@ nav.nav-wrap .d-flex {
 
 .common-section p.title {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 15px;
   margin-bottom: 4px;
   display: -webkit-box;
@@ -1663,7 +1663,7 @@ input[type="checkbox"]:checked + label {
   height: 60px;
   width: 100%;
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   background-color: #2a3548;
 }
@@ -2061,7 +2061,7 @@ textarea.on {
   border: 1px solid #dbdcdf;
   border-radius: 100px;
   color: #b8bbbf;
-  font-weight: 600;
+  font-weight: 700;
   background: #fff;
   margin: 2px;
   cursor: pointer;
@@ -2078,7 +2078,7 @@ textarea.on {
   height: 30px;
   border-radius: 8px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
 }
 
@@ -2091,7 +2091,7 @@ textarea.on {
   xheight: 52px;
   width: 100%;
   /* margin-bottom: 12px; */
-  /* font-weight: 600; */
+  /* font-weight: 700; */
   color: black;
   /* background-color: #eceef2; */
   border-radius: 8px;
@@ -2235,7 +2235,7 @@ button.all-submit-btn {
   font-size: 12px;
   line-height: 30px;
   padding: 0 12px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .tag-box .req-tag input[type="text"] {
@@ -2367,7 +2367,7 @@ button.all-submit-btn {
 
 .modal-wrap .modal-inner .popup-header.review-mission {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   color: #222;
   padding: 24px 16px 16px 16px;
 }
@@ -2414,7 +2414,7 @@ button.all-submit-btn {
   .comment-detail
   .text
   strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .review-detail-popup .comment-wrap .origin .text-wrap .comment-detail .date {
@@ -2436,7 +2436,7 @@ button.all-submit-btn {
 }
 
 .review-detail-popup .popup-content .send-desc-wrap p strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .review-detail-popup .popup-content .send-comment-wrap2 .write-input {
@@ -2601,7 +2601,7 @@ button.all-submit-btn {
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
   margin-right: 8px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .mypage-content .review-list-box .my-review-list li .product p.name span {
@@ -2797,7 +2797,7 @@ button.all-submit-btn {
 
 .product-content .product-box .kr-review-box .content p.title {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 142%;
   letter-spacing: -0.26px;
 }
@@ -2824,7 +2824,7 @@ button.all-submit-btn {
   position: relative;
   color: #929498;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.26px;
   line-height: 142%;
 }
@@ -2984,7 +2984,7 @@ button.all-submit-btn {
 /* 리뷰작성 > 템플릿 */
 .modal-wrap .content.product-change.template .template-area .select button {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 142%;
   letter-spacing: -0.3px;
   color: #222;
@@ -3194,7 +3194,7 @@ img#send-comment-btn {
   .template-area
   .group-item
   textarea.on {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .item-unregistered-wrap div.valid-wrap {
@@ -3295,7 +3295,7 @@ img#send-comment-btn {
   flex-basis: content;
   line-height: 43px;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   width: auto;
 }
 
@@ -3391,7 +3391,7 @@ img#send-comment-btn {
   margin-right: 6px;
   padding: 0 13px !important;
   margin-bottom: 0px !important;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-wrap
@@ -3541,7 +3541,7 @@ img#send-comment-btn {
   font-size: 13px !important;
   color: #222222;
   letter-spacing: -0.26px;
-  font-weight: 600;
+  font-weight: 700;
   border: 1px solid #b8bbbf !important;
   padding-bottom: 1px !important;
 }
@@ -3917,7 +3917,7 @@ img#send-comment-btn {
   height: 46px;
   border: 1px solid #373839;
   border-radius: 100px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .review-detail-popup .popup-content .send-comment-wrap2 .write-input > * {
@@ -4078,7 +4078,7 @@ img#send-comment-btn {
 
 .center-modal-wrap.system .content h5 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: #000;
   line-height: 23px;
   margin-bottom: 0;
@@ -4509,7 +4509,7 @@ div:where(.swal2-container) .swal2-html-container {
 .brand-main .top-brand-info .brand-content .info-wrap .title h5 {
   font-size: 16px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 23px;
   padding-bottom: 6px;
   word-break: break-all;
@@ -4588,7 +4588,7 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .brand-main .campaign-banner .swiper-container .swiper-pagination-wrap span b {
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
 }
 
@@ -4641,7 +4641,7 @@ div:where(.swal2-container) .swal2-html-container {
 .brand-main .campaign-banner .swiper-item .content-wrap h5 strong {
   display: inline-block;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 24px;
   letter-spacing: -0.3px;
   color: #000;
@@ -4652,7 +4652,7 @@ div:where(.swal2-container) .swal2-html-container {
   display: inline-block;
   padding-left: 4px;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   color: #ff43ca;
   letter-spacing: -0.26px;
   line-height: 24px;
@@ -4702,7 +4702,7 @@ div:where(.swal2-container) .swal2-html-container {
   position: relative;
   font-size: 15px;
   color: #68696b;
-  font-weight: 600;
+  font-weight: 700;
   flex: 1;
 }
 
@@ -4764,7 +4764,7 @@ div:where(.swal2-container) .swal2-html-container {
 
 .brand-main .product-container .tab-depth2 button.on {
   color: #000;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .brand-main .product-container .tab-depth2 button.on::after {
@@ -4807,7 +4807,7 @@ div:where(.swal2-container) .swal2-html-container {
   line-height: 29px;
   font-size: 13px;
   color: #929498;
-  font-weight: 600;
+  font-weight: 700;
   border: 1px solid #dbdcdf;
   border-radius: 100px;
   padding: 0 15px 1px 15px;
@@ -4914,7 +4914,7 @@ div:where(.swal2-container) .swal2-html-container {
 .brand-main .product-container .brand-product-list .product-name {
   color: #222;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 20px;
   margin-bottom: 2px;
   display: -webkit-box;
@@ -4929,7 +4929,7 @@ div:where(.swal2-container) .swal2-html-container {
 .brand-main .product-container .brand-product-list .price {
   color: #222;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 18px;
   margin-bottom: 2px;
 }
@@ -5084,7 +5084,7 @@ div:where(.swal2-container) .swal2-html-container {
   background-color: #ff43ca;
   color: #fff;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 700;
   height: 30px;
   line-height: 142%;
 }
@@ -5169,7 +5169,7 @@ nav.nav-wrap button img {
 }
 
 nav.nav-wrap button.on span {
-  font-weight: 600;
+  font-weight: 700;
   color: #000;
 }
 
@@ -5359,7 +5359,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .common-footer-new .company-link a:last-child {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .common-footer-new .company-link a:last-child::after {
@@ -5445,7 +5445,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   padding: 0 10px;
   color: #68696b;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.3px;
   line-height: 41px;
   flex-basis: content;
@@ -5454,7 +5454,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 .main-new-page-wrap .main-new .tab-depth button.on {
   color: #000;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .main-new-page-wrap .main-new .tab-depth button.on::after {
@@ -5541,7 +5541,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   color: #fff;
   font-size: 24px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 124%;
   /* 29.76px */
   letter-spacing: -0.48px;
@@ -5600,7 +5600,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   margin: 0 16px 16px 0;
   color: #000;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 30px;
   letter-spacing: -0.4px;
 }
@@ -5812,7 +5812,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   align-items: center;
   color: #fff;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 142%;
   /* 17.04px */
   letter-spacing: -0.24px;
@@ -5853,7 +5853,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   -webkit-line-clamp: 2;
   color: #000;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 142%;
   /* 19.88px */
   letter-spacing: -0.28px;
@@ -5864,7 +5864,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   display: block;
   color: #000;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 142%;
   /* 18.46px */
   letter-spacing: -0.26px;
@@ -5913,7 +5913,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   background: #000;
   color: #fff;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 18px;
   letter-spacing: -0.24px;
 }
@@ -5957,7 +5957,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 .main-new-page-wrap .rank-vertical .product-name {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 142%;
   /* 20.4px */
   letter-spacing: -0.3px;
@@ -6141,7 +6141,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   background: rgba(0, 0, 0, 0.32);
   color: rgba(255, 255, 255, 0.84);
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 15px;
   letter-spacing: -0.22px;
   backdrop-filter: blur(2px);
@@ -6170,7 +6170,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 .main-new-page-wrap .review-wrapper .review .user-info-box span {
   color: #000;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 142%;
   /* 17.04px */
   letter-spacing: -0.24px;
@@ -6311,7 +6311,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .review-list-box .my-review-list li p.title {
-  font-weight: 600;
+  font-weight: 700;
   color: #000;
   line-height: 142%;
 }
@@ -6555,7 +6555,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   line-height: 29px;
   font-size: 13px;
   color: #929498;
-  font-weight: 600;
+  font-weight: 700;
   border: 1px solid #dbdcdf;
   border-radius: 100px;
   padding: 0 15px 1px 15px;
@@ -6698,7 +6698,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   padding: 0 10px;
   color: #68696b;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.3px;
   line-height: 41px;
   flex-basis: content;
@@ -6708,7 +6708,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 .main-new-page-wrap .main-new .tab-depth a.on {
   color: #000;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .main-new-page-wrap .main-new .tab-depth a.on::after {
@@ -6737,7 +6737,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   padding: 0 10px;
   color: #68696b;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.3px;
   line-height: 41px;
   flex-basis: content;
@@ -6840,7 +6840,7 @@ nav.nav-wrap a {
 }
 
 .main-new .review-list-box .product-review-list li .product p.name {
-  font-weight: 600;
+  font-weight: 700;
   line-height: 142%;
 }
 
@@ -6855,7 +6855,7 @@ nav.nav-wrap a {
 }
 
 .main-new .review-list-box .product-review-list .user-info-box span.name {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* add */
@@ -8046,7 +8046,7 @@ hr.divider {
   + label
   span
   b {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .event-join-wrapper
