@@ -429,6 +429,7 @@ html {
   color: white;
   text-align: center;
   font-size: 16px;
+  font-weight: 700;
 }
 
 #review-filter-modal .footer {
@@ -477,11 +478,13 @@ html {
   top: 18px;
   right: 18px;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: -0.26px;
   color: #dbdcdf;
   white-space: nowrap;
   position: initial;
+  color: #000;
+  line-height: 26px;
 }
 
 .popup-dim-wrap .popup-content-wrap .popup-header button {
@@ -495,6 +498,7 @@ html {
   width: 22px;
   height: 22px;
   vertical-align: middle;
+  margin-top: -1px;
 }
 
 #review-filter-modal .popup-content-wrap .popup-header {
@@ -519,8 +523,8 @@ html {
   color: #929498;
   border-color: #dbdcdf;
   border-radius: 100px;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: 700;
   letter-spacing: -0.24px;
 }
 
@@ -1835,7 +1839,9 @@ input[type="checkbox"]:checked + label {
   line-height: 23px !important;
 }
 
-.select2-selection.select2-selection--single .select2-selection__rendered .select2-selection__placeholder {
+.select2-selection.select2-selection--single
+  .select2-selection__rendered
+  .select2-selection__placeholder {
   font-size: 15px;
 }
 
@@ -2498,6 +2504,7 @@ button.all-submit-btn {
   .product-profile-wrap
   div:first-child {
   line-height: 142%;
+  font-size: 13px !important;
 }
 
 .review-page-wrap .profile-info-box .user-wrap img {
@@ -2515,6 +2522,8 @@ button.all-submit-btn {
 .review-page-wrap .profile-info-box .user-wrap .user .time span.time-txt {
   margin-right: 4px;
   color: #929498;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .review-page-wrap .profile-info-box .user-wrap .user .time span.tag {
@@ -2547,7 +2556,7 @@ button.all-submit-btn {
 }
 
 .review-page-wrap .reaction-box button {
-  font-size: 8.5px;
+  font-size: 9px;
   color: #68696b;
 }
 
@@ -2759,18 +2768,28 @@ button.all-submit-btn {
 }
 
 .product-content .product-box .kr-review-box .content ul li {
-  width: 122px;
-  height: 27px;
-  font-size: 9px;
-  line-height: 27px;
+  width: 134px;
+  height: 28px;
+  font-size: 11px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: -0.44px;
 }
 
 .product-box .kr-review-box .content ul li:nth-child(1) {
-  margin-left: 10px;
+  margin-left: -1px;
 }
 
 .product-box .kr-review-box .content ul li:nth-child(2) {
-  margin-right: 3px !important;
+  margin-right: -5px !important;
+}
+
+.product-box .kr-review-box .content ul li:nth-child(3) {
+  margin-left: -9px !important;
+}
+
+.product-box .kr-review-box .content ul li:nth-child(4) {
+  margin-right: -9px !important;
 }
 
 .product-box .kr-review-box .content ul li:nth-child(5) {
@@ -2778,7 +2797,7 @@ button.all-submit-btn {
 }
 
 .product-box .kr-review-box .content ul li:nth-child(6) {
-  margin-right: 16px !important;
+  margin-right: 10px !important;
 }
 
 .product-content .product-box .jp-review-box .title {
@@ -2832,13 +2851,13 @@ button.all-submit-btn {
 
 .product-content .product-box .info-box .detail-box .brand .img-wrap {
   position: relative;
-  width: 22px;
-  height: 22px;
+  width: 32px;
+  height: 32px;
 }
 
 .product-content .product-box .info-box .detail-box .brand img:first-child {
-  width: 22px;
-  height: 22px;
+  width: 32px;
+  height: 32px;
   position: absolute;
   object-fit: contain;
 }
@@ -2855,13 +2874,12 @@ button.all-submit-btn {
 .product-content .product-box .brand-name::after {
   content: "";
   position: absolute;
-  transform: rotate(-90deg);
-  top: 3px;
-  right: -18px;
-  width: 12px;
-  height: 12px;
-  background: url(../images/icon-dropdown-s.png) left center no-repeat;
-  background-size: 100%;
+  top: 1px;
+  right: -22px;
+  width: 16px;
+  height: 16px;
+  background: url(../images/icon-product-brand-more.png) left center no-repeat;
+  background-size: 16px;
 }
 
 .main-page-wrap header.line {
@@ -2900,7 +2918,7 @@ button.all-submit-btn {
   font-size: 12px;
   letter-spacing: -0.22px;
   line-height: 142%;
-  width: auto;
+  width: 52px;
   padding-left: 16px;
   font-weight: 600;
   background-size: 14px;
@@ -2957,8 +2975,8 @@ button.all-submit-btn {
 }
 
 .product-content .review-list-box .product-review-list li .user-info-box img {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
 }
 
 .product-content
@@ -3082,7 +3100,7 @@ button.all-submit-btn {
 }
 
 .review-product-search .search-input-wrap input::placeholder {
-  color: #B8BBBF;
+  color: #b8bbbf;
 }
 
 .modal-wrap .content.product-change.template .title-area button img {
@@ -3949,9 +3967,16 @@ img#send-comment-btn {
   align-items: center;
   gap: 2;
   height: 46px;
-  border: 1px solid #373839;
+  border: 1px solid #eceef2;
   border-radius: 100px;
   font-weight: 700;
+}
+
+.review-detail-popup
+  .popup-content
+  .send-comment-wrap2
+  .write-input:has(input[type="text"]:focus) {
+  border-color: #373839;
 }
 
 .review-detail-popup .popup-content .send-comment-wrap2 .write-input > * {
@@ -4368,10 +4393,11 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 #mission-review-form-wrap
-.mission-product-info-wrapper
-.mission-product-info
-.product-info-box
-.info p {
+  .mission-product-info-wrapper
+  .mission-product-info
+  .product-info-box
+  .info
+  p {
   color: #000000;
 }
 
@@ -4552,12 +4578,13 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 .brand-main .top-brand-info .brand-content .info-wrap .title h5 {
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   font-weight: 700;
-  line-height: 23px;
+  line-height: 154%;
   padding-bottom: 6px;
   word-break: break-all;
+  letter-spacing: -0.36px;
   flex: 1;
 }
 
@@ -4798,9 +4825,9 @@ div:where(.swal2-container) .swal2-html-container {
 .brand-main .product-container .tab-depth2 button {
   width: auto;
   padding: 0 10px;
-  color: #b8bbbf;
+  color: #929498;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.26px;
   line-height: 40px;
   flex-basis: content;
@@ -4882,8 +4909,8 @@ div:where(.swal2-container) .swal2-html-container {
 .brand-main .product-container .sort-info .number {
   display: inline-block;
   color: #929498;
-  font-size: 11px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 500;
   line-height: 16px;
 }
 
@@ -4910,11 +4937,11 @@ div:where(.swal2-container) .swal2-html-container {
   flex-flow: wrap;
   padding: 0 16px 16px 16px;
   place-content: inherit;
-  gap: 16px 13px;
+  gap: 16px 16px;
 }
 
 .brand-main .product-container .brand-product-list li {
-  width: calc(50% - 6.5px);
+  width: calc(50% - 8px);
 }
 
 .brand-main .product-container .brand-product-list .img-wrap {
@@ -4946,7 +4973,7 @@ div:where(.swal2-container) .swal2-html-container {
 .brand-main .product-container .brand-product-list .brand-name {
   color: #222222;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 17px;
   margin-bottom: 2px;
   margin-top: 8px;
@@ -5659,8 +5686,8 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .main-new-page-wrap .main-sub-title img {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
 }
 
 .main-new-page-wrap .event-wrapper {
@@ -5735,7 +5762,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   text-align: center;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 142%;
   /* 28.4px */
   letter-spacing: -0.8px;
@@ -5753,10 +5780,8 @@ nav.nav-wrap button.profile.on .img-wrap img {
   justify-content: center;
   align-items: center;
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 142%;
-  /* 15.62px */
-  letter-spacing: -0.22px;
   color: #fff;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.2);
@@ -5883,7 +5908,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%;
   /* 17.04px */
   letter-spacing: -0.24px;
@@ -6089,7 +6114,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   -webkit-line-clamp: 2;
   color: #000;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 130%;
   /* 23.4px */
   letter-spacing: -0.36px;
@@ -6463,7 +6488,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 .main-new-page-wrap .event-container.active .contents .tag-wrapper span {
   font-size: 13px;
   padding: 3px 10px;
-  font-weight: 500;
+  font-weight: 600;
   height: 25px;
 }
 
@@ -6627,7 +6652,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .main-new-page-wrap .rank-container.active .rank-vertical .product-name {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* .main-new-page-wrap .rank-container.active .rank-vertical .price {
@@ -6687,7 +6712,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   text-overflow: ellipsis;
   font-size: 13px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%;
   /* 18.46px */
   letter-spacing: -0.26px;
@@ -7177,7 +7202,7 @@ hr.divider {
 .survey-comm-box .header span {
   color: #ff43ca;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 142%;
   letter-spacing: -0.24px;
 }
@@ -7233,8 +7258,7 @@ hr.divider {
 
 .event-join-wrapper .product-info-box .info span {
   font-size: 14px;
-
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%;
   color: #68696b;
 }
@@ -7328,7 +7352,7 @@ hr.divider {
 
 .event-join-wrapper .delivery-info-box .form-box .form-item .dodo-btn {
   width: 89px;
-  color: #68696B;
+  color: #68696b;
   font-size: 15px;
   font-weight: 400;
   line-height: 142%;
@@ -7621,7 +7645,7 @@ hr.divider {
   white-space: nowrap;
   overflow: hidden;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%;
   letter-spacing: -0.24px;
 }
@@ -7810,7 +7834,7 @@ hr.divider {
   + label
   span {
   font-size: 13px;
-  color: #68696b;
+  color: #222;
   line-height: 142%;
   letter-spacing: -0.26px;
 }
@@ -7823,7 +7847,7 @@ hr.divider {
   span
   b {
   font-weight: 700;
-  color: #68696b;
+  color: #222;
 }
 
 .event-join-wrapper
@@ -7871,7 +7895,7 @@ hr.divider {
   padding-left: 6px;
   font-size: 12px;
   color: #929498;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%; /* 17.04px */
   letter-spacing: -0.24px;
 }

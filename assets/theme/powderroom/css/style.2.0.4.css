@@ -3360,9 +3360,11 @@ button.toggle.off {
 
 .product-box .info-box .detail-box .name {
   margin-top: 12px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 142%;
+  letter-spacing: -0.32px;
+  color: #000;
 }
 
 .product-box .info-box .detail-box .name img {
@@ -3373,9 +3375,11 @@ button.toggle.off {
 
 .product-box .info-box .detail-box .price {
   margin-top: 6px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.42;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 154%;
+  letter-spacing: -0.32px;
+  color: #000;
 }
 
 .product-box .product-select-box {
@@ -3617,6 +3621,7 @@ button.toggle.off {
   color: #b8bbbf;
   font-size: 16px;
   vertical-align: 3px;
+  font-weight: 700;
 }
 
 .product-box .jp-review-box .review-summary .star-ratio .progress-wrap {
@@ -3627,7 +3632,7 @@ button.toggle.off {
 
 .product-box .jp-review-box .review-summary .star-ratio .progress-wrap span {
   color: #929498;
-  font-size: 11px;
+  font-size: 10px;
   letter-spacing: -0.22px;
 }
 
@@ -4736,7 +4741,7 @@ p {
 
 .detail-box .product .product-detail .brand {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%;
   /* 17.04px */
   letter-spacing: -0.24px;
@@ -4797,7 +4802,7 @@ p {
 .reaction-box .btn.active {
   color: #ff43ca;
   border-color: #ff43ca;
-  background-color: #ff43ca1a;
+  background-color: rgba(255, 67, 202, 0.05);
 }
 
 .reaction-box .btn.active span {
@@ -4832,7 +4837,7 @@ p {
 .comment-box .comment-icon .left button span {
   margin-left: 4px;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 142%;
   /* 19.88px */
 }
@@ -4893,10 +4898,10 @@ p {
 }
 
 .review-detail-popup .popup-content .review-filter .btn {
-  padding: 8px 14px;
+  padding: 6px 14px;
   font-size: 13px;
   font-weight: 700;
-  line-height: 142%;
+  line-height: 18px;
   /* 18.46px */
   letter-spacing: -0.26px;
   border-radius: 100px;
@@ -4905,8 +4910,8 @@ p {
 }
 
 .review-detail-popup .popup-content .review-filter .btn img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   margin-right: 4px;
 }
 
@@ -5105,8 +5110,8 @@ p {
   .origin
   .text-wrap
   .profile-img {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   margin-right: 8px;
   border-radius: 6px;
 }

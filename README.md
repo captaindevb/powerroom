@@ -2,6 +2,10 @@
 
 아래 링크를 클릭하여 해당 페이지로 바로가기 합니다
 
+### 폰트 및 아이콘 수정 작업 2025-02-04
+
+1. Link: [상품-필터 팝업 내 상단 아이콘](/10-product/product-filter-modal.html)
+
 ### 매거진/공지사항 상세
 
 1.  Link: [매거진/공지사항 상세](/05-magazine/detail.html)
