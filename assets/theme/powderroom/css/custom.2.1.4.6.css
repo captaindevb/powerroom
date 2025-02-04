@@ -2878,7 +2878,8 @@ button.all-submit-btn {
   right: -22px;
   width: 16px;
   height: 16px;
-  background: url(../images/icon-product-brand-more.png) left center no-repeat;
+  background: url(../images/icon-product-brand-more-new.png) left center
+    no-repeat;
   background-size: 16px;
 }
 
