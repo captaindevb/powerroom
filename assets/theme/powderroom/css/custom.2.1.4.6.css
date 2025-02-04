@@ -1548,6 +1548,7 @@ nav.nav-wrap a:hover {
   width: 92px;
   height: 92px;
   flex: 0 0 auto;
+  margin-bottom: 8px;
   /* 크기 고정 */
 }
 
@@ -2227,13 +2228,13 @@ button.all-submit-btn {
 .app-review-write-box .product-info-box .info p {
   line-height: 26px;
   margin-bottom: 0;
-  color: #000000;
+  color: #222222;
 }
 
 .app-review-write-box .product-info-box .info p + span {
   display: block;
   font-size: 14px;
-  color: #373839 !important;
+  color: #68696B !important;
   font-weight: 500;
   line-height: 20px;
 }
@@ -2242,7 +2243,7 @@ button.all-submit-btn {
   height: 24px;
   display: inline-block;
   font-size: 11px;
-  line-height: 16px;
+  line-height: 19px;
 }
 
 .app-review-write-box .tag-box .req-tag .title-wrapper + p {
@@ -2400,9 +2401,9 @@ button.all-submit-btn {
 
 /*리뷰 상품 변경*/
 .modal-wrap .content.product-change p {
-  font-weight: 500;
+  font-weight: 700;
   line-height: 23px;
-  color: #222222;
+  color: #000000;
 }
 
 .modal-wrap .content.product-change .btns button {
@@ -4485,6 +4486,7 @@ div:where(.swal2-container) .swal2-html-container {
 .modal-wrap .content.out .img-txt-wrap p {
   padding-top: 6px;
   line-height: 142%;
+  color: #67696B;
 }
 
 /* 브랜드관 */
@@ -8188,8 +8190,8 @@ header.detail-header {
 }
 
 .review-list-box.bookmark .my-review-list .user-info-box img {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 6px;
 }
 
@@ -8216,5 +8218,9 @@ header.detail-header {
 }
 
 .modal-wrap .content.sns-load h5 {
-  color: #222222;
+  color: #000000;
+}
+
+.modal-wrap .content.out .img-txt-wrap h5 {
+  color: #000000;
 }
