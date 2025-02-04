@@ -3955,8 +3955,8 @@ button.toggle.off {
   color: #929498;
   font-size: 12px;
   font-weight: 400;
-  background: transparent url(../images/icon-option-dropdown.png) left center
-    no-repeat;
+  background: transparent url(../images/icon-option-dropdown-new.png) left
+    center no-repeat;
   background-size: 12px;
   text-align: right;
 }

@@ -428,7 +428,7 @@ html {
   background-color: #000;
   color: white;
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -4923,8 +4923,8 @@ div:where(.swal2-container) .swal2-html-container {
   border: none;
   color: #929498;
   font-weight: 600;
-  background: transparent url(../images/icon-option-dropdown.png) left center
-    no-repeat;
+  background: transparent url(../images/icon-option-dropdown-new.png) left
+    center no-repeat;
   background-size: 14px;
   text-align: right;
   box-sizing: content-box;
@@ -6533,7 +6533,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   select {
   font-size: 12px;
   font-weight: 600;
-  width: 49px;
+  width: 52px;
   background-size: 14px;
 }
 
