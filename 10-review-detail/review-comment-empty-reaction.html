@@ -22,7 +22,7 @@
     <div class="review-page-wrap common-wrap">
       <header>
         <button type="button" class="btn-header-left">
-          <img src="../asset/images/icon-header-back.png" alt="" />
+          <img src="../asset/images/icon-top-back.png" alt="" />
         </button>
         <h2>리뷰</h2>
         <button type="button" class="btn-header-right">
@@ -165,117 +165,121 @@
         </div>
         <img class="banner-img" src="https://picsum.photos/100" alt="" />
       </div>
-      <!-- 리뷰 댓글 팝업 -->
+      <!-- 리뷰 리액션 팝업 -->
       <div class="popup-dim-wrap review-detail-popup">
         <div class="popup-content-wrap">
           <div class="popup-header">
-            댓글 <span>3</span>
-            <button type="button">
-              <img src="../asset/images/icon-top-close.png" alt="" />
+            <span class="like_count">0</span>人が反応を残しました
+            <button type="button" onclick="closeCustomModal('#reaction-popup')">
+              <img
+                src="https://cf.dev.powderroom.mobi/assets/theme/powderroom/images/icon-top-close-black.png"
+                alt=""
+              />
             </button>
           </div>
           <div class="popup-content">
-            <div class="comment-wrap">
-              <div class="origin">
-                <div class="text-wrap">
-                  <img
-                    class="profile-img"
-                    src="https://picsum.photos/100"
-                    alt=""
-                  />
-                  <div class="comment-detail">
-                    <p class="text">
-                      <strong>쿠쿠</strong>
-                      색상 너무 잘 어울리세요!
-                    </p>
-                    <p class="date">
-                      2023.08.12
-                      <button type="button">답글 달기</button>
-                    </p>
-                  </div>
-                </div>
-                <div class="btn-wrap">
-                  <button type="button">
-                    <img src="../asset/images/icon-like.png" alt="" />
-                  </button>
-                  <button type="button" class="more">
-                    <img src="../asset/images/icon-more-dot-gray.png" alt="" />
-                  </button>
-                </div>
-              </div>
-              <div class="origin reply">
-                <div class="text-wrap">
-                  <img
-                    class="profile-img"
-                    src="https://picsum.photos/100"
-                    alt=""
-                  />
-                  <div class="comment-detail">
-                    <p class="text">
-                      <strong>jamni</strong>
-                      <span>@쿠쿠</span> 감사합니당 ㅎㅎ
-                    </p>
-                    <p class="date">2023.08.12</p>
-                  </div>
-                </div>
-                <div class="btn-wrap">
-                  <button type="button">
-                    <img src="../asset/images/icon-like.png" alt="" />
-                  </button>
-                  <button type="button" class="more">
-                    <img src="../asset/images/icon-more-dot-gray.png" alt="" />
-                  </button>
-                </div>
-              </div>
-              <div class="origin">
-                <div class="text-wrap">
-                  <img
-                    class="profile-img"
-                    src="https://picsum.photos/100"
-                    alt=""
-                  />
-                  <div class="comment-detail">
-                    <p class="text">
-                      <strong
-                        >9imy0
-                        <img src="../asset/images/icon-n-badge.png" alt=""
-                      /></strong>
-                      색상 너무 잘 어울리세요!
-                    </p>
-                    <p class="date">
-                      2023.08.12
-                      <button type="button">답글 달기</button>
-                    </p>
-                  </div>
-                </div>
-                <div class="btn-wrap">
-                  <button type="button">
-                    <img src="../asset/images/icon-like.png" alt="" />
-                  </button>
-                  <button type="button" class="more">
-                    <img src="../asset/images/icon-more-dot-gray.png" alt="" />
-                  </button>
-                </div>
-              </div>
+            <div class="review-filter" id="review-filter">
+              <input
+                type="radio"
+                class="btn-check"
+                name="options-base"
+                id="good"
+                checked=""
+              />
+              <label
+                class="btn"
+                for="good"
+                href="/review/5877?like=1"
+                hx-get="/review/5877?like=1"
+                hx-target="#reaction-popup-content"
+                hx-headers='{"hx-swap-type": "change"}'
+                hx-swap="innerHTML"
+                xhx-indicator=".htmx-loading"
+              >
+                <img
+                  src="https://cf.dev.powderroom.mobi/assets/theme/powderroom/images/icon-good-new.png"
+                  alt=""
+                />共感した <span>0</span></label
+              >
+              <input
+                type="radio"
+                class="btn-check"
+                name="options-base"
+                id="pretty"
+              />
+              <label
+                class="btn"
+                for="pretty"
+                href="/review/5877?like=2"
+                hx-get="/review/5877?like=2"
+                hx-target="#reaction-popup-content"
+                hx-headers='{"hx-swap-type": "change"}'
+                hx-swap="innerHTML"
+                xhx-indicator=".htmx-loading"
+              >
+                <img
+                  src="https://cf.dev.powderroom.mobi/assets/theme/powderroom/images/icon-pretty.png"
+                  alt=""
+                />可愛いです <span>0</span></label
+              >
+              <input
+                type="radio"
+                class="btn-check"
+                name="options-base"
+                id="want"
+              />
+              <label
+                class="btn"
+                for="want"
+                href="/review/5877?like=3"
+                hx-get="/review/5877?like=3"
+                hx-target="#reaction-popup-content"
+                hx-headers='{"hx-swap-type": "change"}'
+                hx-swap="innerHTML"
+                xhx-indicator=".htmx-loading"
+              >
+                <img
+                  src="https://cf.dev.powderroom.mobi/assets/theme/powderroom/images/icon-want-new.png"
+                  alt=""
+                />欲しいです <span>0</span></label
+              >
+              <input
+                type="radio"
+                class="btn-check"
+                name="options-base"
+                id="picture"
+              />
+              <label
+                class="btn"
+                for="picture"
+                href="/review/5877?like=4"
+                hx-get="/review/5877?like=4"
+                hx-target="#reaction-popup-content"
+                hx-headers='{"hx-swap-type": "change"}'
+                hx-swap="innerHTML"
+                xhx-indicator=".htmx-loading"
+              >
+                <img
+                  src="https://cf.dev.powderroom.mobi/assets/theme/powderroom/images/icon-picture.png"
+                  alt=""
+                />クールな写真 <span>0</span></label
+              >
             </div>
-            <div class="input-wrap">
-              <div class="send-desc-wrap">
-                <p><strong>@닉네임</strong>의 답글쓰는 중</p>
-                <button type="button">
-                  <img src="../asset/images/icon-top-close.png" alt="" />
-                </button>
-              </div>
-              <div class="send-comment-wrap">
-                <button type="button" class="camera">
-                  <img src="../asset/images/icon-img-add.png" alt="" />
-                </button>
-                <div class="write-input">
-                  <div class="name">@닉네임</div>
-                  <input type="text" value="" />
-                  <button type="button">
-                    <img src="../asset/images/icon-send.png" alt="검색" />
-                  </button>
-                </div>
+            <div class="review-filter-detail" id="reaction-popup-content">
+              <style>
+                .like-wrap .product-detail {
+                  display: flex;
+                  gap: 3px;
+                  align-items: center;
+                }
+              </style>
+
+              <div class="empty-wrap">
+                <img
+                  src="../assets/theme/powderroom/images/img-reaction-empty.png"
+                  alt=""
+                />
+                <p>初気持ちを残してください</p>
               </div>
             </div>
           </div>

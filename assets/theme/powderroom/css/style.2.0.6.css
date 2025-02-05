@@ -4898,7 +4898,7 @@ p {
 }
 
 .review-detail-popup .popup-content .review-filter .btn {
-  padding: 6px 14px;
+  padding: 8px 14px 6px 14px;
   font-size: 13px;
   font-weight: 700;
   line-height: 18px;
@@ -4913,6 +4913,7 @@ p {
   width: 24px;
   height: 24px;
   margin-right: 4px;
+  margin-top: -4px;
 }
 
 .review-detail-popup .popup-content .review-filter .btn span {
@@ -4986,7 +4987,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 54px 0;
+  padding: 70px 0;
 }
 
 .review-detail-popup .popup-content .empty-wrap img {
@@ -5001,6 +5002,10 @@ p {
   font-size: 14px;
   font-weight: 400;
   line-height: 142%;
+}
+
+.review-detail-popup .popup-content:has(.input-wrap) .empty-wrap {
+  padding: 80px 0;
 }
 
 .review-detail-popup .popup-content .input-wrap {

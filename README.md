@@ -5,6 +5,7 @@
 ### 폰트 및 스타일 수정 작업 2025-02-04
 
 1. Link: [상품-필터 팝업 내 상단 아이콘 참고해주세요](/10-product/product-filter-modal.html)
+2. Link: [리뷰 상세 - 리액션 팝업 - 빈 리액션 팝업](/10-review-detail/review-comment-empty-reaction.html)
 
 ### 매거진/공지사항 상세
 
