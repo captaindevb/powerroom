@@ -1350,14 +1350,14 @@ nav.nav-wrap .d-flex {
   align-items: center;
   font-size: 13px !important;
   font-weight: 500;
-  line-height: 142%;
+  line-height: 25px;
   letter-spacing: -0.22px;
   color: #fff !important;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(2px);
   margin-right: 7px !important;
-  padding: 3px 10px;
+  padding: 0 10px;
   height: 25px;
 }
 
@@ -3643,6 +3643,7 @@ img#send-comment-btn {
 
 .review-list-box .review-filter .filter-wrap > .btn-check + .btn::before {
   background-size: 15px !important;
+  top: 7px;
 }
 
 #review-filter-modal .popup-content-wrap {
@@ -6499,9 +6500,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 .main-new-page-wrap .event-container.active .contents .tag-wrapper span {
   font-size: 13px;
-  padding: 3px 10px;
+  padding: 0 10px;
   font-weight: 600;
   height: 25px;
+  line-height: 25px;
 }
 
 .main-new-page-wrap .event-container.active .contents .tag-wrapper span img {
