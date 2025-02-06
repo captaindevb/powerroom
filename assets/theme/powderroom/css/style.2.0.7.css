@@ -352,7 +352,7 @@ nav.nav-wrap button.on {
   line-height: 57px;
   text-align: center;
   background-color: #fff;
-  border-radius: 18px 18px 0 0;
+  border-radius: 24px 24px 0 0;
   font-size: 16px;
   font-weight: 700;
   border-bottom: 1px solid #ebf0fb;
@@ -3350,7 +3350,7 @@ button.toggle.off {
   width: 22px;
   height: 22px;
   border: 1px solid #eceef2;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .product-box .info-box .detail-box .brand img:last-child {
@@ -3445,8 +3445,8 @@ button.toggle.off {
 }
 
 .product-box .tab-box button.on {
-  color: #2a3548;
-  border-bottom: 2px solid #2a3548;
+  color: #000;
+  border-bottom: 2px solid #000;
 }
 
 .product-box .kr-review-box {
@@ -3522,6 +3522,7 @@ button.toggle.off {
 .product-box .kr-review-box .content ul .label em {
   color: #ff43ca;
   font-weight: 700;
+  padding-left: 2px;
 }
 
 .product-box .kr-review-box .content ul li:nth-child(1) {

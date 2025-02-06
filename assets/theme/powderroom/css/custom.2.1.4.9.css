@@ -480,11 +480,18 @@ html {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: -0.26px;
-  color: #dbdcdf;
   white-space: nowrap;
   position: initial;
-  color: #000;
+  color: #222;
   line-height: 26px;
+}
+
+#review-filter-modal .popup-content-wrap .popup-header button.off {
+  color: #dbdcdf;
+}
+
+#review-filter-modal .popup-content-wrap .popup-header button.on {
+  color: #222;
 }
 
 .popup-dim-wrap .popup-content-wrap .popup-header button {
@@ -509,6 +516,7 @@ html {
   border-bottom: none;
   border-radius: 24px 24px 0 0;
   font-size: 18px;
+  color: #000;
 }
 
 .filter-wrap > .btn-check + .btn {
@@ -2234,7 +2242,7 @@ button.all-submit-btn {
 .app-review-write-box .product-info-box .info p + span {
   display: block;
   font-size: 14px;
-  color: #68696B;
+  color: #68696b;
   font-weight: 500;
   line-height: 20px;
 }
@@ -2760,7 +2768,7 @@ button.all-submit-btn {
 }
 
 .product-content .product-box .kr-review-box .content p.title {
-  margin-top: 4px;
+  margin-top: 2px;
   color: #000;
 }
 
@@ -2774,7 +2782,7 @@ button.all-submit-btn {
   font-size: 11px;
   line-height: 28px;
   font-weight: 400;
-  letter-spacing: -0.44px;
+  letter-spacing: -0.4px;
 }
 
 .product-box .kr-review-box .content ul li:nth-child(1) {
@@ -2839,14 +2847,15 @@ button.all-submit-btn {
 }
 
 .product-content .product-box .kr-review-box .content p.title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 142%;
   letter-spacing: -0.26px;
 }
 
 .product-box .kr-review-box .content p:first-child {
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 500;
   letter-spacing: -0.54px;
 }
 
@@ -4486,7 +4495,7 @@ div:where(.swal2-container) .swal2-html-container {
 .modal-wrap .content.out .img-txt-wrap p {
   padding-top: 6px;
   line-height: 142%;
-  color: #67696B;
+  color: #67696b;
 }
 
 /* 브랜드관 */
