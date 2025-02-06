@@ -1350,14 +1350,14 @@ nav.nav-wrap .d-flex {
   align-items: center;
   font-size: 13px !important;
   font-weight: 500;
-  line-height: 142%;
+  line-height: 25px;
   letter-spacing: -0.22px;
   color: #fff !important;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(2px);
   margin-right: 7px !important;
-  padding: 3px 10px;
+  padding: 0 10px;
   height: 25px;
 }
 
@@ -2116,13 +2116,17 @@ textarea.on {
 }
 
 .btn-wrap button {
-  xheight: 52px;
+  height: 52px;
   width: 100%;
   /* margin-bottom: 12px; */
   /* font-weight: 700; */
   color: black;
   /* background-color: #eceef2; */
   border-radius: 8px;
+}
+
+.sns-load-popup .popup-content-wrap .btn-wrap {
+  font-size: 16px;
 }
 
 button.bg-black {
@@ -2306,6 +2310,7 @@ button.all-submit-btn {
   -webkit-box-orient: vertical;
   font-size: 16px;
   color: #373839;
+  font-weight: 600;
 }
 
 .review-desc-wrapper .desc {
@@ -3643,6 +3648,7 @@ img#send-comment-btn {
 
 .review-list-box .review-filter .filter-wrap > .btn-check + .btn::before {
   background-size: 15px !important;
+  top: 7px;
 }
 
 #review-filter-modal .popup-content-wrap {
@@ -3919,8 +3925,16 @@ img#send-comment-btn {
 .imagePreviewContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   margin-top: 10px;
+}
+
+.item-unregistered-wrap .upload-img-wrap .img-item + .img-item {
+  margin-left: 0 !important;
+}
+
+#review-new-product-wrap .upload-img-wrap .img-item + .img-item {
+  margin-left: 0 !important;
 }
 
 #imagePreviewContainer:empty,
@@ -6499,9 +6513,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 .main-new-page-wrap .event-container.active .contents .tag-wrapper span {
   font-size: 13px;
-  padding: 3px 10px;
+  padding: 0 10px;
   font-weight: 600;
   height: 25px;
+  line-height: 25px;
 }
 
 .main-new-page-wrap .event-container.active .contents .tag-wrapper span img {
@@ -6545,6 +6560,19 @@ nav.nav-wrap button.profile.on .img-wrap img {
   width: 52px;
   background-size: 14px;
 }
+
+
+.main-new-page-wrap
+.main-new
+.brand-main
+.review-container
+.review-list-box.first
+.review-summary
+select {
+  width: 38px;
+  line-height: 16px;
+}
+
 
 .main-new-page-wrap
   .main-new
