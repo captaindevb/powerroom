@@ -2762,6 +2762,11 @@ button.all-submit-btn {
   height: 48px;
 }
 
+.product-box .tab-box button.on {
+  color: #000000;
+  border-color: #000000;
+}
+
 .product-content .tab-box + .product-select-box .selectbox3 {
   border-top: 0;
 }
@@ -2875,6 +2880,7 @@ button.all-submit-btn {
   height: 32px;
   position: absolute;
   object-fit: contain;
+  border-radius: 8px;
 }
 
 .product-content .product-box .brand-name {
@@ -8260,4 +8266,8 @@ header.detail-header {
 
 .modal-wrap .content.out .img-txt-wrap h5 {
   color: #000000;
+}
+
+.popup-dim-wrap .popup-content-wrap .popup-header {
+  border-radius: 24px 24px 0 0;
 }
