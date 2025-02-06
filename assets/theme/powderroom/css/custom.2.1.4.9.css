@@ -2116,13 +2116,17 @@ textarea.on {
 }
 
 .btn-wrap button {
-  xheight: 52px;
+  height: 52px;
   width: 100%;
   /* margin-bottom: 12px; */
   /* font-weight: 700; */
   color: black;
   /* background-color: #eceef2; */
   border-radius: 8px;
+}
+
+.sns-load-popup .popup-content-wrap .btn-wrap {
+  font-size: 16px;
 }
 
 button.bg-black {
@@ -2306,6 +2310,7 @@ button.all-submit-btn {
   -webkit-box-orient: vertical;
   font-size: 16px;
   color: #373839;
+  font-weight: 600;
 }
 
 .review-desc-wrapper .desc {
@@ -3920,8 +3925,16 @@ img#send-comment-btn {
 .imagePreviewContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   margin-top: 10px;
+}
+
+.item-unregistered-wrap .upload-img-wrap .img-item + .img-item {
+  margin-left: 0 !important;
+}
+
+#review-new-product-wrap .upload-img-wrap .img-item + .img-item {
+  margin-left: 0 !important;
 }
 
 #imagePreviewContainer:empty,
@@ -6547,6 +6560,19 @@ nav.nav-wrap button.profile.on .img-wrap img {
   width: 52px;
   background-size: 14px;
 }
+
+
+.main-new-page-wrap
+.main-new
+.brand-main
+.review-container
+.review-list-box.first
+.review-summary
+select {
+  width: 38px;
+  line-height: 16px;
+}
+
 
 .main-new-page-wrap
   .main-new
