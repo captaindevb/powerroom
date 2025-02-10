@@ -2823,8 +2823,12 @@ button.all-submit-btn {
   color: #000;
 }
 
+.product-content .product-box .jp-review-box {
+  border-bottom: 1px solid #f2f3f6;
+}
+
 .product-content .product-box .jp-review-box .review-summary {
-  padding-bottom: 0;
+  padding: 0;
   justify-content: center;
   gap: 48px;
 }
@@ -2835,7 +2839,7 @@ button.all-submit-btn {
 }
 
 .product-content .product-box .jp-review-box {
-  padding-bottom: 28px;
+  padding: 26px 16px;
 }
 
 .product-content .product-box .jp-review-box .review-summary + .review-detail {
@@ -6567,18 +6571,16 @@ nav.nav-wrap button.profile.on .img-wrap img {
   background-size: 14px;
 }
 
-
 .main-new-page-wrap
-.main-new
-.brand-main
-.review-container
-.review-list-box.first
-.review-summary
-select {
+  .main-new
+  .brand-main
+  .review-container
+  .review-list-box.first
+  .review-summary
+  select {
   width: 38px;
   line-height: 16px;
 }
-
 
 .main-new-page-wrap
   .main-new
@@ -8270,4 +8272,33 @@ header.detail-header {
 
 .popup-dim-wrap .popup-content-wrap .popup-header {
   border-radius: 24px 24px 0 0;
+}
+
+.review-filter.product-detail {
+  padding-bottom: 10px;
+}
+
+.review-filter.product-detail .filter-wrap {
+  margin: 0 !important;
+}
+
+.review-list-box:has(.review-filter.product-detail) {
+  display: block;
+  padding: 16px;
+}
+
+.review-filter.product-detail + .review-fliter-info {
+  display: flex;
+}
+
+.review-filter.product-detail + .review-fliter-info p {
+  color: #929498;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 142%;
+  letter-spacing: -0.24px;
+}
+
+.review-filter.product-detail + .review-fliter-info .review-summary {
+  margin: 0 0 0 auto !important;
 }
