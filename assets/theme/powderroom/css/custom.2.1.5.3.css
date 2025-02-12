@@ -6795,6 +6795,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
   white-space: nowrap;
 }
 
+.magazine-content li .subject {
+  line-height: 140%;
+}
+
 .main-new-page-wrap .main-new {
   padding-top: 0;
 }
