@@ -337,7 +337,7 @@ nav.nav-wrap button.on {
   left: 0;
   height: 100vh;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
 
@@ -2767,8 +2767,8 @@ button.toggle.off {
   padding: 0 20px;
   line-height: 60px;
   border-bottom: 1px solid #ebf0fb;
-  background: url(../images/icon-more.png) no-repeat calc(100% - 25px) center /
-    6px 12px;
+  background: url(../images/icon-more-btn.png) no-repeat calc(100% - 21px) center /
+    18px 18px;
 }
 
 .setting-box .toggle {
@@ -5576,7 +5576,7 @@ p {
 }
 
 .modal-wrap .content.product-change .btns {
-  padding-top: 24px;
+  padding-top: 20px;
   justify-content: space-between;
 }
 
@@ -6063,7 +6063,7 @@ p {
 .center-modal-wrap .content.sns-load-fail h5 {
   font-size: 16px;
   font-weight: 700;
-  padding: 10px 0;
+  padding: 12px 0 8px 0;
 }
 
 .center-modal-wrap .content.sns-load-fail p {
@@ -6687,4 +6687,15 @@ p {
   font-size: 12px;
   font-weight: 700;
   color: #979797;
+}
+
+.modal-wrap .modal-inner button.popup-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.modal-wrap .modal-inner button.popup-close-btn img {
+  width: 24px;
+  height: 24px;
 }
